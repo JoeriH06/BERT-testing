@@ -1,0 +1,351 @@
+id,title,content
+doc_01,Assessing Climate Adaptation Measures in Low-Lying Coastal Regions,"Introduction
+Climate adaptation has become a central topic in regional planning as coastal areas face increasing risks from sea-level rise, extreme precipitation, and prolonged droughts. Low-lying coastal regions are particularly vulnerable due to their exposure to flooding, saltwater intrusion, and land subsidence. These risks threaten not only physical infrastructure but also ecosystems, economic activities, and the livability of coastal communities. As climate impacts intensify, regional authorities are under growing pressure to implement effective adaptation measures.
+
+Background and context
+Over the past decade, a wide range of climate adaptation strategies have been proposed and implemented in coastal regions. These strategies include hard infrastructure solutions such as dikes, storm surge barriers, and pumping stations, as well as nature-based solutions like wetland restoration, dune reinforcement, and managed realignment. While the technical feasibility of many measures is well documented, their long-term effectiveness often depends on governance arrangements, funding stability, and monitoring practices. Fragmented responsibilities and project-based financing can undermine continuity and learning.
+
+Problem description
+In practice, adaptation measures are often implemented as isolated projects rather than as part of a coherent long-term strategy. This can result in suboptimal outcomes, such as mismatches between measures and local risk profiles or limited consideration of future climate scenarios. Furthermore, adaptation planning frequently involves multiple stakeholders with different interests and mandates, complicating coordination and decision-making. Understanding how these factors influence the effectiveness of adaptation measures is therefore critical.
+
+Research objectives
+The primary objective of this project is to assess the effectiveness of existing climate adaptation measures in low-lying coastal regions. The project aims to evaluate not only technical performance, but also institutional and social dimensions of adaptation. Secondary objectives include identifying barriers to implementation, understanding stakeholder perspectives, and deriving lessons that can inform future adaptation planning.
+
+Research questions
+Key questions addressed in this project include: Which adaptation measures are currently applied in low-lying coastal regions, and how effective are they in reducing risk? How do governance structures and funding mechanisms influence implementation and maintenance? And how do stakeholders perceive the costs, benefits, and trade-offs associated with different adaptation options?
+
+Methodology
+The study combines qualitative and quantitative research methods. Policy documents, regional adaptation plans, and monitoring reports were analyzed to identify stated objectives and indicators. Semi-structured interviews were conducted with representatives from water boards, municipalities, and regional authorities to capture institutional perspectives. In addition, comparative case studies were carried out in selected coastal regions to examine adaptation measures in practice and assess observed outcomes where data was available.
+
+Case study insights
+Three low-lying coastal regions were selected as case studies based on differences in risk exposure, governance arrangements, and adaptation strategies. In one region, emphasis was placed on strengthening existing flood defenses, while another focused on nature-based solutions to enhance resilience. A third region adopted a mixed approach, combining engineered infrastructure with spatial planning measures. These cases provided insight into how contextual factors shape adaptation outcomes.
+
+Findings
+The analysis indicates that regions with stable funding arrangements, clear institutional roles, and long-term monitoring programs tend to implement adaptation measures more effectively. Nature-based solutions often provided additional benefits, such as biodiversity enhancement and recreational value, but required longer planning horizons and sustained commitment. In contrast, purely technical measures were sometimes easier to implement but less flexible in the face of uncertain future conditions.
+
+Discussion
+The findings highlight the importance of viewing climate adaptation as an ongoing process rather than a one-off intervention. Effective adaptation depends not only on choosing the right measures, but also on governance capacity, stakeholder engagement, and learning over time. Integrating adaptation into broader spatial and economic planning can enhance coherence and reduce trade-offs.
+
+Recommendations
+Based on the analysis, the project recommends strengthening coordination between regional actors, securing long-term funding for adaptation measures, and investing in monitoring and evaluation frameworks. Sharing experiences and best practices between regions can support learning and improve adaptation outcomes. Pilot projects should be designed with scalability and flexibility in mind.
+
+Implications for regional planning
+For regional planners and policymakers, the results underscore the need to align climate adaptation with broader development goals. Adaptation measures should be assessed not only for their technical effectiveness, but also for their social acceptability and long-term sustainability. Transparent communication and stakeholder involvement can enhance support and legitimacy.
+
+Conclusion
+This project demonstrates that effective climate adaptation in low-lying coastal regions requires more than technical solutions alone. Governance, funding stability, monitoring, and stakeholder engagement play a crucial role in determining long-term success. By addressing these dimensions in an integrated manner, regions can improve their resilience to climate change.
+
+Future work
+Future research could explore quantitative assessments of adaptation effectiveness under different climate scenarios, as well as comparative studies across international coastal regions to further refine adaptation strategies."
+doc_02,Evaluating Circular Economy Practices in Regional Manufacturing,"Introduction
+The circular economy seeks to reduce waste and resource consumption by keeping materials and products in use for as long as possible. In contrast to linear production models, circular approaches emphasize reuse, repair, remanufacturing, and recycling. Regional manufacturing industries play a crucial role in translating these principles into practice, as they influence material flows, supply chains, and product design at a local and regional scale.
+
+Context
+Across many regions, manufacturing companies increasingly express interest in circular economy strategies, driven by sustainability goals, regulatory pressure, and rising material costs. Despite this interest, implementation often remains limited to small-scale pilots or isolated initiatives. Economic uncertainty, lack of clear business cases, and organizational inertia can hinder the transition from experimentation to structural change.
+
+Problem description
+Manufacturers face multiple challenges when attempting to adopt circular practices. These include limited access to secondary materials, insufficient collaboration across supply chains, and uncertainty about customer demand for circular products. In addition, circular initiatives often require upfront investments and changes to existing processes, which can be difficult to justify without clear evidence of long-term benefits.
+
+Objectives
+The primary objective of this project is to evaluate current circular economy practices in regional manufacturing industries. The project aims to identify which strategies are being applied, what motivates or constrains their adoption, and under what conditions circular initiatives can be scaled. A secondary objective is to identify opportunities for collaboration and shared infrastructure that could support broader implementation.
+
+Methodology
+The study employed a mixed-method approach. Data was collected through surveys distributed to manufacturing companies across the region, complemented by site visits to a selection of firms actively experimenting with circular practices. Material flow analyses were conducted to map inputs, outputs, and waste streams, providing insight into potential opportunities for closing loops and reducing losses.
+
+Findings
+The findings show that while pilot initiatives such as material reuse, waste separation, and product take-back schemes are present, they are rarely integrated into core business processes. Circular activities are often managed as side projects, driven by motivated individuals rather than embedded in organizational strategy. Companies that collaborated with suppliers or customers reported greater success, but such collaboration remains the exception rather than the norm.
+
+Discussion
+The results highlight that economic uncertainty and lack of knowledge exchange are major barriers to broader adoption of circular practices. Many companies lack access to examples and data demonstrating the financial viability of circular models. Furthermore, fragmented supply chains and competitive pressures limit opportunities for collective action, even when potential synergies exist.
+
+Recommendations
+Based on the analysis, the project recommends strengthening policy support for circular initiatives through incentives and regulatory clarity. Establishing shared infrastructure, such as regional material hubs or knowledge platforms, could reduce costs and risks for individual companies. Facilitating networks and learning communities may also accelerate the diffusion of successful practices.
+
+Implications for regional development
+For regional authorities, supporting circular economy transitions in manufacturing can contribute to economic resilience, innovation, and sustainability. Targeted support measures and coordination between stakeholders can help move circular practices from pilot stage to mainstream adoption.
+
+Conclusion
+This project concludes that while interest in circular economy practices is growing among regional manufacturers, significant barriers remain. Policy support, shared infrastructure, and improved knowledge exchange have the potential to accelerate the transition toward more circular manufacturing systems.
+
+Future work
+Future research could focus on longitudinal studies to assess the long-term economic and environmental impacts of circular practices, as well as explore sector-specific pathways for circular transitions."
+doc_03,Data Integration Challenges in Cross-Sector Research Collaborations,"Introduction
+Cross-sector research collaborations are increasingly seen as essential for addressing complex societal challenges such as climate change, energy transition, and public health. These collaborations often bring together public authorities, research institutions, private companies, and non-governmental organizations. While such partnerships create opportunities for innovation, they also introduce significant challenges related to data integration.
+
+Background
+Collaborating partners typically collect and manage data for different purposes, using their own standards, formats, and technical infrastructures. Differences in data granularity, temporal resolution, and terminology complicate the process of combining datasets. In addition, legacy systems and proprietary tools can further limit interoperability between organizations.
+
+Problem description
+Beyond technical incompatibilities, data integration is frequently hindered by organizational and legal constraints. Unclear data ownership, intellectual property concerns, and varying interpretations of data protection regulations can delay or prevent data sharing. Partners may also have different expectations regarding data quality, documentation, and long-term availability, leading to misunderstandings and friction within collaborations.
+
+Objectives
+The primary objective of this project is to examine data integration challenges in cross-sector research collaborations involving public and private actors. The project aims to identify recurring technical, organizational, and legal barriers, and to understand how these barriers affect collaboration outcomes. A secondary objective is to explore practical strategies for reducing integration effort and improving data exchange.
+
+Research questions
+Key research questions include: What types of data integration challenges arise most frequently in cross-sector collaborations? How do partners negotiate data ownership and access rights? Which technical solutions are commonly used, and where do they fall short? And how can governance structures support more effective data sharing?
+
+Approach
+A qualitative research approach was adopted. Workshops were organized with representatives from ongoing cross-sector research projects to map data workflows and identify bottlenecks. In addition, semi-structured interviews were conducted with data managers, researchers, and legal advisors to gain insight into data practices and constraints from different perspectives. Project documentation and data management plans were also reviewed.
+
+Findings
+The analysis revealed that legal constraints and unclear data ownership are among the most significant barriers to data integration. Partners often hesitate to share data due to uncertainty about usage rights, liability, and compliance with data protection regulations. Technically, the lack of shared data models and inconsistent metadata practices resulted in substantial manual effort during data integration. These challenges frequently led to delays and reduced the scope of joint analyses.
+
+Discussion
+The findings highlight that data integration is not solely a technical issue but is deeply embedded in organizational and governance contexts. Even when technical solutions are available, their effectiveness depends on trust, clear agreements, and shared understanding among partners. Early alignment on data management expectations and responsibilities appears to be crucial for successful collaboration.
+
+Recommendations
+Based on the analysis, the project recommends the development of minimal shared data models that define core concepts and attributes relevant across partners. These models should be complemented by clear data sharing agreements and standardized metadata templates. Establishing data governance structures early in the collaboration can help address legal and organizational concerns before they become blocking issues.
+
+Implications for collaborative research
+For research consortia, investing time in data integration planning can significantly improve collaboration efficiency and outcomes. While this requires upfront effort, it can reduce integration costs and misunderstandings later in the project. Funding programs and institutions can support this by providing guidance and incentives for good data management practices.
+
+Conclusion
+This project demonstrates that data integration challenges in cross-sector research collaborations extend beyond technical compatibility. Organizational alignment, legal clarity, and governance structures are equally important. Addressing these dimensions in a coordinated manner is essential for enabling effective data sharing and realizing the full potential of cross-sector research.
+
+Future work
+Future research could investigate quantitative impacts of data integration challenges on project performance, as well as evaluate the effectiveness of different governance and technical interventions across multiple collaborations."
+doc_04,Designing Indicators for Municipal Climate Resilience,"Introduction
+Municipalities play a crucial role in responding to the impacts of climate change, as they are responsible for spatial planning, infrastructure management, and public services at the local level. To support effective decision-making, municipalities require practical indicators that help assess their resilience to climate-related risks such as flooding, heat stress, and drought. These indicators can guide policy development, prioritize investments, and monitor progress over time.
+
+Context
+Numerous climate resilience indicator frameworks have been developed at national and international levels. While these frameworks provide comprehensive coverage of climate risks, they are often complex and require data that is not readily available at municipal scale. Local governments frequently lack the resources, technical expertise, or data infrastructure needed to operationalize extensive indicator sets. As a result, indicators may be adopted in theory but rarely used in practice.
+
+Problem description
+The challenge for municipalities is to balance completeness with usability. Indicators that are too detailed or data-intensive can overwhelm local staff and remain unused, while overly simplified indicators may fail to capture key aspects of resilience. In addition, municipalities differ in size, data availability, and exposure to climate risks, making it difficult to apply a single standardized framework across all contexts.
+
+Objectives
+The primary objective of this project is to design a concise and actionable indicator framework that municipalities can realistically apply. The framework aims to support decision-making by focusing on a limited number of indicators that are both meaningful and feasible. Secondary objectives include aligning indicators with existing municipal data sources and ensuring that the framework can be adapted to different local contexts.
+
+Methodology
+The project followed a multi-step approach. First, an inventory of existing climate resilience indicators was compiled from academic literature, policy documents, and practitioner guidelines. These indicators were analyzed based on relevance, data requirements, and ease of interpretation. Subsequently, workshops and interviews were conducted with municipal staff from different departments to discuss practical needs, data availability, and preferred formats for indicator reporting.
+
+Indicator selection
+Based on the analysis and stakeholder input, a shortlist of indicators was developed. The selected indicators cover key dimensions of climate resilience, including flood risk management, heat stress vulnerability, and governance capacity. Examples include the percentage of flood-prone areas with protection measures, the availability of cooling infrastructure in vulnerable neighborhoods, and the presence of formal climate adaptation strategies within municipal organizations.
+
+Results
+The resulting indicator framework consists of a small set of indicators that municipalities can calculate using existing or easily obtainable data. Municipal staff indicated that the limited scope and clear definitions improved their confidence in using the indicators. The framework also facilitated discussions across departments by providing a shared reference point for climate resilience.
+
+Discussion
+The findings highlight the importance of co-design in developing usable indicator frameworks. Engaging municipal staff throughout the process helped ensure that indicators aligned with local realities and capacities. However, trade-offs remain between comparability across municipalities and flexibility for local adaptation. Ongoing support and guidance may be necessary to ensure consistent application over time.
+
+Recommendations
+The project recommends adopting a stepwise approach to indicator implementation. Municipalities should start with a core set of indicators and expand gradually as data capacity improves. Clear documentation and visualization of indicators can further enhance usability. Linking indicators to policy objectives and action plans can increase their relevance for decision-making.
+
+Implications for local governance
+For local governments, practical indicator frameworks can strengthen strategic planning and accountability. By making climate resilience more measurable and visible, indicators can support communication with policymakers, stakeholders, and citizens. However, indicators should be seen as a support tool rather than a substitute for expert judgment.
+
+Conclusion
+This project demonstrates that simplicity and data availability are critical factors in the successful adoption of climate resilience indicators at municipal level. By focusing on actionable and context-sensitive indicators, municipalities can better assess their resilience and take informed steps toward climate adaptation.
+
+Future work
+Future work could explore digital tools to automate indicator calculation and visualization, as well as comparative studies to assess how the framework performs across different municipal contexts."
+doc_05,Improving Data Literacy Through Applied Education Modules,"Introduction
+Data literacy has become an essential competence across a wide range of disciplines, as data increasingly informs decision-making in professional, academic, and societal contexts. Students are expected not only to work with data, but also to critically interpret visualizations, understand uncertainty, and assess the quality and relevance of data sources. Despite this growing importance, many students struggle to translate data-related concepts into practical understanding.
+
+Background
+In many educational programs, data-related instruction focuses primarily on technical skills such as using software tools or performing calculations. While these skills are valuable, they are often taught in isolation from real-world contexts. As a result, students may be able to execute technical tasks without fully understanding what the data represents or how it should inform decisions. This gap is particularly evident among non-technical students, who may lack confidence when confronted with data-driven arguments.
+
+Problem description
+The lack of contextualization in data education can lead to superficial learning and limited transfer of skills. Students may memorize procedures without developing the ability to critically question data sources, recognize bias, or interpret results in context. This poses challenges not only for individual learning outcomes but also for interdisciplinary collaboration, where shared data understanding is increasingly necessary.
+
+Objectives
+The primary objective of this project is to develop and evaluate applied education modules that improve data literacy among non-technical students. The modules aim to strengthen students’ ability to interpret data, ask critical questions, and communicate insights effectively. Secondary objectives include increasing student confidence in working with data and supporting lecturers in integrating data literacy into their courses.
+
+Approach
+The modules were co-created with lecturers from different disciplines to ensure alignment with course content and learning objectives. Each module was built around realistic case studies relevant to the students’ field of study, such as interpreting survey results, analyzing basic datasets, or evaluating data visualizations found in media. The modules combined short theoretical explanations with hands-on exercises and group discussions.
+
+Implementation
+The applied education modules were piloted in multiple courses across different programs. Lecturers were provided with teaching materials, example datasets, and guidance on facilitating discussions around data interpretation. The modules were designed to be flexible, allowing lecturers to adapt them to different time constraints and student groups.
+
+Evaluation
+Evaluation of the modules was conducted through student surveys, reflective assignments, and feedback from lecturers. Students reported increased confidence in interpreting graphs and discussing data-related claims. Many indicated that the applied examples helped them understand why data literacy is relevant to their future profession. Lecturers observed more active participation and deeper discussions during data-related activities.
+
+Discussion
+The results suggest that applied, context-driven education can effectively enhance data literacy, particularly among students without a strong technical background. Co-creation with lecturers proved valuable in ensuring relevance and feasibility. However, challenges remain in scaling the approach across curricula and ensuring consistent quality of implementation.
+
+Recommendations
+Based on the findings, the project recommends integrating applied data literacy modules more structurally into educational programs. Support for lecturers, including training and shared resources, is essential for sustainable implementation. Future iterations of the modules should incorporate feedback from students and explore digital formats to increase accessibility.
+
+Conclusion
+This project demonstrates that applied education modules can significantly improve data literacy by bridging the gap between technical skills and real-world context. By embedding data literacy within disciplinary education, institutions can better prepare students to engage with data in their academic and professional lives.
+
+Future work
+Future work could explore longitudinal effects of applied data literacy education, as well as investigate how digital tools and online learning environments can further support the development of data literacy skills."
+doc_06,Assessing the Impact of Nature-Based Solutions on Urban Heat Stress,"Introduction
+Urban heat stress has emerged as a significant public health concern as cities experience more frequent and intense heatwaves. High concentrations of impervious surfaces, limited vegetation, and dense building structures contribute to elevated temperatures in urban areas, particularly during summer months. Prolonged exposure to high temperatures can increase heat-related illness and mortality, especially among vulnerable populations such as the elderly and those with pre-existing health conditions.
+
+Context
+In response to rising urban temperatures, nature-based solutions have gained attention as sustainable and multifunctional mitigation measures. Interventions such as urban trees, green roofs, green walls, and parks are promoted not only for their cooling potential but also for their additional benefits, including improved air quality, stormwater management, and enhanced urban biodiversity. However, the effectiveness of these measures can vary depending on their design, scale, and local context.
+
+Problem description
+Despite growing interest in nature-based solutions, urban planners and decision-makers often lack clear evidence on which interventions provide the greatest cooling benefits. Many existing studies focus on isolated measures or small pilot projects, making it difficult to compare results across different urban settings. Furthermore, cooling effects may differ between daytime and nighttime, as well as between neighborhoods with varying building density and socio-economic characteristics.
+
+Objectives
+The primary objective of this project is to assess the impact of different nature-based solutions on urban heat stress across multiple neighborhoods. Specifically, the project aims to quantify the cooling effects of tree cover, green roofs, and vegetated public spaces. Secondary objectives include examining how these effects vary over time and identifying factors that influence the effectiveness of nature-based interventions.
+
+Methodology
+The study combined field measurements with spatial analysis techniques. Temperature sensors were installed at street level in several neighborhoods representing a range of urban forms and vegetation densities. Measurements were collected continuously during summer months, including periods of extreme heat. In addition, satellite-derived land surface temperature data and land use maps were used to assess spatial patterns of heat exposure. Statistical analyses were performed to compare temperatures in areas with and without nature-based interventions.
+
+Results
+The results indicate that areas with higher tree canopy cover consistently experienced lower air temperatures compared to surrounding built-up areas. The cooling effect was particularly pronounced during nighttime, when tree-covered streets retained less heat than areas dominated by concrete and asphalt. Green roofs also contributed to localized cooling, although their impact was more limited and strongly dependent on roof size and vegetation type. Parks and larger green spaces showed cooling effects extending into adjacent neighborhoods.
+
+Discussion
+These findings suggest that not all nature-based solutions are equally effective in reducing urban heat stress. While green roofs offer benefits at building scale, urban trees provide broader cooling effects at street and neighborhood level. The stronger nighttime cooling associated with tree cover is particularly relevant for reducing heat stress during periods when residents are at home and buildings release stored heat. However, implementing and maintaining urban greenery requires long-term planning and investment.
+
+Recommendations
+Based on the analysis, the project recommends prioritizing the preservation of mature trees and the expansion of tree canopy in heat-vulnerable neighborhoods. Urban greening strategies should be integrated into broader spatial planning and infrastructure projects to maximize their impact. In addition, monitoring programs should be established to evaluate the long-term performance of nature-based solutions under changing climate conditions.
+
+Implications for urban planning
+For municipalities, the results highlight the importance of evidence-based decision-making when selecting heat mitigation measures. Nature-based solutions should be tailored to local context, considering available space, maintenance capacity, and social factors. Combining different interventions may provide synergistic benefits and improve overall urban resilience.
+
+Conclusion
+This project demonstrates that nature-based solutions can significantly reduce urban heat stress, with tree cover showing the strongest and most consistent cooling effects. Prioritizing mature tree preservation and strategic greening can play a key role in protecting public health and enhancing urban livability in a warming climate.
+
+Future work
+Future research could explore the social and economic co-benefits of urban greening, as well as model the long-term impacts of different greening strategies under projected climate scenarios."
+doc_07,Challenges in Monitoring Water Quality Using Low-Cost Sensors,"Introduction
+Water quality monitoring is essential for managing aquatic ecosystems, ensuring public health, and complying with environmental regulations. Traditional monitoring approaches rely on laboratory analysis of water samples, which can be costly and limit spatial and temporal coverage. Low-cost sensors offer the potential to expand monitoring networks by enabling more frequent measurements at a larger number of locations.
+
+Background
+In recent years, a wide range of low-cost sensors for parameters such as temperature, conductivity, turbidity, and dissolved oxygen have become available. These sensors are attractive due to their affordability and ease of deployment. However, concerns remain regarding their accuracy, long-term stability, and maintenance requirements, particularly when deployed in harsh field conditions such as rivers, estuaries, and drainage canals.
+
+Problem description
+Field deployments have shown that low-cost sensors are susceptible to issues such as biofouling, sensor drift, and physical damage. Fouling by algae or sediment can distort measurements, while gradual sensor drift can lead to systematic errors that are difficult to detect without regular calibration. In addition, power supply limitations and data transmission failures can result in data gaps, reducing the reliability of monitoring programs.
+
+Objectives
+The primary objective of this study is to evaluate the performance of low-cost water quality sensors under real-world field conditions. Specifically, the project aims to assess measurement accuracy over time, identify common failure modes, and determine maintenance and calibration requirements. A secondary objective is to evaluate whether these sensors are suitable for detecting trends and events rather than producing precise absolute measurements.
+
+Methods
+Sensors measuring temperature and conductivity were deployed at multiple monitoring sites with varying environmental conditions, including urban canals, agricultural ditches, and tidal waters. Sensors recorded data at fifteen-minute intervals over a period of several months. In parallel, manual water samples were collected at regular intervals and analyzed in a laboratory to provide reference measurements. Data processing included quality checks, outlier detection, and comparison of sensor readings with laboratory results.
+
+Results
+The results show that low-cost sensors are capable of capturing temporal patterns and event-driven changes, such as rainfall-induced runoff or tidal influence. However, sensor drift was observed in several deployments, leading to increasing deviations from laboratory measurements over time. Biofouling significantly affected sensors in nutrient-rich waters, requiring frequent cleaning. Data gaps occurred due to power interruptions and communication failures at some sites.
+
+Discussion
+These findings suggest that while low-cost sensors may not meet regulatory accuracy standards for all applications, they can provide valuable insights into relative changes and trends. Their performance depends strongly on deployment conditions, maintenance frequency, and calibration procedures. Integrating contextual information, such as flow conditions and weather data, can improve interpretation of sensor readings and reduce the risk of misinterpretation.
+
+Recommendations
+Based on the study, it is recommended to use low-cost sensors primarily for exploratory monitoring and early warning purposes rather than compliance monitoring. Regular calibration against laboratory samples should be incorporated into monitoring protocols. Sensor housings should be designed to minimize fouling, and maintenance schedules should be adapted to local conditions.
+
+Implications for monitoring programs
+For water management organizations, low-cost sensors offer an opportunity to complement existing monitoring networks and improve spatial and temporal coverage. However, successful implementation requires clear expectations, appropriate quality control procedures, and sufficient resources for maintenance and data management.
+
+Conclusion
+This study demonstrates that low-cost sensors can play a valuable role in water quality monitoring when their limitations are acknowledged and addressed. They are particularly useful for detecting trends and events, but reliable use depends on robust calibration and maintenance protocols.
+
+Future work
+Future research could focus on improving sensor durability, developing automated fouling detection methods, and integrating low-cost sensor data with remote sensing and modeling approaches."
+doc_08,Stakeholder Engagement in Regional Energy Transition Projects,"Introduction
+The transition from fossil-based energy systems to renewable and low-carbon alternatives is a central component of regional and national climate strategies. Energy transition projects, such as wind farms, solar parks, district heating networks, and grid expansions, increasingly emphasize the importance of stakeholder engagement. These projects directly affect local communities, landscapes, and economic activities, making public involvement a critical factor in their success.
+
+Context
+While technical and economic aspects of energy projects are often well understood, social and institutional dimensions receive less systematic attention. Public acceptance has emerged as a decisive factor influencing whether projects are delayed, modified, or cancelled altogether. Opposition frequently arises from concerns about visual impact, noise, land use, perceived unfairness in benefit distribution, or a lack of trust in decision-makers. As a result, many regions are rethinking how stakeholders are involved throughout the project lifecycle.
+
+Problem description
+In practice, stakeholder engagement is often treated as a formal requirement rather than a meaningful process. Consultation may occur late in the planning phase, when key decisions have already been made, limiting opportunities for genuine influence. This can lead to frustration among stakeholders and reinforce resistance rather than building support. Furthermore, engagement approaches vary widely between projects, with little systematic learning across initiatives.
+
+Objectives
+The primary objective of this project is to analyze stakeholder engagement strategies used in regional energy transition projects and assess their effectiveness. The project aims to identify which forms of engagement contribute to trust, transparency, and perceived legitimacy. Secondary objectives include understanding how engagement strategies are shaped by institutional context and how lessons learned can be transferred between projects and regions.
+
+Research questions
+Key research questions include: At what stages of the project lifecycle are stakeholders involved? Which groups are considered stakeholders, and which are overlooked? How do project leaders balance technical constraints with stakeholder input? And how does stakeholder engagement influence public perception and project outcomes?
+
+Methodology
+A qualitative case study approach was adopted. Several regional energy transition projects were selected, representing different technologies and governance arrangements. For each case, project documentation was reviewed, and semi-structured interviews were conducted with project leaders, municipal representatives, and community stakeholders. The interviews focused on engagement objectives, methods used, challenges encountered, and perceived outcomes.
+
+Case study insights
+The case studies revealed substantial variation in engagement practices. Projects that involved stakeholders early, for example during site selection or concept development, tended to experience higher levels of trust and fewer conflicts later on. In contrast, projects that relied primarily on information sessions after key decisions had been taken faced stronger opposition and longer approval processes. Community benefit schemes and opportunities for local ownership were found to positively influence acceptance in several cases.
+
+Findings
+Across cases, early and continuous stakeholder involvement emerged as a key factor in building trust. Transparent communication about uncertainties and trade-offs was valued more than overly optimistic messaging. Stakeholders appreciated when their input was visibly reflected in project design or decision-making, even if not all concerns could be addressed.
+
+Discussion
+The findings highlight that stakeholder engagement is not a one-size-fits-all process. Effective engagement depends on project scale, local context, and institutional arrangements. While early involvement requires additional time and resources, it can reduce delays and conflict in later stages. Embedding engagement within project governance structures, rather than treating it as a separate activity, appears crucial for long-term success.
+
+Recommendations
+Based on the analysis, the project recommends embedding stakeholder engagement from the earliest stages of energy transition projects. Clear engagement objectives should be defined, and a diverse range of stakeholders should be identified and included. Project teams should allocate sufficient resources for ongoing dialogue and ensure that feedback mechanisms are transparent and responsive.
+
+Implications for regional policy
+For regional authorities, the results suggest that guidelines and support for stakeholder engagement can improve consistency and learning across projects. Sharing best practices and lessons learned between regions may help to avoid repeated mistakes and strengthen public trust in the energy transition.
+
+Conclusion
+This project demonstrates that stakeholder engagement is a critical component of successful regional energy transition projects. Early, transparent, and meaningful involvement of stakeholders can reduce resistance, build trust, and contribute to more robust and legitimate outcomes. Embedding engagement as a core element of project design is therefore essential for advancing the energy transition.
+
+Future work
+Future research could examine the long-term impacts of different engagement strategies on project performance and community relations, as well as explore quantitative methods for assessing engagement outcomes."
+doc_09,Developing a Knowledge Platform for Research Reuse,"Introduction
+Research projects generate a large volume of outputs, including reports, datasets, presentations, and educational materials. However, once a project ends, these outputs are often stored in isolated locations and are rarely reused outside their original context. As a result, valuable knowledge remains hidden, leading to duplication of work and missed opportunities for collaboration.
+
+Background
+Knowledge platforms are designed to address this problem by centralizing research outputs and making them more discoverable. Within academic and applied research institutions, such platforms can support knowledge sharing across departments, research groups, and thematic areas. Despite their potential, many knowledge platforms struggle with low adoption rates, incomplete content, and inconsistent quality of uploaded materials.
+
+Problem description
+A key challenge lies in the effort required from researchers to prepare their outputs for publication on a platform. Writing summaries, selecting keywords, structuring content, and adding metadata are time-consuming tasks that are often perceived as administrative overhead. When these steps are skipped or performed inconsistently, the platform becomes difficult to search and navigate, reducing its value for potential users.
+
+Objectives
+The primary objective of this project is to identify the functional and non-functional requirements for an effective knowledge platform that supports research reuse. The project aims to understand what types of information users need to quickly assess relevance, how content should be structured, and which forms of automation can reduce the workload for contributors without compromising quality or control.
+
+Research questions
+The project addresses questions such as: What information do users need to decide whether a research output is relevant to their work? How can summaries and metadata be generated or supported automatically? What level of control do contributors expect over how their work is presented? And how can a platform accommodate diverse types of research outputs and levels of completeness?
+
+Approach
+A qualitative research approach was adopted. User interviews were conducted with researchers, lecturers, and support staff from different domains. Participants were asked about their experiences with existing knowledge platforms, their information needs, and the barriers they encounter when sharing or reusing research outputs. In addition, a comparative analysis of existing research platforms was performed to identify common design patterns and shortcomings.
+
+Platform analysis
+The analysis revealed that many platforms focus heavily on document storage, while offering limited support for content understanding. Search functionality is often keyword-based and sensitive to inconsistent terminology. Metadata fields are frequently left empty or filled inconsistently, limiting filtering and discovery. Platforms that provided short summaries and clear thematic categorization were perceived as more useful, even when they contained fewer documents overall.
+
+Findings
+Across interviews, users consistently emphasized the importance of concise summaries that explain the purpose, scope, and outcomes of a project. Clear and standardized metadata, such as project status, thematic area, and type of output, was seen as essential for reuse. At the same time, users expressed concern about fully automated content generation, stressing the need to review and edit suggested content before publication.
+
+Discussion
+These findings highlight a tension between automation and trust. While automation can reduce workload and improve consistency, excessive automation may reduce perceived ownership and accuracy. A human-in-the-loop approach, where the system proposes content and users make final decisions, appears to strike a balance between efficiency and control. From a technical perspective, this suggests a need for flexible pipelines that support different document types and levels of structure.
+
+Recommendations
+The project recommends designing the knowledge platform around user workflows rather than document types. Automated support for summaries, keywords, and metadata should be integrated into the upload process, with clear opportunities for user feedback and correction. Additionally, the platform should support multilingual content and accommodate unfinished or ongoing projects to reflect the realities of research practice.
+
+Implications for implementation
+For institutions, implementing such a platform requires not only technical development but also organizational alignment. Clear guidelines for content quality, incentives for contribution, and ongoing support are necessary to ensure sustained use. Technical solutions should remain modular to allow future improvements as user needs evolve.
+
+Conclusion
+This project demonstrates that effective knowledge platforms can significantly enhance research reuse, but only when they reduce contributor effort while maintaining user control and content quality. By combining automation with thoughtful design and governance, institutions can unlock the full value of their research outputs.
+
+Future work
+Future work could involve prototyping and evaluating automated content suggestion tools, as well as longitudinal studies on how improved discoverability influences collaboration and research impact."
+doc_10,Assessing the Use of Dashboards for Decision Support in Public Organizations,"Introduction
+Dashboards have become a common tool within public organizations to support data-driven decision-making. By presenting key indicators, trends, and alerts in a visual format, dashboards are intended to help professionals quickly understand complex information and act upon it. Governments and public agencies increasingly invest in dashboard solutions to improve transparency, efficiency, and accountability.
+
+Context
+Despite their widespread adoption, there is growing evidence that dashboards are not always used as intended. In many cases, dashboards are consulted infrequently or are used only for reporting purposes rather than active decision support. Public organizations operate in complex environments with multiple policy goals, legal constraints, and diverse stakeholder interests. These factors influence how data is interpreted and how tools such as dashboards are integrated into daily work practices.
+
+Problem description
+Several recurring issues have been identified in practice. Dashboards often contain too many indicators, making it difficult for users to distinguish between critical and secondary information. Visualizations may be technically correct but poorly aligned with the questions decision-makers actually face. In addition, users differ in their data literacy, which affects their ability to interpret graphs, trends, and uncertainty. As a result, dashboards may create a false sense of insight or, conversely, be perceived as overwhelming and therefore ignored.
+
+Objectives
+The primary objective of this project is to evaluate how dashboards are used and interpreted by professionals in public organizations. The project aims to identify which design choices support effective decision-making and which elements hinder understanding. Secondary objectives include assessing how organizational context, user roles, and data literacy influence dashboard use, and formulating practical design guidelines tailored to public sector settings.
+
+Research questions
+Key questions addressed in this project include: How do public sector professionals interact with dashboards in their daily work? Which visual elements are perceived as clear and trustworthy? How do users deal with uncertainty, missing data, or conflicting indicators? And to what extent do dashboards actually influence decisions, as opposed to merely supporting reporting and accountability?
+
+Methodology
+The study employs a mixed-method approach. Usability tests were conducted in which participants were asked to perform realistic decision-making tasks using existing dashboards. These sessions were observed and recorded to capture navigation patterns, misunderstandings, and points of friction. In addition, semi-structured interviews were held with policy advisors, analysts, and managers to understand their information needs, decision processes, and experiences with dashboard tools. Relevant policy documents and dashboard specifications were also reviewed to contextualize the findings.
+
+Case examples
+The project examined dashboards used in domains such as environmental monitoring, social policy, and financial oversight. For example, an environmental dashboard displaying air quality indicators was found to be effective for monitoring long-term trends, but less useful for short-term operational decisions. A financial performance dashboard provided detailed breakdowns but was considered too complex for non-specialist users, leading them to rely on summary reports instead.
+
+Results
+The results show that dashboard complexity is a key factor influencing usability. Dashboards with a limited number of well-chosen indicators and clear visual hierarchy were more likely to be used actively in decision-making. In contrast, dashboards containing dense tables, numerous filters, and unexplained indicators caused confusion and slowed down interpretation. Participants also expressed uncertainty when indicators conflicted or when the underlying data sources were unclear.
+
+Discussion
+These findings highlight the tension between completeness and usability. While designers often aim to include as much relevant information as possible, users benefit more from focused views that align with specific decisions. The public sector context further complicates this balance, as dashboards must serve multiple audiences and accountability requirements. Improving data literacy and providing contextual explanations can mitigate some issues, but design choices remain critical.
+
+Recommendations
+Based on the analysis, the project recommends prioritizing clarity over completeness in dashboard design. Key indicators should be explicitly linked to policy objectives or operational decisions. Visualizations should be accompanied by brief explanations that clarify data sources, limitations, and intended interpretation. Furthermore, dashboards should be developed iteratively, with regular feedback from end-users, to ensure alignment with evolving needs.
+
+Implications for practice
+For public organizations, these results suggest that investing in dashboards alone is insufficient. Equal attention should be paid to user training, organizational embedding, and governance around data use. Dashboards are most effective when they are integrated into existing decision-making routines rather than introduced as standalone tools.
+
+Conclusion
+This project demonstrates that dashboards can support decision-making in public organizations, but only when they are designed and implemented with a clear understanding of user needs and organizational context. Overly complex dashboards risk undermining their own purpose. By focusing on clarity, relevance, and user involvement, public sector organizations can improve the effectiveness of dashboards as decision support tools.
+
+Future work
+Future research could explore the long-term impact of dashboard use on decision quality and policy outcomes. Comparative studies across organizations and domains may further refine design guidelines and support the development of more effective decision support systems."
