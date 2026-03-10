@@ -1,0 +1,17 @@
+Circular Campus Materials
+
+Universities regularly renovate buildings to accommodate new teaching methods, laboratories and student facilities. During these renovation projects, large quantities of materials such as wood, metal, glass and interior elements are removed. In many cases, these materials are discarded despite being technically reusable.
+
+Growing awareness of environmental impacts has led to increased interest in circular construction practices. Instead of treating building materials as waste, circular construction focuses on extending the lifespan of materials through reuse, refurbishment and recycling.
+
+The Circular Campus Materials project explores how circular principles can be applied to renovation projects on university campuses. The research is carried out at HZ University of Applied Sciences, where several buildings are scheduled for renovation in the coming years.
+
+One of the main challenges is the lack of information about existing materials in buildings. When renovation projects begin, contractors often do not know which materials can be reused or where they are located. As a result, demolition remains the default approach.
+
+To address this issue, the research team develops a systematic inventory method. Before renovation begins, students and researchers document materials present in the building. They record properties such as material type, condition, dimensions and potential reuse options.
+
+The project also investigates digital material passports. These digital records store information about materials used in buildings and allow facility managers to track materials over time. By maintaining such records, organizations can identify reusable components before demolition occurs.
+
+In addition to technical research, the project examines organizational barriers to circular construction. Interviews are conducted with facility managers, architects and procurement officers to understand why reuse is often overlooked during renovation projects.
+
+Through these activities, the project aims to demonstrate how educational institutions can reduce construction waste while simultaneously creating learning opportunities for students in engineering, architecture and sustainability programmes.

@@ -1,0 +1,15 @@
+AI for Tourism Flows
+
+Tourism is a key economic sector in many coastal regions. In Zeeland, millions of visitors travel to beaches, historic towns and nature reserves every year. While tourism brings economic benefits, it also creates challenges for local communities and ecosystems.
+
+During peak seasons, popular destinations may experience overcrowding. This can lead to pressure on infrastructure, environmental degradation and reduced visitor satisfaction. Managing visitor flows has therefore become an important priority for regional authorities.
+
+The AI for Tourism Flows project investigates how data analytics can help policymakers better understand visitor behaviour. The research combines multiple data sources to analyse how visitors move through the region and how these patterns change over time.
+
+One of the primary data sources used in the project is anonymized mobility data derived from mobile devices. These data allow researchers to estimate how many visitors travel to specific locations and how long they stay. Weather data and event calendars are also integrated into the analysis to understand how external factors influence tourism patterns.
+
+Machine learning techniques are used to identify trends and develop predictive models of visitor flows. These models allow researchers to estimate how visitor numbers may change under different scenarios, such as extreme weather conditions or large regional events.
+
+In addition to quantitative analysis, the project team conducts interviews with tourism entrepreneurs, policymakers and destination managers. These conversations help researchers interpret the data and identify practical strategies for managing visitor pressure.
+
+The ultimate goal of the project is to support more sustainable tourism management. By providing better insights into visitor behaviour, regional stakeholders can develop strategies that spread tourism more evenly across destinations and seasons.
