@@ -1,0 +1,14 @@
+{
+    "document_id": "doc_01",
+    "model": "BART",
+    "evaluation": {
+        "document_id": "doc_01",
+        "model": "BART",
+        "runtime_seconds": 3.594053030014038,
+        "original_token_count": 133,
+        "summary_token_count": 42,
+        "compression_ratio": 0.3157894736842105,
+        "entity_preservation_score": 0.1111111111111111,
+        "sentence_coverage_score": 1.0
+    }
+}

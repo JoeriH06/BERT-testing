@@ -1,0 +1,29 @@
+{
+    "document_id": "doc_01",
+    "model": "BART",
+    "summary": "The Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The main goal is to reduce pressure on freshwater resources, improve water availability during drought periods and support circular water systems.",
+    "metadata": {
+        "id": "doc_01",
+        "title": "Delta Water Innovation Hub",
+        "description": "The Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The main goal is to reduce pressure on freshwater resources, improve water availability during drought periods and support circular water systems.",
+        "contact_person": "Lisa Vermeer",
+        "start_date": "2026-02-01",
+        "end_date": "2028-12-31",
+        "research_groups": [
+            "HZ Kenniscentrum Zeeuwse Samenleving",
+            "Water Technology"
+        ],
+        "researchers": [
+            "Lisa Vermeer",
+            "Tom de Bruin"
+        ]
+    },
+    "evaluation": {
+        "runtime_seconds": 3.594053030014038,
+        "original_token_count": 133,
+        "summary_token_count": 42,
+        "compression_ratio": 0.3157894736842105,
+        "entity_preservation_score": 0.1111111111111111,
+        "sentence_coverage_score": 1.0
+    }
+}
