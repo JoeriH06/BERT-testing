@@ -1,0 +1,14 @@
+{
+    "document_id": "doc_01",
+    "model": "mBART",
+    "evaluation": {
+        "document_id": "doc_01",
+        "model": "mBART",
+        "runtime_seconds": 8.504079580307007,
+        "original_token_count": 133,
+        "summary_token_count": 65,
+        "compression_ratio": 0.48872180451127817,
+        "entity_preservation_score": 0.6666666666666666,
+        "sentence_coverage_score": 1.0
+    }
+}
