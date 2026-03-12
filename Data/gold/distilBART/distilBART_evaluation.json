@@ -1,0 +1,14 @@
+{
+    "document_id": "doc_01",
+    "model": "distilBART",
+    "evaluation": {
+        "document_id": "doc_01",
+        "model": "distilBART",
+        "runtime_seconds": 1.9772193431854248,
+        "original_token_count": 133,
+        "summary_token_count": 40,
+        "compression_ratio": 0.3007518796992481,
+        "entity_preservation_score": 0.1111111111111111,
+        "sentence_coverage_score": 1.0
+    }
+}
