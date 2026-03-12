@@ -1,0 +1,29 @@
+{
+    "document_id": "doc_01",
+    "model": "mBART",
+    "summary": "Delta Water Innovation Hub Project ID: DWIH-2026-01 Start date: 2026-02-01 End date: 2028-12-31 Contact person: Dr. Lisa Vermeer The Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The project investigates how sensor systems, predictive models and decision-support dashboards can support sustainable water management in coastal regions.",
+    "metadata": {
+        "id": "doc_01",
+        "title": "Delta Water Innovation Hub",
+        "description": "Delta Water Innovation Hub Project ID: DWIH-2026-01 Start date: 2026-02-01 End date: 2028-12-31 Contact person: Dr. Lisa Vermeer The Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The project investigates how sensor systems, predictive models and decision-support dashboards can support sustainable water management in coastal regions.",
+        "contact_person": "Lisa Vermeer",
+        "start_date": "2026-02-01",
+        "end_date": "2028-12-31",
+        "research_groups": [
+            "HZ Kenniscentrum Zeeuwse Samenleving",
+            "Water Technology"
+        ],
+        "researchers": [
+            "Lisa Vermeer",
+            "Tom de Bruin"
+        ]
+    },
+    "evaluation": {
+        "runtime_seconds": 8.504079580307007,
+        "original_token_count": 133,
+        "summary_token_count": 65,
+        "compression_ratio": 0.48872180451127817,
+        "entity_preservation_score": 0.6666666666666666,
+        "sentence_coverage_score": 1.0
+    }
+}
