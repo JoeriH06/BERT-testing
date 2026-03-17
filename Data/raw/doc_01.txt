@@ -1,12 +1,1078 @@
-Delta Water Innovation Hub
-
-Project ID: DWIH-2026-01
-Start date: 2026-02-01
-End date: 2028-12-31
-Contact person: Dr. Lisa Vermeer
-
-The Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The project investigates how sensor systems, predictive models and decision-support dashboards can support sustainable water management in coastal regions.
-
-The research is carried out by HZ Kenniscentrum Zeeuwse Samenleving and Water Technology. Researchers involved in the project include Dr. Lisa Vermeer, Tom de Bruin and Eva Jansen. The project is executed in collaboration with regional water authorities, agricultural partners and knowledge institutions.
-
-The main goal is to reduce pressure on freshwater resources, improve water availability during drought periods and support circular water systems in the southwestern Netherlands.
+ 
+ 
+  
+HZ University of Applied Sciences 
+Data Driven Business (CU75072V2) 
+DATA DRIVEN BUSINESS 
+Lars de Bruijne, Joeri Harreman  
+03/02/2023 31/02/2024 
+1 | P a g e  
+ 
+Abstract 
+This report examines how the magical institution of Hogwarts can become data driven. 
+We combine theoretical and practical data analysis. First, this study explores core 
+principles of data driven decision making, where we cover data literacy, culture, and 
+governance. Then it analyzes the quality of a provided student dataset using data quality 
+dimensions such as accuracy, completeness, consistency, and timeliness. Furthermore, we 
+identify data quality issues, and the report discusses improvements and prevention 
+methods, all of this to enhance data reliability. Finally, we lay out a strategy for 
+Hogwarts, outlining objectives, steps, challenges timeline, resource allocation, and 
+success metrics. The report demonstrates that becoming data driven requires 
+technological solutions, strong governance and ethical responsibility.  
+2 | P a g e  
+ 
+Table Of Contents 
+Abstract ............................................................................................................................... 1 
+1. Introduction ................................................................................................................. 3 
+2. What is data driven?.................................................................................................... 4 
+2.1. Data Driven Concepts ............................................................................................. 4 
+2.2. Pros and cons of being data driven ......................................................................... 5 
+2.3. GDPR ...................................................................................................................... 6 
+2.4. GDPR Implications ................................................................................................. 7 
+2.5. Ethical and Legal Challenges of GDPR .................................................................. 8 
+3. Data Analysis / Results ............................................................................................... 9 
+3.1. Explanation and consideration ................................................................................ 9 
+Data Consistency .................................................................................................... 13 
+Data Timeliness ....................................................................................................... 15 
+3.2. Data quality report of the data .............................................................................. 17 
+4. How can Hogwarts become data driven ................................................................... 20 
+4.1. Vision and objectives ............................................................................................ 20 
+4.2. Data driven strategy for Hogwarts ........................................................................ 20 
+4.3. Implementation steps ............................................................................................ 22 
+4.4. Challenges, risks, and trade-offs ........................................................................... 23 
+4.5. Timeline and phases .............................................................................................. 24 
+4.6. Resource allocation ............................................................................................... 24 
+4.7. Metrics of success ................................................................................................. 25 
+4.8. Summary ............................................................................................................... 25 
+5. Conclusion ................................................................................................................ 26 
+6. References ................................................................................................................. 28 
+ 
+  
+3 | P a g e  
+ 
+1. Introduction 
+Recently organizations have relied more on data to support their decision making. Data 
+driven business doesn’t rely only on expertise and intuitiveness, they use evidence-based 
+insights to improve performance, efficiency, and strategic alignment. Becoming data 
+driven is not only collecting data, but it also demands a high quality, strong governance, 
+data literacy, and ethical responsibility.  
+In this report we focus on the concept of being a data driven business. We apply this to a 
+fictional case, based on Harry Potter, where the magical institution becomes data driven. 
+This fictional setting allowed us to make concepts that applied in a clear and accessible 
+way while still addressing real-world problems. 
+The report is structured in a way where we first talk about the concept of data driven 
+businesses, talking about key principles, advantages, and drawbacks. We followed this up 
+by examining the legal and ethical implications of data usage, keeping the General Data 
+Protection Regulation (GDPR) in mind. Furthermore, we were provided with a dataset 
+that we analyzed and discussed the quality dimensions of the dataset itself. We build on 
+the findings the quality report presented us, and with these findings we made a strong 
+strategy covering a clear vision, implementation steps, risk analysis, timelines, resource 
+allocation, and metrics for success. 
+Combining theory and data quality analysis, this report forms a whole and demonstrates 
+relevance of data driven practices for organizations. We highlighted that data driven 
+transformation is not only technical but also organizational and ethical challenging.  
+  
+Commented [jh1]: Also make after full draft of paper to 
+ensure the quality and specificity if the content in the 
+introduction 
+ 
+4 | P a g e  
+ 
+2. What is data driven? 
+In today’s business environments we often hear the term “data driven”, it is used to 
+describe businesses or organizations that are making use of evidence-based decision 
+making. These businesses rely on analysis of data to guide them in their choices, rather 
+than personal experience, intuition or tradition (Mucci, 2025). To achieve this, businesses 
+make use of different concepts with the data they have. These concepts will be discussed 
+in next subchapter. 
+2.1. Data Driven Concepts 
+There are many different concepts of data-driven, but first we will start off with covering 
+the concept of data-driven decision-making. Businesses use data or data sources to guide 
+decision-making processes. By gathering data from sources such as customer feedback, 
+performance metrics, and market trends, you can identify patterns, predict trends, and 
+make decisions based on concrete evidence. This way you can reduce uncertainty by 
+providing objective foundation on which to base decisions (Yasmina, 2025).  
+While the data-driven decision-making approach guides the businesses on how to use the 
+data, it won’t fully work if it doesn’t fit with the company’s culture. A data driven culture 
+describes how a company works from the inside out. To support a data driven culture, 
+there is a high level of transparency, making most of the data available for the staff (we 
+say “most”, since confidential data like personal information, should not be available for 
+everyone.). In the end this will result in a more streamlined workflow to decide your day-
+to-day tasks (Foote, 2024). To create a data driven culture, everyone must be involved 
+within the organization. Business leaders must describe proposals with supporting facts, 
+so that there can be evidence-based actions. A common misconception is that you must 
+separate the data-scientist. Analytics and business context goes hand in hand, which 
+requires data specialists to be integrated into the work floor, alongside other roles to 
+support the decision making (Waller, 2020).  
+Furthermore, we have components like data literacy, this is also one very important 
+component for a company that is becoming data driven. Data literacy is the ability to 
+explore, understand, and communicate with data in a meaningful way (Data Literacy 
+Explained: Definition, Importance, Examples, and More, N.d.). This means that within 
+the company everyone should be able to comprehend the data correctly. It doesn’t mean 
+that they should be able to have advanced skills, but that they are able to ask questions or 
+use the data to support their decisions. If there is no data literacy integrated within the 
+company the employees could misunderstand the data or use the data for poor decision-
+making. To ensure this is integrated correctly companies should invest in data training to 
+make sure that the employees use the data correctly and that they are aligned with the 
+business objectives. 
+5 | P a g e  
+ 
+One of the last parts of becoming data driven is viewing your data as a strategic asset. If 
+you are viewing your data as an asset, it is treated as one. This means that your data is 
+managed, protected, and leveraged in a very similar way to other valuable resources such 
+as finances and human capital. In this part you make sure that the data quality, 
+accessibility, and data governance is set in a correct way so it can be reliable for decision-
+making (Team, 2023).  
+The last data driven concept we will cover is the concept of actionable insights. The 
+actionable insights refer to the data findings, and the use of it. Actionable insights are 
+data findings that can be translated into actions or decisions. If your company is just 
+simply collecting data and analysing it, it is not sufficient. For data to be actionable, it 
+must be relevant, timely, and very clearly communicated to the decision-makers. So 
+basically, you combine data analysis with business context to make sure that insights 
+answer business questions. Without these insights businesses are becoming rich in data 
+but poor in insights, this limits the practical value of being data driven (Integrate.Io, 
+2025).  
+2.2.  Pros and cons of being data driven 
+Now that we have covered all the concepts of a data driven business, let’s discuss the 
+pros and cons of being data driven. 
+Being data driven offers several advantages for businesses. Benefits like improving 
+decision-making are one of the biggest. Since all the decisions are based on objective 
+information rather than intuition, it makes it more reliable without any subjective bias. It 
+also makes the efficiency of the businesses better; this is because data driven businesses 
+can identify trends earlier. This creates a more consistent and transparent decision-
+making process. If all the concepts of data driven business are combined, it will lead to a 
+better alignment withing the business, this strategic alignment will develop into long-term 
+business value (GoPractice, 2022). 
+However, becoming data driven can bring along some challenges. Having all the data is 
+not everything you can not lean on the data only; it requires a human touch. There is a 
+risk of blind trust where the employees can ignore their own expertise. Becoming data 
+driven also requires investment, you need certain technology, training and cultural 
+change. All of this can lead to a time-consuming job and can be very costly. 
+In practice, this means that the businesses need to balance the data with their business 
+context. They need to invest in literacy training, high data-quality, and change their 
+culture actively. If all these components are aligned, only then can a business become and 
+benefit from being data driven.  
+  
+6 | P a g e  
+ 
+2.3. GDPR 
+The GDPR is set up as a regulation for Data Protection. Within this regulation the rules 
+are laid out regarding the protection and the processing of personal data with regards to 
+natural persons as well as rules relating to the free movement of personal data. 
+Regulation also protects the fundamental rights and freedoms of natural people with the 
+focus on protecting personal data. The following sub-chapters are taken from General 
+Data Protection Regulation (GDPR) and reference the rules as accurately as possible. 
+Lawfulness, Fairness, and Transparency 
+As stipulated in Article 5 of the GDPR, personal data must be processed lawfully, fairly, 
+and transparently in relation to the data subject. Lawful processing requires adherence to 
+specific rules set out by the regulation. For instance, processing is lawful if 
+(DataScientest, 2023): 
+1. The data subject has given explicit consent for one or more specific purposes. 
+2. The processing is necessary for the performance of a contract involving the data 
+subject or to take steps requested by the data subject before entering a contract. 
+3. The processing is required to comply with a legal obligation to which the 
+controller is subject. 
+4. It is necessary to protect the vital interests of the data subject or another natural 
+person. 
+5. The processing supports a task carried out in the public interest or the exercise of 
+official authority vested in the controller. 
+Purpose Limitation 
+Personal data must be collected for specific, explicit, and legitimate purposes and not 
+processed in a manner incompatible with those purposes. Essentially this means that 
+organizations are not allowed to use data for reasons beyond what they have stated for the 
+initial purpose, unless they obtain more data consensually. 
+Data Minimization 
+The principle of data minimization ensures that only data that is adequate, relevant, and 
+limited to what is necessary for the intended purpose is collected. Organizations must 
+avoid collecting excessive data, which helps reduce privacy risks and simplifies 
+compliance efforts. 
+Accuracy 
+Under GDPR, personal data must be accurate and kept up to date where necessary. If data 
+is found to be inaccurate, it must be corrected or deleted promptly. Organizations are 
+responsible for maintaining the accuracy of the data they process, ensuring it remains 
+reliable and fit for its intended purpose. 
+7 | P a g e  
+ 
+Storage Limitation 
+Personal data should not be retained for longer than is necessary to fulfil the purposes for 
+which it was collected. Once the data is no longer needed, it must be securely deleted or 
+anonymized. This principle prevents organizations from holding onto data indefinitely, 
+reducing risks associated with data breaches and ensuring compliance. 
+Integrity and Confidentiality 
+Personal data must be processed in a manner that guarantees its security. This includes 
+protecting the data from unauthorized or unlawful processing, as well as accidental loss, 
+destruction, or damage. To uphold this principle, organizations must implement 
+appropriate technical and organizational measures such as encryption, firewalls, and 
+employee training. 
+2.4. GDPR Implications 
+ 
+The General Data Protection Regulation (GDPR) has totally redefined global data 
+protection which has impacted individuals, businesses, and governments. They have done 
+this by creating a culture that is transparent and holds accountability in data handling. 
+The following is taken from Sartor et al. (2020), which is an official document where 
+they discuss the impact of general data protection and the role of the government. 
+Impact on Individuals 
+GDPR reinforces the rights of individuals, providing greater control over their personal 
+data and safeguarding privacy. Key rights include: 
+• Right to Access: Individuals can request copies of their personal data to ensure 
+transparency. 
+• Right to Be Forgotten: Individuals may demand the deletion of their data when it 
+is no longer necessary for processing purposes. 
+These provisions empower users, offering transparency and control while obligating 
+organizations to adhere to ethical data practices. 
+Impact on Businesses 
+Businesses face strict requirements under GDPR, including: 
+• Obtaining explicit consent for data collection and processing. 
+• Maintaining detailed records of processing activities. 
+• Implementing robust security measures such as encryption. 
+8 | P a g e  
+ 
+Non-compliance is heavily penalized, with fines of up to €20 million or 4% of global 
+annual turnover. Consequently, organizations invest significantly in compliance, 
+encompassing: 
+• Employee training programs. 
+• Advanced technological solutions. 
+• Process refinement to meet regulatory standards. 
+ 
+Role of Governments 
+Governments enforce GDPR through Data Protection Authorities (DPAs), which oversee 
+compliance, investigate complaints, and impose penalties for violations. GDPR’s success 
+has influenced other nations to adopt similar privacy legislation, solidifying its role as a 
+global benchmark for data protection. 
+2.5. Ethical and Legal Challenges of GDPR 
+While GDPR offers a robust framework for data protection, its implementation brings 
+forth ethical and legal challenges for both businesses and governments. This part is also 
+copied from (Sartor et al., 2020b) 
+Balancing Personalization and Privacy 
+The increasing reliance on personalized services, such as targeted advertising, raises 
+ethical concerns. For example, companies like Facebook have faced criticism for utilizing 
+personal data without sufficient user awareness, highlighting the tension between 
+enhancing user experience and respecting privacy rights. 
+Cross-Border Compliance Issues 
+Multinational companies often encounter conflicting legal requirements. GDPR applies to 
+all entities managing EU citizens' data, yet it may conflict with regulations like the U.S. 
+CLOUD Act, which mandates data sharing with U.S. authorities. Such inconsistencies 
+complicate compliance for global firms, as evidenced by Meta’s record-breaking €1.2 
+billion fine in 2023 for inadequately safeguarding EU citizen data during cross-border 
+transfers. 
+Disproportionate Burden on Small Businesses 
+Small businesses and startups often struggle to meet GDPR requirements due to limited 
+resources. The financial and operational demands, such as hiring Data Protection Officers 
+and implementing secure systems, can disadvantage smaller entities compared to well-
+funded corporations. 
+9 | P a g e  
+ 
+Real-Life Example 
+In 2018, British Airways experienced a big data breach that compromised the personal 
+and financial information of over 400,000 customers. The UK's Information 
+Commissioner's Office (ICO) investigated the incident and found that British Airways 
+had violated several requirements of the General Data Protection Regulation (GDPR) [1]. 
+Specifically, the ICO determined that the airline had failed to implement appropriate 
+technical and organizational measures to protect customer data, as required under GDPR 
+Article 32 (Hossain et al., 2024). This failure allowed attackers to access personal data 
+without authorization, violating GDPR Article 5(1)(f), which mandates that personal data 
+be processed in a manner that ensures its security (Davenport, 2006). 
+The ICO's investigation revealed that British Airways had not detected the breach for 
+more than two months, indicating insufficient monitoring of its systems (McAfee & 
+Brynjolfsson, 2012). Additionally, the airline lacked sufficient security measures, such as 
+multi-factor authentication and robust password management, which could have 
+prevented unauthorized access. These insufficiencies highlighted a lack of due diligence 
+in protecting customer data, as required by the GDPR. 
+Initially, in July 2019, the ICO announced its intention to fine British Airways £183 
+million for these violations (Varian, H. 2018). However, after considering representations 
+from the airline and the economic impact of the COVID-19 pandemic, the ICO reduced 
+the fine to £20 million in October 2020. This case undermines the critical importance of 
+adhering to GDPR requirements and implementing robust security measures to protect 
+personal data (Hossain et al., 2024). 
+3. Data Analysis / Results 
+A high standard of quality for data is essential. Data driven decisions are made based on 
+correct data, poor quality data can lead to wrong insights and operational inefficiencies. 
+Organizations use data governance to ensure data is maintained. This causes the data to 
+be more dependable This ensures that decisions are based on information that can be 
+trusted. 
+The quality of data is checked using 7 components like: accuracy, completeness, 
+consistency, timeliness, validity, reliability, and integrity. These components make sure 
+that data is trustworthy and effective for decision making. 
+3.1. Explanation and consideration 
+The following section will explain each aspect of the seven key data quality dimensions with 
+a definition, a real-life world example as well as ways to prevent poor data quality.  
+Data Accuracy 
+When talking about data accuracy we mainly focus on correctness of the data and if the 
+data has its true or intended value. If we had to summarise what data accuracy is, we would 
+10 | P a g e  
+ 
+say that we are looking if the information about an event or object is correctly being 
+reflected in the data. If data accuracy is not being handled correctly and any errors, 
+discrepancies or inconsistencies in the data are not being fixed or flagged then that can 
+lead to misguided decisions due to the accuracy of data not being the same as their true or 
+intended value. To measure this dimension, you can look at the error ratio as well as the 
+deviation of the dataset (Porter, 2025) (ClearPoint Strategy, 2019) (Data Quality Feature 
+Comparison Guide - ADS, n.d.) 
+ 
+Example: 
+For a real-world example, we chose PostNL. PostNL stores data regarding track and trace. 
+PostNL uses a track and trace function so that the customer is up to date on the location of 
+their package, and they know thanks to the track and trace function when their package will 
+be delivered.  
+Unfortunately, the track and trace function does not always work as intended. According to 
+a spokesperson of PostNL the track and trace problems are known and according to him or 
+her this only occurs during the busy Christmas period. The problem that PostNL faces is 
+that the packages are scanned at the preparation site before they are delivered. At the end 
+of the route for the mail man he or she says that he or she is done with delivering packages 
+and then the customer gets the notification that their package is delivered however this is 
+not the case if the package did not even reach the mailman. Due to the high number of 
+packages, the mailman could simply have ran out of room to take the packages with them 
+and because the packages are scanned beforehand the “forgotten” packages are still being 
+marked as delivered whilst being left behind at PostNL. (“PostNL Zegt ‘pakket Bezorgd’, 
+Maar Jij Hebt Niks Ontvangen: Hoe Kan Dat?,” 2024)  
+Without checking the accuracy of the data regarding the status of the packages. The 
+customer may not receive their package due to it not being delivered at all, resulting in an 
+unhappy customer that does not get his or her package and even potential financial loss.  
+How to Prevent Accuracy Issues 
+Automated validation rules 
+There are multiple ways to prevent the loss of data accuracy. One of these preventions is 
+the use of automated validation rules. When using automated validation rules, we 
+implement input validation to prevent typos and incorrect formulas.  
+An example of automated validation rules is the usage of requiring postal codes to follow 
+the correct pattern. When listing your postal code in the Netherlands we follow the 
+standard of 4 numbers followed by 2 letters. A good use of automated validation rules in 
+this situation would be to check whether the receiver of a package adheres to the Dutch 
+postal codes by validating if the postal code that he or she has written down in the correct 
+order for the package, starting with 4 numbers and ending with 2 letters. Only when the 
+condition of the combination of letters and numbers has been validated will the data be 
+used for the package. 
+11 | P a g e  
+ 
+Data verification process 
+Another way to prevent the loss of data accuracy is the use of data verification processes. 
+Data verification processes cross checks critical data against external sources to make 
+sure the data is complete and accurate.  
+An example of data verification processes is the bank using your government ID to validate 
+if a loan can be taken out in your name. The bank or financial institution uses the external 
+source of your government ID to validate if the person who is taking out the loan is the same 
+person as who the bank account belongs to. By using the cross-check for critical data 
+against external sources the chances of data being inaccurate becomes less common.  
+Audits & Reviews 
+The last way to prevent accuracy issues is to have regular audits and reviews. When having 
+an audit or review of your data you have a periodic data quality assessment to find out if 
+there are any errors, discrepancies or inconsistencies in your data and if there are any you 
+can then fix them.  
+An example of audits and reviews would be having a quarterly meeting with the team and 
+look over the old data as well as the newly added data that was gathered over the last 
+quarter. The advantage of having audits or reviews is that at the end of the day there could 
+still be gaps in your system due to human error or a system error. By having audits or 
+reviews you make sure that even if there are inaccuracies, you catch the errors and fix these 
+so that your data is accurate for future use.  
+Data Completeness 
+Data completeness is the dimension that checks if enough information is available in a 
+dataset to draw a conclusion or have the necessary information for a specific purpose. 
+When the dataset is missing data or missing values you could create gaps in your analysis. 
+The consequence of gaps in your analysis is misinformed strategies. To make sure that data 
+completeness is achieved the metric of percentage of data records that contain all needed 
+information can be used to check the quality of your data.  
+Example: 
+An example of incomplete data may be a hospital patient record that is missing critical 
+information, such as a complete allergy history, missing data regarding previous doctor 
+visits or even missing information regarding a medical operation that previously took place. 
+ In 2025 the Federatie Medische Specialisten (FMS) gathered answers from a survey that 
+was filled in by 1100 doctors in the Netherlands. 97 percent of medical specialists say that 
+patients are at risk due to their digital patient files not being properly communicated 
+between different departments of sometimes even the same hospital. 300 doctors who 
+have taken the survey say that they see the risks of incomplete data daily (Zurhake & 
+Zurhake, 2025).  
+If data is not correctly entered or communicated the result may be incorrect treatment 
+decisions and a consequence of this could be medical complications.  As seen in the 
+example data completeness is important to draw conclusions.  
+12 | P a g e  
+ 
+How to Prevent Completeness Issues 
+Mandatory Fields 
+A good way of preventing the issue when it comes to data completeness is mandatory 
+fields. Mandatory fields are essential fields that must be filled in so that the quality of data 
+is correct. When talking about mandatory fields think of an email address or a phone 
+number. These fields cannot be left out during data entry as these types of information are 
+crucial to have data completeness. So, to make sure that these types of data are not left 
+out by accident or on purpose you make them mandatory to be filled out.  
+Automated completeness checks 
+Another prevention type is automated completeness checks. Automated completeness 
+checks are implemented systems that flag missing values and request the user to provide 
+necessary information to be filled in. The use of automated completeness checks is to 
+ensure the flow of data is monitored without leaving room for errors as this ensures that you 
+can automatically check and prevent the incompleteness of the data and being one step 
+ahead of potential poor data quality so that you do not  have to deal with the impact of 
+incomplete data further down the line. Automated completeness checks also reduce the 
+need of manual intervention and having to constantly oversee the process manually 
+(Bodenstein, 2024).  
+An example of automated completeness checks could be a field turning red for a field that 
+is missing information when filling out an application form for a new job. By flagging the 
+area that has not been filled in yet you make the user conscious of the lack of data 
+completeness and as a result you have them fill in the missing information which leads to 
+data completeness.  
+ An example of automated completeness checks could be a field turning red for a field that 
+is missing information when filling out an application form for a new job. By flagging the 
+area that has not been filled in yet you make the user conscious of the lack of data 
+completeness and as a result you have them fill in the missing information which leads to 
+data completeness.  
+Data enrichment 
+Finally, another way to prevent completeness issues is to have data enrichment 
+techniques. Data enrichment techniques focus on enhancing existing data by adding 
+valuable information from internal and external sources. The basics of data enrichment is 
+transforming in this case incomplete data into complete data. Data enrichment is done by 
+combining your own existing data with additional data that add context, depth and insight 
+to your dataset. The process of data enrichment is as follows:  
+Firstly, data is collected from various sources such as public databases, then the data is 
+matched using a unique identifier such as a personal phone number or in the instance of 
+Dutch data a Burger Service Nummer could also be used as this is a unique identifier for 
+every citizen of the Netherlands. The following step is data appending. Data appending is 
+used to fill the gaps in the data set using existing records. After data appending the data is 
+validated to make sure the data that has been added is accurate in accordance with your 
+13 | P a g e  
+ 
+own existing data. The last step in data enrichment is the integration.  At this step you add 
+the enriched data that you have collected to your existing data. 
+An example for data enrichment could be that the current data set of a provider has basic 
+information about the users of a streaming service. The provider has the basic information 
+about the user such as their telephone number, name and email address. By enriching the 
+data that they currently with for instance the user's social media profiles, online 
+behavioural patterns as well as demographic details the information about a user of the 
+streaming service becomes complete data. By using data enrichment for data 
+completeness in this example the provider can enhance the user experience with better 
+tailored films and or series specifically chosen for the user (SalesPlay, 2025). 
+Data Consistency 
+Data consistency ensures that data remains the same across different databases or 
+systems. The main goal of data consistency is that there are no contradictions or 
+inconstancies when looking at two of the same values across different datasets. If there 
+were to be inconsistencies across databases that could lead to misunderstandings or 
+mistakes when data is integrated.  
+To accurately measure the consistency of your data the following metrics can be used: 
+range, variance and standard deviation.  (Porter, 2025) 
+ 
+Real-World Example:  
+On June 17th of 2025 António Guterres, the U.N. secretary-general released the annual 
+report on children and armed conflicts. In this report it was stated that the global body 
+verified “the killing of 1259 Palestinian children-662 boys, 597 girls” in Gaza “and the 
+process of attribution is ongoing.” The United Nations also had received reports regarding 
+the deaths of an additional 4,470 children in the Gaza Strip in 2024. However, the additional 
+deaths were pending verification at the time of the publication of this report.  
+The following day on June 18th of 2025 the United Nations Office for the Coordination of 
+Humanitarian Affairs (OCHA) released a “reported impact shot” of Gaza where it was 
+stated that 15,613 children were killed in the Gaza Strip since October 7th of 2023. The 
+original difference between these stated statistics is approximately 92% when comparing 
+the OCHA report and the report made by the secretary-general Guterres. 
+ The difference when looking at these statistics that should be taken in consideration is that 
+the OCHA report statistic is based on the total number of children killed in Gaza since 
+October 7th of 2023 whereas the report of the secretary general Guterres covers the year of 
+2024.  
+If at the time of publication, the “pending” verification of the additional 4,470 children 
+would be taken into the calculation of the difference in percentage per report, then the 
+report of the secretary-general Guterres would cover approximately 37% of the total that is 
+mentioned in the report made by OCHA. 
+14 | P a g e  
+ 
+As seen in the example above the consistency of data is crucial when it comes to the 
+quality of data. Whereas this example has a lot of grey areas due to the income of the data it 
+is still clear that the data that is being collected and used is not consistent within the whole 
+of the United Nations. The consequences of inconsistent data within a business or 
+organisation may lead to misinformation or misunderstandings of the presented data as is 
+concluded from the reports that were published by the United Nations regarding the data 
+collected about Gaza.  (Wagenheim, 2025) (Reported Impact Snapshot | Gaza Strip (18 
+June 2025) | United Nations Office for the Coordination of Humanitarian Affairs - 
+Occupied Palestinian Territory, 2025) 
+ 
+How to Prevent Consistency Issues: 
+Centralized data governance 
+If data is coming from multiple sources which are not commonly shared or communicated 
+within departments of a business or organisation, data inconsistency is a natural 
+consequence of these actions. With a centralised data governance, a single source of data 
+or information is established so that all departments use the same data.  
+An example of Centralised data governance would be to use a shared work calendar that is 
+shared amongst a team where the leader or boss publishes the schedules instead of 
+handing out each team member a personal schedule. By using a single source of 
+information, the chances of misunderstandings are reduced.  
+Data standardization protocols 
+Another example to prevent inconsistencies within data is the use of data standardization 
+protocols. The goal of using data standardization protocols is to define for instance naming 
+conventions, formats and structures to then be used across the systems to maintain a 
+uniform and consistent flow of data.  
+An example of data standardization protocols could be a set of rules about how new items 
+are entered in a catalogue by first typing the colour of the item and then followed by the 
+serial number. If implemented correctly the data standardization protocols should give 
+structure and order towards your quality of data with consistency in mind.  
+Real-time data synchronization 
+Lastly, real-time data synchronization is another way to uphold data consistency. Real-time 
+data synchronization is a continuous exchange of data between databases or systems. By 
+using real-time data synchronization, you ensure that changes in one system are almost 
+immediately updated in the other connected systems. With these near real-time updates 
+between systems every system that is connected is up to date without the need to check or 
+duplicate data from one system to another. With the use of real-time data synchronization, 
+the chance for human error is also reduced which furthermore improves the quality of your 
+data. 
+15 | P a g e  
+ 
+An example of real-time data synchronization would be a shared excel document where 
+multiple people are working on at the same time. Whenever a person or user changes 
+anything in the excel document, this is immediately updated in the document across the 
+systems that are connected to this document. (Teja, 2025) 
+Data Timeliness  
+Data Timeliness is data that is readily available when the time has come to use it. This 
+dimension focuses on the relevance of the data at a certain period. If data is not available in 
+the time window that it is needed, decisions-making may not be possible and opportunities 
+could be missed. Therefore, an example for a metric for timeliness is time variance.  
+Real-World Example: 
+In April 1998 the 77-year-old Ann Prazniak was found dead in her apartment. During the 
+investigation Chalaka Young her fingerprints were found in the apartment however she 
+denied knowing anything about the murder. She later blamed Bryan Hooper Sr. for the 
+murder of Ann Prazniak. According to her statement she was coerced by Bryan to help 
+Bryan hide the body. Bryan confessed to being in the apartment however denied being 
+involved with the murder that took place.  
+The false testimony from Young was further backed by four other witnesses and that led to 
+Bryan having to serve a life sentence for murder. After having served 27 years in prison, 
+Young confessed because of a guilty conscious to having murdered Ann Prazniak. As Young 
+was the key witness in the murder trial, she made sure that at the time Bryan was 
+sentenced for murder. Due to her confession 27 years later Bryan his innocence has been 
+proven, and he has been released from prison.  
+As talked about in the example above, timeliness especially for crucial data or information 
+plays a vital role in the quality of data. Due to the missing data, which was the confession 
+by Young, an innocent man was wrongfully imprisoned for a crime that he did not commit. 
+Timing and readily available data are essential for a good quality of data as decisions must 
+be made based on the data that is available at that moment in time. (Pollina, 2025) 
+ 
+How to Prevent Timeliness Issues: 
+ Real-time data processing 
+Real-time data processing is the use of near real-time processing of data to make decisions 
+quickly based on the latest available data. Essentially data is collected, processed and 
+analysed as it is being generated. With this prevention method you have near real-time 
+updates on the latest data that is already processed as well.  
+For certain jobs such as broker on a stock market real-time data processing is essential to 
+profit from the market, especially if a trained bot or AI is used to make the trades because 
+they need the real-time data processing to decide to either buy or sell a certain stock that 
+they were trained to trade. (Richman, 2025) 
+16 | P a g e  
+ 
+ 
+Automated data refresh cycles 
+As the name suggests for this prevention method the data is automatically refreshed based 
+on time cycles. The data refresh cycle is updating or replacing data to reflect the newest 
+available data. By using an automated data refresh cycle, you ensure that your data is 
+refreshed automatically at a certain interval. Based on how often you let your data refresh 
+you keep your data in accordance with data timeliness. Also, by using the automation you 
+reduce the risk of human error when it comes to quality of the data.  
+An example of automated data refresh cycles could be measuring the temperature of a 
+certain area so that you can either make calculations based on the data or use the newest 
+data that is available within your data refresh cycle (Kyvos Insights, 2025). 
+Data retention policies 
+Lastly data retention policies can be a way to make sure that your data is not outdated and 
+leading to the dataset being incorrect due to the timeliness of the new data. Data retention 
+policies focus on what must happen with data that has to be stored or archived but data 
+retention policies also decide when this happens and for how long. If the time that has been 
+decided for the retention period has passed, this data can then be deleted or again moved 
+to another archive or storage.  
+While data retention policies more focus on outdated data that is not relevant anymore, it is 
+a rather interesting prevention method for data timeliness. Because data retention policies 
+deal with outdated data and not the newest, it gives the opportunity to make sure that your 
+dataset is not being overcrowded with outdated data that consequently could influence the 
+decision making. Data retention policies are therefore still an important part of data 
+timeliness as it makes sure your data is of good quality by removing and possibly archiving 
+data that is no longer relevant to the current data. If this data would be immediately 
+deleted, you risk the chance of losing data that may be beneficial towards other projects or 
+for future references. (Data Retention Policy Overview: What It Is + Examples, n.d.) 
+ 
+Data Reliability 
+Data reliability refers to a degree if data can be trusted or not. Trusted is here in a sense 
+of accurate, consistent, and dependable over time. This dimension focuses on whether the 
+data is free from errors, bias, or manipulation. It originates from trustworthy sources 
+(Talend, n.d.).  
+Real-World Example 
+A well-known example is the wrongful conviction of Bryan Hooper Sr. for the murder of 
+Ann Prazniak in 1998. During the investigation, Chalaka Young provided testimony 
+claiming that Hooper coerced her into helping hide Prazniak’s body. Although Hooper 
+17 | P a g e  
+ 
+admitted to being present at the apartment, he denied involvement in the murder. Among 
+those who had reportedly entered the apartment were Chalaka Young (then nicknamed 
+“Shay”) and Bryan Hooper (then nicknamed “Brome”). Police found Ms. Young’s 
+fingerprints on pieces of tape stuck to the floor of the apartment similar to tape removed 
+from Ms. Prazniak’s body. 
+Bryan’s fingerprints were found on two sandwich baggies and a beer can in the living 
+room but, unlike Ms. Young, Bryan’s prints were not found on any objects with a direct 
+link to Ms. Prazniak’s murder. Bryan admitted to having been in the apartment, but 
+denied involvement in or knowledge about Ms. Prazniak’s death. (Great North Innocence 
+Project, 2025) 
+This case demonstrates how unreliable data, can be with false testimony. The data appear 
+consistent, but its lack of truthfulness resulted in wrongful conviction. 
+This shows that reliability plays a vital role in data quality. If data is incorrect or biased it 
+cannot be trusted, regardless how complete it may appear. 
+ 
+3.2. Data quality report of the data 
+In this sub-section we will discuss the quality of the provided dataset 
+“hogwards_students_data_V2”. We will discuss how certain issues were identified, 
+which could be corrected and prevented in the future. The dataset itself has not changed 
+in the process; all these improvements are theoretical. 
+First, we assess what the dataset holds, we can see that the dataset holds 46 columns of 
+personal information for certain students. These columns include personal things like 
+names, birthdays, and BloodStatus, whereas it also includes more academic information 
+such as classes and grades. Now that we have a broad perspective of what the data is 
+about and what kind of data is included in this dataset, we can go over the quality of the 
+data. 
+In the report we considered these data quality components to see if the data is: 
+Accessible, Accurate, Complete, Consistent, Defined, Relevant, Reliable, and Timely. 
+We will go over each one of the components and explain the situation within the dataset. 
+Accessibility 
+The dataset is given in an excel format, if we consider it being given in an CSV format, 
+we can say that it is accessible for analyzing. We can see that all the names are clearly 
+labeled and that the data is organized in tabular form. What we can see is that we miss 
+metadata for the data, this could cause unclarity. Some columns like grade-related fields 
+18 | P a g e  
+ 
+and specialization categories could use explanation since the meaning could be 
+interpreted in a different way. 
+We could prevent this by providing standard documentation that defines each column and 
+data type.  
+Accuracy 
+We observe that the age column contains very high and low ages, which don’t align with 
+the birthday entries. We found these by reviewing the minimum and maximum values in 
+the age column. This indicates that the data entries or calculations are wrong. We see 
+ages such as -7 and 330, which all look very unlikely. 
+We could resolve these issues by implementing rules for age ranges and cross-checking 
+the age against the date of birth. This could improve further accuracy, and it could 
+prevent further entry errors. 
+Completeness 
+The dataset contains a lot of missing values across different columns; we found these by 
+identifying the empty entries per column. For example, house is missing for a small 
+number of students, while QuidditchPosition and MagicalPetType have a lot of missing 
+entries. This could indicate a few things, either the data was optional without being 
+declared as such or the data was not consistently collected. 
+We can identify these missing values by empty entries per column. 
+A Possibility to prevent these missing values are enforcing required fields and adding 
+checks for incomplete records, this could improve the completeness of the dataset. 
+Consistency 
+We can find inconsistencies in the dataset within the categorical values. The Birthday 
+column has two different types of formatting, dd-mm-yyyy & dd/mm/yyyy. These issues 
+were identified by going through the dataset by manual inspection. 
+By standardizing formats and values, we could correct these inconsistencies, for future 
+prevention we must use predefining formats and vocabularies when entering the data. 
+Definition 
+While all the columns have reasonable names, we still miss descriptions for all fields. 
+Without these definitions, it is unclear what the values mean.  
+We could prevent this by adding clear data definitions in a dictionary or README file. 
+19 | P a g e  
+ 
+Relevance 
+Most columns in the dataset are relevant for analyzing student academic performances. 
+However, there are some columns that contribute limited information and value due to 
+missing data that is relevant for context. 
+Reliability 
+Because there are a lot of accuracy and consistency issues in this dataset, the reliability of 
+the dataset is heavily reduced. For example, there are entries where a student scores 100 
+and still fails.  
+By introducing standardized data collection procedures and validation checks, it would 
+heavily improve the reliability of the dataset itself. 
+Timeliness 
+Lasty, the dataset does not indicate when the data is updated. Some birthday-age 
+combinations indicate that there is outdated or inconsistent information. We could 
+improve this by including timestamps for the creation and updates. This would improve 
+timeliness. 
+Based on all these issues found in the dataset, the team proposed theoretical 
+improvements such as rules, standardizing formats, mandatory fields, and regular checks. 
+These proposed solutions should prevent the dataset from becoming inconsistent and 
+relevant. 
+  
+20 | P a g e  
+ 
+4. How can Hogwarts become data driven 
+In this chapter we will discuss how we as a team think that Hogwarts has become data 
+driven. We will discuss things like vision, goals, steps, challenges and risks, solutions, 
+pros and cons, timeline, resource allocation, and metrics for success. 
+4.1. Vision and objectives 
+Why does Hogwarts want to become data driven? Professor McGonagall wants to 
+become data driven so Hogwarts can keep the status as a premier magical institution in a 
+modernized world.  
+The objectives that were given are: 
+• Enhance Student Success: By analyzing student grades, interests, and 
+extracurricular performance, Hogwarts can better support students’ academic and 
+magical growth.  
+• Improve Safety and Well-being: Understanding trends in accidents, hospital wing 
+visits, and mental health scores can help the school proactively support students’ 
+safety and mental well-being. 
+• Optimize Resources and Curricula: Data insights into popular courses, favorite 
+magical subjects, and student specializations can help Hogwarts allocate resources 
+more effectively, offering courses tailored to students’ needs and interests. 
+We also came up with a few more objectives of our own: 
+• Early risk-student detection: by analyzing historical student data, we investigate 
+grade patterns and attendance records to identify risk of failing or dropping out. 
+• Fairness and equality: by monitoring outcomes from different houses, blood types 
+and specializations we want to make sure that there is equal and fair treatment for 
+all individuals. 
+• Talent discovery: by identifying students with exceptional high strengths, we aim 
+to guide them towards suitable training and specializations. 
+4.2. Data driven strategy for Hogwarts 
+For Hogwarts to achieve the set goals, they must adopt certain data driven strategies. 
+These strategies integrate data into decision-making processes, where there are 
+organizational cultures and daily operations. The whole of this sub-chapter is written 
+based on all the concepts that were discussed in chapter 2. 
+Data driven decision making 
+The first concept we will cover is data driven decision making. Hogwarts should use 
+student and institutional data as input for decision-making. All the academic data should 
+21 | P a g e  
+ 
+be analyzed for different purposes such as assessing teacher performances and student 
+progress. Where you normally rely on intuition and traditions, you will now make 
+changes based on the data. Changes in the school curriculum, student support or even 
+academic inventions can be improved based on data driven decision-making. 
+For one of the objectives, trends or failing grades should trigger early attention and 
+interventions for the possible at-risk students. This will also improve possible dropout 
+rates and student success. 
+Data driven culture 
+As for the culture in Hogwarts, it must slightly change because a data driven strategy will 
+only succeed in the right data driven environment. Discussions and proposals should be 
+encouraged to base them on data insights. This means that Hogwarts needs to strive 
+towards making data open for their staff. This change also includes regular meetings or 
+lectures to lecture the staff on the data itself, what it means and what data there is. The 
+privacy rules considered by GDPR are also explained in those lectures.  
+To achieve such a change, there must be a lot of commitment from the higher ups. 
+Headmasters and the head of houses should be informed to promote this change for the 
+greater good of the students. Also, collaborations with data specialists are encouraged, 
+this ensures that the insights are combined with magical expertise. 
+Data Literacy 
+For using the data correctly, Hogwarts needs to invest in data literacy. Data literacy 
+training must be implemented for the staff so that there is a mutual understanding of the 
+data and that it is possible for them to ask relevant questions with correct insights. This 
+does not require a high technical understanding of the data but more basic data 
+understanding of the concepts. 
+Improving these points will reduce the risk of misinterpreting data and each other. The 
+risk of misinterpreting grading scales or drawing incorrect conclusions can lead to big 
+errors. This addresses the data quality challenges mentioned in chapter 3 
+Data as a Strategic Asset 
+Treating data and students as a strategic asset sounds very objectifying but it is what 
+Hogwarts needs to do. Ensuring high data quality, proper data governance, and securing 
+data storage is essential for this. There should also be clear ownership of the data, and the 
+responsibilities should be assigned for maintaining the data, 
+By making sure that there are validation rules, Hogwarts can ensure that the data is 
+reliable and trustworthy. This makes the big foundation for data driven initiatives. 
+22 | P a g e  
+ 
+Actionable insights 
+Collecting and analyzing data alone is not sufficient for data driving cooperations. 
+Hogwarts must translate the data into concrete actions from which they can build from. 
+Hogwarts needs to focus on generating actionable insights that directly support the 
+objective is crucial. Identifying underperforming courses can lead to curriculum 
+improvement, for example. 
+To support this action, we can create dashboards with visual summary reports. This is 
+needed by stakeholders, so we can visually show the results. This also ensures that all 
+parties can quickly understand findings. 
+Summary 
+By integrating, improving, and adjusting topics like data driven decision-making, 
+improving data literacy, treating data as a strategic asset, and actionable insights, 
+Hogwarts can successfully move towards becoming data driven. The strategy that we laid 
+down should provide a foundation for Hogwarts to become data driven and it should 
+prepare the school for addressing challenges in the long run. 
+4.3. Implementation steps 
+To transition towards a data driven institution, Hogwarts needs to follow certain steps. 
+These steps focus on building a strong foundation before advancing into a more in-depth 
+and complex data-driven practice. 
+We follow the following steps in order: First we centralize and secure data – then we 
+improve data quality and governance – following it up by establishing data governance 
+and policies – further we develop analytical tools and dashboards – then we train staff 
+and promote data literacy – and lastly, we integrate data into decision-making processes. 
+Step 1: Hogwarts needs to centralize and secure data in a place where all data is stored, 
+this could be in AWS cloud for example. The data includes performance, enrollments and 
+health data. We need to ensure that all data is consistent and accessible based on the 
+GDPR regulations 
+Step 2: before moving on with the data that is gathered from the students, Hogwarts 
+needs to address the quality issues that we discussed earlier in chapter 3. They should 
+implement rules, standardizing formats and mandatory fields. The ownership of the data 
+should be clear, with everyone assigned roles responsible for maintaining data, 
+Step 3: following this up we Hogwarts needs to define who can access the data. They 
+need to check who, for what purpose, and which conditions. This ensures that the 
+governance is aligned with the GDPR rules and that it protects the sensitive student data 
+stored in the “cloud”.  
+23 | P a g e  
+ 
+Step 4: once everything is cleaned, standardized, and the governance is settled, we start 
+with developing analytics tools like a visual dashboard. These tools should provide 
+insight into the findings from the student data. Everyone related to this data should now 
+have a clear insight into performance, safety and resource utilization in a clear and 
+understandable way.  
+Step 5: then when everything is set-up, Hogwarts starts training and promoting the data 
+driven decision making. Integrating lectures about data literacy among teachers and 
+letting heads of the houses promote the culture will make sure that the culture within the 
+school adapts rapidly. 
+Step 6: Lastly, Hogwarts needs to embed the data driven practices into the formal 
+processes. Including this into curriculum planning, student support and strategic decisions 
+will boost the accuracy and performance of the institution itself. By utilizing the data, 
+Hogwarts ensures that data driven decision making becomes part of its organizational 
+culture. 
+4.4. Challenges, risks, and trade-offs 
+Becoming data driven comes with its own risks and challenges. In this sub-chapter we 
+will discuss the challenges and risks during the transition of Hogwarts. 
+Cultural resistance 
+One of the most common challenges is the cultural risks. Going from what you are used 
+to to something completely new is always a challenge. There could be resistance from 
+staff who like to be traditional and keep hold of their traditional experience-based 
+decision-making. To avoid this risk, data should be explained as a tool to help, not to 
+replace. 
+Data quality risks 
+As we discussed in chapter 3, poor data quality can lead to insights that are misleading. If 
+the data is inaccurate or incomplete, decisions are based on unreliable data. Therefore, 
+improving the quality is critical and an ongoing responsibility. 
+Privacy concerns 
+Then there is always the privacy concern. Hogwarts will handle very sensitive data so 
+ensuring this data is safe is critical. Strong policies and access controls should lead to 
+migrating risks. 
+Resource constraints 
+Implementing those systems requires a lot of money and investment in training and 
+personnel Hogwarts must balance the costs to support the transition. A phased 
+24 | P a g e  
+ 
+implementation helps manage the resource constraints and ensures long-term 
+sustainability.  
+4.5. Timeline and phases 
+Transitioning into a data driven institution isn’t done in a day. The transition takes time; 
+Hogwarts should implement clearly defined phases to make sure that the transition goes 
+smoothly, ensuring long-term success. We created three phases where we cover long-, 
+short-, and medium-term phases. 
+Short-term phase: 
+For a short-term phase we ensure that there is a strong foundation quickly. Some of the 
+key activities are centralizing student and academic data into a secure system. Then 
+defining data governance roles and responsibilities, later we introduce basic data 
+validation rules and formats and lastly, we create documentation.  Here we prioritize data 
+quality, governance, and compliance. 
+Medium-term phase: 
+Once the foundation is set, we move on to the capabilities for Hogwarts. Then we can 
+develop dashboards and reports for staff, implementing early warning systems for at risk 
+students. Then Hogwarts provides data literacy training for teachers and staff. And lastly, 
+we integrate data insights into the curriculum planning and student support. 
+ 
+Long-term phase: 
+In the last phase Hogwarts can leverage the analytics. They use predictive analytics to 
+support planning. They can use monitoring systems, checking for fairness, equity, and 
+student outcomes. 
+This last phase ensures that there is sustainable and continuous improvement. 
+4.6.  Resource allocation 
+Hogwarts must ensure that allocation of resources is appropriate across all people, 
+technology and training. They must ensure that the resources are aligned with their 
+priorities. 
+We divide it into three resources: human-, technological, - and financial resources. 
+Human resources: 
+• Appointment of data governance roles 
+• Collaboration between staff and data specialists 
+• Allocation of time for teachers to participate in training 
+25 | P a g e  
+ 
+Technological resources: 
+• Securing databases for data storage 
+• Analytical tools for reporting and dashboards 
+• Data security 
+Financial resources: 
+• Investment in software 
+• Budget allocation for ongoing system maintenance 
+By allocating this resource strategically, Hogwarts can ensure that data driven initiatives 
+are effective. 
+4.7. Metrics of success 
+To finally evaluate the success of the data driven strategy, Hogwarts must define key 
+performance indicators (KPIs).  
+For data quality metrics Hogwarts looks at reduction of missing values, improvement in 
+data accuracy, and consistency in data formats and grading scales. 
+For academic performance metrics Hogwarts looks at improvement in student passing 
+rates, reduction in the number of at-risk students, and improvement in alignment between 
+students’ strengths and specializations. 
+For operational metrics Hogwarts looks at the increased se of dashboards and data 
+reports, faster response time to academic concerns, and more efficient allocation of 
+resources based on insights. 
+Lastly, Hogwarts looks at compliance and trust. Checking the successful GDPR 
+compliance audits, reduction in data incidents, and increased staff confidence in using 
+data. 
+4.8. Summary 
+We can see that defining a clear strategy and plan, considering resource allocation and 
+success metrics, ensures that Hogwarts can successfully transition to a data driving 
+institution. This approach makes sure that practices are ethical, effective, and aligned 
+with the mission. Making sure Hogwarts is a modern and forward-thinking institution. 
+   
+26 | P a g e  
+ 
+ 
+5. Conclusion 
+Joeri Harreman 
+As Hogwarts transforms into a data driven institution, there are ethical considerations to 
+be made. I considered three ethical concerns I think are important. Inclusivity and Fair 
+Representation, Faculty and Student Autonomy, and Data Accuracy and Algorithmic 
+Bias 
+Inclusivity and Fair Representation 
+One of the bigger challenges is fair representation, making sure that regardless of your 
+blood type, house or magical background you are treated fairly is very important. The 
+decision-making process should not include bias, to make sure that this doesn’t happen 
+Hogwarts must ensure that the data is collected in a way that is accurate for all students. 
+Making sure that there is no favorite group, preventing data gaps that might favor one 
+group over another. 
+Faculty and Student Autonomy 
+Data can improve learning efficiency, but it also risks undermining the autonomy of 
+faculty and students. Students may feel constant tracking and monitoring where teachers 
+fear that their engagement is purely based on numbers. To make sure this doesn’t happen, 
+headmaster needs to make sure that the tool is jus as a support not as replacement. And 
+that it’s a guidance for students and not monitoring. 
+Data Accuracy and Algorithmic Bias 
+With incomplete data, there could be an algorithmic bias without us knowing. Ensuring 
+that there is complete data is one of the most important things. disadvantaging students 
+based on house stereotypes or outdated academic performance trends.is one of the 
+possible outcomes of the algorithmic bias. Making sure this doesn’t happen Hogwarts 
+needs to implement a robust data validation system that ensures all incoming data is 
+accurate. 
+Conclusion 
+The ethical considerations within the transition of Hogwarts are complex, but after 
+writing a report like this it is clear and very manageable. Ensuring that there is inclusive 
+data representation and addressing data accuracy risks are essential towards an ethical 
+data strategy. By implementing fair policies Hogwarts can become successful and 
+integrate data driven decision making without compromising ethical values. 
+ 
+27 | P a g e  
+ 
+Lars de Bruijne 
+The Case for a Data-Driven Strategy at Hogwarts 
+I believe that adopting a data-driven strategy at Hogwarts offers the potential for 
+improving resource allocation, decision-making, and overall student and faculty success. 
+In my opinion, by leveraging insights derived from data analysis, Hogwarts can better 
+understand the needs of its community, optimize class schedules, and enhance student 
+outcomes. However, I think this transformation must be guided by a strong ethical 
+framework to ensure that the use of data upholds privacy, inclusivity, and transparency. 
+Ensuring Privacy and Compliance 
+The centralized data repository, while efficient, demands strict adherence to privacy 
+standards like GDPR to safeguard sensitive information. For example, the personalized 
+learning and faculty performance dashboards should only present data relevant to the 
+context and ensure that individuals retain control over their personal information. This 
+approach, in my opinion, minimizes risks while maintaining the integrity of the data-
+driven strategy. 
+Emphasizing Transparency 
+From my perspective, transparency in how data is collected, analysed, and used is 
+critical. I think this ensures that decisions are not only data-informed but also equitable 
+and unbiased. Clear communication about the purpose and impact of data usage, will 
+build trust among students, faculty, and parents, ensuring their support for these 
+initiatives. 
+Overcoming Challenges with Ethical Solutions 
+Addressing challenges such as privacy concerns, faculty apprehension, and data accuracy 
+requires a solution-oriented approach. I believe that by proactively identifying and 
+mitigating these issues, Hogwarts can establish a model where data serves as a tool for 
+empowerment rather than surveillance. Continuous monitoring and feedback loops, in my 
+view, will further enhance the system’s effectiveness and ethical alignment. 
+Balancing Tradition and Innovation 
+I think that by integrating ethical considerations with data-driven strategies, Hogwarts 
+can balance its rich traditions with innovative practices. This alignment ensures that the 
+magical community thrives in a sustainable, inclusive, and student-centred future. The 
+goal, I believe, is not only to modernize Hogwarts but to create a harmonious 
+environment where tradition and progress coexist seamlessly. 
+ 
+28 | P a g e  
+ 
+6. References 
+1. Bodenstein, C. (2024, November 7). Data validation: How to check data 
+completeness. 
+https://www.linkedin.com/pulse/data-validation-how-check-completeness-christoph-
+bodenstein-2pzpf 
+2. Bulger, M., Taylor, G., Schroeder, R., & Oxford Internet Institute. (2014). Data-
+Driven Business Models: Challenges and Opportunities of Big Data. In Executive 
+Summary. 
+https://www.oii.ox.ac.uk/wp-content/uploads/old-
+docs/nemode_business_models_for_bigdata_2014_oxford.pdf 
+3. ClearPoint Strategy. (2019, November 25). 7 important characteristics of data 
+quality & metrics to track. ClearPoint Strategy. 
+https://www.clearpointstrategy.com/blog/data-quality-
+metrics#:~:text=What%20are%20data%20quality%20dimensions,fit%20for%20its%
+20intended%20use 
+4. Corporate Finance Institute. (2023, October 5). Data assets. 
+https://corporatefinanceinstitute.com/resources/business-intelligence/data-assets/ 
+5. Data literacy explained: Definition, importance, examples, and more. (n.d.). 
+Tableau. 
+https://www.tableau.com/data-insights/data-literacy/what-is#definition 
+6. Data Quality Feature Comparison Guide – ADS. (n.d.). 
+https://www.ovaledge.com/data-quality-feature-comparison-guide-lp 
+7. Data Retention Policy Overview: What it is + examples. (n.d.). Druva. 
+https://www.druva.com/glossary/what-is-a-data-retention-policy-definition-and-
+related-faqs 
+8. DataScientest. (2023, October 30). Data driven: Definition, benefits and methods. 
+https://datascientest.com/en/data-driven-definition-benefits-and-methods 
+9. Davenport, T. H., & Harris, J. G. (2017). Competing on analytics: The new science 
+of winning. Harvard Business Review Press. 
+https://www.researchgate.net/publication/7327312_Competing_on_Analytics 
+10. Foote, K. D. (2024, April 24). Why is a data-driven culture important? 
+DATAVERSITY. 
+https://www.dataversity.net/why-is-a-data-driven-culture-important/ 
+11. GoPractice. (2022, August 23). Pros and cons of a data-driven culture. GoPractice. 
+https://gopractice.io/skills/data-driven-culture-pros-and-cons/ 
+12. Great North Innocence Project. (2025, December 3). Bryan Hooper, Sr. - Great 
+North Innocence Project https://www.greatnorthinnocenceproject.org/our-
+clients/bryan-hooper-sr/  
+13. Hossain, Q., Yasmin, F., Biswas, T. R., & Asha, N. B. (2024). Data-Driven 
+Business Strategies: A comparative analysis of data science techniques in decision-
+making. Scholars Journal of Economics Business and Management, 11(09), 257–263. 
+https://doi.org/10.36347/sjebm.2024.v11i09.002 
+14. Integrate.Io. (2025, July 21). What are data-driven insights & how do you uncover 
+them? Integrate.io. 
+https://www.integrate.io/blog/what-are-data-driven-insights/ 
+29 | P a g e  
+ 
+15. Kyvos Insights. (2025, October 21). What is data refresh and its types? 
+https://www.kyvosinsights.com/glossary/data-refresh/ 
+16. McAfee, A., & Brynjolfsson, E. (2024, February 29). Big data: The management 
+revolution. Harvard Business Review. 
+https://hbr.org/2012/10/big-data-the-management-revolution 
+17. Mucci, T. (2025, July 22). Data driven decision making: What is data driven. IBM. 
+https://www.ibm.com/think/topics/data-driven-decision-making 
+18. Pollina, R. (2025, September 5). Wrongfully convicted Minnesota dad Bryan Hooper 
+Sr. is freed from jail after 27 years as star witness confesses to murder. New York 
+Post. 
+https://nypost.com/2025/09/05/us-news/wrongfully-convicted-minnesota-dad-bryan-
+hooper-sr-is-freed-from-jail-after-27-years-as-star-witness-confesses-to-murder/ 
+19. Porter, A. (2025, December 23). 7 data quality dimensions you should know. BigID. 
+https://bigid.com/blog/7-data-quality-dimensions-you-should-know/ 
+20. PostNL zegt “pakket bezorgd”, maar jij hebt niks ontvangen: hoe kan dat? 
+(2024, December 19). RTL.nl. 
+https://www.rtl.nl/nieuws/economie/artikel/5485938/postnl-zegt-pakket-bezorgd-
+maar-jij-hebt-niks-ontvangen-hoe-kan-dat 
+21. Reported impact snapshot | Gaza Strip (18 June 2025). (2025, June 18). United 
+Nations Office for the Coordination of Humanitarian Affairs – Occupied Palestinian 
+Territory. 
+https://www.ochaopt.org/content/reported-impact-snapshot-gaza-strip-18-june-2025 
+22. Richman, J. (2025, August 7). What is real-time processing (In-depth guide for 
+beginners). Estuary. 
+https://estuary.dev/blog/what-is-real-time-processing/ 
+23. SalesPlay. (2025, September 11). Data quality improvement: Enrichment best 
+practices. MarketsandMarkets SalesPlay. 
+https://www.marketsandmarkets.com/AI-sales/data-quality-improvement-enrichment-
+best-practices 
+24. Sartor, G., Lagioia, F., Panel for the Future of Science and Technology, 
+European Parliamentary Research Service, & Scientific Foresight Unit (STOA). 
+(2020). The impact of the General Data Protection Regulation (GDPR) on artificial 
+intelligence. STOA (p. PE 641.530) [Report]. 
+https://www.europarl.europa.eu/RegData/etudes/STUD/2020/641530/EPRS_STU(20
+20)641530_EN.pdf 
+25. Sartor, G., Lagioia, F., Panel for the Future of Science and Technology, 
+European Parliamentary Research Service, & Scientific Foresight Unit (STOA). 
+(2020b). The impact of the General Data Protection Regulation (GDPR) on artificial 
+intelligence. STOA (p. PE 641.530) [Report]. 
+https://www.europarl.europa.eu/RegData/etudes/STUD/2020/641530/EPRS_STU(20
+20)641530_EN.pdf 
+26. Talend. (n.d.). What is Data Reliability? Definition & Assessment Guide. Talend - a 
+Leader in Data Integration & Data Integrity. 
+https://www.talend.com/resources/what-is-data-reliability/  
+30 | P a g e  
+ 
+27. Teja. (2025, May 27). Why real-time data synchronization matters more than ever. 
+Exalate. 
+https://exalate.com/blog/real-time-data-synchronization/ 
+28. Varian, H. (2018). Artificial intelligence, economics, and industrial organization. 
+NBER Working Paper Series (No. 24839). 
+https://www.nber.org/system/files/working_papers/w24839/w24839.pdf 
+29. Wagenheim, M. (2025, June 23). At highest level, UN comfortable with wildly 
+inconsistent Gaza data. JNS.org. 
+https://www.jns.org/at-highest-level-un-comfortable-with-wildly-inconsistent-gaza-
+data/ 
+30. Waller, D. (2020, February 6). 10 steps to creating a data-driven culture. Harvard 
+Business Review. 
+https://hbr.org/2020/02/10-steps-to-creating-a-data-driven-culture 
+31. Yasmina. (2025, January 20). The importance of data-driven decision-making. 
+Beyond by Esade. 
+https://www.esade.edu/beyond/en/the-importance-of-data-driven-decision-making/ 
+32. Zurhake, S., & Zurhake, S. (2025, March 19). Artsen zien dagelijks gevaar voor 
+patiëntveiligheid door ICT-problemen. NOS. 
+https://nos.nl/artikel/2560282-artsen-zien-dagelijks-gevaar-voor-patientveiligheid-
+door-ict-problemen 
+ 

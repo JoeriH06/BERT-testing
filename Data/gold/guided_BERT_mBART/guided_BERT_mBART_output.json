@@ -1,0 +1,4174 @@
+{
+    "document_id": "doc_01",
+    "model": "guided_BERT_mBART",
+    "guided_extract": "Data Analysis / Results ............................................................................................... 9 3.1. Explanation and consideration ................................................................................ Data quality report of the data .............................................................................. 17 4.",
+    "selected_sentences": [
+        "Data Analysis / Results ............................................................................................... 9 3.1. Explanation and consideration ................................................................................",
+        "Data quality report of the data .............................................................................. 17 4."
+    ],
+    "sentence_scores": [
+        {
+            "sentence": "Data Analysis / Results ............................................................................................... 9 3.1. Explanation and consideration ................................................................................",
+            "section": "default",
+            "bert_score": 0.8710141181945801,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.6581591768264772
+        },
+        {
+            "sentence": "Data quality report of the data .............................................................................. 17 4.",
+            "section": "default",
+            "bert_score": 0.8965359926223755,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.6427483952045442
+        },
+        {
+            "sentence": "How can Hogwarts become data driven ................................................................... 20 4.1.",
+            "section": "default",
+            "bert_score": 0.9046969413757324,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.6340530118942261
+        },
+        {
+            "sentence": "Data driven strategy for Hogwarts ........................................................................ 20 4.3.",
+            "section": "default",
+            "bert_score": 0.8875262141227722,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.622892039179802
+        },
+        {
+            "sentence": "Pros and cons of being data driven ......................................................................... 5 2.3.",
+            "section": "default",
+            "bert_score": 0.8961849212646484,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.6025201988220216
+        },
+        {
+            "sentence": "9 Data Consistency .................................................................................................... 13 Data Timeliness ....................................................................................................... 15 3.2.",
+            "section": "default",
+            "bert_score": 0.834129810333252,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.24,
+            "section_weight": 1.0,
+            "final_score": 0.5861843767166138
+        },
+        {
+            "sentence": "We need to ensure that all data is consistent and accessible based on the GDPR regulations\nStep 2: before moving on with the data that is gathered from the students, Hogwarts needs to address the quality issues that we discussed earlier in chapter 3.",
+            "section": "default",
+            "bert_score": 0.5816150307655334,
+            "keyword_boost": 0.8,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.5440497699975968
+        },
+        {
+            "sentence": "Data retention policies\nLastly data retention policies can be a way to make sure that your data is not outdated and leading to the dataset being incorrect due to the timeliness of the new data.",
+            "section": "default",
+            "bert_score": 0.5650365352630615,
+            "keyword_boost": 0.8,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.52727374792099
+        },
+        {
+            "sentence": "Now that we have a broad perspective of what the data is about and what kind of data is included in this dataset, we can go over the quality of the data.",
+            "section": "default",
+            "bert_score": 0.5495558977127075,
+            "keyword_boost": 0.8,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.51721133351326
+        },
+        {
+            "sentence": "Integrating lectures about data literacy among teachers and letting heads of the houses promote the culture will make sure that the culture within the school adapts rapidly.\nStep 6: Lastly, Hogwarts needs to embed the data driven practices into the formal processes.",
+            "section": "default",
+            "bert_score": 0.5616790652275085,
+            "keyword_boost": 0.7,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.5110913923978806
+        },
+        {
+            "sentence": "To ensure this is integrated correctly companies should invest in data training to make sure that the employees use the data correctly and that they are aligned with the business objectives.",
+            "section": "default",
+            "bert_score": 0.5201375484466553,
+            "keyword_boost": 0.8,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.49808940649032596
+        },
+        {
+            "sentence": "To make sure that data completeness is achieved the metric of percentage of data records that contain all needed information can be used to check the quality of your data.",
+            "section": "default",
+            "bert_score": 0.5748544931411743,
+            "keyword_boost": 0.6000000000000001,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.49365542054176337
+        },
+        {
+            "sentence": "The decision-making process should not include bias, to make sure that this doesn’t happen\nHogwarts must ensure that the data is collected in a way that is accurate for all students.",
+            "section": "default",
+            "bert_score": 0.5465707778930664,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4812710056304932
+        },
+        {
+            "sentence": "This addresses the data quality challenges mentioned in chapter 3 Data as a Strategic Asset\nTreating data and students as a strategic asset sounds very objectifying but it is what\nHogwarts needs to do.",
+            "section": "default",
+            "bert_score": 0.5415644645690918,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4780169019699097
+        },
+        {
+            "sentence": "Furthermore, we were provided with a dataset that we analyzed and discussed the quality dimensions of the dataset itself.",
+            "section": "default",
+            "bert_score": 0.4846753478050232,
+            "keyword_boost": 0.8,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4750389760732651
+        },
+        {
+            "sentence": "Data quality report of the data\nIn this sub-section we will discuss the quality of the provided dataset “hogwards_students_data_V2”.",
+            "section": "default",
+            "bert_score": 0.5345409512519836,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4674516183137894
+        },
+        {
+            "sentence": "First, we assess what the dataset holds, we can see that the dataset holds 46 columns of personal information for certain students.",
+            "section": "default",
+            "bert_score": 0.49991267919540405,
+            "keyword_boost": 0.7000000000000001,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.46494324147701266
+        },
+        {
+            "sentence": "With the use of real-time data synchronization, the chance for human error is also reduced which furthermore improves the quality of your data.",
+            "section": "default",
+            "bert_score": 0.5303134322166443,
+            "keyword_boost": 0.6000000000000001,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.46470373094081885
+        },
+        {
+            "sentence": "The use of automated completeness checks is to ensure the flow of data is monitored without leaving room for errors as this ensures that you can automatically check and prevent the incompleteness of the data and being one step ahead of potential poor data quality so that you do not have to deal with the impact of incomplete data further down the line.",
+            "section": "default",
+            "bert_score": 0.5597249269485474,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4638212025165558
+        },
+        {
+            "sentence": "Data driven strategy for Hogwarts\nFor Hogwarts to achieve the set goals, they must adopt certain data driven strategies.",
+            "section": "default",
+            "bert_score": 0.5405026078224182,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4573266950845719
+        },
+        {
+            "sentence": "Furthermore, we have components like data literacy, this is also one very important component for a company that is becoming data driven.",
+            "section": "default",
+            "bert_score": 0.546748697757721,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4553866535425186
+        },
+        {
+            "sentence": "Making sure this doesn’t happen Hogwarts needs to implement a robust data validation system that ensures all incoming data is accurate.",
+            "section": "default",
+            "bert_score": 0.5671020746231079,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4546163485050202
+        },
+        {
+            "sentence": "By flagging the area that has not been filled in yet you make the user conscious of the lack of data completeness and as a result you have them fill in the missing information which leads to data completeness.",
+            "section": "default",
+            "bert_score": 0.5750601887702942,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.45378912270069127
+        },
+        {
+            "sentence": "Reliability\nBecause there are a lot of accuracy and consistency issues in this dataset, the reliability of the dataset is heavily reduced.",
+            "section": "default",
+            "bert_score": 0.5105763077735901,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4518746000528336
+        },
+        {
+            "sentence": "Whereas this example has a lot of grey areas due to the income of the data it is still clear that the data that is being collected and used is not consistent within the whole of the United Nations.",
+            "section": "default",
+            "bert_score": 0.5411043763160706,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.45171784460544584
+        },
+        {
+            "sentence": "By enriching the data that they currently with for instance the user's social media profiles, online behavioural patterns as well as demographic details the information about a user of the streaming service becomes complete data.",
+            "section": "default",
+            "bert_score": 0.5391966700553894,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4504778355360032
+        },
+        {
+            "sentence": "Data retention policies are therefore still an important part of data timeliness as it makes sure your data is of good quality by removing and possibly archiving data that is no longer relevant to the current data.",
+            "section": "default",
+            "bert_score": 0.5512963533401489,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.45034262967109684
+        },
+        {
+            "sentence": "This causes the data to be more dependable This ensures that decisions are based on information that can be trusted.",
+            "section": "default",
+            "bert_score": 0.5366465449333191,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4488202542066574
+        },
+        {
+            "sentence": "Data Literacy\nFor using the data correctly, Hogwarts needs to invest in data literacy.",
+            "section": "default",
+            "bert_score": 0.49599477648735046,
+            "keyword_boost": 0.6000000000000001,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4483966047167779
+        },
+        {
+            "sentence": "Because data retention policies deal with outdated data and not the newest, it gives the opportunity to make sure that your dataset is not being overcrowded with outdated data that consequently could influence the decision making.",
+            "section": "default",
+            "bert_score": 0.564445436000824,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4468895334005356
+        },
+        {
+            "sentence": "Budget allocation for ongoing system maintenance\nBy allocating this resource strategically, Hogwarts can ensure that data driven initiatives are effective.\n4.7.",
+            "section": "default",
+            "bert_score": 0.5528839826583862,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4453745887279511
+        },
+        {
+            "sentence": "Data retention policies focus on what must happen with data that has to be stored or archived but data retention policies also decide when this happens and for how long.",
+            "section": "default",
+            "bert_score": 0.5620158910751343,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4453103291988373
+        },
+        {
+            "sentence": "Hogwarts must translate the data into concrete actions from which they can build from.",
+            "section": "default",
+            "bert_score": 0.48989686369895935,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4444329614043236
+        },
+        {
+            "sentence": "The ownership of the data should be clear, with everyone assigned roles responsible for maintaining data,\nStep 3: following this up we Hogwarts needs to define who can access the data.",
+            "section": "default",
+            "bert_score": 0.5202458500862122,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.44415980255603793
+        },
+        {
+            "sentence": "If we had to summarise what data accuracy is, we would\n\nsay that we are looking if the information about an event or object is correctly being reflected in the data.",
+            "section": "default",
+            "bert_score": 0.5286112427711487,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4435973078012466
+        },
+        {
+            "sentence": "GDPR Implications\n\nThe General Data Protection Regulation (GDPR) has totally redefined global data protection which has impacted individuals, businesses, and governments.",
+            "section": "default",
+            "bert_score": 0.5077595710754395,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.4420437211990357
+        },
+        {
+            "sentence": "The strategy that we laid down should provide a foundation for Hogwarts to become data driven and it should prepare the school for addressing challenges in the long run.\n4.3.",
+            "section": "default",
+            "bert_score": 0.5785268545150757,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4420424554347992
+        },
+        {
+            "sentence": "Accessibility\nThe dataset is given in an excel format, if we consider it being given in an CSV format, we can say that it is accessible for analyzing.",
+            "section": "default",
+            "bert_score": 0.49294513463974,
+            "keyword_boost": 0.6000000000000001,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.44041433751583103
+        },
+        {
+            "sentence": "If data accuracy is not being handled correctly and any errors, discrepancies or inconsistencies in the data are not being fixed or flagged then that can lead to misguided decisions due to the accuracy of data not being the same as their true or intended value.",
+            "section": "default",
+            "bert_score": 0.553780734539032,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.43995747745037084
+        },
+        {
+            "sentence": "Essentially this means that organizations are not allowed to use data for reasons beyond what they have stated for the initial purpose, unless they obtain more data consensually.",
+            "section": "default",
+            "bert_score": 0.49066799879074097,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.43893419921398164
+        },
+        {
+            "sentence": "It doesn’t mean that they should be able to have advanced skills, but that they are able to ask questions or use the data to support their decisions.",
+            "section": "default",
+            "bert_score": 0.5189300775527954,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.43730455040931704
+        },
+        {
+            "sentence": "By making sure that there are validation rules, Hogwarts can ensure that the data is reliable and trustworthy.",
+            "section": "default",
+            "bert_score": 0.5080737471580505,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4362479356527329
+        },
+        {
+            "sentence": "Data literacy training must be implemented for the staff so that there is a mutual understanding of the data and that it is possible for them to ask relevant questions with correct insights.",
+            "section": "default",
+            "bert_score": 0.48582011461257935,
+            "keyword_boost": 0.6000000000000001,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.43578307449817666
+        },
+        {
+            "sentence": "Step 5: then when everything is set-up, Hogwarts starts training and promoting the data driven decision making.",
+            "section": "default",
+            "bert_score": 0.5374930500984192,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4353704825639725
+        },
+        {
+            "sentence": "Timing and readily available data are essential for a good quality of data as decisions must be made based on the data that is available at that moment in time.",
+            "section": "default",
+            "bert_score": 0.5462436676025391,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4350583839416504
+        },
+        {
+            "sentence": "3. Data Analysis / Results\nA high standard of quality for data is essential.",
+            "section": "default",
+            "bert_score": 0.5262749195098877,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.43407869768142704
+        },
+        {
+            "sentence": "So, to make sure that these types of data are not left out by accident or on purpose you make them mandatory to be filled out.",
+            "section": "default",
+            "bert_score": 0.5744849443435669,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4334152138233185
+        },
+        {
+            "sentence": "By having audits or reviews you make sure that even if there are inaccuracies, you catch the errors and fix these so that your data is accurate for future use.",
+            "section": "default",
+            "bert_score": 0.5395040512084961,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4306776332855225
+        },
+        {
+            "sentence": "What we can see is that we miss metadata for the data, this could cause unclarity.",
+            "section": "default",
+            "bert_score": 0.47717082500457764,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.43016103625297547
+        },
+        {
+            "sentence": "We followed this up by examining the legal and ethical implications of data usage, keeping the General Data\nProtection Regulation (GDPR) in mind.",
+            "section": "default",
+            "bert_score": 0.5056434273719788,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.42866822779178626
+        },
+        {
+            "sentence": "Data Completeness\nData completeness is the dimension that checks if enough information is available in a dataset to draw a conclusion or have the necessary information for a specific purpose.",
+            "section": "default",
+            "bert_score": 0.5355289578437805,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.42809382259845735
+        },
+        {
+            "sentence": "This change also includes regular meetings or lectures to lecture the staff on the data itself, what it means and what data there is.",
+            "section": "default",
+            "bert_score": 0.5023969411849976,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.42655801177024844
+        },
+        {
+            "sentence": "By utilizing the data,\nHogwarts ensures that data driven decision making becomes part of its organizational culture.",
+            "section": "default",
+            "bert_score": 0.4925411641597748,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.42615175670385363
+        },
+        {
+            "sentence": "After data appending the data is validated to make sure the data that has been added is accurate in accordance with your\n\nown existing data.",
+            "section": "default",
+            "bert_score": 0.5321784019470215,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.42591596126556397
+        },
+        {
+            "sentence": "For certain jobs such as broker on a stock market real-time data processing is essential to profit from the market, especially if a trained bot or AI is used to make the trades because they need the real-time data processing to decide to either buy or sell a certain stock that they were trained to trade.",
+            "section": "default",
+            "bert_score": 0.5624932646751404,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.42562062203884127
+        },
+        {
+            "sentence": "Data Minimization\nThe principle of data minimization ensures that only data that is adequate, relevant, and limited to what is necessary for the intended purpose is collected.",
+            "section": "default",
+            "bert_score": 0.5317145586013794,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4256144630908966
+        },
+        {
+            "sentence": "Lars de Bruijne\nThe Case for a Data-Driven Strategy at Hogwarts\nI believe that adopting a data-driven strategy at Hogwarts offers the potential for improving resource allocation, decision-making, and overall student and faculty success.",
+            "section": "default",
+            "bert_score": 0.5528080463409424,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.42532523012161255
+        },
+        {
+            "sentence": "We will discuss things like vision, goals, steps, challenges and risks, solutions, pros and cons, timeline, resource allocation, and metrics for success.\n4.1.",
+            "section": "default",
+            "bert_score": 0.5900760889053345,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4235494577884674
+        },
+        {
+            "sentence": "The process of data enrichment is as follows:\nFirstly, data is collected from various sources such as public databases, then the data is matched using a unique identifier such as a personal phone number or in the instance of\nDutch data a Burger Service Nummer could also be used as this is a unique identifier for every citizen of the Netherlands.",
+            "section": "default",
+            "bert_score": 0.528152585029602,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.42329918026924135
+        },
+        {
+            "sentence": "When having an audit or review of your data you have a periodic data quality assessment to find out if there are any errors, discrepancies or inconsistencies in your data and if there are any you can then fix them.",
+            "section": "default",
+            "bert_score": 0.5584832429885864,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4230141079425812
+        },
+        {
+            "sentence": "This means that your data is managed, protected, and leveraged in a very similar way to other valuable resources such as finances and human capital.",
+            "section": "default",
+            "bert_score": 0.495141863822937,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4218422114849091
+        },
+        {
+            "sentence": "Mandatory fields are essential fields that must be filled in so that the quality of data is correct.",
+            "section": "default",
+            "bert_score": 0.5235252976417542,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4202914434671402
+        },
+        {
+            "sentence": "While the data-driven decision-making approach guides the businesses on how to use the data, it won’t fully work if it doesn’t fit with the company’s culture.",
+            "section": "default",
+            "bert_score": 0.5234265327453613,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4202272462844849
+        },
+        {
+            "sentence": "With this prevention method you have near real-time updates on the latest data that is already processed as well.",
+            "section": "default",
+            "bert_score": 0.5224823355674744,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4196135181188584
+        },
+        {
+            "sentence": "If there is no data literacy integrated within the company the employees could misunderstand the data or use the data for poor decisionmaking.",
+            "section": "default",
+            "bert_score": 0.491645872592926,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.419569817185402
+        },
+        {
+            "sentence": "In this chapter we will discuss how we as a team think that Hogwarts has become data driven.",
+            "section": "default",
+            "bert_score": 0.5111595392227173,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4182537004947663
+        },
+        {
+            "sentence": "The consequences of inconsistent data within a business or organisation may lead to misinformation or misunderstandings of the presented data as is concluded from the reports that were published by the United Nations regarding the data collected about Gaza.",
+            "section": "default",
+            "bert_score": 0.5193445682525635,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4175739693641663
+        },
+        {
+            "sentence": "Pros and cons of being data driven\nNow that we have covered all the concepts of a data driven business, let’s discuss the pros and cons of being data driven.",
+            "section": "default",
+            "bert_score": 0.5807212591171265,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.41746881842613226
+        },
+        {
+            "sentence": "We build on the findings the quality report presented us, and with these findings we made a strong strategy covering a clear vision, implementation steps, risk analysis, timelines, resource allocation, and metrics for success.",
+            "section": "default",
+            "bert_score": 0.48808154463768005,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.41725300401449206
+        },
+        {
+            "sentence": "To achieve this, businesses make use of different concepts with the data they have.",
+            "section": "default",
+            "bert_score": 0.4872712194919586,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4167262926697731
+        },
+        {
+            "sentence": "Organizations are responsible for maintaining the accuracy of the data they process, ensuring it remains reliable and fit for its intended purpose.",
+            "section": "default",
+            "bert_score": 0.48528045415878296,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4154322952032089
+        },
+        {
+            "sentence": "Based on how often you let your data refresh you keep your data in accordance with data timeliness.",
+            "section": "default",
+            "bert_score": 0.5276049375534058,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.41494320940971374
+        },
+        {
+            "sentence": "Metrics of success\nTo finally evaluate the success of the data driven strategy, Hogwarts must define key performance indicators (KPIs).",
+            "section": "default",
+            "bert_score": 0.5048642754554749,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.41416177904605866
+        },
+        {
+            "sentence": "We also came up with a few more objectives of our own:\n• Early risk-student detection: by analyzing historical student data, we investigate grade patterns and attendance records to identify risk of failing or dropping out.",
+            "section": "default",
+            "bert_score": 0.5448476672172546,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4141509836912155
+        },
+        {
+            "sentence": "We will go over each one of the components and explain the situation within the dataset.",
+            "section": "default",
+            "bert_score": 0.48253998160362244,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.41365098804235456
+        },
+        {
+            "sentence": "Timeliness\nLasty, the dataset does not indicate when the data is updated.",
+            "section": "default",
+            "bert_score": 0.4819054901599884,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.41323856860399244
+        },
+        {
+            "sentence": "Consistency\nWe can find inconsistencies in the dataset within the categorical values.",
+            "section": "default",
+            "bert_score": 0.48118892312049866,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.41277280002832417
+        },
+        {
+            "sentence": "When the dataset is missing data or missing values you could create gaps in your analysis.",
+            "section": "default",
+            "bert_score": 0.450070858001709,
+            "keyword_boost": 0.6000000000000001,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.41254605770111086
+        },
+        {
+            "sentence": "Summary\nBy integrating, improving, and adjusting topics like data driven decision-making, improving data literacy, treating data as a strategic asset, and actionable insights,\nHogwarts can successfully move towards becoming data driven.",
+            "section": "default",
+            "bert_score": 0.5015149116516113,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4119846925735474
+        },
+        {
+            "sentence": "Step 1: Hogwarts needs to centralize and secure data in a place where all data is stored, this could be in AWS cloud for example.",
+            "section": "default",
+            "bert_score": 0.5305712223052979,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4108712944984436
+        },
+        {
+            "sentence": "I believe that by proactively identifying and mitigating these issues, Hogwarts can establish a model where data serves as a tool for empowerment rather than surveillance.",
+            "section": "default",
+            "bert_score": 0.49861544370651245,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.41010003840923315
+        },
+        {
+            "sentence": "In practice, this means that the businesses need to balance the data with their business context.",
+            "section": "default",
+            "bert_score": 0.4768514037132263,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4099534124135972
+        },
+        {
+            "sentence": "As talked about in the example above, timeliness especially for crucial data or information plays a vital role in the quality of data.",
+            "section": "default",
+            "bert_score": 0.5377227067947388,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4095197594165802
+        },
+        {
+            "sentence": "First, this study explores core principles of data driven decision making, where we cover data literacy, culture, and governance.",
+            "section": "default",
+            "bert_score": 0.4757359027862549,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40922833681106574
+        },
+        {
+            "sentence": "The objectives that were given are:\n• Enhance Student Success: By analyzing student grades, interests, and extracurricular performance, Hogwarts can better support students’ academic and magical growth.",
+            "section": "default",
+            "bert_score": 0.4967409372329712,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4088816092014313
+        },
+        {
+            "sentence": "A Possibility to prevent these missing values are enforcing required fields and adding checks for incomplete records, this could improve the completeness of the dataset.",
+            "section": "default",
+            "bert_score": 0.44401100277900696,
+            "keyword_boost": 0.6,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40860715180635454
+        },
+        {
+            "sentence": "Data driven culture\nAs for the culture in Hogwarts, it must slightly change because a data driven strategy will only succeed in the right data driven environment.",
+            "section": "default",
+            "bert_score": 0.5556873083114624,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4071967504024506
+        },
+        {
+            "sentence": "Vision and objectives\nWhy does Hogwarts want to become data driven?",
+            "section": "default",
+            "bert_score": 0.49399104714393616,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.4070941806435585
+        },
+        {
+            "sentence": "Actionable insights are data findings that can be translated into actions or decisions.",
+            "section": "default",
+            "bert_score": 0.5031819343566895,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40706825733184815
+        },
+        {
+            "sentence": "The actionable insights refer to the data findings, and the use of it.",
+            "section": "default",
+            "bert_score": 0.4715450704097748,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4065042957663536
+        },
+        {
+            "sentence": "Relevance\nMost columns in the dataset are relevant for analyzing student academic performances.",
+            "section": "default",
+            "bert_score": 0.4693772494792938,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.405095212161541
+        },
+        {
+            "sentence": "Data Accuracy\nWhen talking about data accuracy we mainly focus on correctness of the data and if the data has its true or intended value.",
+            "section": "default",
+            "bert_score": 0.5299250483512878,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4044512814283371
+        },
+        {
+            "sentence": "To support a data driven culture, there is a high level of transparency, making most of the data available for the staff (we say “most”, since confidential data like personal information, should not be available for everyone.).",
+            "section": "default",
+            "bert_score": 0.5298636555671692,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40441137611865996
+        },
+        {
+            "sentence": "This approach, in my opinion, minimizes risks while maintaining the integrity of the datadriven strategy.",
+            "section": "default",
+            "bert_score": 0.4677318036556244,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40402567237615583
+        },
+        {
+            "sentence": "We follow the following steps in order: First we centralize and secure data – then we improve data quality and governance – following it up by establishing data governance and policies – further we develop analytical tools and dashboards – then we train staff and promote data literacy – and lastly, we integrate data into decision-making processes.",
+            "section": "default",
+            "bert_score": 0.5289347767829895,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4038076049089432
+        },
+        {
+            "sentence": "The dataset itself has not changed in the process; all these improvements are theoretical.",
+            "section": "default",
+            "bert_score": 0.46708497405052185,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40360523313283925
+        },
+        {
+            "sentence": "This dimension focuses on whether the data is free from errors, bias, or manipulation.",
+            "section": "default",
+            "bert_score": 0.4967682957649231,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40289939224720006
+        },
+        {
+            "sentence": "Inclusivity and Fair\nRepresentation, Faculty and Student Autonomy, and Data Accuracy and Algorithmic Bias Inclusivity and Fair Representation\nOne of the bigger challenges is fair representation, making sure that regardless of your blood type, house or magical background you are treated fairly is very important.",
+            "section": "default",
+            "bert_score": 0.5572502613067627,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40221266984939574
+        },
+        {
+            "sentence": "To accurately measure the consistency of your data the following metrics can be used:\nrange, variance and standard deviation.",
+            "section": "default",
+            "bert_score": 0.5259009003639221,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4018355852365494
+        },
+        {
+            "sentence": "While data retention policies more focus on outdated data that is not relevant anymore, it is a rather interesting prevention method for data timeliness.",
+            "section": "default",
+            "bert_score": 0.5071086287498474,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.40162060868740085
+        },
+        {
+            "sentence": "Based on all these issues found in the dataset, the team proposed theoretical improvements such as rules, standardizing formats, mandatory fields, and regular checks.",
+            "section": "default",
+            "bert_score": 0.4630022943019867,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.4009514912962914
+        },
+        {
+            "sentence": "The transition takes time;\nHogwarts should implement clearly defined phases to make sure that the transition goes smoothly, ensuring long-term success.",
+            "section": "default",
+            "bert_score": 0.5454009771347046,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.400510635137558
+        },
+        {
+            "sentence": "Data Driven Concepts\nThere are many different concepts of data-driven, but first we will start off with covering the concept of data-driven decision-making.",
+            "section": "default",
+            "bert_score": 0.5666917562484741,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.4003496415615082
+        },
+        {
+            "sentence": "Data enrichment is done by combining your own existing data with additional data that add context, depth and insight to your dataset.",
+            "section": "default",
+            "bert_score": 0.49233490228652954,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.40001768648624425
+        },
+        {
+            "sentence": "Also, by using the automation you reduce the risk of human error when it comes to quality of the data.",
+            "section": "default",
+            "bert_score": 0.5224754810333252,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3996090626716614
+        },
+        {
+            "sentence": "The UK's Information\nCommissioner's Office (ICO) investigated the incident and found that British Airways had violated several requirements of the General Data Protection Regulation (GDPR)",
+            "section": "default",
+            "bert_score": 0.5029712319374084,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.3989313007593155
+        },
+        {
+            "sentence": "This means that within the company everyone should be able to comprehend the data correctly.",
+            "section": "default",
+            "bert_score": 0.4589390754699707,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39831039905548093
+        },
+        {
+            "sentence": "By introducing standardized data collection procedures and validation checks, it would heavily improve the reliability of the dataset itself.",
+            "section": "default",
+            "bert_score": 0.4575135111808777,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39738378226757054
+        },
+        {
+            "sentence": "They have done this by creating a culture that is transparent and holds accountability in data handling.",
+            "section": "default",
+            "bert_score": 0.4874725937843323,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.396857185959816
+        },
+        {
+            "sentence": "Having all the data is not everything you can not lean on the data only; it requires a human touch.",
+            "section": "default",
+            "bert_score": 0.5180405378341675,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39672634959220887
+        },
+        {
+            "sentence": "Becoming data driven is not only collecting data, but it also demands a high quality, strong governance, data literacy, and ethical responsibility.",
+            "section": "default",
+            "bert_score": 0.5180138349533081,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39670899271965027
+        },
+        {
+            "sentence": "Where you normally rely on intuition and traditions, you will now make changes based on the data.",
+            "section": "default",
+            "bert_score": 0.5176371335983276,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39646413683891296
+        },
+        {
+            "sentence": "Role of Governments\nGovernments enforce GDPR through Data Protection Authorities (DPAs), which oversee compliance, investigate complaints, and impose penalties for violations.",
+            "section": "default",
+            "bert_score": 0.5173800587654114,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3962970381975174
+        },
+        {
+            "sentence": "To make sure this doesn’t happen, headmaster needs to make sure that the tool is jus as a support not as replacement.",
+            "section": "default",
+            "bert_score": 0.5467823147773743,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3954085046052933
+        },
+        {
+            "sentence": "Summary\nWe can see that defining a clear strategy and plan, considering resource allocation and success metrics, ensures that Hogwarts can successfully transition to a data driving institution.",
+            "section": "default",
+            "bert_score": 0.5066156387329102,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3953001651763916
+        },
+        {
+            "sentence": "Abstract\nThis report examines how the magical institution of Hogwarts can become data driven.",
+            "section": "default",
+            "bert_score": 0.5066006779670715,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.39529044067859653
+        },
+        {
+            "sentence": "Balancing Tradition and Innovation\nI think that by integrating ethical considerations with data-driven strategies, Hogwarts can balance its rich traditions with innovative practices.",
+            "section": "default",
+            "bert_score": 0.5065370798110962,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3952491018772125
+        },
+        {
+            "sentence": "In today’s business environments we often hear the term “data driven”, it is used to describe businesses or organizations that are making use of evidence-based decision making.",
+            "section": "default",
+            "bert_score": 0.5463873744010925,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39515179336071016
+        },
+        {
+            "sentence": "So basically, you combine data analysis with business context to make sure that insights answer business questions.",
+            "section": "default",
+            "bert_score": 0.5148299932479858,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3946394956111908
+        },
+        {
+            "sentence": "We can see that all the names are clearly labeled and that the data is organized in tabular form.",
+            "section": "default",
+            "bert_score": 0.4840216636657715,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3946140813827515
+        },
+        {
+            "sentence": "This indicates that the data entries or calculations are wrong.",
+            "section": "default",
+            "bert_score": 0.4529082477092743,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3943903610110283
+        },
+        {
+            "sentence": "Making sure that there is no favorite group, preventing data gaps that might favor one group over another.",
+            "section": "default",
+            "bert_score": 0.5407204031944275,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39146826207637786
+        },
+        {
+            "sentence": "They need to check who, for what purpose, and which conditions.",
+            "section": "default",
+            "bert_score": 0.47896233201026917,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39132551580667496
+        },
+        {
+            "sentence": "This could indicate a few things, either the data was optional without being declared as such or the data was not consistently collected.",
+            "section": "default",
+            "bert_score": 0.4788825511932373,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3912736582756043
+        },
+        {
+            "sentence": "Conclusion\nThe ethical considerations within the transition of Hogwarts are complex, but after writing a report like this it is clear and very manageable.",
+            "section": "default",
+            "bert_score": 0.5002973675727844,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.39119328892230987
+        },
+        {
+            "sentence": "An example of audits and reviews would be having a quarterly meeting with the team and look over the old data as well as the newly added data that was gathered over the last quarter.",
+            "section": "default",
+            "bert_score": 0.5399982333183289,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3909988516569137
+        },
+        {
+            "sentence": "If this data would be immediately deleted, you risk the chance of losing data that may be beneficial towards other projects or for future references.",
+            "section": "default",
+            "bert_score": 0.4780992865562439,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39076453626155855
+        },
+        {
+            "sentence": "How to Prevent Completeness Issues Mandatory Fields\nA good way of preventing the issue when it comes to data completeness is mandatory fields.",
+            "section": "default",
+            "bert_score": 0.5696588158607483,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.39027823030948644
+        },
+        {
+            "sentence": "As seen in the example above the consistency of data is crucial when it comes to the quality of data.",
+            "section": "default",
+            "bert_score": 0.5080491900444031,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.390231973528862
+        },
+        {
+            "sentence": "Implementation steps\nTo transition towards a data driven institution, Hogwarts needs to follow certain steps.",
+            "section": "default",
+            "bert_score": 0.5291556119918823,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3899511477947235
+        },
+        {
+            "sentence": "The main goal of data consistency is that there are no contradictions or inconstancies when looking at two of the same values across different datasets.",
+            "section": "default",
+            "bert_score": 0.48838526010513306,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.3894504190683365
+        },
+        {
+            "sentence": "One of the last parts of becoming data driven is viewing your data as a strategic asset.",
+            "section": "default",
+            "bert_score": 0.5067291855812073,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3893739706277847
+        },
+        {
+            "sentence": "Then it analyzes the quality of a provided student dataset using data quality dimensions such as accuracy, completeness, consistency, and timeliness.",
+            "section": "default",
+            "bert_score": 0.5065684914588928,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38926951944828037
+        },
+        {
+            "sentence": "The goal, I believe, is not only to modernize Hogwarts but to create a harmonious environment where tradition and progress coexist seamlessly.",
+            "section": "default",
+            "bert_score": 0.5281044840812683,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3892679146528244
+        },
+        {
+            "sentence": "By using an automated data refresh cycle, you ensure that your data is refreshed automatically at a certain interval.",
+            "section": "default",
+            "bert_score": 0.47554391622543335,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3891035455465317
+        },
+        {
+            "sentence": "The impact of the General Data Protection Regulation (GDPR) on artificial intelligence.",
+            "section": "default",
+            "bert_score": 0.518296480178833,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.38889271211624143
+        },
+        {
+            "sentence": "The impact of the General Data Protection Regulation (GDPR) on artificial intelligence.",
+            "section": "default",
+            "bert_score": 0.518296480178833,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.38889271211624143
+        },
+        {
+            "sentence": "This dimension focuses on the relevance of the data at a certain period.",
+            "section": "default",
+            "bert_score": 0.4751805365085602,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38886734873056417
+        },
+        {
+            "sentence": "Completeness\nThe dataset contains a lot of missing values across different columns; we found these by identifying the empty entries per column.",
+            "section": "default",
+            "bert_score": 0.44365179538726807,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38837366700172427
+        },
+        {
+            "sentence": "This means that Hogwarts needs to strive towards making data open for their staff.",
+            "section": "default",
+            "bert_score": 0.46453484892845154,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.38794765180349355
+        },
+        {
+            "sentence": "An example of incomplete data may be a hospital patient record that is missing critical information, such as a complete allergy history, missing data regarding previous doctor visits or even missing information regarding a medical operation that previously took place.",
+            "section": "default",
+            "bert_score": 0.5350648164749146,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38779213070869445
+        },
+        {
+            "sentence": "However, I think this transformation must be guided by a strong ethical framework to ensure that the use of data upholds privacy, inclusivity, and transparency.",
+            "section": "default",
+            "bert_score": 0.47346407175064087,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3877516466379166
+        },
+        {
+            "sentence": "Data literacy is the ability to explore, understand, and communicate with data in a meaningful way (Data Literacy\nExplained:",
+            "section": "default",
+            "bert_score": 0.5033358335494995,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3871682918071747
+        },
+        {
+            "sentence": "3.1. Explanation and consideration\nThe following section will explain each aspect of the seven key data quality dimensions with a definition, a real-life world example as well as ways to prevent poor data quality.",
+            "section": "default",
+            "bert_score": 0.5642966628074646,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.386792830824852
+        },
+        {
+            "sentence": "Storage Limitation\nPersonal data should not be retained for longer than is necessary to fulfil the purposes for which it was collected.",
+            "section": "default",
+            "bert_score": 0.5026930570602417,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3867504870891571
+        },
+        {
+            "sentence": "This does not require a high technical understanding of the data but more basic data understanding of the concepts.",
+            "section": "default",
+            "bert_score": 0.46902796626091003,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38486817806959156
+        },
+        {
+            "sentence": "If all these components are aligned, only then can a business become and benefit from being data driven.\n\n2.3.",
+            "section": "default",
+            "bert_score": 0.5606964230537415,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38445267498493196
+        },
+        {
+            "sentence": "If implemented correctly the data standardization protocols should give structure and order towards your quality of data with consistency in mind.",
+            "section": "default",
+            "bert_score": 0.49825817346572876,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3838678127527237
+        },
+        {
+            "sentence": "A good use of automated validation rules in this situation would be to check whether the receiver of a package adheres to the Dutch postal codes by validating if the postal code that he or she has written down in the correct order for the package, starting with 4 numbers and ending with 2 letters.",
+            "section": "default",
+            "bert_score": 0.5273270010948181,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3827625507116318
+        },
+        {
+            "sentence": "This includes protecting the data from unauthorized or unlawful processing, as well as accidental loss, destruction, or damage.",
+            "section": "default",
+            "bert_score": 0.46545276045799255,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3825442942976952
+        },
+        {
+            "sentence": "The quality of data is checked using 7 components like: accuracy, completeness, consistency, timeliness, validity, reliability, and integrity.",
+            "section": "default",
+            "bert_score": 0.49563777446746826,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38216455340385436
+        },
+        {
+            "sentence": "In the report we considered these data quality components to see if the data is:\nAccessible, Accurate, Complete, Consistent, Defined, Relevant, Reliable, and Timely.",
+            "section": "default",
+            "bert_score": 0.49553775787353516,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3820995426177979
+        },
+        {
+            "sentence": "If data is not correctly entered or communicated the result may be incorrect treatment decisions and a consequence of this could be medical complications.",
+            "section": "default",
+            "bert_score": 0.49525517225265503,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3819158619642258
+        },
+        {
+            "sentence": "Timeline and phases\nTransitioning into a data driven institution isn’t done in a day.",
+            "section": "default",
+            "bert_score": 0.5566089749336243,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3817958337068558
+        },
+        {
+            "sentence": "The processing is necessary for the performance of a contract involving the data subject or to take steps requested by the data subject before entering a contract.",
+            "section": "default",
+            "bert_score": 0.49501854181289673,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3817620521783829
+        },
+        {
+            "sentence": "Data verification processes cross checks critical data against external sources to make sure the data is complete and accurate.",
+            "section": "default",
+            "bert_score": 0.4950118660926819,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38175771296024325
+        },
+        {
+            "sentence": "These proposed solutions should prevent the dataset from becoming inconsistent and relevant.",
+            "section": "default",
+            "bert_score": 0.43339189887046814,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3817047342658043
+        },
+        {
+            "sentence": "At this step you add the enriched data that you have collected to your existing data.",
+            "section": "default",
+            "bert_score": 0.49316471815109253,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.38055706679821016
+        },
+        {
+            "sentence": "If the time that has been decided for the retention period has passed, this data can then be deleted or again moved to another archive or storage.",
+            "section": "default",
+            "bert_score": 0.49220675230026245,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3799343889951706
+        },
+        {
+            "sentence": "In my opinion, by leveraging insights derived from data analysis, Hogwarts can better understand the needs of its community, optimize class schedules, and enhance student outcomes.",
+            "section": "default",
+            "bert_score": 0.4827752709388733,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.37980392611026764
+        },
+        {
+            "sentence": "I think this ensures that decisions are not only data-informed but also equitable and unbiased.",
+            "section": "default",
+            "bert_score": 0.4915940761566162,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37953614950180053
+        },
+        {
+            "sentence": "If data is coming from multiple sources which are not commonly shared or communicated within departments of a business or organisation, data inconsistency is a natural consequence of these actions.",
+            "section": "default",
+            "bert_score": 0.5221008062362671,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3793655240535736
+        },
+        {
+            "sentence": "An example of Centralised data governance would be to use a shared work calendar that is shared amongst a team where the leader or boss publishes the schedules instead of handing out each team member a personal schedule.",
+            "section": "default",
+            "bert_score": 0.5217657685279846,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37914774954318997
+        },
+        {
+            "sentence": "Commented [jh1]: Also make after full draft of paper to ensure the quality and specificity if the content in the introduction\n\n2.",
+            "section": "default",
+            "bert_score": 0.5214912295341492,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.378969299197197
+        },
+        {
+            "sentence": "As Hogwarts transforms into a data driven institution, there are ethical considerations to be made.",
+            "section": "default",
+            "bert_score": 0.5119425058364868,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.37876262879371647
+        },
+        {
+            "sentence": "By standardizing formats and values, we could correct these inconsistencies, for future prevention we must use predefining formats and vocabularies when entering the data.",
+            "section": "default",
+            "bert_score": 0.4896354675292969,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37826305389404297
+        },
+        {
+            "sentence": "GDPR applies to all entities managing EU citizens' data, yet it may conflict with regulations like the U.S.\nCLOUD Act, which mandates data sharing with U.S. authorities.",
+            "section": "default",
+            "bert_score": 0.48960474133491516,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37824308186769484
+        },
+        {
+            "sentence": "In 2025 the Federatie Medische Specialisten (FMS) gathered answers from a survey that was filled in by 1100 doctors in the Netherlands.",
+            "section": "default",
+            "bert_score": 0.5198478698730469,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3779011154174805
+        },
+        {
+            "sentence": "If data is not available in the time window that it is needed, decisions-making may not be possible and opportunities could be missed.",
+            "section": "default",
+            "bert_score": 0.5192807912826538,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37753251433372503
+        },
+        {
+            "sentence": "Without these insights businesses are becoming rich in data but poor in insights, this limits the practical value of being data driven (Integrate.",
+            "section": "default",
+            "bert_score": 0.519213855266571,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37748900592327117
+        },
+        {
+            "sentence": "It also makes the efficiency of the businesses better; this is because data driven businesses can identify trends earlier.",
+            "section": "default",
+            "bert_score": 0.5180047154426575,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3767030650377273
+        },
+        {
+            "sentence": "As seen in the example data completeness is important to draw conclusions.",
+            "section": "default",
+            "bert_score": 0.4872046411037445,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3766830167174339
+        },
+        {
+            "sentence": "At the end of the route for the mail man he or she says that he or she is done with delivering packages and then the customer gets the notification that their package is delivered however this is not the case if the package did not even reach the mailman.",
+            "section": "default",
+            "bert_score": 0.5175767540931702,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3764248901605606
+        },
+        {
+            "sentence": "Data driven decision making\nThe first concept we will cover is data driven decision making.",
+            "section": "default",
+            "bert_score": 0.5475255846977234,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3758916300535202
+        },
+        {
+            "sentence": "Then Hogwarts provides data literacy training for teachers and staff.",
+            "section": "default",
+            "bert_score": 0.4458620250225067,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3758103162646294
+        },
+        {
+            "sentence": "This ensures that the governance is aligned with the GDPR rules and that it protects the sensitive student data stored in the “cloud”.",
+            "section": "default",
+            "bert_score": 0.45477283000946045,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3756023395061493
+        },
+        {
+            "sentence": "The risk of misinterpreting grading scales or drawing incorrect conclusions can lead to big errors.",
+            "section": "default",
+            "bert_score": 0.5163058042526245,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37559877276420595
+        },
+        {
+            "sentence": "Hogwarts will handle very sensitive data so ensuring this data is safe is critical.",
+            "section": "default",
+            "bert_score": 0.47599342465400696,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3753957260251045
+        },
+        {
+            "sentence": "Checking the successful GDPR compliance audits, reduction in data incidents, and increased staff confidence in using data.\n4.8.",
+            "section": "default",
+            "bert_score": 0.5158013105392456,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3752708518505097
+        },
+        {
+            "sentence": "To avoid this risk, data should be explained as a tool to help, not to replace.",
+            "section": "default",
+            "bert_score": 0.5155412554740906,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37510181605815884
+        },
+        {
+            "sentence": "As stipulated in Article 5 of the GDPR, personal data must be processed lawfully, fairly, and transparently in relation to the data subject.",
+            "section": "default",
+            "bert_score": 0.45384639501571655,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3750001567602158
+        },
+        {
+            "sentence": "All the academic data should\n\nbe analyzed for different purposes such as assessing teacher performances and student progress.",
+            "section": "default",
+            "bert_score": 0.5152733325958252,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37492766618728635
+        },
+        {
+            "sentence": "Professor McGonagall wants to become data driven so Hogwarts can keep the status as a premier magical institution in a modernized world.",
+            "section": "default",
+            "bert_score": 0.5059053301811218,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3748384646177292
+        },
+        {
+            "sentence": "GDPR’s success has influenced other nations to adopt similar privacy legislation, solidifying its role as a global benchmark for data protection.\n2.5.",
+            "section": "default",
+            "bert_score": 0.5145934224128723,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37448572456836704
+        },
+        {
+            "sentence": "Ethical and Legal Challenges of GDPR\nWhile GDPR offers a robust framework for data protection, its implementation brings forth ethical and legal challenges for both businesses and governments.",
+            "section": "default",
+            "bert_score": 0.4649442732334137,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.3742137776017189
+        },
+        {
+            "sentence": "The customer may not receive their package due to it not being delivered at all, resulting in an unhappy customer that does not get his or her package and even potential financial loss.",
+            "section": "default",
+            "bert_score": 0.5127646327018738,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37329701125621795
+        },
+        {
+            "sentence": "If you are viewing your data as an asset, it is treated as one.",
+            "section": "default",
+            "bert_score": 0.4804842472076416,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.37231476068496705
+        },
+        {
+            "sentence": "• Optimize Resources and Curricula: Data insights into popular courses, favorite magical subjects, and student specializations can help Hogwarts allocate resources more effectively, offering courses tailored to students’ needs and interests.",
+            "section": "default",
+            "bert_score": 0.5014002323150635,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3719101510047913
+        },
+        {
+            "sentence": "Data quality risks\nAs we discussed in chapter 3, poor data quality can lead to insights that are misleading.",
+            "section": "default",
+            "bert_score": 0.5089797377586365,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3708368295431137
+        },
+        {
+            "sentence": "Real-Life Example\nIn 2018, British Airways experienced a big data breach that compromised the personal and financial information of over 400,000 customers.",
+            "section": "default",
+            "bert_score": 0.5081099271774292,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.370271452665329
+        },
+        {
+            "sentence": "Once the foundation is set, we move on to the capabilities for Hogwarts.",
+            "section": "default",
+            "bert_score": 0.5292609333992004,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3700196067094803
+        },
+        {
+            "sentence": "A common misconception is that you must separate the data-scientist.",
+            "section": "default",
+            "bert_score": 0.4460289478302002,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3699188160896302
+        },
+        {
+            "sentence": "Furthermore, we identify data quality issues, and the report discusses improvements and prevention methods, all of this to enhance data reliability.",
+            "section": "default",
+            "bert_score": 0.44518929719924927,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36937304317951203
+        },
+        {
+            "sentence": "If there were to be inconsistencies across databases that could lead to misunderstandings or mistakes when data is integrated.",
+            "section": "default",
+            "bert_score": 0.5063738226890564,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36914298474788665
+        },
+        {
+            "sentence": "Then defining data governance roles and responsibilities, later we introduce basic data validation rules and formats and lastly, we create documentation.",
+            "section": "default",
+            "bert_score": 0.5369714498519897,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3690314424037934
+        },
+        {
+            "sentence": "We apply this to a fictional case, based on Harry Potter, where the magical institution becomes data driven.",
+            "section": "default",
+            "bert_score": 0.4860610365867615,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.367939673781395
+        },
+        {
+            "sentence": "Resource constraints\nImplementing those systems requires a lot of money and investment in training and personnel Hogwarts must balance the costs to support the transition.",
+            "section": "default",
+            "bert_score": 0.5258060693740845,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3677739450931549
+        },
+        {
+            "sentence": "PostNL uses a track and trace function so that the customer is up to date on the location of their package, and they know thanks to the track and trace function when their package will be delivered.",
+            "section": "default",
+            "bert_score": 0.5038689970970154,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36751484811306
+        },
+        {
+            "sentence": "The goal of using data standardization protocols is to define for instance naming conventions, formats and structures to then be used across the systems to maintain a uniform and consistent flow of data.",
+            "section": "default",
+            "bert_score": 0.5031954050064087,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36707701325416564
+        },
+        {
+            "sentence": "The data refresh cycle is updating or replacing data to reflect the newest available data.",
+            "section": "default",
+            "bert_score": 0.4716107249259949,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36654697120189667
+        },
+        {
+            "sentence": "For operational metrics Hogwarts looks at the increased se of dashboards and data reports, faster response time to academic concerns, and more efficient allocation of resources based on insights.",
+            "section": "default",
+            "bert_score": 0.49308329820632935,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3665041438341141
+        },
+        {
+            "sentence": "Data Consistency\nData consistency ensures that data remains the same across different databases or systems.",
+            "section": "default",
+            "bert_score": 0.48356467485427856,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.3663170386552811
+        },
+        {
+            "sentence": "Accuracy\nUnder GDPR, personal data must be accurate and kept up to date where necessary.",
+            "section": "default",
+            "bert_score": 0.5019182562828064,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3662468665838242
+        },
+        {
+            "sentence": "The basics of data enrichment is transforming in this case incomplete data into complete data.",
+            "section": "default",
+            "bert_score": 0.5017273426055908,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.366122772693634
+        },
+        {
+            "sentence": "Finally, we lay out a strategy for\nHogwarts, outlining objectives, steps, challenges timeline, resource allocation, and success metrics.",
+            "section": "default",
+            "bert_score": 0.46164482831954956,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3660691384077072
+        },
+        {
+            "sentence": "Short-term phase:\nFor a short-term phase we ensure that there is a strong foundation quickly.",
+            "section": "default",
+            "bert_score": 0.5322846174240112,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36598500132560735
+        },
+        {
+            "sentence": "These components make sure that data is trustworthy and effective for decision making.",
+            "section": "default",
+            "bert_score": 0.5013901591300964,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36590360343456274
+        },
+        {
+            "sentence": "Making sure Hogwarts is a modern and forward-thinking institution.",
+            "section": "default",
+            "bert_score": 0.5225178003311157,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3656365702152253
+        },
+        {
+            "sentence": "For data quality metrics Hogwarts looks at reduction of missing values, improvement in data accuracy, and consistency in data formats and grading scales.",
+            "section": "default",
+            "bert_score": 0.49121010303497314,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.36528656697273254
+        },
+        {
+            "sentence": "Data driven business doesn’t rely only on expertise and intuitiveness, they use evidence-based insights to improve performance, efficiency, and strategic alignment.",
+            "section": "default",
+            "bert_score": 0.49835774302482605,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3639325329661369
+        },
+        {
+            "sentence": "This fictional setting allowed us to make concepts that applied in a clear and accessible way while still addressing real-world problems.",
+            "section": "default",
+            "bert_score": 0.4982922673225403,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36388997375965115
+        },
+        {
+            "sentence": "Combining theory and data quality analysis, this report forms a whole and demonstrates relevance of data driven practices for organizations.",
+            "section": "default",
+            "bert_score": 0.46736112236976624,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3637847295403481
+        },
+        {
+            "sentence": "Data Retention Policy Overview: What it is + examples.",
+            "section": "default",
+            "bert_score": 0.4981020987033844,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3637663641571999
+        },
+        {
+            "sentence": "We highlighted that data driven transformation is not only technical but also organizational and ethical challenging.",
+            "section": "default",
+            "bert_score": 0.4976235032081604,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36345527708530423
+        },
+        {
+            "sentence": "How to Prevent Accuracy Issues Automated validation rules\nThere are multiple ways to prevent the loss of data accuracy.",
+            "section": "default",
+            "bert_score": 0.5275197625160217,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36288784563541415
+        },
+        {
+            "sentence": "Disproportionate Burden on Small Businesses\nSmall businesses and startups often struggle to meet GDPR requirements due to limited resources.",
+            "section": "default",
+            "bert_score": 0.527517557144165,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3628864121437073
+        },
+        {
+            "sentence": "With these near real-time updates between systems every system that is connected is up to date without the need to check or duplicate data from one system to another.",
+            "section": "default",
+            "bert_score": 0.49643442034721375,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36268237322568897
+        },
+        {
+            "sentence": "Overcoming Challenges with Ethical Solutions\nAddressing challenges such as privacy concerns, faculty apprehension, and data accuracy requires a solution-oriented approach.",
+            "section": "default",
+            "bert_score": 0.496197372674942,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3625282922387123
+        },
+        {
+            "sentence": "The difference when looking at these statistics that should be taken in consideration is that the OCHA report statistic is based on the total number of children killed in Gaza since\nOctober 7th of 2023 whereas the report of the secretary general Guterres covers the year of 2024.",
+            "section": "default",
+            "bert_score": 0.5264503955841064,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3621927571296692
+        },
+        {
+            "sentence": "Hogwarts should use student and institutional data as input for decision-making.",
+            "section": "default",
+            "bert_score": 0.48544812202453613,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3615412793159485
+        },
+        {
+            "sentence": "For academic performance metrics Hogwarts looks at improvement in student passing rates, reduction in the number of at-risk students, and improvement in alignment between students’ strengths and specializations.",
+            "section": "default",
+            "bert_score": 0.5154120922088623,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3610178599357605
+        },
+        {
+            "sentence": "In this sub-chapter we will discuss the challenges and risks during the transition of Hogwarts.",
+            "section": "default",
+            "bert_score": 0.48414191603660583,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.36069224542379386
+        },
+        {
+            "sentence": "Everyone related to this data should now have a clear insight into performance, safety and resource utilization in a clear and understandable way.",
+            "section": "default",
+            "bert_score": 0.4929068684577942,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.36038946449756626
+        },
+        {
+            "sentence": "By gathering data from sources such as customer feedback, performance metrics, and market trends, you can identify patterns, predict trends, and make decisions based on concrete evidence.",
+            "section": "default",
+            "bert_score": 0.5235854387283325,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3603305351734162
+        },
+        {
+            "sentence": "Long-term phase:\nIn the last phase Hogwarts can leverage the analytics.",
+            "section": "default",
+            "bert_score": 0.5133238434791565,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.35966049826145174
+        },
+        {
+            "sentence": "It is necessary to protect the vital interests of the data subject or another natural person.",
+            "section": "default",
+            "bert_score": 0.4604199230670929,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35927294999361037
+        },
+        {
+            "sentence": "The data subject has given explicit consent for one or more specific purposes.",
+            "section": "default",
+            "bert_score": 0.4290887713432312,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3589077013731003
+        },
+        {
+            "sentence": "Due to the missing data, which was the confession by Young, an innocent man was wrongfully imprisoned for a crime that he did not commit.",
+            "section": "default",
+            "bert_score": 0.45918840169906616,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.358472461104393
+        },
+        {
+            "sentence": "There should also be clear ownership of the data, and the responsibilities should be assigned for maintaining the data,",
+            "section": "default",
+            "bert_score": 0.4589827358722687,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35833877831697464
+        },
+        {
+            "sentence": "In this report we focus on the concept of being a data driven business.",
+            "section": "default",
+            "bert_score": 0.4896702170372009,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3582856410741806
+        },
+        {
+            "sentence": "Organizations must avoid collecting excessive data, which helps reduce privacy risks and simplifies compliance efforts.",
+            "section": "default",
+            "bert_score": 0.4887307286262512,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35767497360706335
+        },
+        {
+            "sentence": "Changes in the school curriculum, student support or even academic inventions can be improved based on data driven decision-making.",
+            "section": "default",
+            "bert_score": 0.5191807150840759,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35746746480464936
+        },
+        {
+            "sentence": "We could prevent this by providing standard documentation that defines each column and data type.",
+            "section": "default",
+            "bert_score": 0.45688357949256897,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3569743266701698
+        },
+        {
+            "sentence": "Ensuring Privacy and Compliance\nThe centralized data repository, while efficient, demands strict adherence to privacy standards like GDPR to safeguard sensitive information.",
+            "section": "default",
+            "bert_score": 0.4875926673412323,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35693523377180103
+        },
+        {
+            "sentence": "By implementing fair policies Hogwarts can become successful and integrate data driven decision making without compromising ethical values.",
+            "section": "default",
+            "bert_score": 0.4781852066516876,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.356820384323597
+        },
+        {
+            "sentence": "Once the data is no longer needed, it must be securely deleted or anonymized.",
+            "section": "default",
+            "bert_score": 0.4565766155719757,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3567748001217842
+        },
+        {
+            "sentence": "To uphold this principle, organizations must implement appropriate technical and organizational measures such as encryption, firewalls, and employee training.\n2.4.",
+            "section": "default",
+            "bert_score": 0.5181096792221069,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35677129149436954
+        },
+        {
+            "sentence": "Data verification process\nAnother way to prevent the loss of data accuracy is the use of data verification processes.",
+            "section": "default",
+            "bert_score": 0.5179423093795776,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3566625010967255
+        },
+        {
+            "sentence": "By using real-time data synchronization, you ensure that changes in one system are almost immediately updated in the other connected systems.",
+            "section": "default",
+            "bert_score": 0.4868553578853607,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3564559826254845
+        },
+        {
+            "sentence": "A data driven culture describes how a company works from the inside out.",
+            "section": "default",
+            "bert_score": 0.5169469714164734,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35601553142070774
+        },
+        {
+            "sentence": "With a centralised data governance, a single source of data or information is established so that all departments use the same data.",
+            "section": "default",
+            "bert_score": 0.48603954911231995,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35592570692300796
+        },
+        {
+            "sentence": "Since all the decisions are based on objective information rather than intuition, it makes it more reliable without any subjective bias.",
+            "section": "default",
+            "bert_score": 0.5167244076728821,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35587086498737336
+        },
+        {
+            "sentence": "Data driven decisions are made based on correct data, poor quality data can lead to wrong insights and operational inefficiencies.",
+            "section": "default",
+            "bert_score": 0.5165966749191284,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3557878386974335
+        },
+        {
+            "sentence": "This is needed by stakeholders, so we can visually show the results.",
+            "section": "default",
+            "bert_score": 0.4544895887374878,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35541823267936706
+        },
+        {
+            "sentence": "Becoming data driven also requires investment, you need certain technology, training and cultural change.",
+            "section": "default",
+            "bert_score": 0.5152861475944519,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35493599593639374
+        },
+        {
+            "sentence": "Hogwarts needs to focus on generating actionable insights that directly support the objective is crucial.",
+            "section": "default",
+            "bert_score": 0.4440036118030548,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3546023476719856
+        },
+        {
+            "sentence": "Ensuring that there is complete data is one of the most important things.",
+            "section": "default",
+            "bert_score": 0.48396700620651245,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3545785540342331
+        },
+        {
+            "sentence": "Impact on Businesses\nBusinesses face strict requirements under GDPR, including:\n• Obtaining explicit consent for data collection and processing.",
+            "section": "default",
+            "bert_score": 0.4835718274116516,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35432168781757356
+        },
+        {
+            "sentence": "(Data Retention Policy Overview: What It Is + Examples, n.d.)",
+            "section": "default",
+            "bert_score": 0.4835267961025238,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35429241746664053
+        },
+        {
+            "sentence": "If the data is inaccurate or incomplete, decisions are based on unreliable data.",
+            "section": "default",
+            "bert_score": 0.4523819386959076,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3540482601523399
+        },
+        {
+            "sentence": "An example for data enrichment could be that the current data set of a provider has basic information about the users of a streaming service.",
+            "section": "default",
+            "bert_score": 0.4824468493461609,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3535904520750046
+        },
+        {
+            "sentence": "These tools should provide insight into the findings from the student data.",
+            "section": "default",
+            "bert_score": 0.45112094283103943,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35322861284017565
+        },
+        {
+            "sentence": "The following sub-chapters are taken from General\nData Protection Regulation (GDPR) and reference the rules as accurately as possible.",
+            "section": "default",
+            "bert_score": 0.48168128728866577,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3530928367376328
+        },
+        {
+            "sentence": "This approach makes sure that practices are ethical, effective, and aligned with the mission.",
+            "section": "default",
+            "bert_score": 0.4495754837989807,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35222406446933746
+        },
+        {
+            "sentence": "The last data driven concept we will cover is the concept of actionable insights.",
+            "section": "default",
+            "bert_score": 0.510970950126648,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3521311175823212
+        },
+        {
+            "sentence": "Challenges, risks, and trade-offs\nBecoming data driven comes with its own risks and challenges.",
+            "section": "default",
+            "bert_score": 0.5109450817108154,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35211430311203007
+        },
+        {
+            "sentence": "Essentially data is collected, processed and analysed as it is being generated.",
+            "section": "default",
+            "bert_score": 0.510522186756134,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35183942139148716
+        },
+        {
+            "sentence": "Right to Be Forgotten: Individuals may demand the deletion of their data when it is no longer necessary for processing purposes.",
+            "section": "default",
+            "bert_score": 0.47967302799224854,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35178746819496154
+        },
+        {
+            "sentence": "This shows that reliability plays a vital role in data quality.",
+            "section": "default",
+            "bert_score": 0.44845545291900635,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35149604439735416
+        },
+        {
+            "sentence": "This also ensures that all parties can quickly understand findings.",
+            "section": "default",
+            "bert_score": 0.4171677827835083,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35115905880928044
+        },
+        {
+            "sentence": "All of this can lead to a time-consuming job and can be very costly.",
+            "section": "default",
+            "bert_score": 0.5088688135147095,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35076472878456116
+        },
+        {
+            "sentence": "The whole of this sub-chapter is written based on all the concepts that were discussed in chapter 2.",
+            "section": "default",
+            "bert_score": 0.47791963815689087,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3506477648019791
+        },
+        {
+            "sentence": "GDPR\nThe GDPR is set up as a regulation for Data Protection.",
+            "section": "default",
+            "bert_score": 0.47726887464523315,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35022476851940154
+        },
+        {
+            "sentence": "Such inconsistencies complicate compliance for global firms, as evidenced by Meta’s record-breaking €1.2 billion fine in 2023 for inadequately safeguarding EU citizen data during cross-border transfers.",
+            "section": "default",
+            "bert_score": 0.5076979994773865,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.35000369966030126
+        },
+        {
+            "sentence": "For example, the personalized learning and faculty performance dashboards should only present data relevant to the context and ensure that individuals retain control over their personal information.",
+            "section": "default",
+            "bert_score": 0.4763796925544739,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34964680016040806
+        },
+        {
+            "sentence": "These insufficiencies highlighted a lack of due diligence in protecting customer data, as required by the GDPR.",
+            "section": "default",
+            "bert_score": 0.4762163758277893,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3495406442880631
+        },
+        {
+            "sentence": "However, there are some columns that contribute limited information and value due to missing data that is relevant for context.",
+            "section": "default",
+            "bert_score": 0.47611701488494873,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34947605967521667
+        },
+        {
+            "sentence": "Introduction\nRecently organizations have relied more on data to support their decision making.",
+            "section": "default",
+            "bert_score": 0.5053049921989441,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3484482449293137
+        },
+        {
+            "sentence": "According to a spokesperson of PostNL the track and trace problems are known and according to him or her this only occurs during the busy Christmas period.",
+            "section": "default",
+            "bert_score": 0.5050382614135742,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3482748699188233
+        },
+        {
+            "sentence": "Emphasizing Transparency\nFrom my perspective, transparency in how data is collected, analysed, and used is critical.",
+            "section": "default",
+            "bert_score": 0.5049678087234497,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34822907567024236
+        },
+        {
+            "sentence": "Also, collaborations with data specialists are encouraged, this ensures that the insights are combined with magical expertise.",
+            "section": "default",
+            "bert_score": 0.44308826327323914,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34800737112760544
+        },
+        {
+            "sentence": "Headmasters and the head of houses should be informed to promote this change for the greater good of the students.",
+            "section": "default",
+            "bert_score": 0.503960132598877,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34757408618927005
+        },
+        {
+            "sentence": "The advantage of having audits or reviews is that at the end of the day there could still be gaps in your system due to human error or a system error.",
+            "section": "default",
+            "bert_score": 0.5036786198616028,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3473911029100418
+        },
+        {
+            "sentence": "The following day on June 18th of 2025 the United Nations Office for the Coordination of\nHumanitarian Affairs (OCHA) released a “reported impact shot” of Gaza where it was stated that 15,613 children were killed in the Gaza Strip since October 7th of 2023.",
+            "section": "default",
+            "bert_score": 0.47220486402511597,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34693316161632537
+        },
+        {
+            "sentence": "Only when the condition of the combination of letters and numbers has been validated will the data be used for the package.",
+            "section": "default",
+            "bert_score": 0.440746545791626,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3464852547645569
+        },
+        {
+            "sentence": "If your company is just simply collecting data and analysing it, it is not sufficient.",
+            "section": "default",
+            "bert_score": 0.5021960139274597,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34642740905284886
+        },
+        {
+            "sentence": "Step 4: once everything is cleaned, standardized, and the governance is settled, we start with developing analytics tools like a visual dashboard.",
+            "section": "default",
+            "bert_score": 0.5329079031944275,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3463901370763779
+        },
+        {
+            "sentence": "Faculty and Student Autonomy\nData can improve learning efficiency, but it also risks undermining the autonomy of faculty and students.",
+            "section": "default",
+            "bert_score": 0.5020917654037476,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3463596475124359
+        },
+        {
+            "sentence": "Data standardization protocols\nAnother example to prevent inconsistencies within data is the use of data standardization protocols.",
+            "section": "default",
+            "bert_score": 0.5016602277755737,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34607914805412293
+        },
+        {
+            "sentence": "disadvantaging students based on house stereotypes or outdated academic performance trends.is one of the possible outcomes of the algorithmic bias.",
+            "section": "default",
+            "bert_score": 0.5322031378746033,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3459320396184921
+        },
+        {
+            "sentence": "Without checking the accuracy of the data regarding the status of the packages.",
+            "section": "default",
+            "bert_score": 0.43925973773002625,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34551882952451707
+        },
+        {
+            "sentence": "We observe that the age column contains very high and low ages, which don’t align with the birthday entries.",
+            "section": "default",
+            "bert_score": 0.46930524706840515,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34504841059446334
+        },
+        {
+            "sentence": "This makes the big foundation for data driven initiatives.",
+            "section": "default",
+            "bert_score": 0.46914568543434143,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.344944695532322
+        },
+        {
+            "sentence": "Data appending is used to fill the gaps in the data set using existing records.",
+            "section": "default",
+            "bert_score": 0.4380834102630615,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34475421667099
+        },
+        {
+            "sentence": "Real-time data synchronization\nLastly, real-time data synchronization is another way to uphold data consistency.",
+            "section": "default",
+            "bert_score": 0.4803098440170288,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.12,
+            "section_weight": 1.0,
+            "final_score": 0.34420139861106874
+        },
+        {
+            "sentence": "• Fairness and equality: by monitoring outcomes from different houses, blood types and specializations we want to make sure that there is equal and fair treatment for all individuals.",
+            "section": "default",
+            "bert_score": 0.49873122572898865,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34417529672384267
+        },
+        {
+            "sentence": "This last phase ensures that there is sustainable and continuous improvement.",
+            "section": "default",
+            "bert_score": 0.4669134318828583,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3434937307238579
+        },
+        {
+            "sentence": "Discussions and proposals should be encouraged to base them on data insights.",
+            "section": "default",
+            "bert_score": 0.4658145606517792,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3427794644236565
+        },
+        {
+            "sentence": "These fields cannot be left out during data entry as these types of information are crucial to have data completeness.",
+            "section": "default",
+            "bert_score": 0.49587807059288025,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3423207458853722
+        },
+        {
+            "sentence": "They need to invest in literacy training, high data-quality, and change their culture actively.",
+            "section": "default",
+            "bert_score": 0.4645818769931793,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34197822004556655
+        },
+        {
+            "sentence": "Audits & Reviews\nThe last way to prevent accuracy issues is to have regular audits and reviews.",
+            "section": "default",
+            "bert_score": 0.5255553722381592,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3416109919548035
+        },
+        {
+            "sentence": "Within this regulation the rules are laid out regarding the protection and the processing of personal data with regards to natural persons as well as rules relating to the free movement of personal data.",
+            "section": "default",
+            "bert_score": 0.4638593792915344,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3415085965394974
+        },
+        {
+            "sentence": "What is real-time processing (In-depth guide for beginners).",
+            "section": "default",
+            "bert_score": 0.49350544810295105,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3407785412669182
+        },
+        {
+            "sentence": "This principle prevents organizations from holding onto data indefinitely, reducing risks associated with data breaches and ensuring compliance.",
+            "section": "default",
+            "bert_score": 0.4626781642436981,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3407408067584038
+        },
+        {
+            "sentence": "The report is structured in a way where we first talk about the concept of data driven businesses, talking about key principles, advantages, and drawbacks.",
+            "section": "default",
+            "bert_score": 0.4931170642375946,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34052609175443654
+        },
+        {
+            "sentence": "Businesses use data or data sources to guide decision-making processes.",
+            "section": "default",
+            "bert_score": 0.4929485619068146,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3404165652394295
+        },
+        {
+            "sentence": "The problem that PostNL faces is that the packages are scanned at the preparation site before they are delivered.",
+            "section": "default",
+            "bert_score": 0.46211081743240356,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3403720313310623
+        },
+        {
+            "sentence": "Purpose Limitation\nPersonal data must be collected for specific, explicit, and legitimate purposes and not processed in a manner incompatible with those purposes.",
+            "section": "default",
+            "bert_score": 0.46206948161125183,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34034516304731366
+        },
+        {
+            "sentence": "Clear communication about the purpose and impact of data usage, will build trust among students, faculty, and parents, ensuring their support for these initiatives.",
+            "section": "default",
+            "bert_score": 0.46181240677833557,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.34017806440591813
+        },
+        {
+            "sentence": "Going from what you are used to to something completely new is always a challenge.",
+            "section": "default",
+            "bert_score": 0.4924050271511078,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3400632676482201
+        },
+        {
+            "sentence": "To achieve such a change, there must be a lot of commitment from the higher ups.",
+            "section": "default",
+            "bert_score": 0.5226253271102905,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33970646262168885
+        },
+        {
+            "sentence": "Data enrichment\nFinally, another way to prevent completeness issues is to have data enrichment techniques.",
+            "section": "default",
+            "bert_score": 0.4916873872280121,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3395968016982079
+        },
+        {
+            "sentence": "Impact on Individuals\nGDPR reinforces the rights of individuals, providing greater control over their personal data and safeguarding privacy.",
+            "section": "default",
+            "bert_score": 0.4592653512954712,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3385224783420563
+        },
+        {
+            "sentence": "Hossain, Q., Yasmin, F., Biswas, T. R., & Asha, N. B. (2024).",
+            "section": "default",
+            "bert_score": 0.5207212567329407,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33846881687641145
+        },
+        {
+            "sentence": "Ensuring that there is inclusive data representation and addressing data accuracy risks are essential towards an ethical data strategy.",
+            "section": "default",
+            "bert_score": 0.45884108543395996,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33824670553207403
+        },
+        {
+            "sentence": "For example, companies like Facebook have faced criticism for utilizing personal data without sufficient user awareness, highlighting the tension between enhancing user experience and respecting privacy rights.",
+            "section": "default",
+            "bert_score": 0.4870836138725281,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33660434901714326
+        },
+        {
+            "sentence": "97 percent of medical specialists say that patients are at risk due to their digital patient files not being properly communicated between different departments of sometimes even the same hospital.",
+            "section": "default",
+            "bert_score": 0.4868417978286743,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3364471685886383
+        },
+        {
+            "sentence": "What are data-driven insights & how do you uncover them?",
+            "section": "default",
+            "bert_score": 0.4559086561203003,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3363406264781952
+        },
+        {
+            "sentence": "• Improve Safety and Well-being: Understanding trends in accidents, hospital wing visits, and mental health scores can help the school proactively support students’ safety and mental well-being.",
+            "section": "default",
+            "bert_score": 0.5162769556045532,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3355800211429596
+        },
+        {
+            "sentence": "The financial and operational demands, such as hiring Data Protection Officers and implementing secure systems, can disadvantage smaller entities compared to wellfunded corporations.",
+            "section": "default",
+            "bert_score": 0.48533326387405396,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3354666215181351
+        },
+        {
+            "sentence": "Improving these points will reduce the risk of misinterpreting data and each other.",
+            "section": "default",
+            "bert_score": 0.485263854265213,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3354215052723885
+        },
+        {
+            "sentence": "Trusted is here in a sense of accurate, consistent, and dependable over time.",
+            "section": "default",
+            "bert_score": 0.514610230922699,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3344966500997543
+        },
+        {
+            "sentence": "By using the cross-check for critical data against external sources the chances of data being inaccurate becomes less common.",
+            "section": "default",
+            "bert_score": 0.48323237895965576,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3341010463237763
+        },
+        {
+            "sentence": "Whenever a person or user changes anything in the excel document, this is immediately updated in the document across the systems that are connected to this document.",
+            "section": "default",
+            "bert_score": 0.4523804485797882,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3340472915768623
+        },
+        {
+            "sentence": "These issues were identified by going through the dataset by manual inspection.",
+            "section": "default",
+            "bert_score": 0.35959526896476746,
+            "keyword_boost": 0.5,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3337369248270988
+        },
+        {
+            "sentence": "Business leaders must describe proposals with supporting facts, so that there can be evidence-based actions.",
+            "section": "default",
+            "bert_score": 0.4826172888278961,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3337012377381325
+        },
+        {
+            "sentence": "Identifying underperforming courses can lead to curriculum improvement, for example.",
+            "section": "default",
+            "bert_score": 0.5131973028182983,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3335782468318939
+        },
+        {
+            "sentence": "These columns include personal things like names, birthdays, and BloodStatus, whereas it also includes more academic information such as classes and grades.",
+            "section": "default",
+            "bert_score": 0.5130679607391357,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3334941744804382
+        },
+        {
+            "sentence": "If data is incorrect or biased it cannot be trusted, regardless how complete it may appear.",
+            "section": "default",
+            "bert_score": 0.48160842061042786,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33304547339677815
+        },
+        {
+            "sentence": "Integrity and Confidentiality\nPersonal data must be processed in a manner that guarantees its security.",
+            "section": "default",
+            "bert_score": 0.4506579637527466,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33292767643928534
+        },
+        {
+            "sentence": "An example of data standardization protocols could be a set of rules about how new items are entered in a catalogue by first typing the colour of the item and then followed by the serial number.",
+            "section": "default",
+            "bert_score": 0.4813479781150818,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3328761857748032
+        },
+        {
+            "sentence": "Students may feel constant tracking and monitoring where teachers fear that their engagement is purely based on numbers.",
+            "section": "default",
+            "bert_score": 0.4810917377471924,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33270962953567507
+        },
+        {
+            "sentence": "DataDriven Business Models: Challenges and Opportunities of Big Data.",
+            "section": "default",
+            "bert_score": 0.44949570298194885,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33217220693826677
+        },
+        {
+            "sentence": "| United Nations Office for the Coordination of Humanitarian Affairs - Occupied Palestinian Territory, 2025)\n\nHow to Prevent Consistency Issues:\nCentralized data governance",
+            "section": "default",
+            "bert_score": 0.44928592443466187,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3320358508825302
+        },
+        {
+            "sentence": "Data-Driven\nBusiness Strategies: A comparative analysis of data science techniques in decisionmaking.",
+            "section": "default",
+            "bert_score": 0.4489537477493286,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3318199360370636
+        },
+        {
+            "sentence": "Resource allocation\nHogwarts must ensure that allocation of resources is appropriate across all people, technology and training.",
+            "section": "default",
+            "bert_score": 0.4394754469394684,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.06,
+            "section_weight": 1.0,
+            "final_score": 0.3316590405106544
+        },
+        {
+            "sentence": "For one of the objectives, trends or failing grades should trigger early attention and interventions for the possible at-risk students.",
+            "section": "default",
+            "bert_score": 0.4486813545227051,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3316428804397583
+        },
+        {
+            "sentence": "7 important characteristics of data quality & metrics to track.",
+            "section": "default",
+            "bert_score": 0.4792409837245941,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3315066394209862
+        },
+        {
+            "sentence": "Data Reliability\nData reliability refers to a degree if data can be trusted or not.",
+            "section": "default",
+            "bert_score": 0.47835591435432434,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33093134433031085
+        },
+        {
+            "sentence": "For data to be actionable, it must be relevant, timely, and very clearly communicated to the decision-makers.",
+            "section": "default",
+            "bert_score": 0.4773736298084259,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.33029285937547687
+        },
+        {
+            "sentence": "Human resources:\n• Appointment of data governance roles • Collaboration between staff and data specialists • Allocation of time for teachers to participate in training\n\nTechnological resources:\n•",
+            "section": "default",
+            "bert_score": 0.4768741726875305,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3299682122468949
+        },
+        {
+            "sentence": "These steps focus on building a strong foundation before advancing into a more in-depth and complex data-driven practice.",
+            "section": "default",
+            "bert_score": 0.4767986536026001,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3299191248416901
+        },
+        {
+            "sentence": "An example of data verification processes is the bank using your government ID to validate if a loan can be taken out in your name.",
+            "section": "default",
+            "bert_score": 0.4764949381351471,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32972170978784565
+        },
+        {
+            "sentence": "Some columns like grade-related fields\n\nand specialization categories could use explanation since the meaning could be interpreted in a different way.",
+            "section": "default",
+            "bert_score": 0.50529545545578,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32844204604625704
+        },
+        {
+            "sentence": "An example of real-time data synchronization would be a shared excel document where multiple people are working on at the same time.",
+            "section": "default",
+            "bert_score": 0.47369691729545593,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3279029962420464
+        },
+        {
+            "sentence": "If at the time of publication, the “pending” verification of the additional 4,470 children would be taken into the calculation of the difference in percentage per report, then the report of the secretary-general Guterres would cover approximately 37% of the total that is mentioned in the report made by OCHA.",
+            "section": "default",
+            "bert_score": 0.47276344895362854,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32729624181985856
+        },
+        {
+            "sentence": "Some of the key activities are centralizing student and academic data into a secure system.",
+            "section": "default",
+            "bert_score": 0.47197917103767395,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3267864611744881
+        },
+        {
+            "sentence": "For example, house is missing for a small number of students, while QuidditchPosition and MagicalPetType have a lot of missing entries.",
+            "section": "default",
+            "bert_score": 0.5016617178916931,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3260801166296005
+        },
+        {
+            "sentence": "We could prevent this by adding clear data definitions in a dictionary or README file.",
+            "section": "default",
+            "bert_score": 0.43886369466781616,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32526140153408056
+        },
+        {
+            "sentence": "This will also improve possible dropout rates and student success.",
+            "section": "default",
+            "bert_score": 0.4691620469093323,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.324955330491066
+        },
+        {
+            "sentence": "Benefits like improving decision-making are one of the biggest.",
+            "section": "default",
+            "bert_score": 0.49927207827568054,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32452685087919236
+        },
+        {
+            "sentence": "We see ages such as -7 and 330, which all look very unlikely.",
+            "section": "default",
+            "bert_score": 0.46837976574897766,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3244468477368355
+        },
+        {
+            "sentence": "The report demonstrates that becoming data driven requires technological solutions, strong governance and ethical responsibility.",
+            "section": "default",
+            "bert_score": 0.43657153844833374,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32377149999141697
+        },
+        {
+            "sentence": "This creates a more consistent and transparent decisionmaking process.",
+            "section": "default",
+            "bert_score": 0.46718427538871765,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3236697790026665
+        },
+        {
+            "sentence": "The data appear consistent, but its lack of truthfulness resulted in wrongful conviction.",
+            "section": "default",
+            "bert_score": 0.3748161494731903,
+            "keyword_boost": 0.4,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32363049715757375
+        },
+        {
+            "sentence": "In this report it was stated that the global body verified “the killing of 1259 Palestinian children-662 boys, 597 girls” in Gaza “and the process of attribution is ongoing.”",
+            "section": "default",
+            "bert_score": 0.43614354729652405,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3234933057427406
+        },
+        {
+            "sentence": "We could improve this by including timestamps for the creation and updates.",
+            "section": "default",
+            "bert_score": 0.46662789583206177,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32330813229084016
+        },
+        {
+            "sentence": "As Young was the key witness in the murder trial, she made sure that at the time Bryan was sentenced for murder.",
+            "section": "default",
+            "bert_score": 0.4354510009288788,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3230431506037712
+        },
+        {
+            "sentence": "We divide it into three resources: human-, technological, - and financial resources.",
+            "section": "default",
+            "bert_score": 0.49636632204055786,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3226381093263626
+        },
+        {
+            "sentence": "An example of automated completeness checks could be a field turning red for a field that is missing information when filling out an application form for a new job.",
+            "section": "default",
+            "bert_score": 0.4645999073982239,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32198993980884555
+        },
+        {
+            "sentence": "Bulger, M., Taylor, G., Schroeder, R., & Oxford Internet Institute.",
+            "section": "default",
+            "bert_score": 0.49469277262687683,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32155030220746994
+        },
+        {
+            "sentence": "Ensuring high data quality, proper data governance, and securing data storage is essential for this.",
+            "section": "default",
+            "bert_score": 0.4330980181694031,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.321513711810112
+        },
+        {
+            "sentence": "They must ensure that the resources are aligned with their priorities.",
+            "section": "default",
+            "bert_score": 0.4323748052120209,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32104362338781356
+        },
+        {
+            "sentence": "There could be resistance from staff who like to be traditional and keep hold of their traditional experience-based decision-making.",
+            "section": "default",
+            "bert_score": 0.4934537410736084,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.32074493169784546
+        },
+        {
+            "sentence": "Bryan’s fingerprints were found on two sandwich baggies and a beer can in the living room but, unlike Ms. Young, Bryan’s prints were not found on any objects with a direct link to Ms. Prazniak’s murder.",
+            "section": "default",
+            "bert_score": 0.462451696395874,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3205936026573181
+        },
+        {
+            "sentence": "These strategies integrate data into decision-making processes, where there are organizational cultures and daily operations.",
+            "section": "default",
+            "bert_score": 0.4609515368938446,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31961849898099903
+        },
+        {
+            "sentence": "McAfee, A., & Brynjolfsson, E. (2024, February 29).",
+            "section": "default",
+            "bert_score": 0.4917014539241791,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31960594505071643
+        },
+        {
+            "sentence": "Real-World Example\nA well-known example is the wrongful conviction of Bryan Hooper Sr. for the murder of\nAnn Prazniak in 1998.",
+            "section": "default",
+            "bert_score": 0.4605647921562195,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3193671149015427
+        },
+        {
+            "sentence": "We created three phases where we cover long-, short-, and medium-term phases.",
+            "section": "default",
+            "bert_score": 0.4911094009876251,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31922111064195635
+        },
+        {
+            "sentence": "Due to her confession 27 years later Bryan his innocence has been proven, and he has been released from prison.",
+            "section": "default",
+            "bert_score": 0.4599272906780243,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3189527389407158
+        },
+        {
+            "sentence": "Non-compliance is heavily penalized, with fines of up to €20 million or 4% of global annual turnover.",
+            "section": "default",
+            "bert_score": 0.4894173741340637,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31812129318714144
+        },
+        {
+            "sentence": "However, becoming data driven can bring along some challenges.",
+            "section": "default",
+            "bert_score": 0.4575543701648712,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31741034060716633
+        },
+        {
+            "sentence": "To support this action, we can create dashboards with visual summary reports.",
+            "section": "default",
+            "bert_score": 0.4573715627193451,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31729151576757436
+        },
+        {
+            "sentence": "The data includes performance, enrollments and health data.",
+            "section": "default",
+            "bert_score": 0.3958173394203186,
+            "keyword_boost": 0.30000000000000004,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3172812706232071
+        },
+        {
+            "sentence": "Due to the high number of packages, the mailman could simply have ran out of room to take the packages with them and because the packages are scanned beforehand the “forgotten” packages are still being marked as delivered whilst being left behind at PostNL.",
+            "section": "default",
+            "bert_score": 0.4870603084564209,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3165892004966736
+        },
+        {
+            "sentence": "Data Accuracy and Algorithmic Bias\nWith incomplete data, there could be an algorithmic bias without us knowing.",
+            "section": "default",
+            "bert_score": 0.45607465505599976,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31644852578639987
+        },
+        {
+            "sentence": "Organizations use data governance to ensure data is maintained.",
+            "section": "default",
+            "bert_score": 0.45601919293403625,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3164124754071236
+        },
+        {
+            "sentence": "Why real-time data synchronization matters more than ever.",
+            "section": "default",
+            "bert_score": 0.4556253254413605,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3161564615368843
+        },
+        {
+            "sentence": "By using a single source of information, the chances of misunderstandings are reduced.",
+            "section": "default",
+            "bert_score": 0.4853397309780121,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31547082513570784
+        },
+        {
+            "sentence": "If data is found to be inaccurate, it must be corrected or deleted promptly.",
+            "section": "default",
+            "bert_score": 0.45357048511505127,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31482081532478334
+        },
+        {
+            "sentence": "When talking about mandatory fields think of an email address or a phone number.",
+            "section": "default",
+            "bert_score": 0.48393818736076355,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3145598217844963
+        },
+        {
+            "sentence": "Key rights include:\n• Right to Access: Individuals can request copies of their personal data to ensure transparency.",
+            "section": "default",
+            "bert_score": 0.4531453847885132,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3145445001125336
+        },
+        {
+            "sentence": "Automated completeness checks are implemented systems that flag missing values and request the user to provide necessary information to be filled in.",
+            "section": "default",
+            "bert_score": 0.4523167908191681,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3140059140324593
+        },
+        {
+            "sentence": "Sartor, G., Lagioia, F., Panel for the Future of Science and Technology,\n(2020b).",
+            "section": "default",
+            "bert_score": 0.4821723699569702,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31341204047203064
+        },
+        {
+            "sentence": "Then we can develop dashboards and reports for staff, implementing early warning systems for at risk students.",
+            "section": "default",
+            "bert_score": 0.4817926287651062,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31316520869731906
+        },
+        {
+            "sentence": "Scholars Journal of Economics Business and Management, 11(09), 257–263.\n\n14.",
+            "section": "default",
+            "bert_score": 0.4809643626213074,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3126268357038498
+        },
+        {
+            "sentence": "Including this into curriculum planning, student support and strategic decisions will boost the accuracy and performance of the institution itself.",
+            "section": "default",
+            "bert_score": 0.44993969798088074,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3124608036875725
+        },
+        {
+            "sentence": "We will discuss how certain issues were identified, which could be corrected and prevented in the future.",
+            "section": "default",
+            "bert_score": 0.4488123655319214,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3117280375957489
+        },
+        {
+            "sentence": "Automated completeness checks\nAnother prevention type is automated completeness checks.",
+            "section": "default",
+            "bert_score": 0.4784328043460846,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.310981322824955
+        },
+        {
+            "sentence": "Therefore, improving the quality is critical and an ongoing responsibility.",
+            "section": "default",
+            "bert_score": 0.4168192744255066,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.31093252837657925
+        },
+        {
+            "sentence": "To create a data driven culture, everyone must be involved within the organization.",
+            "section": "default",
+            "bert_score": 0.4460449516773224,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30992921859025957
+        },
+        {
+            "sentence": "Bryan Hooper, Sr. - Great North Innocence Project 13.",
+            "section": "default",
+            "bert_score": 0.4148911237716675,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30967923045158385
+        },
+        {
+            "sentence": "We could resolve these issues by implementing rules for age ranges and cross-checking the age against the date of birth.",
+            "section": "default",
+            "bert_score": 0.47616860270500183,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3095095917582512
+        },
+        {
+            "sentence": "However, after considering representations from the airline and the economic impact of the COVID-19 pandemic, the ICO reduced the fine to £20 million in October 2020.",
+            "section": "default",
+            "bert_score": 0.47426238656044006,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30827055126428604
+        },
+        {
+            "sentence": "Real-time data synchronization is a continuous exchange of data between databases or systems.",
+            "section": "default",
+            "bert_score": 0.4425736367702484,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3076728639006615
+        },
+        {
+            "sentence": "The last step in data enrichment is the integration.",
+            "section": "default",
+            "bert_score": 0.44199877977371216,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30729920685291295
+        },
+        {
+            "sentence": "Some birthday-age combinations indicate that there is outdated or inconsistent information.",
+            "section": "default",
+            "bert_score": 0.4418724775314331,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30721711039543154
+        },
+        {
+            "sentence": "Bryan confessed to being in the apartment however denied being involved with the murder that took place.",
+            "section": "default",
+            "bert_score": 0.4097248315811157,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3063211405277252
+        },
+        {
+            "sentence": "The privacy rules considered by GDPR are also explained in those lectures.",
+            "section": "default",
+            "bert_score": 0.4389195442199707,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.305297703742981
+        },
+        {
+            "sentence": "This alignment ensures that the magical community thrives in a sustainable, inclusive, and student-centred future.",
+            "section": "default",
+            "bert_score": 0.4080091714859009,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30520596146583556
+        },
+        {
+            "sentence": "Police found Ms. Young’s fingerprints on pieces of tape stuck to the floor of the apartment similar to tape removed from Ms. Prazniak’s body.",
+            "section": "default",
+            "bert_score": 0.4695274233818054,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30519282519817353
+        },
+        {
+            "sentence": "The provider has the basic information about the user such as their telephone number, name and email address.",
+            "section": "default",
+            "bert_score": 0.46890804171562195,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3047902271151543
+        },
+        {
+            "sentence": "And that it’s a guidance for students and not monitoring.",
+            "section": "default",
+            "bert_score": 0.4369767904281616,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3040349137783051
+        },
+        {
+            "sentence": "Actionable insights\nCollecting and analyzing data alone is not sufficient for data driving cooperations.",
+            "section": "default",
+            "bert_score": 0.4362420439720154,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30355732858181
+        },
+        {
+            "sentence": "And lastly, we integrate data insights into the curriculum planning and student support.",
+            "section": "default",
+            "bert_score": 0.43614456057548523,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30349396437406545
+        },
+        {
+            "sentence": "The original difference between these stated statistics is approximately 92% when comparing the OCHA report and the report made by the secretary-general Guterres.",
+            "section": "default",
+            "bert_score": 0.4668392837047577,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3034455344080925
+        },
+        {
+            "sentence": "For example, there are entries where a student scores 100 and still fails.",
+            "section": "default",
+            "bert_score": 0.46675509214401245,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3033908098936081
+        },
+        {
+            "sentence": "Regulation also protects the fundamental rights and freedoms of natural people with the focus on protecting personal data.",
+            "section": "default",
+            "bert_score": 0.4353857636451721,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3030007463693619
+        },
+        {
+            "sentence": "Bryan admitted to having been in the apartment, but denied involvement in or knowledge about Ms. Prazniak’s death.",
+            "section": "default",
+            "bert_score": 0.4351670444011688,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3028585788607598
+        },
+        {
+            "sentence": "Here we prioritize data quality, governance, and compliance.",
+            "section": "default",
+            "bert_score": 0.43476590514183044,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.30259783834218984
+        },
+        {
+            "sentence": "The false testimony from Young was further backed by four other witnesses and that led to\nBryan having to serve a life sentence for murder.",
+            "section": "default",
+            "bert_score": 0.4039289355278015,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.302553808093071
+        },
+        {
+            "sentence": "This could improve further accuracy, and it could prevent further entry errors.",
+            "section": "default",
+            "bert_score": 0.43226003646850586,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3009690237045288
+        },
+        {
+            "sentence": "Wrongfully convicted Minnesota dad Bryan Hooper\nSr. is freed from jail after 27 years as star witness confesses to murder.",
+            "section": "default",
+            "bert_score": 0.43159669637680054,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.3005378526449204
+        },
+        {
+            "sentence": "The consequence of gaps in your analysis is misinformed strategies.",
+            "section": "default",
+            "bert_score": 0.43028494715690613,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.299685215651989
+        },
+        {
+            "sentence": "These provisions empower users, offering transparency and control while obligating organizations to adhere to ethical data practices.",
+            "section": "default",
+            "bert_score": 0.4294164478778839,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29912069112062456
+        },
+        {
+            "sentence": "Definition\nWhile all the columns have reasonable names, we still miss descriptions for all fields.",
+            "section": "default",
+            "bert_score": 0.45883309841156006,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.298241513967514
+        },
+        {
+            "sentence": "The Birthday column has two different types of formatting, dd-mm-yyyy & dd/mm/yyyy.",
+            "section": "default",
+            "bert_score": 0.4585610032081604,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29806465208530425
+        },
+        {
+            "sentence": "An example of automated validation rules is the usage of requiring postal codes to follow the correct pattern.",
+            "section": "default",
+            "bert_score": 0.4582533836364746,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2978646993637085
+        },
+        {
+            "sentence": "This case demonstrates how unreliable data, can be with false testimony.",
+            "section": "default",
+            "bert_score": 0.39617234468460083,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29751202404499055
+        },
+        {
+            "sentence": "They should implement rules, standardizing formats and mandatory fields.",
+            "section": "default",
+            "bert_score": 0.42690691351890564,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2974894937872887
+        },
+        {
+            "sentence": "The processing supports a task carried out in the public interest or the exercise of official authority vested in the controller.",
+            "section": "default",
+            "bert_score": 0.45756807923316956,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29741925150156023
+        },
+        {
+            "sentence": "A phased\n\nimplementation helps manage the resource constraints and ensures long-term sustainability.",
+            "section": "default",
+            "bert_score": 0.45736944675445557,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29729014039039614
+        },
+        {
+            "sentence": "During the investigation, Chalaka Young provided testimony claiming that Hooper coerced her into helping hide Prazniak’s body.",
+            "section": "default",
+            "bert_score": 0.3954610228538513,
+            "keyword_boost": 0.2,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2970496648550034
+        },
+        {
+            "sentence": "Cultural resistance\nOne of the most common challenges is the cultural risks.",
+            "section": "default",
+            "bert_score": 0.45676612854003906,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2968979835510254
+        },
+        {
+            "sentence": "• Talent discovery: by identifying students with exceptional high strengths, we aim to guide them towards suitable training and specializations.",
+            "section": "default",
+            "bert_score": 0.4258188009262085,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2967822206020356
+        },
+        {
+            "sentence": "The increasing reliance on personalized services, such as targeted advertising, raises ethical concerns.",
+            "section": "default",
+            "bert_score": 0.45589733123779297,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29633326530456544
+        },
+        {
+            "sentence": "The bank or financial institution uses the external source of your government ID to validate if the person who is taking out the loan is the same person as who the bank account belongs to.",
+            "section": "default",
+            "bert_score": 0.45503342151641846,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29577172398567203
+        },
+        {
+            "sentence": "Therefore, an example for a metric for timeliness is time variance.",
+            "section": "default",
+            "bert_score": 0.45493924617767334,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2957105100154877
+        },
+        {
+            "sentence": "When using automated validation rules, we implement input validation to prevent typos and incorrect formulas.",
+            "section": "default",
+            "bert_score": 0.4543340802192688,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29531715214252474
+        },
+        {
+            "sentence": "Talend - a\nLeader in Data Integration & Data Integrity.",
+            "section": "default",
+            "bert_score": 0.42188403010368347,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29422461956739426
+        },
+        {
+            "sentence": "Reported impact snapshot | Gaza Strip (18 June 2025).",
+            "section": "default",
+            "bert_score": 0.4218403398990631,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2941962209343911
+        },
+        {
+            "sentence": "The processing is required to comply with a legal obligation to which the controller is subject.",
+            "section": "default",
+            "bert_score": 0.41899004578590393,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2923435297608376
+        },
+        {
+            "sentence": "(Data Quality Feature Comparison Guide - ADS, n.d.)",
+            "section": "default",
+            "bert_score": 0.4181751012802124,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2918138158321381
+        },
+        {
+            "sentence": "Continuous monitoring and feedback loops, in my view, will further enhance the system’s effectiveness and ethical alignment.",
+            "section": "default",
+            "bert_score": 0.4477911591529846,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29106425344944004
+        },
+        {
+            "sentence": "Data enrichment techniques focus on enhancing existing data by adding valuable information from internal and external sources.",
+            "section": "default",
+            "bert_score": 0.4169551432132721,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2910208430886269
+        },
+        {
+            "sentence": "They can use monitoring systems, checking for fairness, equity, and student outcomes.",
+            "section": "default",
+            "bert_score": 0.41574379801750183,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.29023346871137623
+        },
+        {
+            "sentence": "However, the additional deaths were pending verification at the time of the publication of this report.",
+            "section": "default",
+            "bert_score": 0.41225510835647583,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2879658204317093
+        },
+        {
+            "sentence": "These concepts will be discussed in next subchapter.",
+            "section": "default",
+            "bert_score": 0.4426732659339905,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2877376228570938
+        },
+        {
+            "sentence": "Being data driven offers several advantages for businesses.",
+            "section": "default",
+            "bert_score": 0.410918265581131,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.28709687262773514
+        },
+        {
+            "sentence": "When listing your postal code in the Netherlands we follow the standard of 4 numbers followed by 2 letters.",
+            "section": "default",
+            "bert_score": 0.4384135901927948,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2849688336253166
+        },
+        {
+            "sentence": "According to her statement she was coerced by Bryan to help\nBryan hide the body.",
+            "section": "default",
+            "bert_score": 0.40764355659484863,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.28496831178665166
+        },
+        {
+            "sentence": "Securing databases for data storage • Analytical tools for reporting and dashboards •",
+            "section": "default",
+            "bert_score": 0.4066096842288971,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.28429629474878315
+        },
+        {
+            "sentence": "One of these preventions is the use of automated validation rules.",
+            "section": "default",
+            "bert_score": 0.43737518787384033,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2842938721179962
+        },
+        {
+            "sentence": "There is a risk of blind trust where the employees can ignore their own expertise.",
+            "section": "default",
+            "bert_score": 0.4367449879646301,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2838842421770096
+        },
+        {
+            "sentence": "Strong policies and access controls should lead to migrating risks.",
+            "section": "default",
+            "bert_score": 0.436258465051651,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.28356800228357315
+        },
+        {
+            "sentence": "During the investigation Chalaka Young her fingerprints were found in the apartment however she denied knowing anything about the murder.",
+            "section": "default",
+            "bert_score": 0.43582579493522644,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2832867667078972
+        },
+        {
+            "sentence": "Cross-Border Compliance Issues\nMultinational companies often encounter conflicting legal requirements.",
+            "section": "default",
+            "bert_score": 0.43508243560791016,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2828035831451416
+        },
+        {
+            "sentence": "Lawful processing requires adherence to specific rules set out by the regulation.",
+            "section": "default",
+            "bert_score": 0.4329276978969574,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.28140300363302234
+        },
+        {
+            "sentence": "Competing on analytics: The new science of winning.",
+            "section": "default",
+            "bert_score": 0.4305817484855652,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2798781365156174
+        },
+        {
+            "sentence": "• Implementing robust security measures such as encryption.",
+            "section": "default",
+            "bert_score": 0.43016713857650757,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2796086400747299
+        },
+        {
+            "sentence": "Privacy concerns\nThen there is always the privacy concern.",
+            "section": "default",
+            "bert_score": 0.4289511442184448,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.27881824374198916
+        },
+        {
+            "sentence": "In April 1998 the 77-year-old Ann Prazniak was found dead in her apartment.",
+            "section": "default",
+            "bert_score": 0.4283488094806671,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.27842672616243364
+        },
+        {
+            "sentence": "Consequently, organizations invest significantly in compliance, encompassing:\n• Employee training programs.",
+            "section": "default",
+            "bert_score": 0.4281380772590637,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2782897502183914
+        },
+        {
+            "sentence": "Artsen zien dagelijks gevaar voor patiëntveiligheid door ICT-problemen.",
+            "section": "default",
+            "bert_score": 0.42395034432411194,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2755677238106728
+        },
+        {
+            "sentence": "Additionally, the airline lacked sufficient security measures, such as multi-factor authentication and robust password management, which could have prevented unauthorized access.",
+            "section": "default",
+            "bert_score": 0.3901329040527344,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2735863876342774
+        },
+        {
+            "sentence": "Without these definitions, it is unclear what the values mean.",
+            "section": "default",
+            "bert_score": 0.38713985681533813,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.27164090692996984
+        },
+        {
+            "sentence": "Data security Financial resources:\n• Investment in software •",
+            "section": "default",
+            "bert_score": 0.38327929377555847,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.269131540954113
+        },
+        {
+            "sentence": "The United Nations also had received reports regarding the deaths of an additional 4,470 children in the Gaza Strip in 2024.",
+            "section": "default",
+            "bert_score": 0.41309618949890137,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2685125231742859
+        },
+        {
+            "sentence": "Example:\nFor a real-world example, we chose PostNL.",
+            "section": "default",
+            "bert_score": 0.4115428924560547,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2675028800964356
+        },
+        {
+            "sentence": "PostNL zegt “pakket bezorgd”, maar jij hebt niks ontvangen: hoe kan dat?\n(2024, December 19).",
+            "section": "default",
+            "bert_score": 0.40709060430526733,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.26460889279842376
+        },
+        {
+            "sentence": "Unfortunately, the track and trace function does not always work as intended.",
+            "section": "default",
+            "bert_score": 0.4056646525859833,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.26368202418088915
+        },
+        {
+            "sentence": "We found these by reviewing the minimum and maximum values in the age column.",
+            "section": "default",
+            "bert_score": 0.4047848582267761,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2631101578474045
+        },
+        {
+            "sentence": "She later blamed Bryan Hooper Sr. for the murder of Ann Prazniak.",
+            "section": "default",
+            "bert_score": 0.3736690282821655,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2628848683834076
+        },
+        {
+            "sentence": "I considered three ethical concerns I think are important.",
+            "section": "default",
+            "bert_score": 0.4003791809082031,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.26024646759033204
+        },
+        {
+            "sentence": "Among those who had reportedly entered the apartment were Chalaka Young (then nicknamed “Shay”) and Bryan Hooper (then nicknamed “Brome”).",
+            "section": "default",
+            "bert_score": 0.36689916253089905,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2584844556450844
+        },
+        {
+            "sentence": "At highest level, UN comfortable with wildly inconsistent Gaza data.",
+            "section": "default",
+            "bert_score": 0.36003729701042175,
+            "keyword_boost": 0.1,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.2540242430567741
+        },
+        {
+            "sentence": "United\nNations Office for the Coordination of Humanitarian Affairs – Occupied Palestinian Territory.",
+            "section": "default",
+            "bert_score": 0.3759371042251587,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.24435911774635316
+        },
+        {
+            "sentence": "After having served 27 years in prison,\nYoung confessed because of a guilty conscious to having murdered Ann Prazniak.",
+            "section": "default",
+            "bert_score": 0.37097418308258057,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.24113321900367737
+        },
+        {
+            "sentence": "Although Hooper\n\nadmitted to being present at the apartment, he denied involvement in the murder.",
+            "section": "default",
+            "bert_score": 0.3672378957271576,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.23870463222265245
+        },
+        {
+            "sentence": "We can identify these missing values by empty entries per column.",
+            "section": "default",
+            "bert_score": 0.3545922040939331,
+            "keyword_boost": 0.0,
+            "entity_boost": 0.0,
+            "section_weight": 1.0,
+            "final_score": 0.23048493266105652
+        }
+    ],
+    "summary": "Data Analysis / Results .............................................................................................. 9 3.1. Explanation and consideration ................................................................. Data quality report of the data ............................................................. 17 4. 4. Conclusion ............................................................. 17 5. Conclusion of the study ....................................................................................... 19 6. Conclusions .......................................................................... 19 7. 8. 9. 10. 11. 11. 12. 12. 12. 13. 13. 14. 14............................................................................Data Analysis/Results/Results/Contents/References/Reviews/Downloads/Files/DATA/Specifications/Comparison/Resources/Data/Relations/Transactions/Descriptions/Documents/Sitemaps/",
+    "metadata": {
+        "id": "doc_01",
+        "title": "HZ University of Applied Sciences Data Driven Business (CU75072V2) DATA DRIVEN BUSINESS Lars de Bruijne, Joeri Harreman",
+        "description": "Data Analysis / Results .............................................................................................. 9 3.1. Explanation and consideration ................................................................. Data quality report of the data ............................................................. 17 4. 4. Conclusion ............................................................. 17 5. Conclusion of the study ....................................................................................... 19 6. Conclusions .......................................................................... 19 7. 8. 9. 10. 11. 11. 12. 12. 12. 13. 13. 14. 14............................................................................Data Analysis/Results/Results/Contents/References/Reviews/Downloads/Files/DATA/Specifications/Comparison/Resources/Data/Relations/Transactions/Descriptions/Documents/Sitemaps/",
+        "contact_person": "",
+        "start_date": "",
+        "end_date": "",
+        "research_groups": [
+            "Data Science"
+        ],
+        "researchers": [
+            "Joeri Harreman"
+        ]
+    },
+    "evaluation": {
+        "runtime_seconds": 19.627327919006348,
+        "original_token_count": 10299,
+        "summary_token_count": 61,
+        "compression_ratio": 0.005922905136421012,
+        "entity_preservation_score": 0.09357798165137615,
+        "sentence_coverage_score": 0.20217391304347826
+    }
+}
