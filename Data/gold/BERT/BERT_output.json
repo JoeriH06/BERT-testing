@@ -1,0 +1,29 @@
+{
+    "document_id": "doc_01",
+    "model": "BERT",
+    "summary": "Delta Water Innovation Hub\n\nProject ID: DWIH-2026-01\nStart date: 2026-02-01\nEnd date: 2028-12-31\nContact person: Dr. Lisa Vermeer\n\nThe Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The project investigates how sensor systems, predictive models and decision-support dashboards can support sustainable water management in coastal regions. The main goal is to reduce pressure on freshwater resources, improve water availability during drought periods and support circular water systems in the southwestern Netherlands.",
+    "metadata": {
+        "id": "doc_01",
+        "title": "Delta Water Innovation Hub",
+        "description": "Delta Water Innovation Hub\n\nProject ID: DWIH-2026-01\nStart date: 2026-02-01\nEnd date: 2028-12-31\nContact person: Dr. Lisa Vermeer\n\nThe Delta Water Innovation Hub project focuses on the reuse of treated water streams for agriculture and industrial applications in Zeeland. The project investigates how sensor systems, predictive models and decision-support dashboards can support sustainable water management in coastal regions. The main goal is to reduce pressure on freshwater resources, improve water availability during drought periods and support circular water systems in the southwestern Netherlands.",
+        "contact_person": "Lisa Vermeer",
+        "start_date": "2026-02-01",
+        "end_date": "2028-12-31",
+        "research_groups": [
+            "HZ Kenniscentrum Zeeuwse Samenleving",
+            "Water Technology"
+        ],
+        "researchers": [
+            "Lisa Vermeer",
+            "Tom de Bruin"
+        ]
+    },
+    "evaluation": {
+        "runtime_seconds": 0.17826247215270996,
+        "original_token_count": 133,
+        "summary_token_count": 90,
+        "compression_ratio": 0.6766917293233082,
+        "entity_preservation_score": 0.6666666666666666,
+        "sentence_coverage_score": 1.0
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "document_id": "doc_01",
+    "model": "BERT",
+    "evaluation": {
+        "document_id": "doc_01",
+        "model": "BERT",
+        "runtime_seconds": 0.17826247215270996,
+        "original_token_count": 133,
+        "summary_token_count": 90,
+        "compression_ratio": 0.6766917293233082,
+        "entity_preservation_score": 0.6666666666666666,
+        "sentence_coverage_score": 1.0
+    }
+}

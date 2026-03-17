@@ -1,10 +1,11 @@
 # BERT-testing Manuel
 
-## In this project we will recreate datasets ourself, consisting of JSON text files with random generated content and structure.
-### we will make use of the spaCY library to do the pre-processing steps and we will use BERT models for further modification.
+## In this project we will recreate datasets ourself, consisting of JSON text files with random generated content and structure
 
+### we will make use of the spaCY library to do the pre-processing steps and we will use BERT models for further modification
 
 ## Why spaCy?
+
 spaCy provides reliable tokenization, sentence segmentation, and linguistic annotations that are well-suited for preparing text data for downstream NLP models such as transformer-based architectures.
 
 ---
@@ -14,8 +15,10 @@ spaCy provides reliable tokenization, sentence segmentation, and linguistic anno
 The processing in this layer follows the steps below:
 
 ### 1. Parse and Select Fields (Structure Cleaning)
+
 JSON blob structures are parsed and flattened into a consistent schema.  
 Relevant text and metadata fields are selected, such as:
+
 - document identifiers
 - document type (e.g. project, media)
 - titles and headings
@@ -27,7 +30,9 @@ This step ensures structural consistency and traceability of the original source
 ---
 
 ### 2. Normalize and De-Noise Text (Light Text Cleaning)
+
 Light text normalization is applied to improve downstream NLP performance while preserving semantic meaning:
+
 - removal of duplicated content blocks
 - removal of known boilerplate or UI-generated text
 - stripping of HTML or markup when present
@@ -38,7 +43,9 @@ Aggressive text cleaning (e.g. global lowercasing, stop-word removal, or punctua
 ---
 
 ### 3. spaCy Annotation (NLP Preparation)
+
 The cleaned text is processed using spaCy to generate linguistic annotations:
+
 - tokenization
 - sentence segmentation
 - optional lemmatization
@@ -49,7 +56,9 @@ These annotations are used to prepare the data for transformer-based extraction 
 ---
 
 ### 4. Gold Layer Extraction (Transformer-Based)
+
 In the Gold layer, transformer models (e.g. BERT) are used to extract key content and structured information such as:
+
 - important text segments
 - contributors
 - release or publication dates
@@ -57,15 +66,84 @@ In the Gold layer, transformer models (e.g. BERT) are used to extract key conten
 
 spaCy annotations from the Silver layer are used as supporting signals during this process.
 
+#### 📊 Model Comparison (Summarization-Focused)
+
+| Model          | Summary Quality ⭐ | Entity Preservation | Compression Ratio | Runtime (s) | Strengths                                      | Weaknesses                          |
+| -------------- | ------------------ | ------------------- | ----------------- | ----------- | ---------------------------------------------- | ----------------------------------- |
+| **mBART**      | ⭐⭐⭐⭐⭐         | 0.67                | 0.49              | 8.50        | Balanced, keeps key info, high-quality summary | Slower runtime                      |
+| **BERT**       | ⭐⭐⭐⭐☆          | 0.67                | 0.68              | 0.18        | Very accurate, extremely fast                  | Not very concise (weak compression) |
+| **BART**       | ⭐⭐☆☆☆            | 0.11                | 0.32              | 3.59        | Produces short summaries                       | Loses important details             |
+| **distilBART** | ⭐☆☆☆☆             | 0.11                | 0.30              | 1.98        | Fast and compact                               | Very poor information retention     |
+
+---
+
+- **mBART (Multilingual BART)**  
+  A transformer model designed for **text generation and summarization across multiple languages**. It is strong at producing fluent and coherent summaries.
+
+- **BERT (Bidirectional Encoder Representations from Transformers)**  
+  A model mainly designed for **understanding text** (not generating). In summarization, it is typically used for **extractive summarization** (selecting important sentences).
+
+- **BART (Bidirectional and Auto-Regressive Transformers)**  
+  A model that combines BERT (understanding) and GPT (generation). It is commonly used for **abstractive summarization** (rewriting text in a shorter form).
+
+- **distilBART**  
+  A **smaller, faster version of BART** created using knowledge distillation. It trades some accuracy for speed and efficiency.
+
+## 📊 Table Metrics
+
+- **Summary Quality ⭐**  
+  An overall qualitative rating based on how good the summary is.  
+  It considers:
+  - How well important information is preserved  
+  - How concise the summary is  
+  - How readable and coherent it is  
+
+---
+
+- **Entity Preservation**  
+  Measures how well the model keeps **important names and key information**, such as:
+  - People (e.g., Dr. Lisa Vermeer)  
+  - Organizations  
+  - Project names  
+
+  👉 Higher score = better retention of critical details
+
+---
+
+- **Compression Ratio**  
+  Shows how much the text is shortened:  
+
+compression_ratio = summary_tokens / original_tokens
+
+- Lower value → shorter summary (more compression)  
+- Higher value → longer summary (less compression)  
+
+👉 Ideal: not too high, not too low (balance is important)
+
+---
+
+- **Runtime (s)**  
+The time (in seconds) the model takes to generate the summary.  
+
+👉 Lower = faster model
+
+## 🧠 Conclusion
+
+- **Best summarization model:** mBART
+- **Best fast alternative:** BERT
+- **Avoid for important summaries:** BART, distilBART
+
 ---
 
 ### 5. Summarization
+
 In the final step, summarization is applied to the cleaned and content-selected text.  
 Summaries are generated only after irrelevant and noisy content has been removed, ensuring that the output reflects the most relevant information in each document.
 
 ---
 
 ## Key Considerations
+
 - Casing and punctuation are preserved to support heading detection and entity recognition.
 - Numerical values are retained to allow extraction of dates and version information.
 - Metadata fields from the original JSON are preferred when available, with NLP methods used as fallback.
