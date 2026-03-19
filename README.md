@@ -1,150 +1,150 @@
-# BERT-testing Manuel
+# 📄 Manuel
 
-## In this project we will recreate datasets ourself, consisting of JSON text files with random generated content and structure
+## 📌 Project Overview
 
-### we will make use of the spaCY library to do the pre-processing steps and we will use BERT models for further modification
+This project evaluates multiple NLP models on large text documents to determine which model produces the most effective summaries.
 
-## Why spaCy?
-
-spaCy provides reliable tokenization, sentence segmentation, and linguistic annotations that are well-suited for preparing text data for downstream NLP models such as transformer-based architectures.
+We use the **spaCy** library for preprocessing and experiment with various **BERT** and **BART-based transformer models** for summarization and downstream tasks.
 
 ---
 
-## Processing Structure
+## 🧱 Pipeline Structure
 
-The processing in this layer follows the steps below:
-
-### 1. Parse and Select Fields (Structure Cleaning)
-
-JSON blob structures are parsed and flattened into a consistent schema.  
-Relevant text and metadata fields are selected, such as:
-
-- document identifiers
-- document type (e.g. project, media)
-- titles and headings
-- main body text
-- contributor and date metadata
-
-This step ensures structural consistency and traceability of the original source data.
+The pipeline structure that is being used in this project is the medaillon structure.
+This structure divides a datascience project into three different layers, Bronze, Silver, and Gold.
+Each layer has its own purpose, where bronze is dataretrieval, silver is cleaning and preprocessing, and gold is modeling.
+This structure makes sure that everything is nicely formatted and easily traceable
 
 ---
 
-### 2. Normalize and De-Noise Text (Light Text Cleaning)
+### 🥉 1. Bronze Layer (Data Retrieval)
 
-Light text normalization is applied to improve downstream NLP performance while preserving semantic meaning:
+In the Bronze layer, raw data is collected.
 
-- removal of duplicated content blocks
-- removal of known boilerplate or UI-generated text
-- stripping of HTML or markup when present
-- normalization of whitespace and unicode characters
-
-Aggressive text cleaning (e.g. global lowercasing, stop-word removal, or punctuation removal) is intentionally avoided, as it can negatively affect entity recognition and heading detection.
+- Input data is uploaded by users in **PDF format**
+- PDFs are converted into **plain text (.txt)** files
+- This conversion enables easier data extraction, cleaning, and readability
 
 ---
 
-### 3. spaCy Annotation (NLP Preparation)
+### 🥈 2. Silver Layer 1 (Text Cleaning)
 
-The cleaned text is processed using spaCy to generate linguistic annotations:
+In this stage:
 
-- tokenization
-- sentence segmentation
-- optional lemmatization
-- named entity recognition (NER) for supporting downstream extraction
+- The text data from the Bronze layer is loaded into a dataframe
+- Text is cleaned and normalized
+- Preparation steps are applied to support NLP preprocessing
 
-These annotations are used to prepare the data for transformer-based extraction in the Gold layer and are not considered final analytical outputs.
-
----
-
-### 4. Gold Layer Extraction (Transformer-Based)
-
-In the Gold layer, transformer models (e.g. BERT) are used to extract key content and structured information such as:
-
-- important text segments
-- contributors
-- release or publication dates
-- semantic representations for downstream analysis
-
-spaCy annotations from the Silver layer are used as supporting signals during this process.
-
-#### 📊 Model Comparison (Summarization-Focused)
-
-| Model          | Summary Quality ⭐ | Entity Preservation | Compression Ratio | Runtime (s) | Strengths                                      | Weaknesses                          |
-| -------------- | ------------------ | ------------------- | ----------------- | ----------- | ---------------------------------------------- | ----------------------------------- |
-| **mBART**      | ⭐⭐⭐⭐⭐         | 0.67                | 0.49              | 8.50        | Balanced, keeps key info, high-quality summary | Slower runtime                      |
-| **BERT**       | ⭐⭐⭐⭐☆          | 0.67                | 0.68              | 0.18        | Very accurate, extremely fast                  | Not very concise (weak compression) |
-| **BART**       | ⭐⭐☆☆☆            | 0.11                | 0.32              | 3.59        | Produces short summaries                       | Loses important details             |
-| **distilBART** | ⭐☆☆☆☆             | 0.11                | 0.30              | 1.98        | Fast and compact                               | Very poor information retention     |
+The cleaned output is saved for further processing.
 
 ---
 
-- **mBART (Multilingual BART)**  
-  A transformer model designed for **text generation and summarization across multiple languages**. It is strong at producing fluent and coherent summaries.
+### 🥈 3. Silver Layer 2 (NLP Preprocessing)
 
-- **BERT (Bidirectional Encoder Representations from Transformers)**  
-  A model mainly designed for **understanding text** (not generating). In summarization, it is typically used for **extractive summarization** (selecting important sentences).
+In this layer:
 
-- **BART (Bidirectional and Auto-Regressive Transformers)**  
-  A model that combines BERT (understanding) and GPT (generation). It is commonly used for **abstractive summarization** (rewriting text in a shorter form).
+- Advanced NLP preprocessing is performed using **spaCy**
+- Tasks may include:
+  - Tokenization
+  - Named Entity Recognition (NER)
+  - Part-of-speech tagging
+  - Linguistic annotations
 
-- **distilBART**  
-  A **smaller, faster version of BART** created using knowledge distillation. It trades some accuracy for speed and efficiency.
-
-## 📊 Table Metrics
-
-- **Summary Quality ⭐**  
-  An overall qualitative rating based on how good the summary is.  
-  It considers:
-  - How well important information is preserved  
-  - How concise the summary is  
-  - How readable and coherent it is  
+These annotations are later used to enhance model performance.
 
 ---
 
-- **Entity Preservation**  
-  Measures how well the model keeps **important names and key information**, such as:
-  - People (e.g., Dr. Lisa Vermeer)  
-  - Organizations  
-  - Project names  
+### 🥇 4. Gold Layer (Transformer-Based Processing)
 
-  👉 Higher score = better retention of critical details
+In the Gold layer, transformer models (e.g., **BERT**, **BART**) are used to extract key information and generate summaries.
 
----
+Outputs include:
 
-- **Compression Ratio**  
-  Shows how much the text is shortened:  
+- Important text segments
+- Named entities (contributors, organizations)
+- Publication or release dates
+- Semantic representations for downstream analysis
 
-compression_ratio = summary_tokens / original_tokens
-
-- Lower value → shorter summary (more compression)  
-- Higher value → longer summary (less compression)  
-
-👉 Ideal: not too high, not too low (balance is important)
+spaCy annotations from the Silver layer are used as supporting signals.
 
 ---
 
-- **Runtime (s)**  
-The time (in seconds) the model takes to generate the summary.  
+## 📊 Model Comparison (Summarization Performance)
 
-👉 Lower = faster model
-
-## 🧠 Conclusion
-
-- **Best summarization model:** mBART
-- **Best fast alternative:** BERT
-- **Avoid for important summaries:** BART, distilBART
+| Model          | Summary Quality ⭐ | Entity Preservation | Compression Ratio | Runtime (s) | Strengths                             | Weaknesses                      |
+| -------------- | ------------------ | ------------------- | ----------------- | ----------- | ------------------------------------- | ------------------------------- |
+| **mBART**      | ⭐⭐⭐⭐⭐         | 0.67                | 0.49              | 8.50        | High-quality, well-balanced summaries | Slower runtime                  |
+| **BERT**       | ⭐⭐⭐⭐☆          | 0.67                | 0.68              | 0.18        | Very accurate, extremely fast         | Less concise (weak compression) |
+| **BART**       | ⭐⭐☆☆☆            | 0.11                | 0.32              | 3.59        | Produces short summaries              | Loses important details         |
+| **distilBART** | ⭐☆☆☆☆             | 0.11                | 0.30              | 1.98        | Fast and lightweight                  | Poor information retention      |
 
 ---
 
-### 5. Summarization
+## 🤖 Model Descriptions
 
-In the final step, summarization is applied to the cleaned and content-selected text.  
-Summaries are generated only after irrelevant and noisy content has been removed, ensuring that the output reflects the most relevant information in each document.
+### **mBART (Multilingual BART)**
+
+A transformer model designed for **multilingual text generation and summarization**.  
+It produces fluent, coherent, and high-quality summaries across different languages.
 
 ---
 
-## Key Considerations
+### **BERT (Bidirectional Encoder Representations from Transformers)**
 
-- Casing and punctuation are preserved to support heading detection and entity recognition.
-- Numerical values are retained to allow extraction of dates and version information.
-- Metadata fields from the original JSON are preferred when available, with NLP methods used as fallback.
-- Both raw and cleaned text are retained to ensure reproducibility and traceability.
+Primarily designed for **text understanding**, not generation.  
+Used here for **extractive summarization**, selecting the most relevant sentences.
+
+---
+
+### **BART (Bidirectional and Auto-Regressive Transformers)**
+
+A hybrid model combining BERT-style understanding with GPT-style generation.  
+Commonly used for **abstractive summarization** (rewriting text concisely).
+
+---
+
+### **distilBART**
+
+A **compressed version of BART** created via knowledge distillation.  
+Optimized for speed and efficiency, but with reduced accuracy.
+
+---
+
+## 📐 Evaluation Metrics
+
+### ⭐ Summary Quality
+
+A qualitative rating based on:
+
+- Preservation of key information
+- Conciseness
+- Readability and coherence
+
+---
+
+### 🧾 Entity Preservation
+
+Measures how well the model retains important entities such as:
+
+- People (e.g., _Dr. Lisa Vermeer_)
+- Organizations
+- Project names
+
+👉 Higher score = better retention of critical details
+
+---
+
+### 📉 Compression Ratio
+
+- Lower value → shorter summary (more compression)
+- Higher value → longer summary (less compression)
+
+👉 Ideal balance: concise but still informative
+
+---
+
+### ⏱ Runtime (seconds)
+
+The time required to generate a summary.
+
+👉 Lower value = faster model
