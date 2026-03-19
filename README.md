@@ -126,7 +126,7 @@ A qualitative rating based on:
 
 Measures how well the model retains important entities such as:
 
-- People (e.g., _Dr. Lisa Vermeer_)
+- People
 - Organizations
 - Project names
 

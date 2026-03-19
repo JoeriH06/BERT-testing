@@ -63,7 +63,7 @@
         }
     },
     "evaluation": {
-        "runtime_seconds": 11.930673837661743,
+        "runtime_seconds": 11.646936416625977,
         "original_token_count": 10305,
         "summary_token_count": 95,
         "compression_ratio": 0.009218825812712276,
