@@ -1,10 +1,8 @@
- 
- 
-  
 HZ University of Applied Sciences 
 Data Driven Business (CU75072V2) 
 DATA DRIVEN BUSINESS 
 Lars de Bruijne, Joeri Harreman  
+02/01/2026 – 02/28/2026 
  
 1 | P a g e  
  
@@ -1074,5 +1072,4 @@ https://www.esade.edu/beyond/en/the-importance-of-data-driven-decision-making/
 32. Zurhake, S., & Zurhake, S. (2025, March 19). Artsen zien dagelijks gevaar voor 
 patiëntveiligheid door ICT-problemen. NOS. 
 https://nos.nl/artikel/2560282-artsen-zien-dagelijks-gevaar-voor-patientveiligheid-
-door-ict-problemen 
- 
+door-ict-problemen

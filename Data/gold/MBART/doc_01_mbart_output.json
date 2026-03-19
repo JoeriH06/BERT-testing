@@ -1,0 +1,90 @@
+{
+    "document_id": "doc_01",
+    "model": "mBART_single_input_general_reproducible_v8",
+    "selected_sentences": [],
+    "summary_input": "This report examines how the magical institution of Hogwarts can become data driven. We combine theoretical and practical data analysis. First, this study explores core principles of data driven decision making, where we cover data literacy, culture, and governance. Then it analyzes the quality of a provided student dataset using data quality dimensions such as accuracy, completeness, consistency, and timeliness. Furthermore, we identify data quality issues, and the report discusses improvements and prevention methods, all of this to enhance data reliability. Finally, we lay out a strategy for Hogwarts, outlining objectives, steps, challenges timeline, resource allocation, and success metrics. The report demonstrates that becoming data driven requires technological solutions, strong governance and ethical responsibility.",
+    "summary": "This report examines how the magical institution of Hogwarts can become data driven. We combine theoretical and practical data analysis. First, this study explores core principles of data driven decision making, where we cover data literacy, culture, and governance. Then it analyzes the quality of a provided student dataset using data quality dimensions such as accuracy, completeness, consistency, and timeliness. Furthermore, we identify data quality issues, and the report discusses improvements and prevention methods, all of this to enhance data reliability.",
+    "metadata": {
+        "id": "doc_01",
+        "title": "DATA DRIVEN BUSINESS",
+        "title_found": true,
+        "contributors": [
+            "Lars de Bruijne",
+            "Joeri Harreman"
+        ],
+        "contributors_found": true,
+        "start_date": "02/01/2026",
+        "end_date": "02/28/2026",
+        "dates_found": [
+            "02/01/2026",
+            "02/28/2026"
+        ],
+        "description": "This report examines how the magical institution of Hogwarts can become data driven. We combine theoretical and practical data analysis. First, this study explores core principles of data driven decision making, where we cover data literacy, culture, and governance. Then it analyzes the quality of a provided student dataset using data quality dimensions such as accuracy, completeness, consistency, and timeliness. Furthermore, we identify data quality issues, and the report discusses improvements and prevention methods, all of this to enhance data reliability. Finally, we lay out a strategy for Hogwarts, outlining objectives, steps, challenges timeline, resource allocation, and success metrics. The report demonstrates that becoming data driven requires technological solutions, strong governance and ethical responsibility.",
+        "research_group": "",
+        "research_group_confidence": 0.130451,
+        "research_group_top3": [
+            {
+                "label": "Data Science",
+                "score": 0.130451
+            },
+            {
+                "label": "Building with Nature",
+                "score": 0.073151
+            },
+            {
+                "label": "Healthy Region",
+                "score": 0.072976
+            }
+        ],
+        "top_terms": [
+            "datum",
+            "data",
+            "business",
+            "decision",
+            "quality",
+            "concept",
+            "report",
+            "gdpr",
+            "literacy",
+            "insight"
+        ],
+        "metadata_debug": {
+            "front_lines_sample": [
+                "HZ University of Applied Sciences Data Driven Business (CU75072V2)",
+                "DATA DRIVEN BUSINESS",
+                "Lars de Bruijne, Joeri Harreman",
+                "02/01/2026 – 02/28/2026"
+            ]
+        }
+    },
+    "evaluation": {
+        "runtime_seconds": 9.644337177276611,
+        "original_token_count": 10305,
+        "summary_token_count": 81,
+        "compression_ratio": 0.007860262008733625,
+        "entity_preservation_score": 0.06666666666666667,
+        "sentence_coverage_score": 0.0,
+        "summary_redundancy_score": 0.12217864404967312,
+        "input_token_count_to_model": 192,
+        "output_token_count_from_model": 135,
+        "preserved_entities": [
+            "Hogwarts"
+        ],
+        "missed_entities": [
+            "HZ University of Applied Sciences Data Driven Business (CU75072V2) DATA DRIVEN BUSINESS Lars de Bruijne",
+            "Joeri Harreman",
+            "Data Driven Concepts",
+            "Legal Challenges of GDPR",
+            "Data Analysis / Results",
+            "Data Consistency",
+            "Data Timeliness",
+            "25 5",
+            "Harry Potter",
+            "General Data Protection Regulation",
+            "today",
+            "Mucci",
+            "2025",
+            "2024"
+        ]
+    }
+}
