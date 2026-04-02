@@ -1,0 +1,282 @@
+[
+  {
+    "page_number": 1,
+    "extraction_method": "pypdf",
+    "characters_extracted": 207,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 2,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1226,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 3,
+    "extraction_method": "pypdf",
+    "characters_extracted": 2373,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 4,
+    "extraction_method": "pypdf",
+    "characters_extracted": 693,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 5,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1206,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 6,
+    "extraction_method": "pypdf",
+    "characters_extracted": 354,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 7,
+    "extraction_method": "pypdf",
+    "characters_extracted": 836,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 8,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1467,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 9,
+    "extraction_method": "pypdf",
+    "characters_extracted": 821,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 10,
+    "extraction_method": "pypdf",
+    "characters_extracted": 2022,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 11,
+    "extraction_method": "pypdf",
+    "characters_extracted": 632,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 12,
+    "extraction_method": "pypdf",
+    "characters_extracted": 536,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 13,
+    "extraction_method": "pypdf",
+    "characters_extracted": 892,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 14,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1402,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 15,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1706,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 16,
+    "extraction_method": "pypdf",
+    "characters_extracted": 617,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 17,
+    "extraction_method": "pypdf",
+    "characters_extracted": 862,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 18,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1281,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 19,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1504,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 20,
+    "extraction_method": "pypdf",
+    "characters_extracted": 712,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 21,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1276,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 22,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1113,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 23,
+    "extraction_method": "pypdf",
+    "characters_extracted": 774,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 24,
+    "extraction_method": "pypdf",
+    "characters_extracted": 954,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 25,
+    "extraction_method": "pypdf",
+    "characters_extracted": 762,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 26,
+    "extraction_method": "pypdf",
+    "characters_extracted": 907,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 27,
+    "extraction_method": "pypdf",
+    "characters_extracted": 568,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 28,
+    "extraction_method": "pypdf",
+    "characters_extracted": 759,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 29,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1356,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 30,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1994,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 31,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1094,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 32,
+    "extraction_method": "pypdf",
+    "characters_extracted": 529,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 33,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1070,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 34,
+    "extraction_method": "pypdf",
+    "characters_extracted": 650,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 35,
+    "extraction_method": "pypdf",
+    "characters_extracted": 452,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 36,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1489,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 37,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1492,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 38,
+    "extraction_method": "pypdf",
+    "characters_extracted": 2277,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 39,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1978,
+    "status": "success",
+    "warning": null
+  },
+  {
+    "page_number": 40,
+    "extraction_method": "pypdf",
+    "characters_extracted": 1346,
+    "status": "success",
+    "warning": null
+  }
+]

@@ -40,7 +40,8 @@ de technische beroepen: 935 WW-gerechtigden en
 arbeidsvraag het arbeidsaanbod overschrijdt zijn 
 de agrarische beroepen, dienstverlenende 
 beroepen, ICT-beroepen en transport- en 
-logistiekberoepen. 
+logistiekberoepen.
+
 Inleiding
 In opdracht van Provincie Zeeland houdt ZB| Planbureau cijfers bij over de Zeeuwse arbeidsmarkt. Deze cijfers worden 
 actueel gehouden en gepubliceerd in de databank en dashboards van ZB en zijn vrij en publiek toegankelijk. Om meer 
@@ -68,6 +69,7 @@ komt voor dat er verschillen zijn tussen de data van de verschillende dataverstr
 komt dit door een klein definitieverschil of verschil in methodologie van het verzamelen van de data. In deze publicatie 
 wordt bij elke tabel, grafiek of kaart aangegeven wat de herkomst van de data is.  
 1
+
 1. Arbeidsaanbod
 2
 In hoofdstuk 1 starten we met het in beeld brengen van het 
@@ -81,6 +83,7 @@ Verderop in het hoofdstuk wordt weergegeven dat 2,4% van de
 Zeeuwse beroepsbevolking een WW-uitkering ontvangt, ruim onder het 
 landelijk gemiddelde van 3.1%. We laten het aantal WW-uitkeringen in 
 Zeeland zien per beroepsklasse en opleidingsniveau.
+
 1. Arbeidsaanbod
 Beroepsbevolking
 De potentiële beroepsbevolking in Zeeland bestaat momenteel uit 283.000 personen (figuur 1). De grootte van de 
@@ -114,6 +117,7 @@ Bron: CBS (2018)
 300
 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
 Potentiële beroepsbevolking Beroepsbevolking Werkzame beroepsbevolking
+
 1. Arbeidsaanbod
 Werkzame beroepsbevolking
 De werkzame beroepsbevolking is het hoogst in de gemeenten Terneuzen (26.000), Middelburg (23.000) en Vlissingen 
@@ -122,6 +126,7 @@ laagst.
 Bron: CBS (2017)
 Figuur 2 De werkzame beroepsbevolking per gemeente 
 4
+
 1. Arbeidsaanbod
 Arbeidsparticipatie onder mannen en vrouwen
 De arbeidsparticipatie van de mannelijke beroepsbevolking is in alle gemeenten hoger dan de arbeidsparticipatie van de 
@@ -136,6 +141,7 @@ Figuur 4 Arbeidsparticipatie onder de  vrouwelijke
 beroepsbevolking
 Bron: CBS (2017)Bron: CBS (2017)
 5
+
 1. Arbeidsaanbod
 Arbeidsparticipatie onder verschillende leeftijdsgroepen
 De arbeidsparticipatie is het hoogst in de leeftijdscategorie 25 tot 45 
@@ -162,6 +168,7 @@ mogelijk. Desalniettemin is er met de verhoging van de
 wettelijke AOW-leeftijd een toenemend percentage 65-plussers 
 dat deel uitmaakt van de beroepsbevolking. 
 6
+
 1. Arbeidsaanbod
 Arbeidsparticipatie per opleidingsniveau
 De arbeidsparticipatie verschilt per opleidingsniveau. Over het algemeen kan gesteld worden dat hoe hoger de opleiding hoe 
@@ -173,6 +180,7 @@ Figuur 6 Arbeidsparticipatie verschillende opleidingsniveaus, v.l.n.r.: laagopge
 1), middelbaar opgeleiden (mbo-niveaus 2, 3 en 4) en hoger opgeleiden (hbo en universitaire opleidingen)
 Bron: CBS (2017)
 7
+
 1. Arbeidsaanbod
 Werkloze beroepsbevolking, WW-gerechtigden en Geregistreerde Werkzoekenden UWV
 In figuur 1 hebben we kunnen zien dat de beroepsbevolking in Zeeland uit 193.000 personen bestaat en de 
@@ -198,6 +206,7 @@ werkloos.
 In deze publicatie wordt zowel ingegaan op de werkloze beroepsbevolking als de groep mensen met een WW-
 uitkering. Dit zijn vaak personen die binnen afzienbare tijd weer aan de slag kunnen.
 8
+
 1. Arbeidsaanbod
 Werkloosheid en WW-uitkeringen
 De gemeente Vlissingen heeft relatief de hoogste werkloze beroepsbevolking en het hoogste percentage WW-uitkeringen 
@@ -207,6 +216,7 @@ van de Zeeuwse beroepsbevolking ontvangt een WW -uitkering; dit is ruim onder he
 Bron: CBS (Dec, 2017) Bron: UWV (Aug, 2018)
 Figuur 7 Werkloosheid volgens het CBS Figuur 8 WW-uitkeringen volgens het UWV
 9
+
 1. Arbeidsaanbod
 Werkloze beroepsbevolking naar geslacht 
 Het werkloosheidspercentage is hoger binnen de vrouwelijke beroepsbevolking dan binnen de mannelijke beroepsbevolking 
@@ -215,6 +225,7 @@ Het laagste werkloosheidspercentage is voor beide groepen in Kapelle (mannen: 2,
 Figuur 9 Werkloosheid onder de mannelijke beroepsbevolking Figuur 10 Werkloosheid onder de vrouwelijke beroepsbevolking
 Bron: CBS (2017)
 10
+
 1. Arbeidsaanbod
 Werkloze beroepsbevolking in verschillende leeftijdsgroepen
 Het werkloosheidspercentage is het hoogst onder jongeren (15 -25-jarigen), en het laagst onder 25-45-jarigen (figuur 11). 
@@ -226,6 +237,7 @@ percentage 5,8%. Dit is te vinden in de gemeenten Veere, Reimerswaal en Terneuze
 Figuur 11 Werkloze beroepsbevolking in verschillende leeftijdsgroepen, v.l.n.r.: 15-25 jaar, 25-45 jaar en 45-75 jaar
 Bron: CBS (2017)
 11
+
 1. Arbeidsaanbod
 Werkloze beroepsbevolking in verschillende opleidingsniveaus
 Het hoogste percentage werklozen is te vinden onder de laagopgeleide beroepsbevolking. De gemeente Vlissingen spant 
@@ -243,6 +255,7 @@ Figuur 12 Werkloze beroepsbevolking in verschillende opleidingsniveaus, v.l.n.r.
 niveau 1), middelbaar opgeleiden (mbo-niveaus 2, 3 en 4) en hoger opgeleiden (hbo en universitaire opleidingen)
 Bron: CBS (2017)
 12
+
 1. Arbeidsaanbod
 WW-uitkeringen
 UWV-data laten zien dat er in Zeeland in totaal 4.679 WW-uitkeringen werden verstrekt in augustus 2018. Het hoogste 
@@ -314,6 +327,7 @@ WO/master
 Onbekend
 Bron: UWV (2018)
 13
+
 2. Arbeidsvraag
 14
 In hoofdstuk 2 komt de arbeidsvraag in Zeeland aan bod, oftewel de 
@@ -327,6 +341,7 @@ Zeeland zijn. Het betreft hier voor ongeveer een derde technische
 beroepen.
 Wanneer we kijken naar de pendel van en naar Zeeland blijkt dat er 
 zo’n 42.000 uitgaande pendelaars zijn tegenover 25.000 inkomende.
+
 2. Arbeidsvraag
 Banen in Zeeland
 Het aantal banen* in Zeeland is tussen 2012 en 2016 gedaald naar 177.400. Sinds het kantelpunt in 2016 is er een 
@@ -358,6 +373,7 @@ staat.”
 Dit kunnen zowel banen in loondienst als banen van 
 zelfstandigen zijn. 
 15
+
 2. Arbeidsvraag
 Banen in de 4 grootste sectoren
 Tussen 2012 en 2017 is de arbeidsvraag in drie van de vier grootste sectoren (qua banen) gedaald (figuur 16). De 
@@ -395,6 +411,7 @@ Groot- en detailhandel; reparatie van auto Gezondheids- en welzijnszorg
 Industrie Logies-, maaltijd- en drankverstrekking
 Bron: LISA (2018)
 16
+
 2. Arbeidsvraag
 Banen in de overige sectoren
 Het aantal banen buiten de 4 grootste sectoren is gestegen van 2012 tot en met 2017 (figuur 17). Hoewel er grote 
@@ -431,6 +448,7 @@ gestegen 2.700
 Totaal 
 gedaald 2.200
 17
+
 2. Arbeidsvraag
 Aantal banen per gemeente
 Het hoogste aantal banen in Zeeland in 2017 was te vinden in de gemeente Terneuzen (29.700), het laagste in de 
@@ -442,6 +460,7 @@ Bron: LISA (2018)
 Figuur 18 v.l.n.r. Aantal banen per gemeente in 2012, aantal banen per gemeente in 2017 en het verschil tussen het 
 aantal banen in 2012 en 2017.
 18
+
 2. Arbeidsvraag
 Openstaande vacatures
 Het aantal openstaande vacatures* in Zeeland vertoont een stijgende trend (figuur 19). In januari 2016 waren er 
@@ -482,6 +501,7 @@ gepubliceerd, terwijl in de beroepsklasse
 ICT het percentage online gepubliceerde 
 vacatures veel hoger ligt.   
 19
+
 2. Arbeidsvraag
 Openstaande vacatures
 Het aantal openstaande vacatures is voor elke beroepsgroep gestegen tussen 2016 en 2018 (figuur 20). De grootste 
@@ -541,6 +561,7 @@ Commerciële beroepen
 Bedrijfseconomische en administratieve…
 Agrarische beroepen
 Juni 2016 Juni 2017 Juni 2018
+
 2. Arbeidsvraag
 Nieuwe vacatures
 Tussen januari 2017 en augustus 2018 is het aantal nieuwe vacatures* maand na maand gestegen. In augustus 
@@ -571,6 +592,7 @@ telling en dat het beeld hierdoor een
 ondergrens is van het werkelijke aantal 
 nieuwe vacatures. 
 21
+
 2. Arbeidsvraag
 Nieuwe vacatures
 Als de maandelijkse nieuwe vacatures uitgesplitst worden naar beroepsklassen dan blijkt dat het aantal nieuwe 
@@ -599,6 +621,7 @@ augustus 2018, in absolute aantallen in 4 beroepsklassen
 Dienstverlenende beroepen Ict beroepen
 Technische beroepen Zorg en welzijn beroepen
 22
+
 2. Arbeidsvraag
 Pendel binnen de provinciegrenzen
 Pendel, het wonen en werken in verschillende gemeenten, gebeurt veelvuldig in Zeeland. De gemeenten Goes, Terneuzen en 
@@ -610,6 +633,7 @@ De meest recente data op het moment van samenstellen van dit rapport komen uit 2
 Figuur 23 Pendel binnen de Zeeuwse provinciegrens v.l.n.r. inkomende pendelaars, uitgaande pendelaars en het saldo 
 Bron: CBS (2016)
 23
+
 2. Arbeidsvraag
 Pendel over de provinciegrenzen
 Pendel vindt ook plaats over de Zeeuwse provinciegrenzen heen. De gemeente Goes is de enige Zeeuwse gemeente met een 
@@ -622,6 +646,7 @@ pendelaars is 41.900. Het saldo van de pendels bedraagt -17.100 op provincienive
 Figuur 24 Pendel over de provinciegrens: v.l.n.r. inkomende pendelaars, uitgaande pendelaars en het saldo van de pendel 
 Bron: CBS (2016)
 24
+
 2. Arbeidsvraag
 Pendelpercentage
 Het pendelpercentage is het percentage van de werkzame beroepsbevolking dat buiten de provinciegrenzen werkt. Dit 
@@ -632,6 +657,7 @@ Figuur 25 Het percentage van de werkzame beroepsbevolking dat
 werkzaam is buiten de provinciegrens
 Bron: CBS (2016)
 25
+
 3. Knelpunten
 26
 In hoofdstuk 3 zetten we het arbeidsaanbod af tegen de arbeidsvraag: 
@@ -646,6 +672,7 @@ het grootste verschil in aanbod en vraag zich bij de technische
 beroepen voordoet. Om goed inzichtelijk te krijgen wat er bij de 
 technische beroepen speelt, hebben we deze beroepsklasse opgesplitst 
 naar beroepssegmenten.
+
 3. Knelpunten
 Figuur 26 Aantal openstaande vacatures op werk.nl in augustus 2018 vergeleken met het 
 aantal lopende WW-rechten per beroepsklasse in Zeeland
@@ -674,6 +701,7 @@ Zorg en welzijn beroepen
 Onbekend
 Aantal openstaande vacatures op werk.nl Aantal lopende WW-rechten
 27
+
 3. Knelpunten
 Figuur 27 Aantal openstaande vacatures op werk.nl in augustus 2018 vergeleken met het aantal lopende WW-rechten in 
 de beroepsklassen Technische beroepen (l.) en Zorg- en welzijnsberoepen, uitgesplitst naar beroepssegmenten 
@@ -742,6 +770,7 @@ beschikbaar. Maar is omwille van
 leesbaarheid niet in deze publicatie 
 opgenomen.  
 28
+
 3. Knelpunten
 De spanningsindicator
 De spanningsindicator* vertoont een stijgende lijn tussen 
@@ -779,6 +808,7 @@ resultaat is een getal tussen 0 en oneindig en kent de volgende typeringen:
 3,5
 2015 2016 2017 2018
 29
+
 3. Knelpunten
 De spanningsindicator in Nederland
 De Zeeuwse arbeidsmarkt is in het tweede kwartaal van 2018 met een spanningsindicator van 3,14 in het tweede kwartaal 
@@ -788,6 +818,7 @@ Figuur 29 De landelijke spanningsindicator voor alle beroepen in het tweede kwar
 van 2017 en 2018
 Bron: UWV (2018)
 30
+
 3. Knelpunten
 De spanningsindicator per beroepsklasse
 De regionale spanningsindicator wordt door het UWV uitgesplitst per beroepsklasse. In het tweede kwartaal van 2018 zijn er 
@@ -823,6 +854,7 @@ Technische beroepen
 Transport en logistiek beroepen
 Zorg en welzijn beroepen
 31
+
 4. Prognose
 32
 In hoofdstuk 4 presenteren we de prognose die ZB| Planbureau heeft 
@@ -836,6 +868,7 @@ moeten worden opgevuld.
 We presenteren daarnaast de verwachte uitbreidingsvraag per sector in 
 Zeeland en zien dat de vraag naar verwachting het sterkst stijgt in de 
 gezondheidszorg, horeca en bouw.
+
 4. Prognose
 Bron: Provinciale prognose Zeeland, IPB/Primos (2015)
 De prognose van de potentiële beroepsbevolking
@@ -844,6 +877,7 @@ name voort te komen uit een hoger aantal ouderen, want zowel het aantal 15 -65-j
 al een neerwaartse trend.  
 Figuur 31 De potentiele beroepsbevolking in Zeeland 2014-2040
 33
+
 4. Prognose
 Instroom van schoolverlaters 2018-2022
 In de periode 2018-2022 is een instroom in de Zeeuwse 
@@ -886,6 +920,7 @@ structurele wijzigingen zouden plaatsvinden, gaat dit tekort oftewel ten koste v
 aanvullende maatregelen nemen om met minder personeel toe te kunnen. In dit verband zal met name van 2020 -2022 een 
 vermindering van het aantal Zeeuwse banen optreden als er geen toename van de migratie of inkomende pendel optreedt.
 34
+
 4. Prognose
 Vervanging, uitbreiding en arbeidsmarktinstroom
 Het verwachte tekort van 6.000 personen op de Zeeuwse arbeidsmarkt in 2022 is een cumulatief opgebouwd aantal. Dat wil 
@@ -907,6 +942,7 @@ Arbeidsmarktinstroom 4.700 4.600 4.600 4.500
 Tekort op de arbeidsmarkt (cumulatief) 3.100 4.300 5.100 6.000
 Bron: ZB| Planbureau (2018)
 35
+
 4. Prognose
 2018 2022 +/-
 Groot- en detailhandel; reparatie van auto 31.100 31.600 +500
@@ -963,6 +999,7 @@ Rabobank, geplakt op de trendmatige
 verwachtingen voor de Zeeuwse sectoren en 
 daarbij meegenomen recente ontwikkelingen in 
 nieuwe en/of vertrekkende vestigingen.
+
 Conclusie
 Handen tekort
 De arbeidsmarkt in Zeeland komt steeds strakker in haar jasje te zitten. De arbeidsparticipatie in Zeeland is ondanks 
@@ -986,6 +1023,7 @@ nieuwe banen en 27.000 vervanging van pensioengerechtigden en andere ‘arbeidsm
 Daarmee is er over vijf jaar gerekend een tekort aan werkenden van 6.000 personen. Dit zijn banen die moeten worden 
 opgevuld vanuit de arbeidsreserve, van buiten de provincie en/of door een groei in het aantal uren per werkende.
 37
+
 Begrippenlijst
 Arbeidsvraag
 Het aantal fte's dat een werkgever wil inhuren: de werkgelegenheid. 

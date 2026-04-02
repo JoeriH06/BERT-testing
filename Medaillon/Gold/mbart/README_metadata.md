@@ -1,210 +1,109 @@
-# 📄 Metadata Generation Pipeline
-
-This pipeline generates structured metadata from documents **after a PDF has been converted into cleaned text**.
-
-It combines rule-based extraction with lightweight NLP to produce consistent metadata across a wide range of document types.
-
+# 🥇 Gold Layer — Metadata Extraction Pipeline
+The **Gold layer** generates structured metadata from documents after they have passed through the Bronze, Silver, and Silver NLP layers. It combines **rule-based extraction**, **NLP signals**, and **zero-shot classification** to produce consistent, traceable metadata across documents.
 ---
 
 ## 🔄 Pipeline Flow
-
-```
-PDF → Text Extraction → Cleaning → NLP Preprocessing → Metadata Extraction → Classification → JSON Output
-```
-
+PDF → Bronze → Silver → Silver NLP → Gold → Classification → JSON Output
 ---
 
-## 🧠 What This Pipeline Actually Uses
+## 🎯 Purpose
+The Gold layer is responsible for:
+- Extracting title, contributors, dates, description
+- Classifying documents into research groups
+- Preserving upstream metadata
+- Generating per-document JSON + batch reports
+---
 
-Despite references to *“mBART metadata extraction”*, the system is primarily **rule-based**.
+## 📥 Input / Output
+### Input
+../../../Data/silver/doc_XX_silver_nlp.json
+Contains:
+- document_id
+- cleaned_text
+- nlp_text
+- entities
+- metadata
 
-### Model Usage
+### Output
+../../../Data/gold/metadata/doc_XX_gold_metadata.json
+Reports:
+../../../Data/gold/metadata/reports/gold_metadata_manifest.json
+../../../Data/gold/metadata/reports/gold_metadata_validation_report.json
+---
 
-- **Zero-shot classification only**
-  - Model: `facebook/bart-large-mnli`
-  - Purpose: Assign document to a **research group**
-
+## 🧠 What This Pipeline Uses
 ### Rule-Based Extraction
-
-Used for:
 - Title
 - Contributors
 - Dates
 - Description
 
+### NLP Signals
+- spaCy entities (PERSON)
+
+### Model Usage
+- facebook/bart-large-mnli
+- Zero-shot classification for research group
 ---
 
-## ⚙️ How Metadata Is Generated
-
-### 1. Select Working Text
-
-The pipeline chooses the best available text:
-
-```python
+## ⚙️ Metadata Generation
+### 1. Working Text
 working_text = nlp_text or cleaned_text
-```
 
----
+### 2. Contributors
+- Uses title-page lines
+- Removes TOC, sections, institutions
+- Cleans suffixes (e.g. Uitgave: #1)
+- Splits on commas, and, &, ;
+- Validates names
+- Uses NER fallback
 
-### 2. Extract Contributors
+### 3. Title
+- Uses front lines
+- Stops at TOC (Inhoudsopgave), authors, dates
+- Merges short lines
+- Fallback scoring
 
-**Function:** `extract_contributors(row)`
+### 4. Dates
+Supported:
+- 12/03/2024
+- 2024-03-12
+- 12 March 2024
+- March 2024
+- 2024
+Features:
+- Front-matter only
+- Context scoring
+- Dutch + English support
+Outputs:
+- start_date
+- end_date
+- dates_found
+- date_confidence
 
-- Focuses on the first lines of the document
-- Removes:
-  - Table of contents
-  - Section headers
-  - Organization names
-- Detects patterns like:
-  - `Author:`
-  - `Authors:`
-  - `Written by`
-- Splits names on:
-  - commas, `and`, `&`, `;`
-- Validates person-like names
-- Optionally includes NER `PERSON` entities (if near title page)
-
----
-
-### 3. Extract Title
-
-**Function:** `extract_title(row, contributors)`
-
-- Reads probable title-page lines
-- Merges short consecutive lines
-- Stops at:
-  - Dates
-  - Author lines
-  - Organizations
-  - TOC markers
-  - Section headers
-- Fallback: scores and selects best candidate line
-
----
-
-### 4. Extract Dates
-
-**Function:** `extract_document_dates(working_text)`
-
-#### Supported formats:
-
-- `12/03/2024`
-- `2024-03-12`
-- `12 March 2024`
-- `March 2024`
-- `2024`
-
-#### Scoring logic
-
-**Higher score if:**
-- Appears early in document
-- Near keywords:
-  - publication date
-  - published
-  - report date
-  - submission date
-  - final report
-
-**Lower score if:**
-- In references/bibliography
-- Near DOI, URL, journal, volume, pages
-- Standalone year without context
-
-#### Outputs:
-
-- `start_date`
-- `end_date`
-- `dates_found`
-- `date_confidence`
-
----
-
-### 5. Extract Description
-
-```python
+### 5. Description
 description = abstract_text or extract_body_preview(working_text)
-```
 
-- Uses abstract if available
-- Otherwise uses first meaningful body text
-
----
-
-### 6. Classify Research Group
-
-- Model: `facebook/bart-large-mnli`
-- Method: zero-shot classification
-
-#### Input:
-
-- Title
-- Description
-- Body excerpt
-
-#### Template:
-
-```
-"This document best fits the research group {}."
-```
-
-#### Threshold:
-
-```python
+### 6. Research Group Classification
+Model: facebook/bart-large-mnli
+Template:
+Deze publicatie past het best binnen onderzoeksgroep {}.
+Threshold:
 RESEARCH_GROUP_CONFIDENCE_THRESHOLD = 0.20
-```
-
-- Below threshold → no label assigned
-
----
-
-## ✅ Why This Works Well
-
-### 1. Uses Front-Matter Structure
-
-Extracts from:
-- Title
-- Authors
-- Dates
-- Abstract
-
----
-
-### 2. Filters Noise
-
-Removes:
-- Table of contents
-- Section headers
-- Bibliography
-- Page numbers
-- Institutions
-- Non-title lines
-
----
-
-### 3. Combines Rules + NLP
-
-- Regex + heuristics → structure
-- NER → contributor validation
-- Zero-shot → classification
-
----
-
-### 4. Built-in Fallbacks
-
-- `nlp_text → cleaned_text`
-- `abstract → body preview`
-- `title block → scored line`
-- `authors → +NER support`
-
 ---
 
 ## 📦 Output Schema
-
-```json
 {
-  "id": "",
-  "title": "",
+  "id": "doc_01",
+  "document_id": "doc_01",
+  "source_file_name": "...",
+  "source_file_path": "...",
+  "pdf_metadata": {},
+  "page_count": 40,
+  "title": "...",
+  "title_found": true,
   "contributors": [],
+  "contributors_found": true,
   "start_date": "",
   "end_date": "",
   "dates_found": [],
@@ -212,178 +111,69 @@ Removes:
   "description": "",
   "research_group": "",
   "research_group_confidence": 0.0,
-  "research_group_top3": []
+  "research_group_top3": [],
+  "metadata_quality_flags": [],
+  "metadata_debug": {}
 }
-```
+---
 
-Includes:
-- `metadata_debug` (front lines, date candidates, etc.)
+## 📊 Batch Processing
+- Processes all Silver NLP files
+- One output per document
+- Generates:
+  - manifest
+  - validation report
+---
 
+## 🧪 Quality Flags
+- missing_title
+- missing_contributors
+- missing_date
+- missing_description
+- missing_research_group
+---
+
+## ✅ Strengths
+- Front-matter focused extraction
+- Strong noise filtering (TOC, references, headers)
+- Hybrid approach (rules + NLP + classification)
+- Full metadata traceability
+- Batch-first architecture
 ---
 
 ## ⚠️ Limitations
-
-Performs worse on:
-- Scanned PDFs (poor OCR)
-- Complex layouts
-- Slide decks
-- Multi-column PDFs
-- Metadata only in headers/footers/images
-
-Also:
-- Conservative → may miss edge cases rather than guess
-
+- Depends on PDF extraction quality
+- Sensitive to layout issues
+- Heuristic-based contributor extraction
+- English model on Dutch text
 ---
 
-# 🚧 Improvements Roadmap
+## 🚧 Improvements
+### High Priority
+- Improve contributor extraction
+- Improve Dutch handling
+- Improve classification accuracy
+- Add confidence scoring
 
-## 🔴 High Priority
+### Medium
+- Language detection
+- Dutch spaCy model
+- Better descriptions
 
-### 1. Improve PDF → Text Extraction
-
-- Evaluate tools: PyMuPDF, pdfplumber, Tika
-- Fix line merging issues
-- Handle multi-column layouts
-- Normalize encoding
-- Add OCR fallback (Tesseract)
-
+### Low
+- Logging
+- Parallel processing
+- Config-driven rules
 ---
 
-### 2. Improve Title Extraction
-
-- Better multi-line support
-- Handle ALL CAPS
-- Detect subtitles (`:`, `-`)
-- Fallback: best front-line candidate
-
----
-
-### 3. Improve Contributor Extraction
-
-- Support initials (J. Smith)
-- Support non-Western names
-- Allow longer names
-- Add confidence scores
-- Log rejected candidates
-
----
-
-### 4. Improve Date Extraction
-
-- Distinguish:
-  - publication vs submission vs project dates
-- Filter:
-  - copyright years
-  - academic years
-- Handle ranges (2022–2024)
-- Add primary date field
-
----
-
-## 🟡 Medium Priority
-
-### 5. Improve Description
-
-- Clean abstract extraction
-- Better sentence segmentation
-- Optional summarization model
-- Reduce noise
-
----
-
-### 6. Improve Classification
-
-- Improve label wording
-- Try `multi_label=True`
-- Tune thresholds
-- Log misclassifications
-
----
-
-### 7. Metadata Confidence Scoring
-
-- Per-field confidence:
-  - title
-  - contributors
-  - dates
-- Aggregate score
-
----
-
-## 🟢 Low Priority
-
-### 8. Performance & Scaling
-
-- Batch processing
-- Progress logging
-- Multiprocessing
-- Cache predictions
-
----
-
-### 9. Debugging & Observability
-
-- Expand debug output:
-  - title candidates
-  - contributor candidates
-  - rejected lines
-- Save intermediate states
-- Replace print with logging
-
----
-
-### 10. Evaluation Framework
-
-- Create labeled dataset
-- Measure:
-  - title accuracy
-  - contributor precision/recall
-  - date correctness
-  - classification accuracy
-- Add regression tests
-
----
-
-### 11. Configurability
-
-- Externalize thresholds
-- Toggle features (NER, classification)
-- Config-driven regex patterns
-
----
-
-## 🚀 Advanced Improvements
-
-### 12. LLM Fallback Extraction
-
-- Use LLM only when rules fail
-
-**Prompt:**
-```
+## 🚀 Advanced
+### LLM fallback
 Extract title, authors, and date from this text
-```
 
-- Combine with rule-based output
+### Layout-aware extraction
+- pdfplumber
+- LayoutLM
 
----
-
-### 13. Layout-Aware Extraction
-
-- Use:
-  - LayoutLM
-  - pdfplumber layout features
-- Detect:
-  - font size
-  - position
-  - blocks
-
----
-
-### 14. Language Support
-
+### Multilingual support
 - Detect language
-- Adapt:
-  - month names
-  - author formats
-  - section labels
-  
+- Adapt rules

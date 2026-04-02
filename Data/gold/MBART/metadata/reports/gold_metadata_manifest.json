@@ -1,0 +1,17 @@
+[
+  {
+    "document_id": "doc_01",
+    "source_file_name": "ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
+    "input_json_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\silver\\doc_01_silver_nlp.json",
+    "output_json_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\gold\\MBART\\metadata\\doc_01_gold_metadata.json",
+    "title_found": true,
+    "contributors_found": true,
+    "start_date": "November 2018",
+    "research_group": "",
+    "research_group_confidence": 0.090765,
+    "metadata_quality_flags": [
+      "missing_research_group"
+    ],
+    "gold_processed_at_utc": "2026-04-02T09:43:44.261752+00:00"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "total_input_files": 1,
+  "successful_documents": 1,
+  "documents_with_flags": 0,
+  "generated_at_utc": "2026-04-02T09:13:55.056756+00:00",
+  "documents": [
+    {
+      "document_id": "doc_01",
+      "source_file_name": "ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
+      "source_file_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\raw\\ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
+      "input_json_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\silver\\doc_01_silver.json",
+      "output_json_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\silver\\doc_01_silver_nlp.json",
+      "n_tokens": 4062,
+      "n_sentences": 275,
+      "n_entities": 1069,
+      "entity_label_counts": {
+        "CARDINAL": 330,
+        "DATE": 105,
+        "FAC": 6,
+        "GPE": 105,
+        "LANGUAGE": 2,
+        "LOC": 2,
+        "MONEY": 2,
+        "NORP": 8,
+        "ORG": 168,
+        "PERCENT": 40,
+        "PERSON": 282,
+        "PRODUCT": 7,
+        "QUANTITY": 11,
+        "WORK_OF_ART": 1
+      },
+      "nlp_quality_flags": [],
+      "silver_nlp_processed_at_utc": "2026-04-02T09:13:55.035018+00:00"
+    }
+  ]
+}
