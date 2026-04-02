@@ -1,15 +1,15 @@
 [
   {
     "document_id": "doc_01",
-    "source_file_name": "ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
-    "source_file_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\raw\\ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
+    "source_file_name": "ZS-tolweg-of-tol-weg.pdf",
+    "source_file_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\raw\\ZS-tolweg-of-tol-weg.pdf",
     "output_json_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\silver\\doc_01_silver.json",
-    "raw_length": 44267,
-    "cleaned_length": 40894,
-    "nlp_length": 42683,
-    "cleaned_ratio": 0.9238,
-    "nlp_ratio": 0.9642,
+    "raw_length": 175421,
+    "cleaned_length": 165012,
+    "nlp_length": 169508,
+    "cleaned_ratio": 0.9407,
+    "nlp_ratio": 0.9663,
     "quality_flags": [],
-    "silver_processed_at_utc": "2026-04-02T09:09:44.932932+00:00"
+    "silver_processed_at_utc": "2026-04-02T10:16:50.438192+00:00"
   }
 ]

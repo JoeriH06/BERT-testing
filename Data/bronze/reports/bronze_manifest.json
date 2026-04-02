@@ -1,23 +1,23 @@
 [
   {
     "document_id": "doc_01",
-    "source_file_name": "ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
-    "source_file_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\raw\\ZS-zeeuwse-arbeidsmarkt-uitgave-1.pdf",
+    "source_file_name": "ZS-tolweg-of-tol-weg.pdf",
+    "source_file_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\raw\\ZS-tolweg-of-tol-weg.pdf",
     "output_json_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\bronze\\doc_01_bronze.json",
     "output_txt_path": "D:\\Data\\School\\HZ\\year 3\\Courses\\Internship\\BERT-testing\\Data\\raw\\doc_01.txt",
-    "total_pages": 40,
-    "extracted_characters": 44267,
+    "total_pages": 94,
+    "extracted_characters": 175421,
     "extraction_status": "success",
     "used_ocr_fallback": false,
     "pdf_metadata": {
-      "Author": "S. Bakker",
-      "CreationDate": "D:20181127161416+01'00'",
-      "Creator": "Microsoft® PowerPoint® 2016",
-      "ModDate": "D:20181130090847+01'00'",
-      "Producer": "Microsoft® PowerPoint® 2016",
-      "Title": "De Zeeuwse arbeidsmarkt Arbeidsaanbod en arbeidsvraag in Zeeland  Periodieke publicatie van de huidige stand van zaken, de knelpunten en een prognose richting de toekomst  November 2018  Els van der Reep Sven Bakker     Uitgave: #1"
+      "CreationDate": "D:20180115161807Z",
+      "Creator": "Word",
+      "Keywords": "",
+      "ModDate": "D:20180207170353+01'00'",
+      "Producer": "Mac OS X 10.13.2 Quartz PDFContext",
+      "Title": "Tolweg of tol weg"
     },
-    "processed_at_utc": "2026-04-02T08:56:13.213100+00:00",
+    "processed_at_utc": "2026-04-02T10:16:47.148389+00:00",
     "error_message": null
   }
 ]
