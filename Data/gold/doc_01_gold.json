@@ -1,0 +1,96 @@
+{
+    "document_id": "doc_01",
+    "summary": "The effect analysis and scenario’s have been based on the effects analysis and the scenario’s have been based on the effects analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on the effect analysis and the scenario’s have been based on",
+    "chunk_summaries": [
+        {
+            "chunk_id": "chunk_001",
+            "summary": "Definitief rapport, 10 januari 2018 Colofon  TU Delft/ ZB 2018 Samenstelling Evert Meijers Dick van der Wouw Erik Louw Marjolein Spaans Technische Universiteit Delft Faculteit Bouwkunde Sectie Stedelijk en Regionale Ontwikkeling Julianalaan 134 2628 BL Delft Telefoon (015) 2783450 bk.tudelft.n"
+        },
+        {
+            "chunk_id": "chunk_002",
+            "summary": "In den Nederlands: Ervaringen met het afschaffen van tol elders 53 Prijsbeleid en tolheffing 53 Effecten afschaffing tolheffing: Nederlandse casussen 54 Effecten afschaffing tolheffing: buitenland 58 Effecten afschaffing tolheffing: tolvrije dagen Westerscheldetunnel 59 Conclusie: lessen trekken"
+        },
+        {
+            "chunk_id": "chunk_003",
+            "summary": "Fragmentatie or integratie?"
+        },
+        {
+            "chunk_id": "chunk_004",
+            "summary": "De arbeidsmarkt krapper, et alhoeve het aantal bedrijven groeit, is this groei lager als elders."
+        },
+        {
+            "chunk_id": "chunk_005",
+            "summary": "In Zeeland, het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het"
+        },
+        {
+            "chunk_id": "chunk_006",
+            "summary": "A uitgebreid argumentatie on these scenarios is te vinden in hoofdstuk 7."
+        },
+        {
+            "chunk_id": "chunk_007",
+            "summary": "Instandhouding sociaal isolement (hoog gevoel van eenzaamheid) Zeeuws-Vlaanderen - Welvaartswinst Zeeuwen, m.n. ook Zeeuwen - Vermindering sociaal isolement Zeeuws-Vlaanderen - Welvaartswinst Zeeuwen, m.n. ook Zeeuw"
+        },
+        {
+            "chunk_id": "chunk_008",
+            "summary": "Instandhouding rem op wegvloeien bestedingen van Zeeuws-Vlaanderen (m.n. Terneuzen) naar Midden-Zeeland, echte wegvloeien bestedingen naar Vlaanderen; - Verzwakking draagvlak voor publiek voorzieningen als gevolg van opschaling veroorzaakt door"
+        },
+        {
+            "chunk_id": "chunk_009",
+            "summary": "In het Nederlands het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het het he"
+        },
+        {
+            "chunk_id": "chunk_010",
+            "summary": "De mobiliteit zwischen Zeeuws-Vlaanderen et de rest van Nederland voet om de tolheffing (Spaans, Meijers & Jansen, 2011)."
+        },
+        {
+            "chunk_id": "chunk_011",
+            "summary": "What is the current text in the Netherlands: Maatschappelijke ontwikkeling als de opschaling van voorzieningen en markten in Zeeuws-Vlaanderen naar provinciaal en zelfs boven provinciaal niveau vereisen een steeds grotere mobiliteit en maken passages door de tunnel steeds meer noodzakelijk. Rele alternatieven"
+        },
+        {
+            "chunk_id": "chunk_012",
+            "summary": "The present text is based on the following: The effect analysis and scenario’s have been based on: - (extrapolation of) bestaande trends; - identification of new socio-economic and maatschappelijke developments; - eerder onderzoek onder bedrijven and huishoudens over te verwachten effecten van a tolvrije tunnel (TU Delft, 2011); - ervaringen elders met beprijzing van in"
+        }
+    ],
+    "modeling_hints_used": {
+        "main_topics": [
+            "zeeland",
+            "tolheffing",
+            "westerscheldetunnel",
+            "voorziening",
+            "effect",
+            "ontwikkeling",
+            "tunnel",
+            "jaar",
+            "mens",
+            "aantal"
+        ],
+        "important_entities": [
+            "Delft",
+            "DHC",
+            "Meijers",
+            "Rijkswegennet",
+            "Kabinet Rutte III",
+            "nationaal belang",
+            "MKBA",
+            "ZB Planbureau",
+            "Westerscheldetunnel",
+            "CBS",
+            "Zeeland",
+            "Zeeuws-Vlaanderen",
+            "Nederland",
+            "Vlaanderen",
+            "Midden-Zeeland",
+            "Middelburg",
+            "Westerschelde",
+            "Westerscheldetunnel",
+            "België",
+            "Rotterdam"
+        ]
+    },
+    "model": {
+        "task": "local_summarization",
+        "name": "google/flan-t5-base",
+        "type": "local_open_source"
+    },
+    "processed_at": "2026-05-04T15:47:51.758674"
+}

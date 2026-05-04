@@ -1,0 +1,478 @@
+{
+    "document_id": "doc_01",
+    "source_clean_file": "..\\..\\Data\\silver\\doc_01_clean.txt",
+    "statistics": {
+        "characters": 136545,
+        "words": 19736,
+        "sentences": 1346,
+        "entities_found_raw": 1742
+    },
+    "entities": {
+        "persons": [],
+        "organizations": [
+            {
+                "text": "Delft",
+                "count": 9
+            },
+            {
+                "text": "DHC",
+                "count": 4
+            },
+            {
+                "text": "Meijers",
+                "count": 4
+            },
+            {
+                "text": "Rijkswegennet",
+                "count": 3
+            },
+            {
+                "text": "Kabinet Rutte III",
+                "count": 2
+            },
+            {
+                "text": "nationaal belang",
+                "count": 2
+            },
+            {
+                "text": "MKBA",
+                "count": 2
+            },
+            {
+                "text": "ZB Planbureau",
+                "count": 2
+            },
+            {
+                "text": "Westerscheldetunnel",
+                "count": 2
+            },
+            {
+                "text": "CBS",
+                "count": 2
+            },
+            {
+                "text": "buitenlandVertrek",
+                "count": 2
+            },
+            {
+                "text": "Belknap Press",
+                "count": 2
+            },
+            {
+                "text": "SCOOP",
+                "count": 2
+            },
+            {
+                "text": "TOLWEG",
+                "count": 1
+            },
+            {
+                "text": "TOL",
+                "count": 1
+            },
+            {
+                "text": "Universiteit Delft",
+                "count": 1
+            },
+            {
+                "text": "Bibliotheek van Zeeland",
+                "count": 1
+            },
+            {
+                "text": "JE Middelburg",
+                "count": 1
+            },
+            {
+                "text": "TU Delft",
+                "count": 1
+            },
+            {
+                "text": "NV Westerscheldetunnel",
+                "count": 1
+            },
+            {
+                "text": "Provinciale Staten van Zeeland",
+                "count": 1
+            },
+            {
+                "text": "COROP-regio",
+                "count": 1
+            },
+            {
+                "text": "Coördinatie Commissie",
+                "count": 1
+            },
+            {
+                "text": "Overig Zeeland",
+                "count": 1
+            },
+            {
+                "text": "Scoop",
+                "count": 1
+            }
+        ],
+        "locations": [
+            {
+                "text": "Zeeland",
+                "count": 165
+            },
+            {
+                "text": "Zeeuws-Vlaanderen",
+                "count": 42
+            },
+            {
+                "text": "Nederland",
+                "count": 34
+            },
+            {
+                "text": "Vlaanderen",
+                "count": 29
+            },
+            {
+                "text": "Midden-Zeeland",
+                "count": 22
+            },
+            {
+                "text": "Middelburg",
+                "count": 15
+            },
+            {
+                "text": "Westerschelde",
+                "count": 15
+            },
+            {
+                "text": "Westerscheldetunnel",
+                "count": 11
+            },
+            {
+                "text": "België",
+                "count": 7
+            },
+            {
+                "text": "Rotterdam",
+                "count": 7
+            },
+            {
+                "text": "Planbureau",
+                "count": 7
+            },
+            {
+                "text": "Walcheren",
+                "count": 7
+            },
+            {
+                "text": "Arbeidsmarkt",
+                "count": 6
+            },
+            {
+                "text": "Zeeuws-Vlamingen",
+                "count": 6
+            },
+            {
+                "text": "Toename",
+                "count": 6
+            },
+            {
+                "text": "Europa",
+                "count": 6
+            },
+            {
+                "text": "Antwerpen",
+                "count": 6
+            },
+            {
+                "text": "Gent",
+                "count": 6
+            },
+            {
+                "text": "Noorwegen",
+                "count": 6
+            },
+            {
+                "text": "Randstad",
+                "count": 5
+            },
+            {
+                "text": "Winkels",
+                "count": 4
+            },
+            {
+                "text": "Juist",
+                "count": 4
+            },
+            {
+                "text": "Voorzieningen",
+                "count": 4
+            },
+            {
+                "text": "Goes",
+                "count": 4
+            },
+            {
+                "text": "rechtvaardigen",
+                "count": 4
+            }
+        ],
+        "dates": [
+            {
+                "text": "10 jaar",
+                "count": 3
+            },
+            {
+                "text": "5 jaar",
+                "count": 2
+            },
+            {
+                "text": "55 jaar 55",
+                "count": 2
+            },
+            {
+                "text": "60 jaar",
+                "count": 2
+            },
+            {
+                "text": "65 jaar 65 tot 70 jaar 70",
+                "count": 2
+            },
+            {
+                "text": "75 jaar 75 tot 80 jaar 80",
+                "count": 2
+            },
+            {
+                "text": "85 jaar 85 tot 90 jaar 90",
+                "count": 2
+            },
+            {
+                "text": "95 jaar",
+                "count": 2
+            },
+            {
+                "text": "4 augustus 2017",
+                "count": 2
+            },
+            {
+                "text": "10-15 jaar",
+                "count": 2
+            },
+            {
+                "text": "10 januari 2018",
+                "count": 1
+            },
+            {
+                "text": "medio september 2017",
+                "count": 1
+            },
+            {
+                "text": "40 jaar",
+                "count": 1
+            },
+            {
+                "text": "70er jaren",
+                "count": 1
+            },
+            {
+                "text": "20 jaar20",
+                "count": 1
+            },
+            {
+                "text": "25 jaar",
+                "count": 1
+            },
+            {
+                "text": "15-75 jaar",
+                "count": 1
+            },
+            {
+                "text": "vorig jaar",
+                "count": 1
+            },
+            {
+                "text": "10 jaar eerder",
+                "count": 1
+            },
+            {
+                "text": "1 oktober 1973",
+                "count": 1
+            },
+            {
+                "text": "tien jaar",
+                "count": 1
+            },
+            {
+                "text": "11/12 september",
+                "count": 1
+            },
+            {
+                "text": "Twee jaar",
+                "count": 1
+            },
+            {
+                "text": "twee jaar",
+                "count": 1
+            },
+            {
+                "text": "maart 2003",
+                "count": 1
+            }
+        ]
+    },
+    "keywords": [
+        {
+            "keyword": "zeeland",
+            "count": 181
+        },
+        {
+            "keyword": "tolheffing",
+            "count": 169
+        },
+        {
+            "keyword": "westerscheldetunnel",
+            "count": 87
+        },
+        {
+            "keyword": "voorziening",
+            "count": 76
+        },
+        {
+            "keyword": "effect",
+            "count": 75
+        },
+        {
+            "keyword": "ontwikkeling",
+            "count": 64
+        },
+        {
+            "keyword": "tunnel",
+            "count": 62
+        },
+        {
+            "keyword": "jaar",
+            "count": 61
+        },
+        {
+            "keyword": "mens",
+            "count": 51
+        },
+        {
+            "keyword": "aantal",
+            "count": 48
+        },
+        {
+            "keyword": "verkeer",
+            "count": 46
+        },
+        {
+            "keyword": "groot",
+            "count": 46
+        },
+        {
+            "keyword": "gebruik",
+            "count": 45
+        },
+        {
+            "keyword": "afschaffing",
+            "count": 44
+        },
+        {
+            "keyword": "bedrijf",
+            "count": 37
+        },
+        {
+            "keyword": "regio",
+            "count": 36
+        },
+        {
+            "keyword": "scenario",
+            "count": 35
+        },
+        {
+            "keyword": "sociaal",
+            "count": 35
+        },
+        {
+            "keyword": "regionaal",
+            "count": 35
+        },
+        {
+            "keyword": "ruimtelijk",
+            "count": 34
+        },
+        {
+            "keyword": "nederland",
+            "count": 34
+        },
+        {
+            "keyword": "vlaanderen",
+            "count": 30
+        },
+        {
+            "keyword": "toename",
+            "count": 29
+        },
+        {
+            "keyword": "vraag",
+            "count": 28
+        },
+        {
+            "keyword": "verbinding",
+            "count": 28
+        },
+        {
+            "keyword": "delft",
+            "count": 27
+        },
+        {
+            "keyword": "integratie",
+            "count": 27
+        },
+        {
+            "keyword": "laag",
+            "count": 27
+        },
+        {
+            "keyword": "hoog",
+            "count": 27
+        },
+        {
+            "keyword": "inwoner",
+            "count": 26
+        }
+    ],
+    "modeling_hints": {
+        "main_topics": [
+            "zeeland",
+            "tolheffing",
+            "westerscheldetunnel",
+            "voorziening",
+            "effect",
+            "ontwikkeling",
+            "tunnel",
+            "jaar",
+            "mens",
+            "aantal"
+        ],
+        "important_entities": [
+            "Delft",
+            "DHC",
+            "Meijers",
+            "Rijkswegennet",
+            "Kabinet Rutte III",
+            "nationaal belang",
+            "MKBA",
+            "ZB Planbureau",
+            "Westerscheldetunnel",
+            "CBS",
+            "Zeeland",
+            "Zeeuws-Vlaanderen",
+            "Nederland",
+            "Vlaanderen",
+            "Midden-Zeeland",
+            "Middelburg",
+            "Westerschelde",
+            "Westerscheldetunnel",
+            "België",
+            "Rotterdam"
+        ]
+    },
+    "processed_at": "2026-05-04T15:26:13.418088"
+}
