@@ -2,477 +2,389 @@
     "document_id": "doc_01",
     "source_clean_file": "..\\..\\Data\\silver\\doc_01_clean.txt",
     "statistics": {
-        "characters": 136545,
-        "words": 19736,
-        "sentences": 1346,
-        "entities_found_raw": 1742
+        "characters": 23408,
+        "words": 3578,
+        "sentences": 182,
+        "entities_found_raw": 388
     },
     "entities": {
         "persons": [],
         "organizations": [
             {
-                "text": "Delft",
-                "count": 9
+                "text": "Medway",
+                "count": 16
             },
             {
-                "text": "DHC",
-                "count": 4
+                "text": "Kent County Council",
+                "count": 6
             },
             {
-                "text": "Meijers",
-                "count": 4
+                "text": "Kent",
+                "count": 5
             },
             {
-                "text": "Rijkswegennet",
-                "count": 3
-            },
-            {
-                "text": "Kabinet Rutte III",
+                "text": "Kent & Medway",
                 "count": 2
             },
             {
-                "text": "nationaal belang",
+                "text": "Kent Business School",
                 "count": 2
             },
             {
-                "text": "MKBA",
+                "text": "Utilities",
                 "count": 2
             },
             {
-                "text": "ZB Planbureau",
+                "text": "Romney Marsh",
                 "count": 2
             },
             {
-                "text": "Westerscheldetunnel",
+                "text": "AEP",
                 "count": 2
             },
             {
-                "text": "CBS",
-                "count": 2
-            },
-            {
-                "text": "buitenlandVertrek",
-                "count": 2
-            },
-            {
-                "text": "Belknap Press",
-                "count": 2
-            },
-            {
-                "text": "SCOOP",
-                "count": 2
-            },
-            {
-                "text": "TOLWEG",
+                "text": "I.1 Key Characteristics",
                 "count": 1
             },
             {
-                "text": "TOL",
+                "text": "Kent & Medway3",
                 "count": 1
             },
             {
-                "text": "Universiteit Delft",
+                "text": "Transport & Storage \n(inc.",
                 "count": 1
             },
             {
-                "text": "Bibliotheek van Zeeland",
+                "text": "Accommodation & food \nservices",
                 "count": 1
             },
             {
-                "text": "JE Middelburg",
+                "text": "Finance &",
                 "count": 1
             },
             {
-                "text": "TU Delft",
+                "text": "Kent Business Summit",
                 "count": 1
             },
             {
-                "text": "NV Westerscheldetunnel",
+                "text": "Kent SME Internationalisation Study",
                 "count": 1
             },
             {
-                "text": "Provinciale Staten van Zeeland",
+                "text": "pound7",
                 "count": 1
             },
             {
-                "text": "COROP-regio",
+                "text": "Natural England’s",
                 "count": 1
             },
             {
-                "text": "Coördinatie Commissie",
+                "text": "the Natural \nEnvironment",
                 "count": 1
             },
             {
-                "text": "Overig Zeeland",
+                "text": "visit9",
                 "count": 1
             },
             {
-                "text": "Scoop",
+                "text": "I.3 Climate",
+                "count": 1
+            },
+            {
+                "text": "Kent’s Visitor Economy",
+                "count": 1
+            },
+            {
+                "text": "Kent Environment Strategy Impact Report",
+                "count": 1
+            },
+            {
+                "text": "Countryside Access Improvement Plan",
+                "count": 1
+            },
+            {
+                "text": "UK Climate \nChange Risk Assessment",
+                "count": 1
+            },
+            {
+                "text": "• Risks",
                 "count": 1
             }
         ],
         "locations": [
             {
-                "text": "Zeeland",
-                "count": 165
-            },
-            {
-                "text": "Zeeuws-Vlaanderen",
-                "count": 42
-            },
-            {
-                "text": "Nederland",
-                "count": 34
-            },
-            {
-                "text": "Vlaanderen",
-                "count": 29
-            },
-            {
-                "text": "Midden-Zeeland",
-                "count": 22
-            },
-            {
-                "text": "Middelburg",
-                "count": 15
-            },
-            {
-                "text": "Westerschelde",
-                "count": 15
-            },
-            {
-                "text": "Westerscheldetunnel",
-                "count": 11
-            },
-            {
-                "text": "België",
-                "count": 7
-            },
-            {
-                "text": "Rotterdam",
-                "count": 7
-            },
-            {
-                "text": "Planbureau",
-                "count": 7
-            },
-            {
-                "text": "Walcheren",
-                "count": 7
-            },
-            {
-                "text": "Arbeidsmarkt",
-                "count": 6
-            },
-            {
-                "text": "Zeeuws-Vlamingen",
-                "count": 6
-            },
-            {
-                "text": "Toename",
-                "count": 6
-            },
-            {
-                "text": "Europa",
-                "count": 6
-            },
-            {
-                "text": "Antwerpen",
-                "count": 6
-            },
-            {
-                "text": "Gent",
-                "count": 6
-            },
-            {
-                "text": "Noorwegen",
-                "count": 6
-            },
-            {
-                "text": "Randstad",
+                "text": "Dover",
                 "count": 5
             },
             {
-                "text": "Winkels",
-                "count": 4
+                "text": "Sittingbourne",
+                "count": 2
             },
             {
-                "text": "Juist",
-                "count": 4
+                "text": "Europe",
+                "count": 2
             },
             {
-                "text": "Voorzieningen",
-                "count": 4
+                "text": "Port of Dover",
+                "count": 2
             },
             {
-                "text": "Goes",
-                "count": 4
+                "text": "the United Kingdom",
+                "count": 1
             },
             {
-                "text": "rechtvaardigen",
-                "count": 4
+                "text": "Table I-1",
+                "count": 1
+            },
+            {
+                "text": "London",
+                "count": 1
+            },
+            {
+                "text": "Northfleet",
+                "count": 1
+            },
+            {
+                "text": "Port",
+                "count": 1
+            },
+            {
+                "text": "Discovery Park",
+                "count": 1
+            },
+            {
+                "text": "Sandwich",
+                "count": 1
+            },
+            {
+                "text": "England",
+                "count": 1
+            },
+            {
+                "text": "Faversham",
+                "count": 1
+            },
+            {
+                "text": "The Port of Dover",
+                "count": 1
+            },
+            {
+                "text": "P&O",
+                "count": 1
             }
         ],
         "dates": [
             {
-                "text": "10 jaar",
-                "count": 3
-            },
-            {
-                "text": "5 jaar",
-                "count": 2
-            },
-            {
-                "text": "55 jaar 55",
-                "count": 2
-            },
-            {
-                "text": "60 jaar",
-                "count": 2
-            },
-            {
-                "text": "65 jaar 65 tot 70 jaar 70",
-                "count": 2
-            },
-            {
-                "text": "75 jaar 75 tot 80 jaar 80",
-                "count": 2
-            },
-            {
-                "text": "85 jaar 85 tot 90 jaar 90",
-                "count": 2
-            },
-            {
-                "text": "95 jaar",
-                "count": 2
-            },
-            {
-                "text": "4 augustus 2017",
-                "count": 2
-            },
-            {
-                "text": "10-15 jaar",
-                "count": 2
-            },
-            {
-                "text": "10 januari 2018",
+                "text": "November 2019",
                 "count": 1
             },
             {
-                "text": "medio september 2017",
+                "text": "11 \nadditional days",
                 "count": 1
             },
             {
-                "text": "40 jaar",
+                "text": "the 2020s",
                 "count": 1
             },
             {
-                "text": "70er jaren",
+                "text": "27 extra days",
                 "count": 1
             },
             {
-                "text": "20 jaar20",
+                "text": "the 2050s",
                 "count": 1
             },
             {
-                "text": "25 jaar",
+                "text": "48 \ndays",
                 "count": 1
             },
             {
-                "text": "15-75 jaar",
+                "text": "the 2080s",
                 "count": 1
             },
             {
-                "text": "vorig jaar",
+                "text": "July 2018",
                 "count": 1
             },
             {
-                "text": "10 jaar eerder",
+                "text": "the next 50-100 years",
                 "count": 1
             },
             {
-                "text": "1 oktober 1973",
+                "text": "the next 100 \nyears",
                 "count": 1
             },
             {
-                "text": "tien jaar",
+                "text": "forecasted14",
                 "count": 1
             },
             {
-                "text": "11/12 september",
+                "text": "11 extra days",
                 "count": 1
             },
             {
-                "text": "Twee jaar",
-                "count": 1
-            },
-            {
-                "text": "twee jaar",
-                "count": 1
-            },
-            {
-                "text": "maart 2003",
+                "text": "27 \ndays",
                 "count": 1
             }
         ]
     },
     "keywords": [
         {
-            "keyword": "zeeland",
-            "count": 181
+            "keyword": "kent",
+            "count": 81
         },
         {
-            "keyword": "tolheffing",
-            "count": 169
-        },
-        {
-            "keyword": "westerscheldetunnel",
-            "count": 87
-        },
-        {
-            "keyword": "voorziening",
-            "count": 76
-        },
-        {
-            "keyword": "effect",
-            "count": 75
-        },
-        {
-            "keyword": "ontwikkeling",
-            "count": 64
-        },
-        {
-            "keyword": "tunnel",
-            "count": 62
-        },
-        {
-            "keyword": "jaar",
-            "count": 61
-        },
-        {
-            "keyword": "mens",
-            "count": 51
-        },
-        {
-            "keyword": "aantal",
-            "count": 48
-        },
-        {
-            "keyword": "verkeer",
-            "count": 46
-        },
-        {
-            "keyword": "groot",
-            "count": 46
-        },
-        {
-            "keyword": "gebruik",
-            "count": 45
-        },
-        {
-            "keyword": "afschaffing",
-            "count": 44
-        },
-        {
-            "keyword": "bedrijf",
+            "keyword": "impact",
             "count": 37
         },
         {
-            "keyword": "regio",
-            "count": 36
+            "keyword": "business",
+            "count": 37
         },
         {
-            "keyword": "scenario",
-            "count": 35
+            "keyword": "medway",
+            "count": 33
         },
         {
-            "keyword": "sociaal",
-            "count": 35
+            "keyword": "industry",
+            "count": 32
         },
         {
-            "keyword": "regionaal",
-            "count": 35
-        },
-        {
-            "keyword": "ruimtelijk",
-            "count": 34
-        },
-        {
-            "keyword": "nederland",
-            "count": 34
-        },
-        {
-            "keyword": "vlaanderen",
+            "keyword": "temperature",
             "count": 30
         },
         {
-            "keyword": "toename",
+            "keyword": "risk",
             "count": 29
         },
         {
-            "keyword": "vraag",
+            "keyword": "climate",
             "count": 28
         },
         {
-            "keyword": "verbinding",
-            "count": 28
-        },
-        {
-            "keyword": "delft",
-            "count": 27
-        },
-        {
-            "keyword": "integratie",
-            "count": 27
-        },
-        {
-            "keyword": "laag",
-            "count": 27
-        },
-        {
-            "keyword": "hoog",
-            "count": 27
-        },
-        {
-            "keyword": "inwoner",
+            "keyword": "high",
             "count": 26
+        },
+        {
+            "keyword": "change",
+            "count": 24
+        },
+        {
+            "keyword": "sector",
+            "count": 20
+        },
+        {
+            "keyword": "area",
+            "count": 20
+        },
+        {
+            "keyword": "water",
+            "count": 19
+        },
+        {
+            "keyword": "medium",
+            "count": 18
+        },
+        {
+            "keyword": "level",
+            "count": 17
+        },
+        {
+            "keyword": "rise",
+            "count": 15
+        },
+        {
+            "keyword": "visitor",
+            "count": 14
+        },
+        {
+            "keyword": "increase",
+            "count": 14
+        },
+        {
+            "keyword": "assessment",
+            "count": 13
+        },
+        {
+            "keyword": "economy",
+            "count": 11
+        },
+        {
+            "keyword": "environment",
+            "count": 11
+        },
+        {
+            "keyword": "county",
+            "count": 10
+        },
+        {
+            "keyword": "tourism",
+            "count": 10
+        },
+        {
+            "keyword": "flooding",
+            "count": 10
+        },
+        {
+            "keyword": "port",
+            "count": 10
+        },
+        {
+            "keyword": "dover",
+            "count": 10
+        },
+        {
+            "keyword": "industrial",
+            "count": 10
+        },
+        {
+            "keyword": "number",
+            "count": 9
+        },
+        {
+            "keyword": "agriculture",
+            "count": 9
+        },
+        {
+            "keyword": "defence",
+            "count": 9
         }
     ],
     "modeling_hints": {
         "main_topics": [
-            "zeeland",
-            "tolheffing",
-            "westerscheldetunnel",
-            "voorziening",
-            "effect",
-            "ontwikkeling",
-            "tunnel",
-            "jaar",
-            "mens",
-            "aantal"
+            "kent",
+            "impact",
+            "business",
+            "medway",
+            "industry",
+            "temperature",
+            "risk",
+            "climate",
+            "high",
+            "change"
         ],
         "important_entities": [
-            "Delft",
-            "DHC",
-            "Meijers",
-            "Rijkswegennet",
-            "Kabinet Rutte III",
-            "nationaal belang",
-            "MKBA",
-            "ZB Planbureau",
-            "Westerscheldetunnel",
-            "CBS",
-            "Zeeland",
-            "Zeeuws-Vlaanderen",
-            "Nederland",
-            "Vlaanderen",
-            "Midden-Zeeland",
-            "Middelburg",
-            "Westerschelde",
-            "Westerscheldetunnel",
-            "België",
-            "Rotterdam"
+            "Medway",
+            "Kent County Council",
+            "Kent",
+            "Kent & Medway",
+            "Kent Business School",
+            "Utilities",
+            "Romney Marsh",
+            "AEP",
+            "I.1 Key Characteristics",
+            "Kent & Medway3",
+            "Dover",
+            "Sittingbourne",
+            "Europe",
+            "Port of Dover",
+            "the United Kingdom",
+            "Table I-1",
+            "London",
+            "Northfleet",
+            "Port",
+            "Discovery Park"
         ]
     },
-    "processed_at": "2026-05-04T15:59:28.770829"
+    "processed_at": "2026-05-06T13:23:56.073549"
 }

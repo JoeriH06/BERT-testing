@@ -1,0 +1,390 @@
+{
+    "document_id": "doc_01_metadata",
+    "source_clean_file": "..\\..\\Data\\silver\\doc_01_metadata_clean.txt",
+    "statistics": {
+        "characters": 23512,
+        "words": 3578,
+        "sentences": 180,
+        "entities_found_raw": 385
+    },
+    "entities": {
+        "persons": [],
+        "organizations": [
+            {
+                "text": "Medway",
+                "count": 16
+            },
+            {
+                "text": "Kent",
+                "count": 5
+            },
+            {
+                "text": "Kent County Council",
+                "count": 5
+            },
+            {
+                "text": "Kent & Medway",
+                "count": 2
+            },
+            {
+                "text": "Kent Business School",
+                "count": 2
+            },
+            {
+                "text": "Utilities",
+                "count": 2
+            },
+            {
+                "text": "Romney Marsh",
+                "count": 2
+            },
+            {
+                "text": "AEP",
+                "count": 2
+            },
+            {
+                "text": "I.1 Key Characteristics",
+                "count": 1
+            },
+            {
+                "text": "Kent & Medway3",
+                "count": 1
+            },
+            {
+                "text": "Transport & Storage \n(inc.",
+                "count": 1
+            },
+            {
+                "text": "Accommodation & food \nservices",
+                "count": 1
+            },
+            {
+                "text": "Finance &",
+                "count": 1
+            },
+            {
+                "text": "Kent Business Summit",
+                "count": 1
+            },
+            {
+                "text": "Kent SME Internationalisation Study",
+                "count": 1
+            },
+            {
+                "text": "pound7",
+                "count": 1
+            },
+            {
+                "text": "Natural England’s",
+                "count": 1
+            },
+            {
+                "text": "the Natural \nEnvironment",
+                "count": 1
+            },
+            {
+                "text": "visit9",
+                "count": 1
+            },
+            {
+                "text": "I.3 Climate",
+                "count": 1
+            },
+            {
+                "text": "Kent’s Visitor Economy",
+                "count": 1
+            },
+            {
+                "text": "Kent Environment Strategy Impact Report",
+                "count": 1
+            },
+            {
+                "text": "Countryside Access Improvement Plan",
+                "count": 1
+            },
+            {
+                "text": "UK Climate \nChange Risk Assessment",
+                "count": 1
+            },
+            {
+                "text": "• Risks",
+                "count": 1
+            }
+        ],
+        "locations": [
+            {
+                "text": "Dover",
+                "count": 7
+            },
+            {
+                "text": "Sittingbourne",
+                "count": 2
+            },
+            {
+                "text": "Europe",
+                "count": 2
+            },
+            {
+                "text": "the United Kingdom",
+                "count": 1
+            },
+            {
+                "text": "Table I-1",
+                "count": 1
+            },
+            {
+                "text": "London",
+                "count": 1
+            },
+            {
+                "text": "Northfleet",
+                "count": 1
+            },
+            {
+                "text": "Kent",
+                "count": 1
+            },
+            {
+                "text": "Port",
+                "count": 1
+            },
+            {
+                "text": "Discovery Park",
+                "count": 1
+            },
+            {
+                "text": "Sandwich",
+                "count": 1
+            },
+            {
+                "text": "England",
+                "count": 1
+            },
+            {
+                "text": "Faversham",
+                "count": 1
+            },
+            {
+                "text": "The Port of Dover",
+                "count": 1
+            },
+            {
+                "text": "P&O",
+                "count": 1
+            }
+        ],
+        "dates": [
+            {
+                "text": "November 2019",
+                "count": 1
+            },
+            {
+                "text": "11 \nadditional days",
+                "count": 1
+            },
+            {
+                "text": "the 2020s",
+                "count": 1
+            },
+            {
+                "text": "27 extra days",
+                "count": 1
+            },
+            {
+                "text": "the 2050s",
+                "count": 1
+            },
+            {
+                "text": "48 \ndays",
+                "count": 1
+            },
+            {
+                "text": "the 2080s",
+                "count": 1
+            },
+            {
+                "text": "July 2018",
+                "count": 1
+            },
+            {
+                "text": "the next 50-100 years",
+                "count": 1
+            },
+            {
+                "text": "the next 100 \nyears",
+                "count": 1
+            },
+            {
+                "text": "forecasted14",
+                "count": 1
+            },
+            {
+                "text": "11 extra days",
+                "count": 1
+            },
+            {
+                "text": "27 \ndays",
+                "count": 1
+            }
+        ]
+    },
+    "keywords": [
+        {
+            "keyword": "kent",
+            "count": 81
+        },
+        {
+            "keyword": "impact",
+            "count": 37
+        },
+        {
+            "keyword": "business",
+            "count": 37
+        },
+        {
+            "keyword": "medway",
+            "count": 33
+        },
+        {
+            "keyword": "industry",
+            "count": 32
+        },
+        {
+            "keyword": "temperature",
+            "count": 30
+        },
+        {
+            "keyword": "risk",
+            "count": 29
+        },
+        {
+            "keyword": "climate",
+            "count": 28
+        },
+        {
+            "keyword": "high",
+            "count": 26
+        },
+        {
+            "keyword": "change",
+            "count": 24
+        },
+        {
+            "keyword": "sector",
+            "count": 20
+        },
+        {
+            "keyword": "area",
+            "count": 20
+        },
+        {
+            "keyword": "water",
+            "count": 19
+        },
+        {
+            "keyword": "medium",
+            "count": 18
+        },
+        {
+            "keyword": "level",
+            "count": 17
+        },
+        {
+            "keyword": "rise",
+            "count": 15
+        },
+        {
+            "keyword": "visitor",
+            "count": 14
+        },
+        {
+            "keyword": "increase",
+            "count": 14
+        },
+        {
+            "keyword": "assessment",
+            "count": 13
+        },
+        {
+            "keyword": "economy",
+            "count": 11
+        },
+        {
+            "keyword": "environment",
+            "count": 11
+        },
+        {
+            "keyword": "county",
+            "count": 10
+        },
+        {
+            "keyword": "tourism",
+            "count": 10
+        },
+        {
+            "keyword": "flooding",
+            "count": 10
+        },
+        {
+            "keyword": "port",
+            "count": 10
+        },
+        {
+            "keyword": "dover",
+            "count": 10
+        },
+        {
+            "keyword": "industrial",
+            "count": 10
+        },
+        {
+            "keyword": "number",
+            "count": 9
+        },
+        {
+            "keyword": "agriculture",
+            "count": 9
+        },
+        {
+            "keyword": "defence",
+            "count": 9
+        }
+    ],
+    "modeling_hints": {
+        "main_topics": [
+            "kent",
+            "impact",
+            "business",
+            "medway",
+            "industry",
+            "temperature",
+            "risk",
+            "climate",
+            "high",
+            "change"
+        ],
+        "important_entities": [
+            "Medway",
+            "Kent",
+            "Kent County Council",
+            "Kent & Medway",
+            "Kent Business School",
+            "Utilities",
+            "Romney Marsh",
+            "AEP",
+            "I.1 Key Characteristics",
+            "Kent & Medway3",
+            "Dover",
+            "Sittingbourne",
+            "Europe",
+            "the United Kingdom",
+            "Table I-1",
+            "London",
+            "Northfleet",
+            "Kent",
+            "Port",
+            "Discovery Park"
+        ]
+    },
+    "processed_at": "2026-05-06T13:23:56.425701"
+}

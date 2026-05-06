@@ -1,0 +1,40 @@
+{
+    "document_id": "doc_01",
+    "language": "en",
+    "title": "Climate Change Risk and Impact Assessment for Kent and Medway",
+    "subtitle": "Climate Change Risk and Impact Assessment for Kent and Medway Part 2: Industry Sector Summary",
+    "description": "As with the United Kingdom, Kent’s economy is predominantly driven by small and medium enterprises (SMEs). Approximately 90% of companies in Kent and Medway are micro-businesses (less than 10 employees), while the majority of the other 10% are small businesses with less than 50 employees. Medium and large businesses make up less than 2% of all businesses within Kent and Medway.",
+    "contributors": [
+        "Medway UK"
+    ],
+    "contributors_structured": {
+        "persons": [
+            "Medway UK"
+        ],
+        "organizations": [],
+        "authors": [
+            "Medway UK"
+        ],
+        "editors": [],
+        "compiled_by": [],
+        "prepared_by": [],
+        "commissioned_by": [],
+        "confidence": "medium"
+    },
+    "contributors_confidence": "medium",
+    "contact_person": {
+        "name": null,
+        "email": null,
+        "phone": null,
+        "confidence": "low"
+    },
+    "dates": {
+        "dates_found": [
+            "November 2019"
+        ],
+        "publication_date": "November 2019",
+        "start_date": null,
+        "end_date": null
+    },
+    "processed_at": "2026-05-06T13:28:48.125979"
+}
