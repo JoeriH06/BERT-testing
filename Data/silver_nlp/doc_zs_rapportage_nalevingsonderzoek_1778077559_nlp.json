@@ -1,0 +1,347 @@
+{
+    "document_id": "doc_zs_rapportage_nalevingsonderzoek_1778077559",
+    "source_clean_file": "Data\\silver\\doc_zs_rapportage_nalevingsonderzoek_1778077559_clean.txt",
+    "language": "nl",
+    "statistics": {
+        "characters": 20501,
+        "words": 3058,
+        "sentences": 407,
+        "entities_found_raw": 741
+    },
+    "entities": {
+        "persons": [],
+        "organizations": [
+            {
+                "text": "Noord-Beveland",
+                "count": 6
+            },
+            {
+                "text": "ZEELAND",
+                "count": 6
+            },
+            {
+                "text": "Hulst",
+                "count": 3
+            },
+            {
+                "text": "LZNVZ",
+                "count": 2
+            },
+            {
+                "text": "TWZ",
+                "count": 2
+            },
+            {
+                "text": "Noord-Beveland\n\nNaleving",
+                "count": 2
+            },
+            {
+                "text": "BOB",
+                "count": 1
+            },
+            {
+                "text": "Studie/stage",
+                "count": 1
+            },
+            {
+                "text": "Naleefpercentage",
+                "count": 1
+            },
+            {
+                "text": "TOTAAL",
+                "count": 1
+            },
+            {
+                "text": "SUPERMARKTEN",
+                "count": 1
+            },
+            {
+                "text": "SLIJTERIJEN",
+                "count": 1
+            },
+            {
+                "text": "COMMERCIËLE HORECA",
+                "count": 1
+            },
+            {
+                "text": "PARACOMMERCIE",
+                "count": 1
+            },
+            {
+                "text": "Schouwen-",
+                "count": 1
+            }
+        ],
+        "locations": [
+            {
+                "text": "Borsele",
+                "count": 15
+            },
+            {
+                "text": "Middelburg",
+                "count": 11
+            },
+            {
+                "text": "Schouwen-Duiveland",
+                "count": 11
+            },
+            {
+                "text": "Tholen",
+                "count": 9
+            },
+            {
+                "text": "Nalevingsonderzoek",
+                "count": 7
+            },
+            {
+                "text": "Hulst",
+                "count": 7
+            },
+            {
+                "text": "Zeeland",
+                "count": 6
+            },
+            {
+                "text": "Bron",
+                "count": 4
+            },
+            {
+                "text": "Goes",
+                "count": 3
+            },
+            {
+                "text": "Veere",
+                "count": 3
+            },
+            {
+                "text": "Planbureau",
+                "count": 2
+            },
+            {
+                "text": "Kapelle",
+                "count": 2
+            },
+            {
+                "text": "bestelde",
+                "count": 2
+            },
+            {
+                "text": "Nalevingsonderzoek 2018-2019",
+                "count": 1
+            },
+            {
+                "text": "Indigo",
+                "count": 1
+            },
+            {
+                "text": "Selectie",
+                "count": 1
+            },
+            {
+                "text": "-Borsele",
+                "count": 1
+            },
+            {
+                "text": "Eindresultaat",
+                "count": 1
+            },
+            {
+                "text": "Noord-Beveland",
+                "count": 1
+            },
+            {
+                "text": "Reimerswaal",
+                "count": 1
+            },
+            {
+                "text": "Vlissingen",
+                "count": 1
+            }
+        ],
+        "dates": [
+            {
+                "text": "18 jaar",
+                "count": 4
+            },
+            {
+                "text": "Juni 2019",
+                "count": 1
+            },
+            {
+                "text": "eind augustus",
+                "count": 1
+            },
+            {
+                "text": "t/m begin december 2018",
+                "count": 1
+            },
+            {
+                "text": "half april",
+                "count": 1
+            },
+            {
+                "text": "voorjaar van 2019",
+                "count": 1
+            }
+        ]
+    },
+    "keywords": [
+        {
+            "keyword": "gemeente",
+            "count": 52
+        },
+        {
+            "keyword": "naleving",
+            "count": 26
+        },
+        {
+            "keyword": "aantal",
+            "count": 24
+        },
+        {
+            "keyword": "bedrijf",
+            "count": 20
+        },
+        {
+            "keyword": "laag",
+            "count": 20
+        },
+        {
+            "keyword": "hulst",
+            "count": 19
+        },
+        {
+            "keyword": "onderzoeksverantwoording",
+            "count": 18
+        },
+        {
+            "keyword": "terneuzen",
+            "count": 18
+        },
+        {
+            "keyword": "horeca",
+            "count": 17
+        },
+        {
+            "keyword": "reimerswaal",
+            "count": 17
+        },
+        {
+            "keyword": "mysteryshopper",
+            "count": 17
+        },
+        {
+            "keyword": "slijterij",
+            "count": 16
+        },
+        {
+            "keyword": "commercieel",
+            "count": 16
+        },
+        {
+            "keyword": "paracommercie",
+            "count": 16
+        },
+        {
+            "keyword": "zeeland",
+            "count": 15
+        },
+        {
+            "keyword": "borsele",
+            "count": 15
+        },
+        {
+            "keyword": "absoluut",
+            "count": 15
+        },
+        {
+            "keyword": "soort",
+            "count": 15
+        },
+        {
+            "keyword": "representatief",
+            "count": 14
+        },
+        {
+            "keyword": "aantalel",
+            "count": 14
+        },
+        {
+            "keyword": "totaal",
+            "count": 13
+        },
+        {
+            "keyword": "vlissingen",
+            "count": 13
+        },
+        {
+            "keyword": "middelburg",
+            "count": 13
+        },
+        {
+            "keyword": "sluis",
+            "count": 13
+        },
+        {
+            "keyword": "tholen",
+            "count": 13
+        },
+        {
+            "keyword": "naleefpercentage",
+            "count": 13
+        },
+        {
+            "keyword": "alcoholverstrekker",
+            "count": 12
+        },
+        {
+            "keyword": "informatie",
+            "count": 12
+        },
+        {
+            "keyword": "nalevingsonderzoek",
+            "count": 11
+        },
+        {
+            "keyword": "resultaat",
+            "count": 11
+        }
+    ],
+    "modeling_hints": {
+        "main_topics": [
+            "gemeente",
+            "naleving",
+            "aantal",
+            "bedrijf",
+            "laag",
+            "hulst",
+            "onderzoeksverantwoording",
+            "terneuzen",
+            "horeca",
+            "reimerswaal"
+        ],
+        "important_entities": [
+            "Noord-Beveland",
+            "ZEELAND",
+            "Hulst",
+            "LZNVZ",
+            "TWZ",
+            "Noord-Beveland\n\nNaleving",
+            "BOB",
+            "Studie/stage",
+            "Naleefpercentage",
+            "TOTAAL",
+            "Borsele",
+            "Middelburg",
+            "Schouwen-Duiveland",
+            "Tholen",
+            "Nalevingsonderzoek",
+            "Hulst",
+            "Zeeland",
+            "Bron",
+            "Goes",
+            "Veere"
+        ]
+    },
+    "processed_at": "2026-05-06T16:26:00.332966"
+}

@@ -1,8 +1,9 @@
 streamlit
-pandas
 pypdf
+langdetect
 spacy
-torch
 transformers
+torch
 sentencepiece
-protobuf
+pymupdf
+pillow

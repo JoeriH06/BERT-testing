@@ -1,200 +1,283 @@
+from pathlib import Path
 import json
 import re
-from pathlib import Path
+from datetime import datetime
+
+# pip install langdetect
+
+from langdetect import detect
+
+def detect_language(text):
+    try:
+        return detect(text[:5000])
+    except:
+        return "unknown"
 
 
+BRONZE_FOLDER = Path("Data/bronze")
 SILVER_FOLDER = Path("Data/silver")
+
 SILVER_FOLDER.mkdir(parents=True, exist_ok=True)
 
+BAD_CHUNK_PATTERNS = [
+    "summarize the text factually",
+    "use only information explicitly present",
+    "don't invent sources",
+    "do not write in news-article style",
+]
 
-def normalize_line_endings(text: str) -> str:
-    return text.replace("\r\n", "\n").replace("\r", "\n")
 
+def normalize_text(text):
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = text.replace("\u00a0", " ")
+    text = re.sub(r"[ \t]+", " ", text)
+    return text.strip()
 
-def replace_special_spaces(text: str) -> str:
-    text = text.replace("\t", " ")
-    text = text.replace("\xa0", " ")
+def remove_table_of_contents(text):
+    start = text.lower().find("inhoudsopgave")
+    end = text.lower().find("managementsamenvatting")
+
+    if start != -1 and end != -1 and end > start:
+        return text[:start] + text[end:]
+
     return text
 
 
-def remove_zero_width_characters(text: str) -> str:
-    zero_width_chars = ['\u200B', '\u200C', '\u200D', '\uFEFF']
-    for char in zero_width_chars:
-        text = text.replace(char, '')
+
+def remove_pdf_artifacts(text):
+    # Remove dotted table-of-content lines
+    text = re.sub(r"\.{5,}", " ", text)
+
+    # Remove standalone page numbers
+    text = re.sub(r"^\s*\d+\s*$", "", text, flags=re.MULTILINE)
+
+    # Remove figure/table lines
+    text = re.sub(r"^\s*(Afbeelding|Figuur|Tabel)\s+\d+.*$", "", text, flags=re.MULTILINE | re.IGNORECASE)
+
+    # Remove very long numeric garbage strings
+    text = re.sub(r"\b[\d,%.\-]{15,}\b", " ", text)
+
+    # Remove urls
+    text = re.sub(r"http\S+|www\.\S+", " ", text)
+
     return text
 
+def fix_spacing_for_metadata(text):
+    # Keep line structure
+    text = re.sub(r"\s+([.,;:!?])", r"\1", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
-def fix_hyphenated_linebreaks(text: str) -> str:
-    # example: "infor-\nmation" -> "information"
-    return re.sub(r'(\w)-\n(\w)', r'\1\2', text)
+def fix_spacing_for_modeling(text):
+    text = re.sub(r"\s+([.,;:!?])", r"\1", text)
+    text = re.sub(r"\n\s*\n+", "\n\n", text)
 
+    # Only merge obvious broken sentence lines
+    text = re.sub(
+        r"(?<=[a-zà-ÿ,;])\n(?=[a-zà-ÿ])",
+        " ",
+        text
+    )
 
-def remove_pdf_page_markers(text: str) -> str:
-    patterns = [
-        r'Page\s+\d+\s+of\s+\d+',
-        r'^\s*Page\s+\d+\s*$',
-        r'^\s*\d+\s*\|\s*P\s*a\s*g\s*e\s*$',
-        r'^\s*P\s*a\s*g\s*e\s*\d+\s*$',
-        r'^\s*\d+\s*$'
-    ]
-    for pattern in patterns:
-        text = re.sub(pattern, '', text, flags=re.IGNORECASE | re.MULTILINE)
-    return text
+    text = re.sub(r"[ \t]+", " ", text)
+    return text.strip()
 
+def clean_text(text, mode="modeling"):
+    text = normalize_text(text)
+    text = remove_table_of_contents(text)
+    text = remove_pdf_artifacts(text)
 
-def remove_urls_and_emails(text: str) -> str:
-    text = re.sub(r'https?://\S+|www\.\S+', '', text)
-    text = re.sub(r'\b[\w\.-]+@[\w\.-]+\.\w+\b', '', text)
-    return text
+    if mode == "metadata":
+        return fix_spacing_for_metadata(text)
 
+    return fix_spacing_for_modeling(text)
 
-def remove_trailing_spaces(text: str) -> str:
-    return re.sub(r'[ \t]+$', '', text, flags=re.MULTILINE)
+def clean_text_for_chunking(text):
+    text = re.sub(r"\n{3,}", "\n\n", text)
 
-
-def remove_repeated_spaces(text: str) -> str:
-    return re.sub(r' {2,}', ' ', text)
-
-
-def normalize_linebreak_spacing(text: str) -> str:
-    return re.sub(r' *\n *', '\n', text)
-
-
-def merge_broken_lines(text: str) -> str:
-    lines = text.split('\n')
-    merged = []
-
-    for line in lines:
-        line = line.strip()
-
-        if not line:
-            merged.append("")
-            continue
-
-        if not merged:
-            merged.append(line)
-            continue
-
-        prev = merged[-1]
-
-        # merge if previous line does not look like paragraph end
-        if prev and not prev.endswith(('.', '!', '?', ':')) and line and not line[0].isupper():
-            merged[-1] = prev + ' ' + line
-        elif prev and not prev.endswith(('.', '!', '?', ':')) and len(line.split()) < 6:
-            merged[-1] = prev + ' ' + line
-        else:
-            merged.append(line)
-
-    return '\n'.join(merged)
-
-
-def remove_reference_like_lines(text: str) -> str:
     cleaned_lines = []
 
-    for line in text.split('\n'):
-        stripped = line.strip()
+    for line in text.splitlines():
+        line_stripped = line.strip()
 
-        if not stripped:
+        if not line_stripped:
             cleaned_lines.append("")
             continue
 
-        if re.match(r'^[A-Z][a-zA-Z\-]+,\s+[A-Z]\.', stripped):
-            continue
-        if re.search(r'\(\d{4}\)', stripped) and len(stripped.split()) < 12:
-            continue
-        if stripped.lower().startswith("references"):
-            continue
-        if stripped.lower().startswith("bibliography"):
+        lower = line_stripped.lower()
+
+        if any(pattern in lower for pattern in BAD_CHUNK_PATTERNS):
             continue
 
         cleaned_lines.append(line)
 
-    return '\n'.join(cleaned_lines)
+    return "\n".join(cleaned_lines)
 
+def split_long_text_by_sentences(text, max_words=900):
+    sentences = re.split(r"(?<=[.!?])\s+", text)
 
-def remove_duplicate_lines(text: str) -> str:
-    seen = set()
-    result = []
+    chunks = []
+    current_chunk = []
+    current_words = 0
 
-    for line in text.split('\n'):
-        key = re.sub(r'\s+', ' ', line.strip().lower())
-        if key and key in seen:
+    for sentence in sentences:
+        sentence = sentence.strip()
+        if len(sentence) < 20:
             continue
-        if key:
-            seen.add(key)
-        result.append(line)
 
-    return '\n'.join(result)
+        word_count = len(sentence.split())
 
+        if current_words + word_count > max_words and current_chunk:
+            chunks.append(" ".join(current_chunk))
+            current_chunk = [sentence]
+            current_words = word_count
+        else:
+            current_chunk.append(sentence)
+            current_words += word_count
 
-def remove_many_blank_lines(text: str) -> str:
-    return re.sub(r'\n{3,}', '\n\n', text)
+    if current_chunk:
+        chunks.append(" ".join(current_chunk))
 
-
-def clean_text(text: str) -> str:
-    text = normalize_line_endings(text)
-    text = replace_special_spaces(text)
-    text = remove_zero_width_characters(text)
-    text = fix_hyphenated_linebreaks(text)
-    text = remove_pdf_page_markers(text)
-    text = remove_urls_and_emails(text)
-    text = remove_trailing_spaces(text)
-    text = remove_repeated_spaces(text)
-    text = normalize_linebreak_spacing(text)
-    text = merge_broken_lines(text)
-    text = remove_reference_like_lines(text)
-    text = remove_duplicate_lines(text)
-    text = remove_many_blank_lines(text)
-    return text.strip()
+    return chunks
 
 
-def sanity_check(text: str) -> str:
-    print("Original Text:\n")
-    print(text[:500])
-    print("\n---\n")
-    print("Cleaned Text:\n")
-    cleaned = clean_text(text)
-    print(cleaned[:500])
-    return cleaned
+def split_into_semantic_chunks(text, max_words=900, min_words=250):
+    text = clean_text_for_chunking(text)
 
+    # Split on section headings like P.1, P.2, P.3.1, etc.
+    section_parts = re.split(r"(?=\bP\.\d+(?:\.\d+)?\s+)", text)
 
-def run_silver(bronze_json_path: str | Path, output_dir: str | Path = SILVER_FOLDER) -> dict:
-    """
-    Load bronze JSON, clean raw text, save silver JSON.
-    Returns:
-        {
-            "document_id": ...,
-            "silver_json_path": ...
-        }
-    """
-    bronze_json_path = Path(bronze_json_path)
-    output_dir = Path(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    chunks = []
 
-    with open(bronze_json_path, "r", encoding="utf-8") as f:
-        bronze_data = json.load(f)
+    for section in section_parts:
+        section = section.strip()
 
-    if not bronze_data:
-        raise ValueError(f"No records found in {bronze_json_path}")
+        if len(section.split()) < 40:
+            continue
 
-    record = bronze_data[0]
-    document_id = record["document_id"]
-    raw_text = record["raw_text"]
+        if len(section.split()) <= max_words:
+            chunks.append(section)
+        else:
+            smaller_chunks = split_long_text_by_sentences(
+                section,
+                max_words=max_words
+            )
+            chunks.extend(smaller_chunks)
 
-    cleaned_text = clean_text(raw_text)
+    # Merge tiny chunks with the previous chunk
+    merged_chunks = []
 
-    silver_record = [{
-        "document_id": document_id,
-        "raw_text": raw_text,
-        "cleaned_text": cleaned_text
-    }]
+    for chunk in chunks:
+        word_count = len(chunk.split())
 
-    silver_json_path = output_dir / f"{document_id}_silver.json"
+        if (
+            merged_chunks
+            and word_count < min_words
+            and len(merged_chunks[-1].split()) + word_count <= max_words
+        ):
+            merged_chunks[-1] = merged_chunks[-1] + "\n\n" + chunk
+        else:
+            merged_chunks.append(chunk)
 
-    with open(silver_json_path, "w", encoding="utf-8") as f:
-        json.dump(silver_record, f, ensure_ascii=False, indent=4)
+    return merged_chunks
+
+def build_chunk_records(chunks):
+    records = []
+
+    for index, chunk in enumerate(chunks, start=1):
+        records.append({
+            "chunk_id": f"chunk_{index:03d}",
+            "text": chunk,
+            "word_count": len(chunk.split()),
+            "character_count": len(chunk)
+        })
+
+    return records
+
+def build_quality_report(cleaned_text, chunks):
+    word_count = len(cleaned_text.split())
+    character_count = len(cleaned_text)
+
+    if chunks:
+        average_chunk_words = sum(len(chunk.split()) for chunk in chunks) / len(chunks)
+    else:
+        average_chunk_words = 0
 
     return {
-        "document_id": document_id,
-        "silver_json_path": str(silver_json_path)
+        "is_empty": word_count == 0,
+        "word_count": word_count,
+        "character_count": character_count,
+        "chunk_count": len(chunks),
+        "average_chunk_words": round(average_chunk_words, 2),
+        "ready_for_modeling": word_count > 50 and len(chunks) > 0
     }
+
+def save_silver_output(
+    document_id,
+    cleaned_text,
+    metadata_text,
+    chunk_records,
+    quality_report,
+    language
+):
+    txt_output = SILVER_FOLDER / f"{document_id}_clean.txt"
+    meta_txt_output = SILVER_FOLDER / f"{document_id}_metadata_clean.txt"
+    json_output = SILVER_FOLDER / f"{document_id}_silver.json"
+
+    txt_output.write_text(cleaned_text, encoding="utf-8")
+    meta_txt_output.write_text(metadata_text, encoding="utf-8")
+
+    silver_data = {
+        "document_id": document_id,
+        "clean_text_file": str(txt_output),
+        "metadata_text_file": str(meta_txt_output),
+        "quality": quality_report,
+        "chunks": chunk_records,
+        "language": language,
+        "processed_at": datetime.now().isoformat()
+    }
+
+    json_output.write_text(
+        json.dumps(silver_data, indent=4, ensure_ascii=False),
+        encoding="utf-8"
+    )
+
+def run_silver_layer():
+    bronze_files = sorted(BRONZE_FOLDER.glob("doc_*.txt"))
+
+    if not bronze_files:
+        print("No bronze files found.")
+        return
+
+    for file_path in bronze_files:
+        document_id = file_path.stem
+
+        print(f"Cleaning {file_path.name}...")
+
+        raw_text = file_path.read_text(encoding="utf-8")
+
+        cleaned_text = clean_text(raw_text, mode="modeling")
+        metadata_text = clean_text(raw_text, mode="metadata")
+
+        chunks = split_into_semantic_chunks(
+            cleaned_text,
+            max_words=900,
+            min_words=250
+        )
+
+        chunk_records = build_chunk_records(chunks)
+        quality_report = build_quality_report(cleaned_text, chunks)
+        language = detect_language(cleaned_text)
+
+        save_silver_output(
+            document_id=document_id,
+            cleaned_text=cleaned_text,
+            metadata_text=metadata_text,
+            chunk_records=chunk_records,
+            quality_report=quality_report,
+            language=language
+        )
+
+        print(f"Saved {document_id} to silver layer.")
+        print(f"Ready for modeling: {quality_report['ready_for_modeling']}")
