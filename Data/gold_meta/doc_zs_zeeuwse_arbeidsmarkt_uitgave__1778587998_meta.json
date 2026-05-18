@@ -1,0 +1,77 @@
+{
+    "document_id": "doc_zs_zeeuwse_arbeidsmarkt_uitgave__1778587998",
+    "language": "nl",
+    "title": "De Zeeuwse arbeidsmarkt",
+    "subtitle": "Aanbod en vraag in Zeeland",
+    "description": "Dit zijn banen die vanuit de arbeidsreserve, van buiten de provincie of door een groei in het aantal uren per werkende moeten worden opgevuld",
+    "contributors": [
+        "De Zeeuwse arbeidsmarkt",
+        "Els van der Reep",
+        "Potentiële beroepsbevolking",
+        "Beroepsbevolking met WW",
+        "Geregistreerd werkzoekenden",
+        "KNELPUNTEN IN DE TECHNISCHE BEROEPEN"
+    ],
+    "contributors_structured": {
+        "persons": [
+            "De Zeeuwse arbeidsmarkt",
+            "Els van der Reep",
+            "Potentiële beroepsbevolking",
+            "Beroepsbevolking met WW",
+            "Geregistreerd werkzoekenden",
+            "KNELPUNTEN IN DE TECHNISCHE BEROEPEN",
+            "Els van der Reep Sven Bakker",
+            "Arbeidsaanbod In",
+            "Zonder Dienstverband"
+        ],
+        "organizations": [
+            "Centraal Bureau voor de Statistiek"
+        ],
+        "authors": [
+            "De Zeeuwse arbeidsmarkt",
+            "Els van der Reep",
+            "Potentiële beroepsbevolking",
+            "Beroepsbevolking met WW",
+            "Geregistreerd werkzoekenden",
+            "KNELPUNTEN IN DE TECHNISCHE BEROEPEN"
+        ],
+        "editors": [],
+        "compiled_by": [],
+        "prepared_by": [],
+        "commissioned_by": [],
+        "confidence": "high"
+    },
+    "contributors_confidence": "high",
+    "contact_person": {
+        "name": null,
+        "email": null,
+        "phone": "281 281 281 282 283 282",
+        "confidence": "medium"
+    },
+    "dates": {
+        "publication_date": "November 2018",
+        "start_date": "2017",
+        "end_date": "2012",
+        "dates_found": [
+            "November 2018",
+            "2022",
+            "2017-2012",
+            "2018",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "oktober 2017",
+            "1 januari 2018",
+            "1 juni 2018",
+            "augustus 2018",
+            "mei 2018"
+        ]
+    },
+    "extracted_at": "2026-05-12T14:13:24.356312"
+}
