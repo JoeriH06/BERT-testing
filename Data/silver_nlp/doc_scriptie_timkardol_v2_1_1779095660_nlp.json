@@ -1,0 +1,431 @@
+{
+    "document_id": "doc_scriptie_timkardol_v2_1_1779095660",
+    "source_clean_file": "Data\\silver\\doc_scriptie_timkardol_v2_1_1779095660_clean.txt",
+    "language": "nl",
+    "statistics": {
+        "characters": 93447,
+        "words": 14622,
+        "sentences": 1378,
+        "entities_found_raw": 1421
+    },
+    "entities": {
+        "persons": [],
+        "organizations": [
+            {
+                "text": "PET",
+                "count": 45
+            },
+            {
+                "text": "Bijlage",
+                "count": 14
+            },
+            {
+                "text": "WMS",
+                "count": 6
+            },
+            {
+                "text": "RIVM",
+                "count": 5
+            },
+            {
+                "text": "WFS",
+                "count": 4
+            },
+            {
+                "text": "Hogeschool van Amsterdam",
+                "count": 4
+            },
+            {
+                "text": "URF",
+                "count": 4
+            },
+            {
+                "text": "Faculteit \nTechniek",
+                "count": 3
+            },
+            {
+                "text": "ISO",
+                "count": 3
+            },
+            {
+                "text": "Hittestress",
+                "count": 2
+            },
+            {
+                "text": "UHI",
+                "count": 2
+            },
+            {
+                "text": "NASA",
+                "count": 2
+            },
+            {
+                "text": "Resilient Deltas",
+                "count": 2
+            },
+            {
+                "text": "Qgl",
+                "count": 2
+            },
+            {
+                "text": "Prioriteit Requirement Bron",
+                "count": 2
+            },
+            {
+                "text": "Team Digital Twin",
+                "count": 2
+            },
+            {
+                "text": "TilesetController",
+                "count": 2
+            },
+            {
+                "text": "QUnit",
+                "count": 2
+            },
+            {
+                "text": "BENUTTEN",
+                "count": 1
+            },
+            {
+                "text": "VAN DIGITAL",
+                "count": 1
+            },
+            {
+                "text": "TWIN",
+                "count": 1
+            },
+            {
+                "text": "HITTESTRESS",
+                "count": 1
+            },
+            {
+                "text": "REDUCTIE",
+                "count": 1
+            },
+            {
+                "text": "TIM",
+                "count": 1
+            },
+            {
+                "text": "KARDOL",
+                "count": 1
+            }
+        ],
+        "locations": [
+            {
+                "text": "Hoofdstuk",
+                "count": 22
+            },
+            {
+                "text": "Zeeland",
+                "count": 14
+            },
+            {
+                "text": "Interview",
+                "count": 13
+            },
+            {
+                "text": "Nijs",
+                "count": 10
+            },
+            {
+                "text": "Deelvraag",
+                "count": 7
+            },
+            {
+                "text": "Groeninzicht",
+                "count": 6
+            },
+            {
+                "text": "Provincie Zeeland",
+                "count": 6
+            },
+            {
+                "text": "Cesium",
+                "count": 6
+            },
+            {
+                "text": "Nelen",
+                "count": 5
+            },
+            {
+                "text": "Requirements",
+                "count": 4
+            },
+            {
+                "text": "JavaScript",
+                "count": 4
+            },
+            {
+                "text": "Middelburg",
+                "count": 4
+            },
+            {
+                "text": "gemeente Middelburg",
+                "count": 4
+            },
+            {
+                "text": "Bijlage",
+                "count": 4
+            },
+            {
+                "text": "Advies",
+                "count": 3
+            },
+            {
+                "text": "Verkoelings-",
+                "count": 3
+            },
+            {
+                "text": "Noot",
+                "count": 3
+            },
+            {
+                "text": "Objectklasse",
+                "count": 3
+            },
+            {
+                "text": "Prototype",
+                "count": 2
+            },
+            {
+                "text": "Klasse",
+                "count": 2
+            },
+            {
+                "text": "provincie Zeeland",
+                "count": 2
+            },
+            {
+                "text": "reguleren",
+                "count": 2
+            },
+            {
+                "text": "Stargel",
+                "count": 2
+            },
+            {
+                "text": "Echter",
+                "count": 2
+            },
+            {
+                "text": "Cobra",
+                "count": 2
+            }
+        ],
+        "dates": [
+            {
+                "text": "september 2023",
+                "count": 2
+            },
+            {
+                "text": "week",
+                "count": 2
+            },
+            {
+                "text": "2 februari",
+                "count": 1
+            },
+            {
+                "text": "64-bit",
+                "count": 1
+            },
+            {
+                "text": "4.6.1 Niet-gerealiseerde requirements",
+                "count": 1
+            },
+            {
+                "text": "januari 2024",
+                "count": 1
+            },
+            {
+                "text": "eind februari 2024",
+                "count": 1
+            },
+            {
+                "text": "7 december",
+                "count": 1
+            },
+            {
+                "text": "30 juni",
+                "count": 1
+            },
+            {
+                "text": "februari",
+                "count": 1
+            },
+            {
+                "text": "18 juli",
+                "count": 1
+            },
+            {
+                "text": "4 oktober",
+                "count": 1
+            },
+            {
+                "text": "11 september 2023",
+                "count": 1
+            }
+        ]
+    },
+    "keywords": [
+        {
+            "keyword": "digital",
+            "count": 197
+        },
+        {
+            "keyword": "twin",
+            "count": 188
+        },
+        {
+            "keyword": "maatregel",
+            "count": 78
+        },
+        {
+            "keyword": "hittestress",
+            "count": 63
+        },
+        {
+            "keyword": "onderzoek",
+            "count": 45
+        },
+        {
+            "keyword": "deelvraag",
+            "count": 41
+        },
+        {
+            "keyword": "data",
+            "count": 41
+        },
+        {
+            "keyword": "bijlage",
+            "count": 40
+        },
+        {
+            "keyword": "requirement",
+            "count": 37
+        },
+        {
+            "keyword": "provincie",
+            "count": 36
+        },
+        {
+            "keyword": "kaart",
+            "count": 36
+        },
+        {
+            "keyword": "interview",
+            "count": 33
+        },
+        {
+            "keyword": "verschillend",
+            "count": 31
+        },
+        {
+            "keyword": "omgeving",
+            "count": 29
+        },
+        {
+            "keyword": "zeeland",
+            "count": 28
+        },
+        {
+            "keyword": "nieuw",
+            "count": 28
+        },
+        {
+            "keyword": "team",
+            "count": 27
+        },
+        {
+            "keyword": "stakeholder",
+            "count": 27
+        },
+        {
+            "keyword": "geodan",
+            "count": 27
+        },
+        {
+            "keyword": "manier",
+            "count": 26
+        },
+        {
+            "keyword": "gebruik",
+            "count": 26
+        },
+        {
+            "keyword": "datum",
+            "count": 26
+        },
+        {
+            "keyword": "erik",
+            "count": 25
+        },
+        {
+            "keyword": "cesium",
+            "count": 25
+        },
+        {
+            "keyword": "functionaliteit",
+            "count": 24
+        },
+        {
+            "keyword": "hoofdstuk",
+            "count": 23
+        },
+        {
+            "keyword": "leemreijze",
+            "count": 22
+        },
+        {
+            "keyword": "code",
+            "count": 22
+        },
+        {
+            "keyword": "formule",
+            "count": 21
+        },
+        {
+            "keyword": "diagram",
+            "count": 21
+        }
+    ],
+    "modeling_hints": {
+        "main_topics": [
+            "digital",
+            "twin",
+            "maatregel",
+            "hittestress",
+            "onderzoek",
+            "deelvraag",
+            "data",
+            "bijlage",
+            "requirement",
+            "provincie"
+        ],
+        "important_entities": [
+            "PET",
+            "Bijlage",
+            "WMS",
+            "RIVM",
+            "WFS",
+            "Hogeschool van Amsterdam",
+            "URF",
+            "Faculteit \nTechniek",
+            "ISO",
+            "Hittestress",
+            "Hoofdstuk",
+            "Zeeland",
+            "Interview",
+            "Nijs",
+            "Deelvraag",
+            "Groeninzicht",
+            "Provincie Zeeland",
+            "Cesium",
+            "Nelen",
+            "Requirements"
+        ]
+    },
+    "processed_at": "2026-05-18T11:14:25.297254"
+}
