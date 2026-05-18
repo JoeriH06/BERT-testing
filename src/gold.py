@@ -1,312 +1,289 @@
-from __future__ import annotations
 
+from __future__ import annotations
+from pathlib import Path
+from datetime import datetime
+from collections import Counter
 import json
 import re
-from collections import Counter
-from datetime import datetime
-from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+import time
+import requests
 
-try:
-    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-except Exception:
-    AutoTokenizer = None
-    AutoModelForSeq2SeqLM = None
-
-SILVER_FOLDER = Path("Data/silver")
-SILVER_NLP_FOLDER = Path("Data/silver_nlp")
-GOLD_FOLDER = Path("Data/gold")
-GOLD_FOLDER.mkdir(parents=True, exist_ok=True)
-
-SUMMARY_MODELS = {
-    "nl": "yhavinga/t5-v1.1-base-dutch-cnn-test",
-    "en": "facebook/bart-large-cnn",
-    "default": "google/flan-t5-base",
-}
+LOCAL_MODEL = "qwen2.5:3b-instruct"
+OLLAMA_URL = "http://localhost:11434/api/generate"
+MAX_EVIDENCE_CHARS = 18000
+MAX_SELECTED_CHUNKS = 12
+REQUEST_TIMEOUT_SECONDS = 900
+TEMPERATURE = 0.1
+NUM_CTX = 8192
 
 STOPWORDS = {
-    "nl": set("de het een en van voor in op aan met als is zijn was wordt worden door dat die dit deze naar om bij uit over ook niet meer maar kan kunnen er hun haar hij zij we wij je u ze of tot dan dus omdat waarin wanneer wie wat waar hoe welke hebben heeft had onder boven tussen per aan bij uit rond volgens vanaf binnen tijdens naar over door waarover hierover daarvan hierin daarbij deze".split()),
-    "en": set("the a an and of for in on to with as is are was were be been being by that this these those from at or not but can could should would have has had it its they them their we our you your he she his her which who what when where how according during between within about around".split()),
+    "de","het","een","en","of","in","op","te","van","voor","met","dat","dit","die","als","aan","om","er",
+    "is","zijn","wordt","worden","was","waren","heeft","hebben","had","door","bij","uit","naar","ook",
+    "maar","dan","dus","kan","kunnen","zal","zullen","moet","moeten","waar","wat","hoe","welke","wie",
+    "wanneer","tijdens","alleen","nieuwe","gemaakt","gebruikt","maken","gebruik","bevat","basis",
+    "manier","twee","tijd","team","onderzoek","ontwikkelen","ontwikkeld","plaatsen","kaart",
+    "the","a","an","and","or","in","on","to","of","for","with","that","this","these","those","as","by",
+    "from","at","it","its","be","is","are","was","were","has","have","had","can","could","should","would",
+    "will","may","might","what","how","which","who","when","during","only","new","made","used","use",
+    "using","make","contains","basis","way","two","time","team","research","develop","developed"
 }
-
-BAD_SUMMARY_PATTERNS = [
-    "summarize the", "vat de onderstaande", "use only information", "gebruik alleen informatie",
-    "do not invent", "verzin geen", "text:", "tekst:", "http://", "https://", "www.",
-]
+BAD_MARKERS = {"figure_caption", "table_start", "table_end", "appendix", "bijlage", "references", "bibliografie"}
 
 
-def read_json(path: Path) -> Dict[str, Any]:
+def load_gold_models(*args, **kwargs):
+    """Backward compatible with older app.py. Ollama models are served, not preloaded."""
+    model = kwargs.get("model") or kwargs.get("local_model") or LOCAL_MODEL
+    return {"model": model, "backend": "ollama"}
+
+
+def read_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def clean_space(text: Any) -> str:
-    return re.sub(r"\s+", " ", str(text or "").replace("\u00a0", " ")).strip()
+def read_jsonl(path: Path) -> list[dict]:
+    if not path.exists(): return []
+    rows=[]
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.strip(): rows.append(json.loads(line))
+    return rows
 
 
-def split_sentences(text: str) -> List[str]:
-    text = re.sub(r"\s+", " ", str(text or "")).strip()
-    pieces = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ý0-9•])", text)
-    return [clean_space(s) for s in pieces if 7 <= len(s.split()) <= 85]
+def write_json(obj, path: Path):
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=4), encoding="utf-8")
 
 
-def choose_summary_model(language: str) -> str:
-    return SUMMARY_MODELS.get(language, SUMMARY_MODELS["default"])
+def clean_value(v) -> str:
+    return re.sub(r"\s+", " ", str(v or "")).strip()
 
 
-def load_model(language: str) -> Tuple[str, Any, Any]:
-    model_name = choose_summary_model(language)
-    if AutoTokenizer is None or AutoModelForSeq2SeqLM is None:
-        return "extractive_fallback", None, None
-    try:
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-        return model_name, tokenizer, model
-    except Exception:
-        return "extractive_fallback", None, None
-
-
-def load_gold_models(languages: Optional[Iterable[str]] = None) -> Dict[str, Tuple[str, Any, Any]]:
-    languages = list(languages or ["nl", "en", "default"])
-    return {language: load_model(language) for language in languages}
-
-
-def clean_summary_text(summary: str) -> str:
-    summary = clean_space(summary)
-    summary = re.sub(r"(?:TEXT|TEKST)\s*:\s*", "", summary, flags=re.I)
-    summary = re.sub(r"https?://\S+|www\.\S+", "", summary)
-    summary = re.sub(r"\s+([.,;:!?])", r"\1", summary)
-    return clean_space(summary)
-
-
-def is_bad_summary(summary: str) -> bool:
-    low = (summary or "").lower()
-    return len(summary.split()) < 18 or any(p in low for p in BAD_SUMMARY_PATTERNS) or is_noisy_sentence(summary)
-
-
-def get_summary_length(word_count: int) -> Tuple[int, int]:
-    if word_count < 700:
-        return 80, 180
-    if word_count < 2500:
-        return 120, 260
-    return 160, 360
-
-
-def keywords_from_text(text: str, language: str, max_terms: int = 30) -> List[str]:
-    stop = STOPWORDS.get(language, STOPWORDS["en"] | STOPWORDS["nl"])
-    words = [w.lower() for w in re.findall(r"[A-Za-zÀ-ÿ]{4,}", text)]
-    words = [w for w in words if w not in stop]
-    return [w for w, _ in Counter(words).most_common(max_terms)]
-
-
-def load_modeling_hints(document_id: str) -> Dict[str, Any]:
-    path = SILVER_NLP_FOLDER / f"{document_id}_nlp.json"
-    if not path.exists():
-        return {"main_topics": [], "important_entities": []}
-    data = read_json(path)
-    if not isinstance(data, dict):
-        return {"main_topics": [], "important_entities": []}
-
-    topics = []
-    for item in data.get("keywords", []):
-        if isinstance(item, dict):
-            value = item.get("keyword") or item.get("text") or item.get("term")
-        else:
-            value = str(item)
-        if value:
-            topics.append(clean_space(value))
-
-    entities = []
-    raw_entities = data.get("entities", {})
-    groups = raw_entities.values() if isinstance(raw_entities, dict) else [raw_entities] if isinstance(raw_entities, list) else []
-    for group in groups:
-        if isinstance(group, list):
-            for item in group:
-                if isinstance(item, dict):
-                    value = item.get("text") or item.get("label") or item.get("value")
-                else:
-                    value = str(item)
-                if value:
-                    entities.append(clean_space(value))
-
-    return {
-        "main_topics": list(dict.fromkeys([x for x in topics if x]))[:12],
-        "important_entities": list(dict.fromkeys([x for x in entities if x]))[:16],
-    }
-
-
-def is_noisy_sentence(sentence: str) -> bool:
-    s = clean_space(sentence)
-    low = s.lower()
-    if len(s) < 25:
-        return True
-    if re.search(r"\b(?:bron|source|pagina|page|tabel|table|grafiek|figure|figuur|copyright|isbn)\b", low):
-        return True
-    if re.search(r"\b(?:aantal|totaal)\s+%\s+aantal\b", low):
-        return True
-    # OCR/table garbage: too many isolated tokens, symbols, or digit fragments.
-    tokens = s.split()
-    short_tokens = sum(1 for t in tokens if len(re.sub(r"\W", "", t)) <= 2)
-    if tokens and short_tokens / len(tokens) > 0.32:
-        return True
-    if len(re.findall(r"[()*/_]|\b\d\s+\d\b", s)) > 10:
-        return True
-    alpha = sum(ch.isalpha() for ch in s)
-    if alpha / max(len(s), 1) < 0.55:
-        return True
+def is_bad_term(term: str) -> bool:
+    low=clean_value(term).lower()
+    if not low or low in STOPWORDS: return True
+    if any(m in low for m in BAD_MARKERS): return True
+    if re.fullmatch(r"\d+(?:[.,]\d+)?", low): return True
     return False
 
 
-def section_text(text: str, headings: List[str], max_chars: int = 4500) -> str:
-    lines = str(text or "").splitlines()
-    starts = []
-    for i, line in enumerate(lines):
-        low = clean_space(line).lower()
-        if any(h in low for h in headings):
-            starts.append(i)
-    if not starts:
-        return ""
-    start = starts[-1]
-    collected = []
-    for line in lines[start:start + 80]:
-        cleaned = clean_space(line)
-        if cleaned:
-            collected.append(cleaned)
-    return " ".join(collected)[:max_chars]
+def clean_term(term: str) -> str | None:
+    term=clean_value(term)
+    if is_bad_term(term): return None
+    if len(term.split()) > 7: return None
+    return term
 
 
-def sentence_score(sentence: str, keywords: List[str], position: int, total: int) -> float:
-    if is_noisy_sentence(sentence):
-        return -1000
-    low = sentence.lower()
-    score = 0.0
-    score += sum(2.0 for kw in keywords[:25] if kw.lower() in low)
-    score += min(10, len(re.findall(r"\b(?:19|20)\d{2}\b|\b\d+(?:[,.]\d+)?%\b|\b\d+\b", sentence)) * 1.3)
-    score += 3 * (1 - position / max(total, 1))
-    if re.search(r"\b(conclusion|concludes|summary|samenvatting|conclusie|conclusies|blijkt|result|results|resultaten|aanbeveling|recommendation|scoort|scoren|highest|lowest|hoogste|laagste)\b", low):
-        score += 7
+def check_ollama(base_url: str = "http://localhost:11434") -> bool:
+    try:
+        r=requests.get(f"{base_url}/api/tags", timeout=5)
+        r.raise_for_status()
+        return True
+    except Exception:
+        return False
+
+
+def ollama_generate(prompt: str, model: str = LOCAL_MODEL, format_json: bool = True, timeout: int = REQUEST_TIMEOUT_SECONDS) -> str:
+    payload={
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "options": {"temperature": TEMPERATURE, "num_ctx": NUM_CTX},
+    }
+    if format_json:
+        payload["format"]="json"
+    r=requests.post(OLLAMA_URL, json=payload, timeout=timeout)
+    r.raise_for_status()
+    return r.json().get("response","")
+
+
+def parse_json_safely(text: str) -> dict:
+    text=str(text or "").strip()
+    try:
+        return json.loads(text)
+    except Exception:
+        m=re.search(r"\{.*\}", text, flags=re.S)
+        if m: return json.loads(m.group(0))
+    raise ValueError("Could not parse JSON from local LLM output")
+
+
+def get_top_silver_terms(silver_nlp: dict, limit: int = 25) -> list[str]:
+    terms=[]
+    for item in silver_nlp.get("keyword_suggestions", [])[:limit*2]:
+        term=item.get("term") if isinstance(item, dict) else str(item)
+        term=clean_term(term)
+        if term and term.lower() not in [t.lower() for t in terms]:
+            terms.append(term)
+        if len(terms)>=limit: break
+    return terms
+
+
+def chunk_score(chunk: dict, terms: list[str]) -> float:
+    text=chunk.get("text","")
+    low=text.lower()
+    score=0.0
+    score += min(50, len(text.split())/30)
+    for i,term in enumerate(terms[:25]):
+        if term.lower() in low:
+            score += max(1, 10-i*0.25)
+    if re.search(r"\b(summary|samenvatting|conclusion|conclusie|results|resultaten|research question|onderzoeksvraag|main question|hoofdvraag)\b", low):
+        score += 15
     return score
 
 
-def extractive_summary(text: str, language: str, max_sentences: int = 5) -> str:
-    sentences = [s for s in split_sentences(text) if not is_noisy_sentence(s)]
-    if not sentences:
-        return clean_space(text)[:900]
-    keywords = keywords_from_text(text, language)
-    scored = [(sentence_score(s, keywords, i, len(sentences)), i, s) for i, s in enumerate(sentences)]
-    picked = sorted(scored, reverse=True)[:max_sentences]
-    picked = sorted([x for x in picked if x[0] > -100], key=lambda x: x[1])
-    return clean_summary_text(" ".join(s for _, _, s in picked))
+def select_evidence_chunks(chunks: list[dict], terms: list[str], max_chunks: int = MAX_SELECTED_CHUNKS) -> list[dict]:
+    if not chunks: return []
+    scored=[(chunk_score(ch, terms), idx, ch) for idx,ch in enumerate(chunks)]
+    scored.sort(reverse=True, key=lambda x: x[0])
+    selected=sorted(scored[:max_chunks], key=lambda x:x[1])
+    return [ch for _,_,ch in selected]
 
 
-def summarize_text(text: str, language: str, resources: Optional[Dict[str, Tuple[str, Any, Any]]] = None) -> str:
-    text = clean_space(text)
-    if not text:
-        return ""
-    min_len, max_len = get_summary_length(len(text.split()))
-    model_name, tokenizer, model = (resources or {}).get(language) or (resources or {}).get("default") or load_model(language)
-    if tokenizer is not None and model is not None:
-        prompt = "Vat deze tekst feitelijk en neutraal samen in het Nederlands:\n" if language == "nl" else "Summarize this text factually and neutrally:\n"
-        try:
-            inputs = tokenizer(prompt + text[:6000], return_tensors="pt", truncation=True, max_length=1024)
-            output = model.generate(**inputs, min_length=min_len, max_length=max_len, num_beams=4, no_repeat_ngram_size=3, early_stopping=True)
-            summary = clean_summary_text(tokenizer.decode(output[0], skip_special_tokens=True))
-            if not is_bad_summary(summary):
-                return summary
-        except Exception:
-            pass
-    return extractive_summary(text, language, max_sentences=5)
-
-
-def normalize_chunk(chunk: Any, idx: int) -> Dict[str, str]:
-    if isinstance(chunk, dict):
-        text = chunk.get("text") or chunk.get("chunk_text") or chunk.get("content") or chunk.get("cleaned_text") or ""
-        chunk_id = chunk.get("chunk_id") or chunk.get("id") or f"chunk_{idx:03d}"
-        return {"chunk_id": str(chunk_id), "text": str(text)}
-    return {"chunk_id": f"chunk_{idx:03d}", "text": str(chunk or "")}
-
-
-def summarize_chunks(chunks: List[Any], language: str, resources: Optional[Dict[str, Tuple[str, Any, Any]]] = None) -> List[Dict[str, str]]:
-    results = []
-    for idx, raw_chunk in enumerate(chunks, start=1):
-        chunk = normalize_chunk(raw_chunk, idx)
-        text = chunk["text"]
-        if len(text.split()) < 40:
-            continue
-        summary = summarize_text(text, language, resources)
-        if summary and not is_bad_summary(summary):
-            results.append({"chunk_id": chunk["chunk_id"], "summary": summary})
-    return results
-
-
-def create_final_summary(text: str, chunk_summaries: List[Dict[str, str]], language: str) -> str:
-    # Prefer an explicit conclusions/summary section when present. This is generic and works for reports in NL/EN.
-    conclusion = section_text(text, ["conclusies", "conclusie", "conclusions", "conclusion", "samenvatting", "summary"])
-    if len(conclusion.split()) >= 40:
-        return postprocess_final_summary(extractive_summary(conclusion, language, max_sentences=5), language)
-    combined = " ".join(x.get("summary", "") for x in chunk_summaries if x.get("summary"))
-    source = combined if len(combined.split()) >= 80 else text
-    return postprocess_final_summary(extractive_summary(source, language, max_sentences=5), language)
-
-
-def postprocess_final_summary(summary: str, language: str) -> str:
-    summary = clean_summary_text(summary)
-    sentences = split_sentences(summary)
-    kept, seen = [], set()
-    for sent in sentences:
-        if is_noisy_sentence(sent):
-            continue
-        key = re.sub(r"\W+", " ", sent.lower())[:100]
-        if key not in seen:
-            seen.add(key)
-            kept.append(sent)
-    return " ".join(kept[:5]) or summary
-
-
-def read_silver_document(document_id: str) -> Dict[str, Any]:
-    path = SILVER_FOLDER / f"{document_id}_silver.json"
-    if not path.exists():
-        raise FileNotFoundError(f"Missing silver file: {path}")
-    data = read_json(path)
-    if not isinstance(data, dict):
-        raise ValueError(f"Silver file must contain a JSON object: {path}")
-    return data
-
-
-def save_gold_output(document_id: str, data: Dict[str, Any]) -> str:
-    GOLD_FOLDER.mkdir(parents=True, exist_ok=True)
-    out = GOLD_FOLDER / f"{document_id}_gold.json"
-    out.write_text(json.dumps(data, indent=4, ensure_ascii=False), encoding="utf-8")
-    return str(out)
-
-
-def process_single_document(document_id: str, gold_resources: Optional[Dict[str, Tuple[str, Any, Any]]] = None) -> str:
-    silver = read_silver_document(document_id)
-    language = silver.get("language", "unknown")
-    text = silver.get("cleaned_text") or silver.get("text") or silver.get("content") or ""
-    raw_chunks = silver.get("chunks") or silver.get("chunk_records") or silver.get("cleaned_chunks") or []
-    if isinstance(raw_chunks, str):
-        raw_chunks = [raw_chunks]
-    if not isinstance(raw_chunks, list):
-        raw_chunks = []
-    chunks = [normalize_chunk(chunk, idx) for idx, chunk in enumerate(raw_chunks, start=1)] or [{"chunk_id": "chunk_001", "text": text}]
-
-    hints = load_modeling_hints(document_id)
-    chunk_summaries = summarize_chunks(chunks, language, gold_resources)
-    final_summary = create_final_summary(text, chunk_summaries, language)
-    model_tuple = (gold_resources or {}).get(language) or (gold_resources or {}).get("default") or ("extractive_fallback", None, None)
-    output = {
-        "document_id": document_id,
-        "language": language,
-        "summary": final_summary,
-        "chunk_summaries": chunk_summaries,
-        "modeling_hints_used": hints,
-        "model": model_tuple[0],
-        "processed_at": datetime.now().isoformat(),
+def build_evidence(silver: dict, silver_nlp: dict) -> tuple[str, list[str], list[dict]]:
+    chunks=silver.get("chunks", [])
+    if not chunks:
+        chunks=read_jsonl(Path("nonexistent"))  # harmless
+    terms=get_top_silver_terms(silver_nlp)
+    selected=select_evidence_chunks(chunks, terms)
+    parts={
+        "detected_language": silver.get("detected_language") or silver.get("language"),
+        "titlepage_candidates": silver.get("titlepage_candidates", {}),
+        "document_statistics": silver.get("statistics", {}),
+        "silver_keyword_suggestions": terms[:25],
+        "silver_entity_suggestions": silver_nlp.get("entity_suggestions", {}),
+        "selected_document_chunks": [
+            {
+                "chunk_id": c.get("chunk_id"),
+                "source_section": c.get("source_section_heading"),
+                "text": clean_value(c.get("text"))[:2500]
+            } for c in selected
+        ]
     }
-    return save_gold_output(document_id, output)
+    evidence=json.dumps(parts, ensure_ascii=False, indent=2)
+    if len(evidence) > MAX_EVIDENCE_CHARS:
+        evidence=evidence[:MAX_EVIDENCE_CHARS]
+    return evidence, terms, selected
 
 
-def run_gold_layer(document_ids: Optional[List[str]] = None, gold_resources: Optional[Dict[str, Tuple[str, Any, Any]]] = None) -> List[str]:
+def fallback_gold(silver: dict, silver_nlp: dict) -> dict:
+    main=silver.get("document_parts",{}).get("main_text","")
+    sentences=re.split(r"(?<=[.!?])\s+", clean_value(main))
+    summary=" ".join([s for s in sentences if len(s.split())>12][:4])[:1200]
+    terms=get_top_silver_terms(silver_nlp, 15)
+    top=[{"rank":i+1,"term":t,"context":"","evidence":"Silver NLP keyword suggestion"} for i,t in enumerate(terms[:15])]
+    return {
+        "document_summary": summary,
+        "top_terms": top,
+        "suggested_entities": silver_nlp.get("entity_suggestions", {}),
+        "main_topics": terms[:5],
+        "results_or_conclusions": [],
+        "possible_value_for_knowledge_platform": summary[:500],
+        "confidence_notes": ["Fallback extractive Gold output used because Ollama was not reachable or failed."],
+    }
+
+
+def process_document(document_id: str, data_dir: str | Path = "Data", model: str = LOCAL_MODEL, require_ollama: bool = True) -> dict:
+    data_dir=Path(data_dir)
+    silver_dir=data_dir/"silver"; nlp_dir=data_dir/"silver_nlp"; gold_dir=data_dir/"gold"; gold_dir.mkdir(parents=True, exist_ok=True)
+    silver=read_json(silver_dir/f"{document_id}_silver.json")
+    silver_nlp_path=nlp_dir/f"{document_id}_silver_nlp.json"
+    if not silver_nlp_path.exists(): silver_nlp_path=nlp_dir/f"{document_id}_nlp.json"
+    silver_nlp=read_json(silver_nlp_path)
+    detected_language=silver.get("detected_language") or silver.get("language") or "unknown"
+    evidence, terms, selected = build_evidence(silver, silver_nlp)
+
+    schema={
+        "document_summary": "",
+        "top_terms": [{"rank": 1, "term": "", "context": "", "evidence": ""}],
+        "suggested_entities": {"people": [], "organizations": [], "locations": [], "dates": [], "methods_tools_or_products": []},
+        "main_topics": [],
+        "results_or_conclusions": [],
+        "possible_value_for_knowledge_platform": "",
+        "confidence_notes": []
+    }
+    lang_rule = (
+        "Write document_summary, main_topics, context, results_or_conclusions, possible_value_for_knowledge_platform and confidence_notes in Dutch."
+        if str(detected_language).lower().startswith("nl")
+        else "Write document_summary, main_topics, context, results_or_conclusions, possible_value_for_knowledge_platform and confidence_notes in English."
+    )
+    prompt=f"""
+You are a strict document analysis system for a knowledge management platform.
+Return valid JSON only.
+
+Language rule:
+- Detected document language: {detected_language}
+- {lang_rule}
+- Keep technical terms in their original form when appropriate.
+
+Rules:
+- Use only evidence from the provided text.
+- Do not invent facts, names, dates, tools, or results.
+- Silver NLP terms/entities are suggestions only; verify them against evidence.
+- Return 10 to 15 top_terms when enough evidence exists.
+- Each top_term must have a short context sentence that actually mentions or explains the term.
+- Suggested entities are suggestions, not final metadata.
+- Return exactly one JSON object matching this schema:
+{json.dumps(schema, ensure_ascii=False, indent=2)}
+
+EVIDENCE:
+{evidence}
+"""
+    start=time.time()
+    if require_ollama and not check_ollama():
+        raise RuntimeError("Ollama is not reachable. Start Ollama with 'ollama serve' and pull the selected model.")
+    try:
+        raw=ollama_generate(prompt, model=model, format_json=True)
+        result=parse_json_safely(raw)
+    except Exception:
+        if require_ollama:
+            raise
+        result=fallback_gold(silver, silver_nlp)
+    # Normalize
+    result.setdefault("document_summary", "")
+    result.setdefault("top_terms", [])
+    fallback_terms = terms
+    cleaned_terms=[]; seen=set()
+    for item in result.get("top_terms", []):
+        if not isinstance(item, dict): item={"term": str(item), "context": "", "evidence": ""}
+        term=clean_term(item.get("term"))
+        if not term or term.lower() in seen: continue
+        seen.add(term.lower())
+        item["term"]=term
+        item["rank"]=len(cleaned_terms)+1
+        cleaned_terms.append(item)
+    for t in fallback_terms:
+        if len(cleaned_terms)>=15: break
+        if t.lower() not in seen:
+            seen.add(t.lower())
+            cleaned_terms.append({"rank":len(cleaned_terms)+1,"term":t,"context":"","evidence":"Silver NLP keyword suggestion"})
+    result["top_terms"]=cleaned_terms[:15]
+    result["@pipeline"]={
+        "document_id": document_id,
+        "processing_layer": "gold",
+        "processing_version": "gold_local_llm_streamlit_v1_from_notebook",
+        "created_at": datetime.now().isoformat(),
+        "runtime_seconds": round(time.time()-start,2),
+        "local_execution_note": "This layer uses a local Ollama model. It can be upgraded by changing model.",
+        "model": model,
+        "source_silver_version": silver.get("processing_version"),
+        "source_silver_nlp_version": silver_nlp.get("processing_version"),
+        "selected_chunks": [c.get("chunk_id") for c in selected],
+    }
+    write_json(result, gold_dir/f"{document_id}_gold.json")
+    # Human readable txt
+    lines=[f"# Gold analysis - {document_id}\n", "## Samenvatting / Summary\n", result.get("document_summary",""), "\n## Top termen / Top terms\n"]
+    for t in result["top_terms"]:
+        lines.append(f"{t.get('rank')}. **{t.get('term')}** — {t.get('context','')}")
+    (gold_dir/f"{document_id}_gold_summary.txt").write_text("\n".join(lines), encoding="utf-8")
+    (gold_dir/f"{document_id}_gold_chunk_outputs.jsonl").write_text("", encoding="utf-8")
+    return result
+
+
+def run_gold_layer(document_ids: list[str] | None = None, data_dir: str | Path = "Data", model: str = LOCAL_MODEL, require_ollama: bool = True, gold_resources=None) -> list[str]:
+    silver_dir=Path(data_dir)/"silver"
+    if gold_resources and isinstance(gold_resources, dict) and gold_resources.get("model"):
+        model=gold_resources["model"]
     if document_ids is None:
-        document_ids = [p.name.replace("_silver.json", "") for p in SILVER_FOLDER.glob("*_silver.json")]
-    return [process_single_document(document_id, gold_resources) for document_id in document_ids]
+        document_ids=[p.name.replace("_silver.json","") for p in sorted(silver_dir.glob("*_silver.json"))]
+    paths=[]
+    for doc_id in document_ids:
+        process_document(doc_id, data_dir=data_dir, model=model, require_ollama=require_ollama)
+        paths.append(str(Path(data_dir)/"gold"/f"{doc_id}_gold.json"))
+    return paths

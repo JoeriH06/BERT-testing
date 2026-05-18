@@ -1,71 +1,72 @@
-import base64
-import hashlib
+
+from __future__ import annotations
+
 import json
 import shutil
 from pathlib import Path
-from typing import Dict, Any
+import time
 
 import streamlit as st
-import streamlit.components.v1 as components
 
-from src.pipeline import run_pipeline
-from src.gold import load_gold_models
+try:
+    import fitz  # PyMuPDF
+    from PIL import Image
+    import io
+    PDF_PREVIEW_AVAILABLE = True
+except Exception:
+    PDF_PREVIEW_AVAILABLE = False
 
-import fitz  # PyMuPDF
-from PIL import Image
-import io
+from src.pipeline import run_pipeline, load_result, ensure_data_dirs, clear_data_layers
+from src.gold import check_ollama
 
 st.set_page_config(
-    page_title="PDF Intelligence Studio",
+    page_title="KMP PDF Intelligence",
     page_icon="📄",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-RAW_DIR = Path("Data/raw")
-RAW_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR = Path("Data")
+RAW_DIR = DATA_DIR / "raw"
+ensure_data_dirs(DATA_DIR)
 
-        
-def clear_data_layer(keep_raw_filename: str | None = None):
-    """Remove previous pipeline inputs/outputs so the Data folder contains only the active document."""
-    data_root = Path("Data")
-    folders = ["raw", "bronze", "silver", "silver_nlp", "gold_meta", "gold"]
-
-    for folder_name in folders:
-        folder = data_root / folder_name
-        folder.mkdir(parents=True, exist_ok=True)
-
-        for item in folder.iterdir():
-            if folder_name == "raw" and keep_raw_filename and item.name == keep_raw_filename:
-                continue
-
-            if item.is_file() or item.is_symlink():
-                item.unlink(missing_ok=True)
-            elif item.is_dir():
-                shutil.rmtree(item)
-
-
-def file_signature(file_name: str, file_bytes: bytes) -> str:
-    digest = hashlib.sha256(file_bytes).hexdigest()[:16]
-    return f"{file_name}:{len(file_bytes)}:{digest}"
-
-
+# -----------------------------
+# Styling
+# -----------------------------
 st.markdown(
     """
     <style>
-    .hero {
-        padding: 1.4rem 1.6rem;
-        border-radius: 1.2rem;
-        background: linear-gradient(135deg, rgba(90, 120, 255, .14), rgba(0, 200, 150, .12));
-        border: 1px solid rgba(120, 120, 120, .18);
-        margin-bottom: 1.2rem;
+    .main-header {
+        padding: 1.35rem 1.5rem;
+        border-radius: 1.25rem;
+        background: linear-gradient(135deg, rgba(80,120,255,.16), rgba(0,190,150,.13));
+        border: 1px solid rgba(130,130,130,.2);
+        margin-bottom: 1rem;
     }
-    .hero h1 { margin-bottom: .2rem; }
-    .metric-card {
-        padding: 1rem;
+    .main-header h1 {
+        margin: 0;
+        font-size: 2.1rem;
+    }
+    .main-header p {
+        margin: .35rem 0 0 0;
+        color: rgba(120,120,120,.95);
+        font-size: 1rem;
+    }
+    .soft-card {
+        padding: 1rem 1.1rem;
         border-radius: 1rem;
-        border: 1px solid rgba(120, 120, 120, .18);
-        background: rgba(250, 250, 250, .035);
+        border: 1px solid rgba(130,130,130,.18);
+        background: rgba(250,250,250,.035);
+        margin-bottom: .8rem;
+    }
+    .term-chip {
+        display: inline-block;
+        padding: .33rem .6rem;
+        margin: .18rem .15rem;
+        border-radius: 999px;
+        border: 1px solid rgba(130,130,130,.22);
+        background: rgba(120,120,255,.08);
+        font-size: .88rem;
     }
     </style>
     """,
@@ -73,349 +74,293 @@ st.markdown(
 )
 
 
-@st.cache_resource(show_spinner=False)
-def get_gold_resources():
-    return load_gold_models()
+# -----------------------------
+# Helpers
+# -----------------------------
+def init_state():
+    defaults = {
+        "pipeline_info": None,
+        "result": None,
+        "uploaded_pdf_path": None,
+        "last_error": None,
+        "review_saved": False,
+    }
+    for k, v in defaults.items():
+        st.session_state.setdefault(k, v)
 
 
-def load_json(json_path: str) -> dict:
-    with open(json_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+def save_uploaded_file(uploaded_file) -> Path:
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    target = RAW_DIR / uploaded_file.name
+    target.write_bytes(uploaded_file.getbuffer())
+    return target
+
 
 def render_pdf_preview(pdf_path: Path):
-    st.subheader("Uploaded document preview")
-
-    pdf_path = Path(pdf_path)
-
-    if not pdf_path.exists():
-        st.warning("No uploaded PDF found.")
+    st.subheader("PDF preview")
+    if not pdf_path or not Path(pdf_path).exists():
+        st.info("Upload a PDF first.")
+        return
+    if not PDF_PREVIEW_AVAILABLE:
+        st.warning("PDF preview requires PyMuPDF and Pillow. Install: pip install pymupdf pillow")
         return
 
-    with st.expander("PDF preview", expanded=True):
-        zoom = st.slider("Zoom", 1.0, 3.0, 1.4, 0.1)
-        max_pages = st.number_input("Pages to preview", 1, 20, 5)
-
-        doc = fitz.open(pdf_path)
-
+    with st.expander("Preview pages", expanded=True):
+        zoom = st.slider("Zoom", 1.0, 2.5, 1.35, 0.05)
+        max_pages = st.number_input("Pages", min_value=1, max_value=15, value=3)
+        doc = fitz.open(str(pdf_path))
         for page_number in range(min(len(doc), int(max_pages))):
             page = doc[page_number]
             pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=False)
             img = Image.open(io.BytesIO(pix.tobytes("png")))
-
             st.caption(f"Page {page_number + 1}")
             st.image(img, use_container_width=True)
-
         doc.close()
 
-    with open(pdf_path, "rb") as f:
-        st.download_button(
-            "Download uploaded PDF",
-            data=f,
-            file_name=pdf_path.name,
-            mime="application/pdf",
-            use_container_width=True,
-        )
 
-def init_session_state():
-    defaults = {
-        "result_data": None,
-        "pipeline_result": None,
-        "review_banner_visible": False,
-        "review_saved": False,
-        "edited_metadata": None,
-        "edited_summary": "",
-        "uploaded_pdf_path": None,
-        "uploaded_pdf_name": "",
-        "uploaded_pdf_signature": "",
-    }
-    for key, value in defaults.items():
-        st.session_state.setdefault(key, value)
-
-
-def reset_review_state():
-    st.session_state.review_banner_visible = False
-    st.session_state.review_saved = False
-    st.session_state.edited_metadata = None
-    st.session_state.edited_summary = ""
-
-
-def normalize_terms(value):
-    if isinstance(value, list):
-        return [str(v) for v in value if str(v).strip()]
-    if isinstance(value, str):
-        return [v.strip() for v in value.split(",") if v.strip()]
-    return []
-
-
-def get_display_metadata(data: dict) -> Dict[str, Any]:
-    metadata = data.get("metadata", {})
-
-    contributors = metadata.get("contributors", [])
-    contributors_text = ", ".join(contributors) if isinstance(contributors, list) else str(contributors or "")
-
-    research_group = metadata.get("research_group")
-    if not research_group:
-        top3 = metadata.get("research_group_top3", [])
-        research_group = top3[0]["label"] if top3 else ""
-
-    return {
-        "document_id": metadata.get("id") or data.get("document_id") or "",
-        "title": metadata.get("title") or "",
-        "subtitle": metadata.get("subtitle") or "",
-        "contributors": contributors_text,
-        "research_group": research_group or "",
-        "publication_date": metadata.get("publication_date") or "",
-        "start_date": metadata.get("start_date") or "",
-        "end_date": metadata.get("end_date") or "",
-        "model": data.get("model", "Unknown model"),
-        "top_terms": normalize_terms(metadata.get("top_terms", [])),
-    }
-
-
-def get_current_metadata_for_display() -> Dict[str, Any]:
-    if st.session_state.edited_metadata:
-        return st.session_state.edited_metadata
-    if st.session_state.result_data:
-        return get_display_metadata(st.session_state.result_data)
-    return {
-        "document_id": "",
-        "title": "",
-        "subtitle": "",
-        "contributors": "",
-        "research_group": "",
-        "publication_date": "",
-        "start_date": "",
-        "end_date": "",
-        "model": "",
-        "top_terms": [],
-    }
-
-
-def get_current_summary_for_display() -> str:
-    if st.session_state.edited_summary:
-        return st.session_state.edited_summary
-    if st.session_state.result_data:
-        return st.session_state.result_data.get("summary", "")
-    return ""
-
-
-def save_reviewed_metadata():
-    if not st.session_state.result_data:
+def terms_as_chips(terms):
+    if not terms:
+        st.write("No terms found.")
         return
-
-    contributors = [c.strip() for c in st.session_state.get("edit_contributors", "").split(",") if c.strip()]
-    top_terms = [t.strip() for t in st.session_state.get("edit_top_terms", "").split(",") if t.strip()]
-
-    edited_metadata = {
-        "document_id": st.session_state.get("edit_document_id", "").strip(),
-        "title": st.session_state.get("edit_title", "").strip(),
-        "subtitle": st.session_state.get("edit_subtitle", "").strip(),
-        "contributors": ", ".join(contributors),
-        "research_group": st.session_state.get("edit_research_group", "").strip(),
-        "publication_date": st.session_state.get("edit_publication_date", "").strip(),
-        "start_date": st.session_state.get("edit_start_date", "").strip(),
-        "end_date": st.session_state.get("edit_end_date", "").strip(),
-        "model": st.session_state.get("edit_model", "").strip(),
-        "top_terms": top_terms,
-    }
-
-    result_data = st.session_state.result_data
-    result_data["document_id"] = edited_metadata["document_id"]
-    result_data["summary"] = st.session_state.get("edit_summary", "").strip()
-    result_data.setdefault("metadata", {})
-    result_data["metadata"].update({
-        "id": edited_metadata["document_id"],
-        "title": edited_metadata["title"],
-        "subtitle": edited_metadata["subtitle"],
-        "contributors": contributors,
-        "research_group": edited_metadata["research_group"],
-        "publication_date": edited_metadata["publication_date"],
-        "start_date": edited_metadata["start_date"],
-        "end_date": edited_metadata["end_date"],
-        "top_terms": top_terms,
-    })
-
-    st.session_state.result_data = result_data
-    st.session_state.edited_metadata = edited_metadata
-    st.session_state.edited_summary = result_data["summary"]
-    st.session_state.review_saved = True
-    st.session_state.review_banner_visible = False
+    html = "".join(f"<span class='term-chip'>{str(t)}</span>" for t in terms)
+    st.markdown(html, unsafe_allow_html=True)
 
 
-def render_review_panel():
-    if not st.session_state.review_banner_visible or not st.session_state.result_data:
-        return
+def top_term_strings(result: dict) -> list[str]:
+    terms = []
+    for item in result.get("top_terms", []):
+        if isinstance(item, dict) and item.get("term"):
+            terms.append(item["term"])
+        elif isinstance(item, str):
+            terms.append(item)
+    if not terms:
+        terms = result.get("metadata", {}).get("keywords", [])
+    return terms
 
-    display = get_display_metadata(st.session_state.result_data)
-    summary = st.session_state.result_data.get("summary", "")
 
-    with st.container(border=True):
-        left, right = st.columns([11, 1])
-        with left:
-            st.warning("Review the extracted metadata. Edit only the fields you want to change, then save.")
-        with right:
-            if st.button("✕", key="dismiss_review_banner"):
-                st.session_state.review_banner_visible = False
-                st.rerun()
+def render_metadata_editor(result: dict):
+    meta = result.get("metadata", {})
+    with st.form("metadata_review_form"):
+        st.markdown("### Review metadata")
 
         col1, col2 = st.columns(2)
         with col1:
-            st.text_input("Document ID", value=display["document_id"], key="edit_document_id")
-            st.text_input("Title", value=display["title"], key="edit_title")
-            st.text_input("Subtitle", value=display["subtitle"], key="edit_subtitle")
-            st.text_input("Research Group", value=display["research_group"], key="edit_research_group")
+            title = st.text_input("Title", value=meta.get("title") or "")
+            contributors = st.text_input("Contributors", value=", ".join(meta.get("contributors") or []))
+            publication_date = st.text_input("Date", value=meta.get("publication_date") or "")
+            document_type = st.text_input("Document type", value=meta.get("document_type") or "")
         with col2:
-            st.text_input("Publication Date", value=display["publication_date"], key="edit_publication_date")
-            st.text_input("Start Date", value=display["start_date"], key="edit_start_date")
-            st.text_input("End Date", value=display["end_date"], key="edit_end_date")
-            st.text_input("Model", value=str(display["model"]), key="edit_model", disabled=True)
+            language = st.text_input("Language", value=meta.get("language") or "")
+            topic = st.text_area("Research/project topic", value=meta.get("research_or_project_topic") or "", height=90)
+            question = st.text_area("Research question / goal", value=meta.get("research_question_or_goal") or "", height=90)
 
-        st.text_area("Contributors (comma-separated)", value=display["contributors"], height=80, key="edit_contributors")
-        st.text_area("Top Terms (comma-separated)", value=", ".join(display["top_terms"]), height=80, key="edit_top_terms")
-        st.text_area("Summary", value=summary, height=180, key="edit_summary")
+        description = st.text_area("Description / summary", value=meta.get("description") or result.get("document_summary") or "", height=160)
+        keywords = st.text_area("Keywords, comma-separated", value=", ".join(meta.get("keywords") or []), height=90)
 
-        save_col, dismiss_col = st.columns([1, 1])
-        with save_col:
-            if st.button("Save reviewed metadata", type="primary", use_container_width=True):
-                save_reviewed_metadata()
-                st.rerun()
-        with dismiss_col:
-            if st.button("Dismiss without saving", use_container_width=True):
-                st.session_state.review_banner_visible = False
-                st.rerun()
+        saved = st.form_submit_button("Save reviewed metadata", type="primary", use_container_width=True)
+
+    if saved:
+        meta["title"] = title.strip()
+        meta["contributors"] = [x.strip() for x in contributors.split(",") if x.strip()]
+        meta["publication_date"] = publication_date.strip()
+        meta["document_type"] = document_type.strip()
+        meta["language"] = language.strip()
+        meta["research_or_project_topic"] = topic.strip()
+        meta["research_question_or_goal"] = question.strip()
+        meta["description"] = description.strip()
+        meta["keywords"] = [x.strip() for x in keywords.split(",") if x.strip()]
+        meta["suitable_kmp_fields"] = {
+            "title": meta["title"],
+            "description": meta["description"],
+            "keywords": meta["keywords"],
+            "contributors": meta["contributors"],
+            "date": meta["publication_date"],
+            "language": meta["language"],
+            "document_type": meta["document_type"],
+        }
+        result["metadata"] = meta
+        result["document_summary"] = description.strip()
+        result["summary"] = description.strip()
+        st.session_state.result = result
+
+        doc_id = result.get("document_id", "reviewed")
+        out = DATA_DIR / "gold" / f"{doc_id}_reviewed_result.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
+        st.session_state.review_saved = True
+        st.success(f"Reviewed result saved to {out}")
 
 
-def render_dashboard():
-    data = st.session_state.result_data
-    if not data:
-        return
+def render_result(result: dict):
+    meta = result.get("metadata", {})
+    quality = result.get("quality", {})
+    stats = result.get("statistics", {})
 
-    display = get_current_metadata_for_display()
-    top_terms = normalize_terms(display.get("top_terms", []))
-    summary = get_current_summary_for_display()
-    pipeline = st.session_state.pipeline_result or {}
-    quality = pipeline.get("quality_report", {})
+    st.subheader(meta.get("title") or "Untitled document")
 
-    st.subheader("Overview")
     m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Language", pipeline.get("language", data.get("language", "unknown")))
-    m2.metric("Words", quality.get("word_count", "—"))
-    m3.metric("Chunks", quality.get("chunk_count", "—"))
-    m4.metric("Ready", "Yes" if quality.get("ready_for_modeling") else "Check")
+    m1.metric("Language", meta.get("language") or result.get("language") or "unknown")
+    m2.metric("Words", quality.get("word_count") or stats.get("main_text_words") or "—")
+    m3.metric("Chunks", quality.get("chunk_count") or stats.get("chunk_count") or "—")
+    m4.metric("Model", result.get("model") or "—")
 
-    tab_summary, tab_metadata, tab_terms, tab_json = st.tabs(["Executive summary", "Metadata", "Top terms", "JSON"])
+    tab_summary, tab_meta, tab_terms, tab_entities, tab_json = st.tabs(
+        ["Summary", "Metadata", "Top terms", "Suggested entities", "JSON"]
+    )
 
     with tab_summary:
         st.markdown("### Summary")
-        st.write(summary or "No summary generated.")
-        st.download_button(
-            "Download reviewed result JSON",
-            data=json.dumps(st.session_state.result_data, indent=2, ensure_ascii=False),
-            file_name=f"{display.get('document_id', 'result')}_reviewed.json",
-            mime="application/json",
-        )
+        st.write(result.get("document_summary") or result.get("summary") or "No summary generated.")
+        value = result.get("possible_value_for_knowledge_platform")
+        if value:
+            st.markdown("### Possible value for KMP")
+            st.write(value)
 
-    with tab_metadata:
-        col1, col2 = st.columns(2)
-        with col1:
-            st.text_input("Document ID", value=display.get("document_id") or "Not found", disabled=True)
-            st.text_input("Title", value=display.get("title") or "Not found", disabled=True)
-            st.text_input("Subtitle", value=display.get("subtitle") or "Not found", disabled=True)
-            st.text_input("Research Group", value=display.get("research_group") or "Not found", disabled=True)
-        with col2:
-            st.text_input("Publication Date", value=display.get("publication_date") or "Not found", disabled=True)
-            st.text_input("Start Date", value=display.get("start_date") or "Not found", disabled=True)
-            st.text_input("End Date", value=display.get("end_date") or "Not found", disabled=True)
-            st.text_input("Model", value=str(display.get("model") or "Unknown model"), disabled=True)
-        st.text_area("Contributors", value=display.get("contributors") or "Not found", height=90, disabled=True)
+    with tab_meta:
+        render_metadata_editor(result)
 
     with tab_terms:
-        if top_terms:
-            st.markdown(" ".join([f"`{term}`" for term in top_terms]))
-        else:
-            st.write("No terms found.")
+        st.markdown("### Top terms")
+        terms_as_chips(top_term_strings(result))
+
+        if result.get("top_terms"):
+            for item in result.get("top_terms", []):
+                if isinstance(item, dict):
+                    with st.container(border=True):
+                        st.markdown(f"**{item.get('rank', '')}. {item.get('term', '')}**")
+                        if item.get("context"):
+                            st.write(item.get("context"))
+                        if item.get("evidence"):
+                            st.caption(str(item.get("evidence")))
+
+    with tab_entities:
+        st.markdown("### Suggested possible entities")
+        st.caption("These are suggestions only, not final metadata.")
+        entities = result.get("suggested_entities") or {}
+        if not entities:
+            st.write("No entity suggestions.")
+        for group, values in entities.items():
+            st.markdown(f"**{group}**")
+            if not values:
+                st.write("—")
+            else:
+                if isinstance(values, list):
+                    shown = []
+                    for v in values:
+                        if isinstance(v, dict):
+                            shown.append(v.get("text") or v.get("term") or str(v))
+                        else:
+                            shown.append(str(v))
+                    terms_as_chips(shown)
+                else:
+                    st.write(values)
 
     with tab_json:
-        st.json(data)
+        st.download_button(
+            "Download result JSON",
+            data=json.dumps(result, indent=2, ensure_ascii=False),
+            file_name=f"{result.get('document_id', 'result')}.json",
+            mime="application/json",
+            use_container_width=True,
+        )
+        st.json(result)
 
 
-init_session_state()
+# -----------------------------
+# App
+# -----------------------------
+init_state()
 
 st.markdown(
     """
-    <div class="hero">
-      <h1>📄 PDF Intelligence Studio</h1>
-      <p>Upload a PDF, run the bronze → silver → NLP → gold pipeline, then review the extracted metadata and summary.</p>
+    <div class="main-header">
+        <h1>📄 KMP PDF Intelligence</h1>
+        <p>Local Bronze → Silver → Silver NLP → Gold → Gold Meta pipeline for Dutch and English PDFs.</p>
     </div>
     """,
     unsafe_allow_html=True,
 )
 
 with st.sidebar:
-    st.header("Pipeline")
-    st.caption("The uploaded PDF is saved to Data/raw, then processed into the Data layer folders.")
-    uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
+    st.header("Pipeline settings")
+    uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
+
+    model = st.text_input("Ollama model", value="qwen2.5:3b-instruct")
+    require_ollama = st.toggle("Require Ollama", value=True, help="Turn this off only for testing deterministic fallback output.")
+    clear_previous = st.toggle("Clear previous Data outputs", value=True)
+
+    st.divider()
+    if st.button("Check Ollama", use_container_width=True):
+        if check_ollama():
+            st.success("Ollama is reachable.")
+        else:
+            st.error("Ollama is not reachable. Run: ollama serve")
+
     run_clicked = st.button("Run complete pipeline", type="primary", disabled=uploaded_file is None, use_container_width=True)
 
+    st.caption("For laptop testing use qwen2.5:3b-instruct. On a school server you can switch to 7B/14B.")
+
 if uploaded_file is not None:
-    uploaded_bytes = uploaded_file.getvalue()
-    signature = file_signature(uploaded_file.name, uploaded_bytes)
-    pdf_path = RAW_DIR / uploaded_file.name
-
-    if signature != st.session_state.uploaded_pdf_signature:
-        clear_data_layer(keep_raw_filename=uploaded_file.name)
-        reset_review_state()
-        st.session_state.result_data = None
-        st.session_state.pipeline_result = None
-        st.session_state.uploaded_pdf_signature = signature
-
-    with open(pdf_path, "wb") as f:
-        f.write(uploaded_bytes)
-
+    pdf_path = save_uploaded_file(uploaded_file)
     st.session_state.uploaded_pdf_path = str(pdf_path)
-    st.session_state.uploaded_pdf_name = uploaded_file.name
-
-    st.info(f"Ready to process: **{uploaded_file.name}**")
 
     preview_tab, workspace_tab = st.tabs(["PDF preview", "Extraction workspace"])
 
     with preview_tab:
-        st.subheader("Uploaded document preview")
-        render_pdf_preview(Path(st.session_state.uploaded_pdf_path))
+        render_pdf_preview(pdf_path)
 
     with workspace_tab:
-        st.caption("Run the pipeline here, then review the generated metadata and summary below.")
+        st.info(f"Ready to process: **{uploaded_file.name}**")
 
         if run_clicked:
+            progress_bar = st.progress(0)
+            status = st.empty()
+            log_box = st.empty()
+
+            logs = []
+
+            def progress_callback(step: str, value: float):
+                progress_bar.progress(min(max(value, 0.0), 1.0))
+                status.write(f"**{step}**")
+                logs.append(f"{time.strftime('%H:%M:%S')} — {step}")
+                log_box.code("\n".join(logs[-8:]))
+
             try:
-                clear_data_layer(keep_raw_filename=uploaded_file.name)
-                reset_review_state()
+                if clear_previous:
+                    clear_data_layers(DATA_DIR, keep_raw_file=uploaded_file.name)
 
-                with st.spinner("Preparing resources..."):
-                    gold_resources = get_gold_resources()
+                with st.spinner("Running local pipeline..."):
+                    info = run_pipeline(
+                        pdf_path,
+                        model=model.strip() or "qwen2.5:3b-instruct",
+                        data_dir=DATA_DIR,
+                        require_ollama=require_ollama,
+                        clear_previous=False,
+                        progress_callback=progress_callback,
+                    )
 
-                with st.spinner("Running bronze, silver, silver NLP, gold metadata, and gold summary layers..."):
-                    pipeline_result = run_pipeline(str(pdf_path), gold_resources=gold_resources)
-
-                result_data = load_json(pipeline_result["gold_json_path"])
-
-                st.session_state.pipeline_result = pipeline_result
-                st.session_state.result_data = result_data
-                st.session_state.review_banner_visible = True
+                result = load_result(info["gold_json_path"])
+                st.session_state.pipeline_info = info
+                st.session_state.result = result
+                st.session_state.last_error = None
 
                 st.success("Pipeline completed successfully.")
                 st.rerun()
 
             except Exception as e:
+                st.session_state.last_error = str(e)
                 st.error(f"Pipeline failed: {e}")
+                st.info("If it failed at Gold/Gold Meta, make sure Ollama is running and the model is pulled.")
 
 elif st.session_state.uploaded_pdf_path:
-    st.subheader("Uploaded document preview")
-    render_pdf_preview(st.session_state.uploaded_pdf_path)
+    render_pdf_preview(Path(st.session_state.uploaded_pdf_path))
+else:
+    st.info("Upload a PDF in the sidebar to start.")
 
-render_review_panel()
+if st.session_state.last_error:
+    with st.expander("Last error", expanded=False):
+        st.code(st.session_state.last_error)
 
-if st.session_state.review_saved:
-    st.success("Reviewed metadata saved.")
-
-render_dashboard()
+if st.session_state.result:
+    st.divider()
+    render_result(st.session_state.result)

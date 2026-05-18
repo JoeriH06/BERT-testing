@@ -1,120 +1,163 @@
+
+from __future__ import annotations
 from pathlib import Path
+from datetime import datetime
+import hashlib
 import json
 import re
+import shutil
 import time
 
-from src import bronze, silver, silver_nlp, gold_meta, gold
+from src import bronze, silver, silver_nlp, gold, gold_meta
 
-DATA_DIRS = [
-    Path("Data/raw"),
-    Path("Data/bronze"),
-    Path("Data/silver"),
-    Path("Data/silver_nlp"),
-    Path("Data/gold_meta"),
-    Path("Data/gold"),
-]
+DATA_DIRS = ["raw", "bronze", "silver", "silver_nlp", "gold", "gold_meta"]
 
-def ensure_data_dirs():
-    for folder in DATA_DIRS:
-        folder.mkdir(parents=True, exist_ok=True)
 
-def make_document_id(pdf_path):
-    stem = Path(pdf_path).stem.lower()
-    stem = re.sub(r"[^a-z0-9]+", "_", stem).strip("_")[:32] or "upload"
-    return f"doc_{stem}_{int(time.time())}"
+def ensure_data_dirs(data_dir: str | Path = "Data") -> None:
+    root=Path(data_dir)
+    for d in DATA_DIRS:
+        (root/d).mkdir(parents=True, exist_ok=True)
 
-def run_pipeline(pdf_path, gold_resources=None):
-    """Run bronze -> silver -> silver_nlp -> gold_meta -> gold for one PDF."""
-    ensure_data_dirs()
-    pdf_path = Path(pdf_path)
-    document_id = make_document_id(pdf_path)
 
-    # Bronze
-    text = bronze.extract_pdf_text(pdf_path)
-    bronze.save_bronze_output(document_id, pdf_path, text)
+def clear_data_layers(data_dir: str | Path = "Data", keep_raw_file: str | None = None) -> None:
+    root=Path(data_dir)
+    ensure_data_dirs(root)
+    for d in DATA_DIRS:
+        folder=root/d
+        for item in folder.iterdir():
+            if d == "raw" and keep_raw_file and item.name == keep_raw_file:
+                continue
+            if item.is_file() or item.is_symlink():
+                item.unlink(missing_ok=True)
+            elif item.is_dir():
+                shutil.rmtree(item)
 
-    # Silver
-    cleaned_text = silver.clean_text(text, mode="modeling")
-    metadata_text = silver.clean_text(text, mode="metadata")
-    chunks = silver.split_into_semantic_chunks(cleaned_text, max_words=900, min_words=250)
-    chunk_records = silver.build_chunk_records(chunks)
-    quality_report = silver.build_quality_report(cleaned_text, chunks)
-    language = silver.detect_language(cleaned_text)
-    silver.save_silver_output(
-        document_id=document_id,
-        cleaned_text=cleaned_text,
-        metadata_text=metadata_text,
-        chunk_records=chunk_records,
-        quality_report=quality_report,
-        language=language,
-    )
 
-    # Silver NLP
-    nlp_paths = silver_nlp.run_silver_nlp_layer(document_ids=[document_id])
+def make_document_id(pdf_path: str | Path) -> str:
+    p=Path(pdf_path)
+    digest=hashlib.sha1((p.name + str(p.stat().st_size) + str(time.time())).encode()).hexdigest()[:8]
+    stem=re.sub(r"[^a-zA-Z0-9]+", "_", p.stem).strip("_").lower()[:28] or "upload"
+    return f"doc_{stem}_{digest}"
 
-    # Gold metadata
-    metadata = gold_meta.extract_metadata(document_id, metadata_text)
-    gold_meta.save_metadata(document_id, metadata)
-    meta_json_path = Path("Data/gold_meta") / f"{document_id}_meta.json"
 
-    # Gold summary
-    gold_paths = gold.run_gold_layer(
-        document_ids=[document_id],
-        gold_resources=gold_resources,
-    )
-    gold_json_path = Path(gold_paths[0]) if gold_paths else Path("Data/gold") / f"{document_id}_gold.json"
+def load_json(path: str | Path) -> dict:
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
-    # Merge metadata into gold output so app.py can display a single result.
-    result = json.loads(gold_json_path.read_text(encoding="utf-8"))
-    dates = metadata.get("dates", {}) or {}
-    top_terms = []
-    nlp_json_path = Path("Data/silver_nlp") / f"{document_id}_nlp.json"
 
-    if nlp_json_path.exists():
-        nlp_data = json.loads(nlp_json_path.read_text(encoding="utf-8"))
+def merge_result(document_id: str, data_dir: str | Path = "Data") -> dict:
+    root=Path(data_dir)
+    gold_data=load_json(root/"gold"/f"{document_id}_gold.json")
+    meta=load_json(root/"gold_meta"/f"{document_id}_gold_metadata.json")
+    silver_data=load_json(root/"silver"/f"{document_id}_silver.json")
 
-        raw_keywords = nlp_data.get("keywords", [])
-
-        for item in raw_keywords[:12]:
-            if isinstance(item, dict):
-                keyword = item.get("keyword") or item.get("text") or item.get("term")
-            else:
-                keyword = str(item)
-
-            keyword = keyword.strip()
-
-            if keyword:
-                top_terms.append(keyword)
-    result["metadata"] = {
+    metadata = {
         "id": document_id,
-        "title": metadata.get("title"),
-        "subtitle": metadata.get("subtitle"),
-        "description": metadata.get("description"),
-        "contributors": metadata.get("contributors", []),
-        "contributors_structured": metadata.get("contributors_structured", {}),
-        "contributors_confidence": metadata.get("contributors_confidence"),
-        "contact_person": metadata.get("contact_person"),
-        "publication_date": dates.get("publication_date"),
-        "start_date": dates.get("start_date"),
-        "end_date": dates.get("end_date"),
-        "dates_found": dates.get("dates_found", []),
-        "top_terms": top_terms,
+        "title": meta.get("title"),
+        "contributors": meta.get("authors", []),
+        "publication_date": meta.get("date"),
+        "language": meta.get("language"),
+        "document_type": meta.get("document_type"),
+        "research_or_project_topic": meta.get("research_or_project_topic"),
+        "research_question_or_goal": meta.get("research_question_or_goal"),
+        "description": meta.get("short_summary"),
+        "keywords": meta.get("keywords", []),
+        "top_terms": [t.get("term") for t in gold_data.get("top_terms", []) if isinstance(t, dict) and t.get("term")],
+        "contact": meta.get("contact", {}),
+        "suitable_kmp_fields": meta.get("suitable_kmp_fields", {}),
     }
-    model_value = result.get("model", "Unknown model")
 
-    if isinstance(model_value, dict):
-        result["model"] = model_value.get("name", "Unknown model")
-    else:
-        result["model"] = str(model_value)
-    gold_json_path.write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
-
-    return {
+    result = {
         "document_id": document_id,
-        "bronze_text_path": str(Path("Data/bronze") / f"{document_id}.txt"),
-        "silver_json_path": str(Path("Data/silver") / f"{document_id}_silver.json"),
-        "silver_nlp_json_path": str(nlp_json_path),
-        "gold_meta_json_path": str(meta_json_path),
-        "gold_json_path": str(gold_json_path),
-        "quality_report": quality_report,
-        "language": language,
+        "document_summary": gold_data.get("document_summary") or meta.get("short_summary"),
+        "summary": gold_data.get("document_summary") or meta.get("short_summary"),  # compatibility
+        "top_terms": gold_data.get("top_terms", []),
+        "suggested_entities": gold_data.get("suggested_entities", {}),
+        "main_topics": gold_data.get("main_topics", []),
+        "results_or_conclusions": gold_data.get("results_or_conclusions", []),
+        "possible_value_for_knowledge_platform": gold_data.get("possible_value_for_knowledge_platform"),
+        "metadata": metadata,
+        "model": gold_data.get("@pipeline", {}).get("model") or meta.get("@pipeline", {}).get("model"),
+        "language": metadata.get("language"),
+        "quality": silver_data.get("quality", {}),
+        "statistics": silver_data.get("statistics", {}),
+        "@pipeline": {
+            "created_at": datetime.now().isoformat(),
+            "bronze": "completed",
+            "silver": silver_data.get("processing_version"),
+            "silver_nlp": (load_json(root/"silver_nlp"/f"{document_id}_silver_nlp.json")).get("processing_version"),
+            "gold": gold_data.get("@pipeline", {}).get("processing_version"),
+            "gold_meta": meta.get("@pipeline", {}).get("processing_version"),
+        }
     }
+    out=root/"gold"/f"{document_id}_result.json"
+    out.write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
+    # also update gold json for old app
+    (root/"gold"/f"{document_id}_gold.json").write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
+    return result
+
+
+def run_pipeline(
+    pdf_path: str | Path,
+    model: str = "qwen2.5:3b-instruct",
+    data_dir: str | Path = "Data",
+    require_ollama: bool = True,
+    clear_previous: bool = True,
+    progress_callback=None,
+    gold_resources=None,
+) -> dict:
+    """Run bronze -> silver -> silver_nlp -> gold -> gold_meta for one PDF.
+
+    progress_callback: optional function(step_name: str, progress: float)
+    """
+    root=Path(data_dir)
+    ensure_data_dirs(root)
+    pdf_path=Path(pdf_path)
+    if clear_previous:
+        clear_data_layers(root, keep_raw_file=pdf_path.name)
+
+    document_id=make_document_id(pdf_path)
+
+    def progress(step, value):
+        if progress_callback:
+            progress_callback(step, value)
+
+    progress("Bronze: extracting PDF text", 0.08)
+    bronze_out=bronze.run_bronze_for_file(pdf_path, document_id, data_dir=root)
+
+    progress("Silver: cleaning and structuring document", 0.25)
+    silver_out=silver.process_text(bronze_out["raw_text"], document_id, original_file=pdf_path.name, data_dir=root)
+
+    progress("Silver NLP: extracting local keyword/entity suggestions", 0.45)
+    silver_nlp.process_document(document_id, data_dir=root)
+
+    progress("Gold: local Ollama document analysis", 0.68)
+    effective_model=model
+    if gold_resources and isinstance(gold_resources, dict) and gold_resources.get("model"):
+        effective_model=gold_resources["model"]
+    gold.process_document(document_id, data_dir=root, model=effective_model, require_ollama=require_ollama)
+
+    progress("Gold Meta: local Ollama metadata extraction", 0.86)
+    gold_meta.process_document(document_id, data_dir=root, model=effective_model, require_ollama=require_ollama)
+
+    progress("Finalizing result", 0.95)
+    result=merge_result(document_id, root)
+
+    paths={
+        "document_id": document_id,
+        "bronze_text_path": str(root/"bronze"/f"{document_id}.txt"),
+        "silver_json_path": str(root/"silver"/f"{document_id}_silver.json"),
+        "silver_nlp_json_path": str(root/"silver_nlp"/f"{document_id}_silver_nlp.json"),
+        "gold_json_path": str(root/"gold"/f"{document_id}_gold.json"),
+        "gold_result_json_path": str(root/"gold"/f"{document_id}_result.json"),
+        "gold_meta_json_path": str(root/"gold_meta"/f"{document_id}_gold_metadata.json"),
+        "quality_report": silver_out.get("quality", {}),
+        "statistics": silver_out.get("statistics", {}),
+        "language": silver_out.get("detected_language"),
+        "model": effective_model,
+    }
+    progress("Done", 1.0)
+    return paths
+
+
+def load_result(gold_json_path: str | Path) -> dict:
+    return load_json(gold_json_path)

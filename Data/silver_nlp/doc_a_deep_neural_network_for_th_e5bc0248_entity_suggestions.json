@@ -1,52 +1,52 @@
 {
-    "document_id": "doc_01",
+    "document_id": "doc_a_deep_neural_network_for_th_e5bc0248",
     "important_note": "All entities and keywords in this layer are suggestions only. They are intended as hints for Gold and Gold Meta, not as final metadata.",
     "entity_suggestions": {
         "people": [
             {
                 "text": "Roy",
                 "frequency": 5,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Gramacki",
-                "frequency": 5,
-                "confidence": "high",
+                "frequency": 3,
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Gramacki and Gramacki",
                 "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Kirkham et al",
+                "text": "Kirkham et al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Maher et al",
+                "text": "Maher et al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Ahmad et al",
+                "text": "Ahmad et al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Craik et al",
+                "text": "Craik et al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Shoeibi et al",
+                "text": "Shoeibi et al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
@@ -76,6 +76,18 @@
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
+                "text": "DOT Framework Note",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Van Turnhout",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
                 "text": "Rigor",
                 "frequency": 1,
                 "confidence": "low",
@@ -100,13 +112,7 @@
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Grant et al",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "DL",
+                "text": "Grant et al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
@@ -119,12 +125,6 @@
             },
             {
                 "text": "Pandas",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "4.3 Model Design",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
@@ -152,230 +152,188 @@
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Saeb et al",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
             }
         ],
         "organizations": [
             {
                 "text": "EEG",
-                "frequency": 87,
-                "confidence": "high",
+                "frequency": 85,
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "CNN",
                 "frequency": 24,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Erasmus MC",
-                "frequency": 11,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "DataFrame",
                 "frequency": 11,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "CRISP-DM",
                 "frequency": 6,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "EarlyStopping",
                 "frequency": 6,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "MC",
-                "frequency": 5,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "ICU",
-                "frequency": 4,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Data Preparation",
-                "frequency": 4,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Erasmus MC's",
-                "frequency": 4,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Newman",
                 "frequency": 4,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "TN",
-                "frequency": 4,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Data Understanding",
+                "text": "Erasmus MC's",
                 "frequency": 3,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "TP",
+                "text": "ICU",
                 "frequency": 3,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "DOT",
                 "frequency": 3,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "MNE",
                 "frequency": 3,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "PICU",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Erasmus MC's PICU",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Reduced Electroencephalogram Channels",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Gramacki and Gramacki",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Business Understanding",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Pediatric Intensive Care Unit",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Data Access Access",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Pearson Correlation Coefficient",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Subject Total",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Excluded Duration",
-                "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "GPU",
                 "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "RNN",
                 "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Review(p",
                 "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Learning-Based Electroencephalography Analysis: A Systematic",
                 "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "ICA",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "MNE-Python",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Kanban",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Data Understanding",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Success Criteria",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "the Data Preparation",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "AUC",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "ICT Research Methods",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Electrode Placement",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Sazgar and Young",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Reduced Electroencephalogram Channels",
+                "frequency": 1,
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             }
         ],
         "locations": [
             {
-                "text": "n.d",
+                "text": "n.d.",
                 "frequency": 9,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Shoeibi",
                 "frequency": 6,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Erasmus MC",
                 "frequency": 6,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "ROC",
                 "frequency": 5,
-                "confidence": "high",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Sophia",
                 "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Gramacki and Gramacki",
-                "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
@@ -398,7 +356,7 @@
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "TP",
+                "text": "al.",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
@@ -408,109 +366,176 @@
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "dates": [
+            {
+                "text": "seconds",
+                "frequency": 5,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "LeaveOneGroupOut",
+                "text": "15b",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "two weeks",
                 "frequency": 1,
-                "confidence": "low",
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "the day",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "the coming years",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "recent years",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "two 10 second",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "roughly 31 minutes",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "10s",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "nearly 8 hours",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "nearly 78 days",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "less than 10 seconds",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "between 1.5 and 9.4 seconds",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "than 10 seconds",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "than 5 seconds",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "12a",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "12b",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "13a",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "13b",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "ten seconds",
+                "frequency": 1,
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             }
         ],
-        "dates": [],
         "methods_tools_or_products": [
             {
                 "text": "EEG",
-                "frequency": 100,
-                "confidence": "high",
+                "frequency": 102,
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "CNN",
                 "frequency": 78,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "MC",
-                "frequency": 12,
-                "confidence": "high",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "CRISP-DM",
                 "frequency": 10,
-                "confidence": "high",
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "PICU",
+                "frequency": 10,
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "DOT",
                 "frequency": 10,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "DL",
-                "frequency": 9,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Graduation Thesis Angélique Huige",
-                "frequency": 9,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "PICU",
-                "frequency": 8,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "TP",
-                "frequency": 8,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "SQ",
-                "frequency": 6,
-                "confidence": "high",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "AUC",
                 "frequency": 6,
-                "confidence": "high",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "MNE",
                 "frequency": 6,
-                "confidence": "high",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "ROC",
                 "frequency": 5,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "TN",
-                "frequency": 4,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "DOT Framework",
-                "frequency": 4,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "ML",
-                "frequency": 3,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
@@ -521,8 +546,20 @@
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
+                "text": "ICU",
+                "frequency": 3,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
                 "text": "ROC-AUC",
                 "frequency": 3,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Framework",
+                "frequency": 2,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
@@ -539,19 +576,7 @@
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "ICU",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
                 "text": "ICA",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "FP",
                 "frequency": 2,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
@@ -563,197 +588,64 @@
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "GB",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
                 "text": "AUC-ROC",
                 "frequency": 2,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Seizures Detection Using Deep Learning Techniques",
-                "frequency": 2,
+                "text": "Chapter 2",
+                "frequency": 1,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Model Summary",
-                "frequency": 2,
+                "text": "Chapter 3",
+                "frequency": 1,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "CNN Layer Output Shape Param",
-                "frequency": 2,
+                "text": "Chapter 4",
+                "frequency": 1,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Framework",
-                "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            }
-        ],
-        "documents_or_standards": [
-            {
-                "text": "Graduation Thesis Angélique Huige",
-                "frequency": 17,
-                "confidence": "high",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Gramacki and Gramacki",
-                "frequency": 2,
+                "text": "Chapter 5",
+                "frequency": 1,
                 "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "Sample of EEG",
+                "text": "Chapter 6",
                 "frequency": 1,
-                "confidence": "low",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
-                "text": "RNN and CNN-RNN",
+                "text": "M1, M2 or",
                 "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Convolutional Neural Networks Seizure",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "MNE Developers",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Filtering EEG",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Referencing Setting",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Learning-Based Electroencephalography Analysis",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "ROC-AUC The ROC",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Graduation Thesis Angélique Huige Recordings",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Data Exploration Descriptive Statistics Descriptive",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Data Preparation",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Cleaning Before",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Learning Curves",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Process Review Working",
-                "frequency": 1,
-                "confidence": "low",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Precision Precision",
                 "frequency": 1,
-                "confidence": "low",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Wirth and Hipp",
                 "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Evaluation and Deployment",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Constructing Seizure Extraction",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "MaxPooling1D_1 (None, 1280",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "MaxPooling1D_2 (None",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "MaxPooling2D_2 (None",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Hz and Hz",
-                "frequency": 1,
-                "confidence": "low",
+                "confidence": "medium",
                 "note": "generic_suggestion_only_not_verified_metadata"
             }
         ],
+        "documents_or_standards": [],
         "events": [
             {
-                "text": "Learning-Based Electroencephalography Analysis",
-                "frequency": 1,
-                "confidence": "low",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Systematic Review",
+                "text": "Table 2",
                 "frequency": 1,
                 "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
@@ -761,21 +653,21 @@
         ],
         "groups_or_nationalities": [
             {
+                "text": "Agile",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
                 "text": "Erasmus",
                 "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {
                 "text": "Nyquist",
                 "frequency": 2,
-                "confidence": "medium",
-                "note": "generic_suggestion_only_not_verified_metadata"
-            },
-            {
-                "text": "Agile",
-                "frequency": 2,
-                "confidence": "medium",
+                "confidence": "low",
                 "note": "generic_suggestion_only_not_verified_metadata"
             },
             {

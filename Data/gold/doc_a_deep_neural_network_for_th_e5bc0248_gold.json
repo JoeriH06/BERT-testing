@@ -1,0 +1,209 @@
+{
+    "document_summary": "This document is a graduation thesis titled 'A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients'. It discusses various methods and tools used in electroencephalography (EEG) analysis, including CNNs, CRISP-DM, DOT Framework, MNE, and AUC. The document also mentions specific locations such as Erasmus MC and ICU.",
+    "top_terms": [
+        {
+            "rank": 1,
+            "term": "CNN",
+            "context": "A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients",
+            "evidence": [
+                "CNN",
+                "CNN-RNN"
+            ]
+        },
+        {
+            "rank": 2,
+            "term": "EEG",
+            "context": "A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients",
+            "evidence": [
+                "EEG",
+                "EEG"
+            ]
+        },
+        {
+            "rank": 3,
+            "term": "CRISP-DM",
+            "context": "A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients",
+            "evidence": [
+                "CRISP-DM"
+            ]
+        },
+        {
+            "rank": 4,
+            "term": "DOT Framework",
+            "context": "A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients",
+            "evidence": [
+                "DOT",
+                "DOT Framework Note"
+            ]
+        },
+        {
+            "rank": 5,
+            "term": "MNE",
+            "context": "A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients",
+            "evidence": [
+                "MNE"
+            ]
+        },
+        {
+            "rank": 6,
+            "term": "AUC",
+            "context": "A Deep Neural Network for the Detection of Epileptic Seizures in Comatose Pediatric Patients",
+            "evidence": [
+                "AUC",
+                "AUC-ROC"
+            ]
+        },
+        {
+            "rank": 7,
+            "term": "data",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 8,
+            "term": "model",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 9,
+            "term": "seizure",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 10,
+            "term": "not",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 11,
+            "term": "seizures",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 12,
+            "term": "learning",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 13,
+            "term": "each",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 14,
+            "term": "there",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        },
+        {
+            "rank": 15,
+            "term": "more",
+            "context": "",
+            "evidence": "Silver NLP keyword suggestion"
+        }
+    ],
+    "suggested_entities": {
+        "people": [],
+        "organizations": [
+            {
+                "text": "Erasmus MC",
+                "frequency": 10,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "ICU",
+                "frequency": 3,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "locations": [
+            {
+                "text": "Erasmus MC",
+                "frequency": 10,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "ICU",
+                "frequency": 3,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "dates": [],
+        "methods_tools_or_products": [
+            {
+                "text": "CNN",
+                "frequency": 78,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "CRISP-DM",
+                "frequency": 10,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "DOT Framework",
+                "frequency": 10,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "MNE",
+                "frequency": 6,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ]
+    },
+    "main_topics": [
+        "Deep Neural Network for Epileptic Seizure Detection in Comatose Pediatric Patients",
+        "CNN and CRISP-DM methods in EEG analysis",
+        "DOT Framework application in the study",
+        "MNE and AUC metrics used in the research"
+    ],
+    "results_or_conclusions": [
+        "The proposed deep neural network model successfully detected epileptic seizures in comatose pediatric patients using EEG data.",
+        "CRISP-DM framework was applied to improve the accuracy of the CNN model.",
+        "DOT Framework helped streamline the process and ensure compliance with research standards."
+    ],
+    "possible_value_for_knowledge_platform": "The knowledge platform could benefit from integrating this study's findings into its database, providing researchers with a comprehensive resource for studying EEG analysis methods and their applications in medical diagnostics.",
+    "confidence_notes": [
+        "CNN, CRISP-DM, DOT Framework, MNE, AUC terms are directly mentioned in the text."
+    ],
+    "@pipeline": {
+        "document_id": "doc_a_deep_neural_network_for_th_e5bc0248",
+        "processing_layer": "gold",
+        "processing_version": "gold_local_llm_streamlit_v1_from_notebook",
+        "created_at": "2026-05-18T20:27:32.361428",
+        "runtime_seconds": 29.67,
+        "local_execution_note": "This layer uses a local Ollama model. It can be upgraded by changing model.",
+        "model": "qwen2.5:3b-instruct",
+        "source_silver_version": "silver_local_generic_streamlit_v1_from_notebook",
+        "source_silver_nlp_version": "silver_nlp_local_generic_streamlit_v1_from_notebook",
+        "selected_chunks": [
+            "chunk_001",
+            "chunk_006",
+            "chunk_007",
+            "chunk_012",
+            "chunk_013",
+            "chunk_016",
+            "chunk_022",
+            "chunk_030",
+            "chunk_033",
+            "chunk_035",
+            "chunk_036",
+            "chunk_040"
+        ]
+    }
+}
