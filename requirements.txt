@@ -1,8 +1,7 @@
-streamlit
-pandas
-pypdf
-spacy
-torch
-transformers
-sentencepiece
-protobuf
+streamlit>=1.34
+pypdf>=4.0
+requests>=2.31
+langdetect>=1.0.9
+spacy>=3.7
+pymupdf>=1.23
+pillow>=10.0

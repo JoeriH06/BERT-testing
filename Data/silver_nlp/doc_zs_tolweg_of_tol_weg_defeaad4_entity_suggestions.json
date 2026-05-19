@@ -1,0 +1,999 @@
+{
+    "document_id": "doc_zs_tolweg_of_tol_weg_defeaad4",
+    "important_note": "All entities and keywords in this layer are suggestions only. They are intended as hints for Gold and Gold Meta, not as final metadata.",
+    "entity_suggestions": {
+        "people": [
+            {
+                "text": "Westerscheldetunnel",
+                "frequency": 27,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "TU Delft",
+                "frequency": 11,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Van der Wouw",
+                "frequency": 6,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Vlissingen",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "NV Westerscheldetunnel",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "S. Jansen",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Onze",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Hulst",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Overig Zeeland",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Echter",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "E. Meijers",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Bedrijvenenquête",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeeuwse",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Voorzieningen",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Afschaffen",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Toenemende",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Verminderde aantrekkelijkheid Zeeland",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Een gelijker",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Van Gessel-Dabekaussen",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "D. et",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "J. Van Overbeeke",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Duranton",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Geilenkirchen et al.",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Prins Willem Alexanderbrug",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "E.,",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "organizations": [
+            {
+                "text": "CBS",
+                "frequency": 20,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Delft",
+                "frequency": 9,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Meijers",
+                "frequency": 5,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "DHC",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "A58",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "ZB Planbureau",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Rijkswegennet",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "N61",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Kabinet Rutte III",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "nationaal belang",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "MKBA",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Westerscheldetunnel",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Kamer van Koophandel",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "buitenlandVertrek",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "PBL",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Scoop",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "PZC",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Belknap Press",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "SCOOP",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "TU Delft",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "NV Westerscheldetunnel",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Provinciale Staten van Zeeland",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Coördinatie Commissie",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Afbeelding1",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "N62",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "locations": [
+            {
+                "text": "Zeeland",
+                "frequency": 207,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeeuws-Vlaanderen",
+                "frequency": 66,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Nederland",
+                "frequency": 62,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Midden-Zeeland",
+                "frequency": 35,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Vlaanderen",
+                "frequency": 30,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Bron",
+                "frequency": 30,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Westerschelde",
+                "frequency": 20,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Middelburg",
+                "frequency": 19,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "België",
+                "frequency": 13,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Westerscheldetunnel",
+                "frequency": 13,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Walcheren",
+                "frequency": 10,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Arbeidsmarkt",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Antwerpen",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Provincie Zeeland",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Rotterdam",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Planbureau",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Randstad",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Noorwegen",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeeuws-Vlamingen",
+                "frequency": 6,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Toename",
+                "frequency": 6,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Europa",
+                "frequency": 6,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Gent",
+                "frequency": 6,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Voorzieningen",
+                "frequency": 5,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Schotland",
+                "frequency": 5,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Winkels",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "dates": [
+            {
+                "text": "Zeeuwse",
+                "frequency": 20,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "70er jaren",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "december 2015",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "10-15 jaar",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "tolvrije dagen",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "medio september 2017",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "2007200820092010201120122013201420152016Zeeuwsch-VlaanderenOverig",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "2007200820092010201120122013201420152016Zeeuws-VlaanderenOverig",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "15-75 jaar",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "200020022004200620082010201220142016Zeeuws-VlaanderenOverig",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "jaren 2014",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "2015(links",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "jaren 90",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "vorige eeuw",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Reistijd",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "jaren veiliger",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "jaren fors",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "vorig jaar",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "zondag",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "tien jaar",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "11/12 september",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "winter",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "maanden",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "zomer en winter",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "zomer",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "methods_tools_or_products": [
+            {
+                "text": "CBS",
+                "frequency": 22,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Westerscheldetunnel",
+                "frequency": 12,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "COROP",
+                "frequency": 7,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "DHC",
+                "frequency": 4,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Louw & Jansen",
+                "frequency": 3,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "MBO",
+                "frequency": 3,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Verdere instroom",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Concurrentienadeel m.n. Zeeuws-Vlaamse",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Verdere ruimtelijke opschaling en concentratie voorzieningen",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Mogelijke versterking stedelijk zwaartepunt Middelburg/Vlissingen",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Both",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Louw",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Transportation",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "III",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "MKBA",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "PBL",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "PZC",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "SCOOP",
+                "frequency": 2,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Meijers & Jansen",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Vlissingen-Breskens",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "De Vlaming",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Teneinde",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "COROP-regio",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Meijers et al.",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Peris and Meijers",
+                "frequency": 1,
+                "confidence": "medium",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "documents_or_standards": [],
+        "events": [
+            {
+                "text": "Westerscheldetunnel",
+                "frequency": 12,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeeuwse",
+                "frequency": 10,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeelandbrug",
+                "frequency": 10,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeeuws-Vlamingen",
+                "frequency": 5,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zelzate",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "TU Delft",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "COROP-regio",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Randstad",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Zeeuwen",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Skye",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "N=80",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Bevelanden",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Travel",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ],
+        "groups_or_nationalities": [
+            {
+                "text": "Zeeuws-Vlaamse",
+                "frequency": 22,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Nederlandse",
+                "frequency": 11,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Vlamingen",
+                "frequency": 10,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Bevelanden",
+                "frequency": 7,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Belgisch",
+                "frequency": 5,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Belgische",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Effecten",
+                "frequency": 4,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "sociaal-economische",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Belgen",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "lossen",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Tunnelwet",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Netto",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Nederlanders",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Vlissingen",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "fixed-link",
+                "frequency": 3,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Nederlands",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Sociaal-economische",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Europese",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Filosofie",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Vlaamse",
+                "frequency": 2,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Wegschap",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "sociaaleconomische",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Europees",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "specialistische",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            },
+            {
+                "text": "Nederlander",
+                "frequency": 1,
+                "confidence": "low",
+                "note": "generic_suggestion_only_not_verified_metadata"
+            }
+        ]
+    }
+}
