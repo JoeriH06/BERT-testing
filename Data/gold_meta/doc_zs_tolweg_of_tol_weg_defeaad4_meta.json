@@ -1,0 +1,99 @@
+{
+    "analysis": [
+        {
+            "methodology": {
+                "primary_sources": [
+                    "The document does not explicitly mention any primary sources, such as surveys or interviews. However, it references several secondary sources and methodologies used in the research."
+                ],
+                "data_collection_methods": [
+                    "COROP (Cooperative Research on Operational Planning)"
+                ],
+                "data_analysis_methods": [
+                    "Westerscheldetunnel",
+                    "Zeeuwse",
+                    "Zeelandbrug",
+                    "Zelzate"
+                ]
+            }
+        },
+        {
+            "findings_and_implications": {
+                "main_findings": [
+                    "The document discusses the impact of toll-free days on travel patterns and economic activities in Zeeuws-Vlaanderen (a region that includes parts of Zeeland, Netherlands, and Flanders, Belgium). It highlights how these days can lead to increased traffic and economic activity."
+                ],
+                "implications": [
+                    "The document suggests that the toll-free days have both positive effects on local economies by increasing footfall in tourist attractions and negative impacts on public transport usage due to higher car use. It also mentions potential long-term effects such as fixed-link development, which could lead to increased traffic congestion."
+                ]
+            }
+        },
+        {
+            "methodology_details": [
+                "The document uses COROP (Cooperative Research on Operational Planning) for data collection and possibly other methodologies like Westerscheldetunnel, Zeeuwse, Zeelandbrug, and Zelzate for analysis. These appear to be regional or national studies related to transportation planning."
+            ]
+        },
+        {
+            "methodology_questions": [
+                "How were the COROP data collected? Were they based on surveys, interviews, or other forms of research?",
+                "What specific methodologies did Louw & Jansen use in their analysis and how do these compare with COROP's approach?"
+            ]
+        }
+    ],
+    "summary": {
+        "main_topic": "The impact of toll-free days on travel patterns and economic activities in Zeeuws-Vlaanderen.",
+        "key_points": [
+            "Toll-free days lead to increased traffic and economic activity, but also negatively affect public transport usage."
+        ]
+    },
+    "authors": [],
+    "title": "Tolweg of Tol Weg? Continueren of afschaffen van de tolheffing voor de Westerscheldetunnel - een scenariostudie",
+    "date": "10 januari 2018",
+    "language": "nl",
+    "short_summary": "De tolheffing in Zeeuws-Vlaanderen en Zeeland heeft negatieve effecten op maatschappelijke ontwikkelingen, inclusief het ongelijke toegang tot voorzieningen en arbeidsmarkt. Dit leidt tot isolering van de regio en vermindert de mogelijkheden voor groei en integratie met andere regio's. De documenteertwel twee scenario's: continuering van de tolheffing of directe afschaffing, waarbij het laatste scenario meest positieve effecten heeft op maatschappelijke ontwikkelingen.",
+    "keywords": [
+        "tolheffing",
+        "Zeeuws-Vlaanderen",
+        "tunnel",
+        "maatschappelijke ontwikkeling",
+        "continuering van de tolheffing",
+        "afschaffing van de tolheffing",
+        "verzorgingssector",
+        "mobiele ouderen",
+        "schaalvergroting"
+    ],
+    "contact": {
+        "name": null,
+        "email": null,
+        "phone": null
+    },
+    "suitable_kmp_fields": {
+        "title": "Tolweg of Tol Weg? Continueren of afschaffen van de tolheffing voor de Westerscheldetunnel - een scenariostudie",
+        "description": "De tolheffing in Zeeuws-Vlaanderen en Zeeland heeft negatieve effecten op maatschappelijke ontwikkelingen, inclusief het ongelijke toegang tot voorzieningen en arbeidsmarkt. Dit leidt tot isolering van de regio en vermindert de mogelijkheden voor groei en integratie met andere regio's. De documenteertwel twee scenario's: continuering van de tolheffing of directe afschaffing, waarbij het laatste scenario meest positieve effecten heeft op maatschappelijke ontwikkelingen.",
+        "keywords": [
+            "tolheffing",
+            "Zeeuws-Vlaanderen",
+            "tunnel",
+            "maatschappelijke ontwikkeling",
+            "continuering van de tolheffing",
+            "afschaffing van de tolheffing",
+            "verzorgingssector",
+            "mobiele ouderen",
+            "schaalvergroting"
+        ],
+        "contributors": [],
+        "date": "10 januari 2018",
+        "language": "nl",
+        "document_type": null
+    },
+    "@pipeline": {
+        "document_id": "doc_zs_tolweg_of_tol_weg_defeaad4",
+        "processing_layer": "gold_meta",
+        "processing_version": "gold_meta_local_llm_streamlit_v1_from_notebook",
+        "created_at": "2026-05-19T10:21:47.577540",
+        "runtime_seconds": 21.09,
+        "local_execution_note": "This layer uses a local Ollama model. It can be upgraded by changing model.",
+        "model": "qwen2.5:3b-instruct",
+        "source_gold_version": null,
+        "source_silver_version": "silver_local_generic_streamlit_v2_reference_safe",
+        "source_silver_nlp_version": "silver_nlp_local_generic_streamlit_v1_from_notebook"
+    }
+}

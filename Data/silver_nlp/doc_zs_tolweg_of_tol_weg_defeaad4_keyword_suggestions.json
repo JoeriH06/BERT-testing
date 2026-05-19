@@ -1,0 +1,306 @@
+{
+    "document_id": "doc_zs_tolweg_of_tol_weg_defeaad4",
+    "important_note": "All entities and keywords in this layer are suggestions only. They are intended as hints for Gold and Gold Meta, not as final metadata.",
+    "keyword_suggestions": [
+        {
+            "term": "zeeland",
+            "score": 542.0,
+            "frequency": 271,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "................................................................................ 13 3. Regionale ontwikkeling Zeeland: uitgangssituatie en trends.................................................. 15 Ruimtelijke organisatie en v",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 1
+        },
+        {
+            "term": "tolheffing",
+            "score": 430.0,
+            "frequency": 215,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "................................................................................... 6 Rechtvaardigheid van de tolheffing............................................................................................. 7 Twee sterk con",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 2
+        },
+        {
+            "term": "zeeuws-vlaanderen",
+            "score": 366.0,
+            "frequency": 183,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "heffing bij de Westerscheldetunnel is een serieuze barrière voor de ontwikkeling van Zeeland en met name voor Zeeuws-Vlaanderen. Als de tol verdwijnt is een verkeerstoename door de tunnel van 25-30% te verwachten. Er is een latente vraag",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 3
+        },
+        {
+            "term": "tot",
+            "score": 324.0,
+            "frequency": 162,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "....................................................................................................... 82 8. Tot slot: aanbevelingen voor het vervolg.........................................................................",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 4
+        },
+        {
+            "term": "tol",
+            "score": 268.0,
+            "frequency": 134,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "........................................................................................... 5 Barrièrewerking tol..............................................................................................................",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 5
+        },
+        {
+            "term": "westerscheldetunnel",
+            "score": 252.0,
+            "frequency": 126,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": ".................................................................................................... 11 2. De Westerscheldetunnel........................................................................................................ 13 3.",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 6
+        },
+        {
+            "term": "meer",
+            "score": 248.0,
+            "frequency": 124,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "a. geïntegreerd is om zodoende te profiteren van schaalvoordelen (een geïntegreerde arbeids- en woningmarkt, meer draagvlak voor voorzieningen) en b. verbonden is met omliggende metropolitane regio's om zodoende te profiter",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 7
+        },
+        {
+            "term": "niet",
+            "score": 234.0,
+            "frequency": 117,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "esloten' zitten, of op de verkeerde plek zijn beland; een plek die ze weinig ontplooiingsmogelijkheden biedt. Niet alleen Zeeuws-Vlaanderen is minder aantrekkelijk als woonlocatie, dit geldt ook voor Zeeland boven de Westers",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 8
+        },
+        {
+            "term": "voorzieningen",
+            "score": 224.0,
+            "frequency": 112,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": ".......................................................................................................... 27 Voorzieningen..............................................................................................................",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 9
+        },
+        {
+            "term": "deze",
+            "score": 188.0,
+            "frequency": 94,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "appelijke literatuur wijzen op een versterkte integratie van regio's aan beide kanten van een verkeersweg als deze tolvrij wordt gemaakt. De verwachting is dat met name het verkeer voor motieven als werk, winkelen, het onder",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 10
+        },
+        {
+            "term": "aantal",
+            "score": 188.0,
+            "frequency": 94,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "olking. Huizenprijzen blijven achter bij de rest van het land. De arbeidsmarkt wordt krapper, en alhoewel het aantal bedrijven groeit, is deze groei lager dan elders. Met name het aantrekken van hoogopgeleid personeel wordt la",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 11
+        },
+        {
+            "term": "effecten",
+            "score": 168.0,
+            "frequency": 84,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": ".......................................................................................................... 53 Effecten afschaffing tolheffing: Nederlandse casussen.............................................................. 54",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 12
+        },
+        {
+            "term": "over",
+            "score": 154.0,
+            "frequency": 77,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "ol.................................................................. 62 6. Meningen van inwoners en bedrijven over de tolheffing (en afschaffing ervan)..................... 65 Tolheffing en het bedrijfsleven.................",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 13
+        },
+        {
+            "term": "tunnel",
+            "score": 152.0,
+            "frequency": 76,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "....................................................................................... 11 2. De Westerscheldetunnel........................................................................................................ 13 3.",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 14
+        },
+        {
+            "term": "nederland",
+            "score": 148.0,
+            "frequency": 74,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "......................................................................... 53 Effecten afschaffing tolheffing: Nederlandse casussen.............................................................. 54 Effecten afschaffing tolheffing:",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 15
+        },
+        {
+            "term": "al",
+            "score": 148.0,
+            "frequency": 74,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "................................................................................................. 13 3. Regionale ontwikkeling Zeeland: uitgangssituatie en trends.................................................. 15 Ruimte",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 16
+        },
+        {
+            "term": "minder",
+            "score": 140.0,
+            "frequency": 70,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "te oeververbinding tussen Zeeuws-Vlaanderen en overig Zeeland heeft ertoe geleid dat Zeeuws-Vlaanderen steeds minder als een 'landje apart' functioneert. De regio is steviger opgenomen in de bredere ontwikkeling van de economi",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 17
+        },
+        {
+            "term": "jaar",
+            "score": 140.0,
+            "frequency": 70,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "rnaast bestaat een veelgebruikerskorting van 20% op het t-tag-tarief voor abonnees die vaker dan 150 keer per jaar door de Westerscheldetunnel rijden. Hoewel de Staat eigenaar is van de wegen door de Westerscheldetunnel, beh",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 18
+        },
+        {
+            "term": "mensen",
+            "score": 138.0,
+            "frequency": 69,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "ch te ontplooien en in hun levensdoelen te voorzien. Tolheffing werkt bovendien sterk door in de beleving dat mensen 'opgesloten' zitten, of op de verkeerde plek zijn beland; een plek die ze weinig ontplooiingsmogelijkheden bi",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 19
+        },
+        {
+            "term": "afbeelding",
+            "score": 136.0,
+            "frequency": 68,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "nderen het geval. Er wonen 105.700 mensen. Qua landoppervlakte is het met 731 km2 de 23e regio van Nederland. Afbeelding 1 COROP-regio's van Nederland en spoorkaart Zeeuws-Vlaanderen is de enige regio in Nederland die volledig wor",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 20
+        },
+        {
+            "term": "bedrijven",
+            "score": 134.0,
+            "frequency": 67,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "ffen van tol.................................................................. 62 6. Meningen van inwoners en bedrijven over de tolheffing (en afschaffing ervan)..................... 65 Tolheffing en het bedrijfsleven............",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 21
+        },
+        {
+            "term": "steeds",
+            "score": 128.0,
+            "frequency": 64,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "De vaste oeververbinding tussen Zeeuws-Vlaanderen en overig Zeeland heeft ertoe geleid dat Zeeuws-Vlaanderen steeds minder als een 'landje apart' functioneert. De regio is steviger opgenomen in de bredere ontwikkeling van de",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 22
+        },
+        {
+            "term": "geen",
+            "score": 116.0,
+            "frequency": 58,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "lijke behandeling doordat het alleen in Zeeland wordt toegepast, terwijl gebruik maken van de tunnel helemaal geen keuze is in de zin dat er geen alternatieven zijn en in de zin dat er steeds minder werk en voorzieningen in",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 23
+        },
+        {
+            "term": "ontwikkeling",
+            "score": 114.0,
+            "frequency": 57,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "............................................................................................. 13 3. Regionale ontwikkeling Zeeland: uitgangssituatie en trends.................................................. 15 Ruimtelijke organisa",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 24
+        },
+        {
+            "term": "verkeer",
+            "score": 112.0,
+            "frequency": 56,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "d: uitgangssituatie en trends.................................................. 15 Ruimtelijke organisatie en verkeer in Zeeland........................................................................... 15 Demografische ontwik",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 25
+        },
+        {
+            "term": "afschaffing",
+            "score": 106.0,
+            "frequency": 53,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "................................................................................................. 53 Effecten afschaffing tolheffing: Nederlandse casussen.............................................................. 54 Effecten af",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 26
+        },
+        {
+            "term": "tussen",
+            "score": 102.0,
+            "frequency": 51,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "anleg en inmiddels is de tolweg na de A58 de meest gebruikte verkeersweg in Zeeland. De vaste oeververbinding tussen Zeeuws-Vlaanderen en overig Zeeland heeft ertoe geleid dat Zeeuws-Vlaanderen steeds minder als een 'landje ap",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 27
+        },
+        {
+            "term": "veel",
+            "score": 98.0,
+            "frequency": 49,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "s deze groei lager dan elders. Met name het aantrekken van hoogopgeleid personeel wordt lastiger, dit terwijl veel banen, ook in de industrie, steeds kennisintensiever worden, en het wegtrekken van hoogopgeleiden heeft gevol",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 28
+        },
+        {
+            "term": "zeeuwse",
+            "score": 96.0,
+            "frequency": 48,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "erdere sociaal-economische integratie van de beide overkanten van de Westerschelde en daarmee de welvaart van Zeeuwse bevolking. De verwachting is dat bij blijvende tolheffing de oriëntatie van de Zeeuws-Vlamingen in toenemende",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 29
+        },
+        {
+            "term": "we",
+            "score": 96.0,
+            "frequency": 48,
+            "section_spread": 1,
+            "section_spread_ratio": 1.0,
+            "context_example": "tolheffing Tolheffing belemmert Zeeuwen, en Zeeuws-Vlamingen in het bijzonder, om zich optimaal te kunnen ontplooien qua opleiding en werk. Het bele",
+            "note": "generic_keyword_suggestion_based_on_frequency_spread_and_context",
+            "rank": 30
+        }
+    ]
+}

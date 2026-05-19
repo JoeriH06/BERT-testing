@@ -33,6 +33,48 @@ REFERENCE_HEADINGS = {"references", "bibliography", "bibliografie", "literature"
 APPENDIX_HEADINGS = {"appendix", "appendices", "bijlage", "bijlagen"}
 
 
+ROMAN_NUMERAL_RE = r"[IVXLCDM]+"
+
+
+def is_url_line(line: str) -> bool:
+    s = clean_line(line).lower()
+    return bool(re.search(r"https?://|www\.|__data/assets|\.pdf\b", s))
+
+
+def is_reference_or_footnote_line(line: str) -> bool:
+    """Reject citation/footnote rows so they are never treated as body headings.
+
+    Generic examples this catches:
+    - 8 Kent County Council. 2017. Report title:
+    - 15 EDF Energy Nuclear Generation Ltd. 2011. EU Stress Test
+    - [12] Author. 2015. Title
+    - URLs / PDF links
+    """
+    s = clean_line(line)
+    if not s:
+        return False
+    if is_url_line(s):
+        return True
+    if re.match(r"^\[?\d{1,3}\]?\s+[A-ZÀ-Ý][^\n]{2,160}?\b(?:18|19|20)\d{2}\b", s):
+        return True
+    if re.match(r"^\d{1,3}\s+[A-ZÀ-Ý][^\n]{2,120}[.:]$", s) and re.search(r"\b(?:18|19|20)\d{2}\b", s):
+        return True
+    # Footnote/reference continuations often start with a source name and contain a year and URL-ish/file marker.
+    if re.search(r"\b(?:18|19|20)\d{2}\b", s) and re.search(r"\b(?:report|plan|assessment|bulletin|study|profile|strategy|version|pdf)\b", s, re.I) and len(s.split()) <= 18:
+        return True
+    return False
+
+
+def is_roman_heading(line: str) -> bool:
+    s = clean_line(line)
+    if not s or len(s) > 160 or is_reference_or_footnote_line(s) or is_toc_row(s):
+        return False
+    # I. Industry, I.1 Key Characteristics, I.3.1 Increasing temperatures and drought
+    if re.match(rf"^{ROMAN_NUMERAL_RE}(?:\.\d+){{0,5}}\.?(?:\s+|$)[A-ZÀ-Ý][^\n]{{1,130}}$", s):
+        return not re.search(r"[.!?]\s*$", s)
+    return False
+
+
 def clean_line(line: str) -> str:
     return re.sub(r"\s+", " ", str(line or "").strip())
 
@@ -127,16 +169,18 @@ def is_likely_heading(line: str) -> bool:
     s = clean_line(line)
     if not s or len(s) > 160:
         return False
-    if is_toc_row(s):
+    if is_reference_or_footnote_line(s) or is_toc_row(s):
         return False
     low = s.lower().strip(":- ")
     if low in TOC_LABELS or low in REFERENCE_HEADINGS or low in APPENDIX_HEADINGS:
         return True
     if re.match(r"^(chapter|hoofdstuk)\s+\d+(?:\s*[-:]\s*.+)?$", s, flags=re.I):
         return True
+    if is_roman_heading(s):
+        return True
     if re.match(r"^\d+(?:\.\d+)*\s+[A-ZÀ-Ý][^\n]{2,120}$", s):
-        # avoid sentences like "2 patients were..."
-        if not re.search(r"[.!?]\s*$", s):
+        # avoid sentences and numbered footnotes/references like "9 Kent County Council. 2018..."
+        if not re.search(r"[.!?]\s*$", s) and not is_reference_or_footnote_line(s):
             return True
     return False
 
@@ -144,6 +188,9 @@ def is_likely_heading(line: str) -> bool:
 def heading_id(line: str) -> str:
     s = clean_line(line)
     m = re.match(r"^(?:chapter|hoofdstuk)?\s*(\d+(?:\.\d+)*)\b", s, flags=re.I)
+    if m:
+        return m.group(1)
+    m = re.match(rf"^({ROMAN_NUMERAL_RE}(?:\.\d+)*)\.?\b", s)
     return m.group(1) if m else ""
 
 
@@ -190,7 +237,7 @@ def find_body_start(lines: list[str], toc_end: int | None = None) -> int:
     candidates = []
     for i in range(search_from, len(lines)):
         line = clean_line(lines[i])
-        if not line or is_toc_row(line):
+        if not line or is_toc_row(line) or is_reference_or_footnote_line(line):
             continue
         low = line.lower()
         is_start_heading = (
@@ -198,6 +245,7 @@ def find_body_start(lines: list[str], toc_end: int | None = None) -> int:
             or re.match(r"^(chapter|hoofdstuk)\s+1\b", low)
             or low in {"introduction", "inleiding"}
             or re.match(r"^1\s+[A-ZÀ-Ý][^\n]{2,80}$", line)
+            or is_roman_heading(line)
         )
         if is_start_heading and line_has_prose_after(lines, i):
             return i
@@ -207,7 +255,8 @@ def find_body_start(lines: list[str], toc_end: int | None = None) -> int:
         return candidates[0]
     # fallback: after abstract/preface/front matter, first long paragraph
     for i in range(search_from, len(lines)):
-        if len(clean_line(lines[i]).split()) > 45:
+        line = clean_line(lines[i])
+        if not is_reference_or_footnote_line(line) and len(line.split()) > 45:
             return i
     return 0
 
@@ -234,6 +283,7 @@ def split_document_parts(cleaned: str) -> dict:
     cut_points = [x for x in [ref_idx, app_idx] if x is not None]
     main_end = min(cut_points) if cut_points else len(lines)
     main_text = "\n".join(lines[body_start:main_end]).strip()
+    main_text = trim_leading_reference_noise_from_body(main_text)
 
     references_text = ""
     appendix_text = ""
@@ -250,6 +300,22 @@ def split_document_parts(cleaned: str) -> dict:
         "references_text": references_text,
         "appendix_text": appendix_text,
     }
+
+
+
+def trim_leading_reference_noise_from_body(main_text: str) -> str:
+    lines = main_text.splitlines()
+    first_good = None
+    for i, line in enumerate(lines[:120]):
+        s = clean_line(line)
+        if is_reference_or_footnote_line(s) or is_url_line(s) or not s:
+            continue
+        if is_likely_heading(s) or len(s.split()) > 30:
+            first_good = i
+            break
+    if first_good and first_good > 0:
+        return "\n".join(lines[first_good:]).strip()
+    return main_text.strip()
 
 
 def extract_titlepage_candidates(titlepage_text: str) -> dict:
@@ -403,7 +469,7 @@ def process_text(raw_text: str, document_id: str, original_file: str = "", data_
         "detected_language": lang,
         "language": lang,
         "processing_layer": "silver",
-        "processing_version": "silver_local_generic_streamlit_v1_from_notebook",
+        "processing_version": "silver_local_generic_streamlit_v2_reference_safe",
         "created_at": datetime.now().isoformat(),
         "statistics": {
             "raw_characters": len(raw_text or ""),
@@ -424,6 +490,8 @@ def process_text(raw_text: str, document_id: str, original_file: str = "", data_
         "document_parts": parts,
         "sections": sections,
         "chunks": chunks,
+        "local_execution_note": "This Silver layer runs locally and does not call Ollama. It is compatible with later Gold/Gold Meta Ollama models.",
+        "genericity_note": "Generic NL/EN document structure extraction. Rejects TOC rows and reference/footnote lines as headings; supports numeric, chapter/hoofdstuk, and Roman/appendix-style section headings.",
         "quality": {
             "is_empty": len(parts["main_text"].split()) == 0,
             "word_count": len(parts["main_text"].split()),
