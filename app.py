@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from pathlib import Path
 import time
@@ -16,8 +17,7 @@ try:
 except Exception:
     PDF_PREVIEW_AVAILABLE = False
 
-from src.pipeline import run_pipeline, load_result, ensure_data_dirs, clear_data_layers
-from src.gold import check_ollama
+from medallion_pipeline import run_pipeline, load_result, ensure_data_dirs, clear_data_layers, check_ollama
 
 st.set_page_config(
     page_title="KMP PDF Intelligence",
@@ -126,6 +126,136 @@ def terms_as_chips(terms):
     st.markdown(html, unsafe_allow_html=True)
 
 
+def normalize_meta(result: dict) -> dict:
+    meta = result.get("metadata", {}) if isinstance(result.get("metadata"), dict) else {}
+    if not meta and any(k in result for k in ["title", "authors", "short_summary", "keywords"]):
+        meta = {
+            "title": result.get("title"),
+            "contributors": result.get("authors", []),
+            "publication_date": result.get("date"),
+            "language": result.get("language"),
+            "document_type": result.get("document_type"),
+            "research_or_project_topic": result.get("research_or_project_topic"),
+            "research_question_or_goal": result.get("research_question_or_goal"),
+            "description": result.get("short_summary"),
+            "keywords": result.get("keywords", []),
+            "keyword_suggestions": result.get("keyword_suggestions", []),
+            "keyword_target_count": result.get("keyword_target_count"),
+            "keyword_word_count": result.get("keyword_word_count"),
+            "field_suggestions": result.get("field_suggestions", {}),
+        }
+    return meta
+
+
+def metadata_status(value) -> str:
+    if isinstance(value, list):
+        return "Found" if value else "Needs review"
+    return "Found" if str(value or "").strip() else "Needs review"
+
+
+def render_field_status(label: str, value) -> None:
+    status = metadata_status(value)
+    if status == "Found":
+        st.success(f"{label}: found")
+    else:
+        st.warning(f"{label}: not confident")
+
+
+def field_suggestions(meta: dict, field: str) -> list[dict]:
+    suggestions = meta.get("field_suggestions") or {}
+    values = suggestions.get(field) or []
+    if isinstance(values, dict):
+        values = [values]
+    return [item for item in values if isinstance(item, dict) and item.get("value")]
+
+
+def display_suggestion_value(value) -> str:
+    if isinstance(value, list):
+        return ", ".join(str(x) for x in value if str(x).strip())
+    return str(value or "").strip()
+
+
+def apply_field_suggestion(result: dict, field: str, value) -> None:
+    meta = normalize_meta(result)
+    if field == "contributors":
+        if isinstance(value, list):
+            meta[field] = [str(x).strip() for x in value if str(x).strip()]
+        else:
+            meta[field] = [x.strip() for x in str(value).split(",") if x.strip()]
+    else:
+        meta[field] = display_suggestion_value(value)
+    result["metadata"] = meta
+    st.session_state.result = result
+
+
+def render_field_suggestions(result: dict, meta: dict) -> None:
+    field_labels = {
+        "title": "Title",
+        "contributors": "Contributors",
+        "publication_date": "Date",
+        "document_type": "Document type",
+    }
+    shown = False
+    for field, label in field_labels.items():
+        current = meta.get(field)
+        if metadata_status(current) == "Found":
+            continue
+        suggestions = field_suggestions(meta, field)
+        if not suggestions:
+            continue
+        if not shown:
+            st.markdown("#### Suggestions to review")
+            st.caption("The pipeline is not confident enough to fill these fields automatically. Accept a suggestion with one click or leave it empty.")
+            shown = True
+        best = sorted(suggestions, key=lambda item: float(item.get("confidence") or 0), reverse=True)[0]
+        value_text = display_suggestion_value(best.get("value"))
+        cols = st.columns([1.3, 3.5, 0.9, 0.8, 0.8])
+        cols[0].markdown(f"**{label}**")
+        cols[1].write(value_text)
+        cols[2].caption(f"{float(best.get('confidence') or 0):.2f} · {best.get('source') or 'suggestion'}")
+        if cols[3].button("Accept", key=f"accept_{field}_{value_text}", use_container_width=True):
+            apply_field_suggestion(result, field, best.get("value"))
+            st.rerun()
+        if cols[4].button("Skip", key=f"skip_{field}_{value_text}", use_container_width=True):
+            st.toast(f"Skipped suggested {label.lower()}.")
+
+
+def keyword_suggestion_rows(meta: dict) -> list[dict]:
+    suggestions = meta.get("keyword_suggestions") or []
+    if not suggestions:
+        suggestions = [{"term": term, "confidence": None, "source": "metadata"} for term in meta.get("keywords", [])]
+    rows = []
+    for item in suggestions:
+        if isinstance(item, dict):
+            term = item.get("term") or item.get("keyword") or item.get("text")
+            confidence = item.get("confidence")
+            source = item.get("source")
+            reason = item.get("reason")
+        else:
+            term, confidence, source, reason = str(item), None, None, None
+        if term:
+            rows.append({
+                "Use": True,
+                "Keyword": term,
+                "Confidence": None if confidence is None else round(float(confidence), 2),
+                "Source": source or "",
+                "Why": reason or "",
+            })
+    return rows[:30]
+
+
+def parse_keyword_text(value: str) -> list[str]:
+    keywords = []
+    seen = set()
+    for item in re.split(r"[,;\n]+", str(value or "")):
+        keyword = item.strip()
+        low = keyword.lower()
+        if keyword and low not in seen:
+            keywords.append(keyword)
+            seen.add(low)
+    return keywords
+
+
 def top_term_strings(result: dict) -> list[str]:
     terms = []
     for item in result.get("top_terms", []):
@@ -138,11 +268,94 @@ def top_term_strings(result: dict) -> list[str]:
     return terms
 
 
-def render_metadata_editor(result: dict):
-    meta = result.get("metadata", {})
-    with st.form("metadata_review_form"):
-        st.markdown("### Review metadata")
 
+def load_best_pipeline_result(info: dict, data_dir: Path) -> dict:
+    """Load the richest final result. Prefer Gold Meta output because Streamlit displays the final KMP metadata result."""
+    candidate_paths = []
+
+    for key in [
+        "gold_meta_json_path",
+        "gold_metadata_json_path",
+        "metadata_json_path",
+        "meta_json_path",
+        "final_json_path",
+        "gold_json_path",
+    ]:
+        value = info.get(key) if isinstance(info, dict) else None
+        if value:
+            candidate_paths.append(Path(value))
+
+    # First load any provided path to discover document_id.
+    discovered_doc_id = None
+    for p in candidate_paths:
+        try:
+            if p.exists():
+                tmp = json.loads(p.read_text(encoding="utf-8"))
+                discovered_doc_id = tmp.get("document_id") or tmp.get("@pipeline", {}).get("document_id")
+                break
+        except Exception:
+            pass
+
+    # Prefer the explicit Gold Meta files written by the Medaillon Gold Meta notebook.
+    if discovered_doc_id:
+        candidate_paths.insert(0, data_dir / "gold_meta" / f"{discovered_doc_id}_gold_metadata.json")
+        candidate_paths.insert(1, data_dir / "gold_meta" / f"{discovered_doc_id}_meta.json")
+
+    # Fallback: newest Gold Meta result.
+    gold_meta_dir = data_dir / "gold_meta"
+    if gold_meta_dir.exists():
+        newest_meta = sorted(gold_meta_dir.glob("*_gold_metadata.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+        candidate_paths.extend(newest_meta)
+
+    loaded = []
+    for p in candidate_paths:
+        try:
+            if p.exists():
+                obj = json.loads(p.read_text(encoding="utf-8"))
+                loaded.append((p, obj))
+        except Exception:
+            pass
+
+    if not loaded:
+        raise FileNotFoundError("No pipeline result JSON could be loaded.")
+
+    def score_result(item):
+        p, obj = item
+        score = 0
+        if isinstance(obj.get("evaluation"), dict):
+            score += 100
+        if isinstance(obj.get("metadata"), dict):
+            score += 50
+        if "gold_meta" in str(p).lower():
+            score += 30
+        if obj.get("quality", {}).get("runtime_seconds") is not None:
+            score += 10
+        return score
+
+    best_path, best_result = sorted(loaded, key=score_result, reverse=True)[0]
+    best_result["_loaded_result_path"] = str(best_path)
+    return best_result
+
+
+
+def render_metadata_editor(result: dict):
+    meta = normalize_meta(result)
+    st.markdown("### Review suggested metadata")
+    st.caption("Empty fields mean the pipeline did not find enough evidence. That is safer than filling in a wrong title or contributor.")
+
+    s1, s2, s3, s4 = st.columns(4)
+    with s1:
+        render_field_status("Title", meta.get("title"))
+    with s2:
+        render_field_status("Contributors", meta.get("contributors"))
+    with s3:
+        render_field_status("Date", meta.get("publication_date"))
+    with s4:
+        render_field_status("Document type", meta.get("document_type"))
+
+    render_field_suggestions(result, meta)
+
+    with st.form("metadata_review_form"):
         col1, col2 = st.columns(2)
         with col1:
             title = st.text_input("Title", value=meta.get("title") or "")
@@ -169,6 +382,7 @@ def render_metadata_editor(result: dict):
         meta["research_question_or_goal"] = question.strip()
         meta["description"] = description.strip()
         meta["keywords"] = [x.strip() for x in keywords.split(",") if x.strip()]
+        meta.setdefault("field_suggestions", result.get("field_suggestions", {}))
         meta["suitable_kmp_fields"] = {
             "title": meta["title"],
             "description": meta["description"],
@@ -191,71 +405,121 @@ def render_metadata_editor(result: dict):
         st.success(f"Reviewed result saved to {out}")
 
 
+def render_keyword_selector(result: dict):
+    meta = normalize_meta(result)
+    rows = keyword_suggestion_rows(meta)
+    st.markdown("### Choose search keywords")
+    target = meta.get("keyword_target_count")
+    word_count = meta.get("keyword_word_count") or result.get("quality", {}).get("word_count") or result.get("statistics", {}).get("main_text_words")
+    if target:
+        st.caption(f"The pipeline suggests about {target} search keywords for this document size. Keep useful terms, remove weak ones, or add missing terms below.")
+    else:
+        st.caption("Keep useful search terms, remove weak ones, or add missing terms below.")
+    if not rows:
+        st.info("No keyword suggestions were generated.")
+        rows = [{"Use": True, "Keyword": term, "Confidence": None, "Source": "manual", "Why": ""} for term in meta.get("keywords", [])]
+
+    k1, k2, k3 = st.columns(3)
+    k1.metric("Current suggestions", len(rows))
+    k2.metric("Recommended", target or "-")
+    k3.metric("Document words", word_count or "-")
+
+    edited = []
+    if rows:
+        edited = st.data_editor(
+            rows,
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Use": st.column_config.CheckboxColumn("Keep"),
+                "Keyword": st.column_config.TextColumn("Keyword", width="medium"),
+                "Confidence": st.column_config.NumberColumn("Confidence", format="%.2f"),
+                "Why": st.column_config.TextColumn("Why", width="large"),
+            },
+            disabled=["Keyword", "Confidence", "Source", "Why"],
+            key=f"keyword_selector_{result.get('document_id', 'result')}",
+        )
+
+    extra_keywords = st.text_input(
+        "Add keywords",
+        placeholder="Add one or more keywords, separated by commas",
+        key=f"extra_keywords_{result.get('document_id', 'result')}",
+    )
+
+    edited_rows = edited.to_dict("records") if hasattr(edited, "to_dict") else list(edited)
+    selected = [row["Keyword"] for row in edited_rows if row.get("Use")]
+    selected.extend(parse_keyword_text(extra_keywords))
+    deduped = []
+    seen = set()
+    for keyword in selected:
+        keyword = str(keyword).strip()
+        low = keyword.lower()
+        if keyword and low not in seen:
+            deduped.append(keyword)
+            seen.add(low)
+
+    st.caption(f"{len(deduped)} keywords will be saved.")
+    if st.button("Save selected keywords", use_container_width=True):
+        meta["keywords"] = deduped
+        result["metadata"] = meta
+        st.session_state.result = result
+        st.success(f"Saved {len(deduped)} keywords.")
+
+
 def render_result(result: dict):
-    meta = result.get("metadata", {})
+    meta = normalize_meta(result)
     quality = result.get("quality", {})
     stats = result.get("statistics", {})
 
-    st.subheader(meta.get("title") or "Untitled document")
+    st.subheader(meta.get("title") or "Document ready for review")
 
     m1, m2, m3, m4 = st.columns(4)
     m1.metric("Language", meta.get("language") or result.get("language") or "unknown")
-    m2.metric("Words", quality.get("word_count") or stats.get("main_text_words") or "—")
-    m3.metric("Chunks", quality.get("chunk_count") or stats.get("chunk_count") or "—")
-    m4.metric("Model", result.get("model") or "—")
+    m2.metric("Words", quality.get("word_count") or stats.get("main_text_words") or "-")
+    m3.metric("Chunks", quality.get("chunk_count") or stats.get("chunk_count") or "-")
+    m4.metric("Model", result.get("model") or "-")
 
-    tab_summary, tab_meta, tab_terms, tab_entities, tab_json = st.tabs(
-        ["Summary", "Metadata", "Top terms", "Suggested entities", "JSON"]
-    )
-
-    with tab_summary:
-        st.markdown("### Summary")
-        st.write(result.get("document_summary") or result.get("summary") or "No summary generated.")
-        value = result.get("possible_value_for_knowledge_platform")
-        if value:
-            st.markdown("### Possible value for KMP")
+    st.markdown("### Summary")
+    st.write(result.get("document_summary") or result.get("summary") or "No summary generated.")
+    value = result.get("possible_value_for_knowledge_platform")
+    if value:
+        with st.expander("Possible value for KMP", expanded=False):
             st.write(value)
 
-    with tab_meta:
-        render_metadata_editor(result)
+    st.divider()
+    render_metadata_editor(result)
 
-    with tab_terms:
-        st.markdown("### Top terms")
-        terms_as_chips(top_term_strings(result))
+    st.divider()
+    render_keyword_selector(result)
 
-        if result.get("top_terms"):
-            for item in result.get("top_terms", []):
-                if isinstance(item, dict):
-                    with st.container(border=True):
-                        st.markdown(f"**{item.get('rank', '')}. {item.get('term', '')}**")
-                        if item.get("context"):
-                            st.write(item.get("context"))
-                        if item.get("evidence"):
-                            st.caption(str(item.get("evidence")))
-
-    with tab_entities:
-        st.markdown("### Suggested possible entities")
-        st.caption("These are suggestions only, not final metadata.")
-        entities = result.get("suggested_entities") or {}
-        if not entities:
-            st.write("No entity suggestions.")
-        for group, values in entities.items():
-            st.markdown(f"**{group}**")
-            if not values:
-                st.write("—")
+    with st.expander("Optional details", expanded=False):
+        col_entities, col_eval = st.columns(2)
+        with col_entities:
+            st.markdown("#### Suggested entities")
+            entities = result.get("suggested_entities") or {}
+            if not entities:
+                st.write("No entity suggestions.")
+            for group, values in entities.items():
+                if values:
+                    st.markdown(f"**{group}**")
+                    if isinstance(values, list):
+                        shown = [v.get("text") or v.get("term") or str(v) if isinstance(v, dict) else str(v) for v in values]
+                        terms_as_chips(shown[:15])
+                    else:
+                        st.write(values)
+        with col_eval:
+            st.markdown("#### Evaluation")
+            evaluation = result.get("evaluation", {}) if isinstance(result.get("evaluation"), dict) else {}
+            if not evaluation:
+                st.write("No evaluation metrics found.")
             else:
-                if isinstance(values, list):
-                    shown = []
-                    for v in values:
-                        if isinstance(v, dict):
-                            shown.append(v.get("text") or v.get("term") or str(v))
-                        else:
-                            shown.append(str(v))
-                    terms_as_chips(shown)
-                else:
-                    st.write(values)
+                st.table([
+                    {"Metric": key.replace("_", " ").title(), "Value": value}
+                    for key, value in evaluation.items()
+                    if key not in {"criteria"}
+                ][:10])
 
-    with tab_json:
+    with st.expander("Developer output JSON", expanded=False):
         st.download_button(
             "Download result JSON",
             data=json.dumps(result, indent=2, ensure_ascii=False),
@@ -339,7 +603,8 @@ if uploaded_file is not None:
                         progress_callback=progress_callback,
                     )
 
-                result = load_result(info["gold_json_path"])
+                result = load_best_pipeline_result(info, DATA_DIR)
+
                 st.session_state.pipeline_info = info
                 st.session_state.result = result
                 st.session_state.last_error = None

@@ -1,8 +1,8 @@
 # 🥇 Gold Layer — Final Knowledge Outputs
 
-The **Gold layer** contains the final high-value outputs of the pipeline.
+The **Gold layer** creates the final semantic document intelligence used by the Proof of Concept for the Kennis Management Platform (KMP).
 
-This layer combines all previous processing stages into implementation-ready document intelligence suitable for integration into the Kennis Management Platform (KMP).
+This notebook is designed to run after the Bronze, Silver, and Silver NLP layers.
 
 ---
 
@@ -10,11 +10,11 @@ This layer combines all previous processing stages into implementation-ready doc
 
 The Gold layer is responsible for:
 
-- Producing final enriched document outputs
-- Combining metadata and semantic information
-- Structuring final knowledge records
-- Preparing outputs for integration
-- Supporting search and retrieval workflows
+- generating a final document summary;
+- generating **15–20 useful top terms** for search and indexing;
+- extracting suggested entities such as people, organizations, dates, projects, tools, and models;
+- calculating lightweight evaluation metrics;
+- creating structured JSON outputs that can be used by the Streamlit interface and future KMP integration.
 
 ---
 
@@ -23,7 +23,8 @@ The Gold layer is responsible for:
 ### Input
 
 ```bash
-../../Data/gold_meta
+../../Data/silver
+../../Data/silver_nlp
 ```
 
 ### Output
@@ -34,21 +35,39 @@ The Gold layer is responsible for:
 
 ---
 
-## 📄 Example Output Schema
+## 📄 Main Output Schema
 
-```python
+```json
 {
   "document_id": "doc_01",
-  "final_summary": "This report discusses...",
-  "metadata": {
-    "title": "Knowledge Extraction",
-    "language": "en"
-  },
-  "keywords": [
-    "NLP",
-    "Automation"
+  "document_summary": "Short factual document summary.",
+  "top_terms": [
+    {
+      "rank": 1,
+      "term": "knowledge management",
+      "context": "Why the term matters in the document.",
+      "evidence": ["Short phrase from the source text."]
+    }
   ],
-  "knowledge_record_created_at": "2026-04-02T13:01:44.109912+00:00"
+  "suggested_entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "dates": [],
+    "projects": [],
+    "models_or_tools": []
+  },
+  "main_topics": [],
+  "results_or_conclusions": [],
+  "possible_value_for_knowledge_platform": "...",
+  "evaluation": {
+    "runtime_seconds": 37.67,
+    "original_token_count": 990,
+    "summary_token_count": 75,
+    "compression_ratio": 0.0753,
+    "top_term_coverage": 0.18,
+    "top_term_count": 20
+  }
 }
 ```
 
@@ -56,11 +75,26 @@ The Gold layer is responsible for:
 
 ## ⚙️ Main Processing Steps
 
-1. Load Gold metadata records
-2. Combine semantic outputs
-3. Generate final document intelligence
-4. Validate output structure
-5. Export implementation-ready records
+1. Load Silver and Silver NLP outputs.
+2. Select representative document text from the beginning, middle, and end of the document.
+3. Generate summary, top terms, entities, and KMP value using a local Ollama model.
+4. Use generic fallback extraction when Ollama is unavailable.
+5. Normalize the top terms so the output contains **15–20 terms**.
+6. Calculate lightweight evaluation metrics.
+7. Save the final Gold JSON output.
+
+---
+
+## ✅ Notebook Quality Rules
+
+The notebook has been structured based on project feedback:
+
+- one function per code cell;
+- every function contains a docstring;
+- the output is generic and not hardcoded for one document;
+- uncertain values are left empty instead of guessed;
+- top terms are generated in a range of 15–20;
+- local deployment through Ollama is supported.
 
 ---
 
@@ -68,36 +102,28 @@ The Gold layer is responsible for:
 
 - Python
 - JSON
-- NLP pipelines
-- Local LLM processing
-
----
-
-## ✅ Why This Layer Exists
-
-- Produces final business-ready outputs
-- Centralizes document intelligence
-- Supports KMP integration
-- Enables scalable document automation
-- Simplifies downstream implementation
+- Regular expressions
+- Local Ollama models
+- Qwen model family
+- Lightweight NLP fallback logic
 
 ---
 
 ## ⚠️ Limitations
 
-Possible issues include:
+Possible limitations include:
 
-- Pipeline dependency on earlier layers
-- LLM variability
-- Computational overhead
-- Metadata inconsistencies
+- LLM variability between runs;
+- limited accuracy when the Silver layer contains poor text extraction;
+- dependency on local hardware performance;
+- no manually validated benchmark summaries.
 
 ---
 
 ## 🚀 Future Improvements
 
-- API integration with KMP
-- Automated indexing
-- Knowledge graph integration
-- Vector search implementation
-- Real-time document ingestion
+- integrate direct KMP API export;
+- add confidence scoring for generated terms;
+- improve entity classification;
+- add vector search integration;
+- evaluate larger local Qwen models on HZ infrastructure.

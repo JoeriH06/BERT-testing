@@ -1,8 +1,8 @@
 # 🥇 Gold Metadata Layer
 
-The **Gold Metadata layer** transforms NLP-enriched document data into structured metadata outputs suitable for knowledge management integration.
+The **Gold Metadata layer** converts enriched NLP output into structured, KMP-ready metadata.
 
-This layer focuses on producing standardized metadata records for indexing, search, and document management.
+This layer is designed to be generic for Dutch and English PDF documents and avoids document-specific hardcoded extraction rules.
 
 ---
 
@@ -10,11 +10,12 @@ This layer focuses on producing standardized metadata records for indexing, sear
 
 The Gold Metadata layer is responsible for:
 
-- Creating final metadata structures
-- Standardizing extracted fields
-- Generating searchable outputs
-- Structuring document intelligence
-- Preparing outputs for KMP integration
+- extracting structured metadata from document evidence;
+- extracting contributors/authors where evidence is available;
+- generating 15–20 keywords where enough evidence exists;
+- creating KMP-compatible metadata fields;
+- preventing hallucinated metadata by validating outputs against local evidence;
+- preparing outputs for indexing, review, and future KMP integration.
 
 ---
 
@@ -23,7 +24,9 @@ The Gold Metadata layer is responsible for:
 ### Input
 
 ```bash
+../../Data/silver
 ../../Data/silver_nlp
+../../Data/gold
 ```
 
 ### Output
@@ -34,21 +37,44 @@ The Gold Metadata layer is responsible for:
 
 ---
 
-## 📄 Example Output Schema
+## 📄 Main Output Schema
 
-```python
+```json
 {
-  "document_id": "doc_01",
   "title": "Automating Knowledge Extraction",
-  "summary": "This document explores...",
+  "authors": ["Example Person"],
+  "date": "2026-06-14",
+  "document_type": "portfolio",
+  "language": "en",
+  "research_or_project_topic": "NLP-based metadata extraction",
+  "research_question_or_goal": null,
+  "short_summary": "Short summary of the document.",
   "keywords": [
-    "NLP",
-    "AI"
+    "knowledge management",
+    "metadata extraction",
+    "NLP pipeline"
   ],
-  "topics": [
-    "Knowledge Management"
+  "tools_technologies_or_models": [
+    "Qwen",
+    "Ollama",
+    "Streamlit"
   ],
-  "language": "en"
+  "main_outputs_or_results": [],
+  "suitable_kmp_fields": {
+    "title": "Automating Knowledge Extraction",
+    "description": "Short summary of the document.",
+    "keywords": [],
+    "contributors": ["Example Person"],
+    "date": "2026-06-14",
+    "language": "en",
+    "document_type": "portfolio"
+  },
+  "contact": {
+    "name": "Example Person",
+    "email": null,
+    "phone": null
+  },
+  "confidence_notes": []
 }
 ```
 
@@ -56,11 +82,27 @@ The Gold Metadata layer is responsible for:
 
 ## ⚙️ Main Processing Steps
 
-1. Load Silver NLP outputs
-2. Validate extracted metadata
-3. Standardize field names
-4. Generate final metadata schema
-5. Save structured Gold metadata outputs
+1. Load Silver, Silver NLP, and Gold outputs.
+2. Build a compact evidence package from title page, summary, top terms, and text excerpts.
+3. Extract local candidates for title, contributors, dates, contact details, document type, and keywords.
+4. Ask the local Ollama model to produce structured metadata.
+5. Validate model output against available evidence.
+6. Merge local contributor candidates with supported model output.
+7. Save the final Gold Metadata JSON.
+
+---
+
+## ✅ Notebook Quality Rules
+
+The notebook has been structured based on project feedback:
+
+- one function per code cell;
+- every function contains a docstring;
+- contributor extraction is generic and evidence-based;
+- organizations are not stored as contributors;
+- unsupported or uncertain fields are set to `null` or `[]`;
+- keywords are expanded to 15–20 terms when enough evidence exists;
+- the output is suitable for human review before KMP upload.
 
 ---
 
@@ -68,36 +110,28 @@ The Gold Metadata layer is responsible for:
 
 - Python
 - JSON
-- Local LLMs
-- NLP preprocessing
-
----
-
-## ✅ Why This Layer Exists
-
-- Creates implementation-ready metadata
-- Standardizes downstream integration
-- Improves search and indexing
-- Supports knowledge management systems
-- Produces reusable document intelligence
+- Regular expressions
+- Local Ollama models
+- Qwen model family
+- Evidence-based metadata validation
 
 ---
 
 ## ⚠️ Limitations
 
-Possible issues include:
+Possible limitations include:
 
-- Metadata inconsistencies
-- LLM extraction variability
-- Missing fields in poorly structured documents
-- Dependence on summarization quality
+- contributor extraction depends on how clearly the document lists authors;
+- scanned PDFs require OCR before this layer can work reliably;
+- LLM output can vary, therefore validation and human review remain necessary;
+- complex layouts may hide metadata in tables or images.
 
 ---
 
 ## 🚀 Future Improvements
 
-- Metadata validation rules
-- Confidence scoring
-- Human-in-the-loop review
-- Ontology integration
-- Semantic tagging systems
+- add confidence scores per metadata field;
+- connect metadata directly to KMP upload fields;
+- improve contributor detection using NER and layout-aware parsing;
+- add ontology-based topic classification;
+- include human-in-the-loop approval in the Streamlit interface.

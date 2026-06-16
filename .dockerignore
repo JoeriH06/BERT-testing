@@ -1,0 +1,11 @@
+.git
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+Data/raw/*
+Data/bronze/*
+Data/silver/*
+Data/silver_nlp/*
+Data/gold/*
+Data/gold_meta/*

@@ -1,0 +1,2935 @@
+DRAFT - SAIL Needs Assessment 
+1. Introduction ........................................................................................................................  3 
+2. Sail ................................................................................................ ....................................... 3 
+3. Objectives of Needs A ssessment ........................................................................................ 3 
+4. Policy Framework ...............................................................................................................  5 
+Health and Social Care ................................................................................................ 5 
+Physical Activity ........................................................................................................... 6 
+Environment ................................................................................................................ 7 
+Policy: Summary and recommendations .................................................................... 8 
+5. Older populations and physical activity .............................................................................  9 
+Physical activity recommendations ............................................................................. 9 
+The benefits of being physically active ....................................................................... 9 
+Best practice for older people and physical activity ................................................. 12 
+Health professionals and PA for older people .......................................................... 15 
+Older populations and physical activity: Summary and recommendations ............. 16 
+6. Proposed target area for SAIL ..........................................................................................  17 
+Older people in Norfolk - background ...................................................................... 17 
+6.2 Older tourists in Norfolk - background ..................................................................... 17 
+Primary Indicators and secondary indicators............................................................ 21 
+Mapping the primary indicators ............................................................................... 21 
+What the primary indicators tell us .......................................................................... 23 
+Secondary Indicators ................................................................................................. 24 
+Targeting SAIL:  Summary and recommendations .................................................... 25 
+7. Meetings with partner organisations ...............................................................................  27 
+8. Potential partner organisations ........................................................................................  25 
+Sport, Physical Activity and Leisure Sites .................................................................. 25 
+Existing Community Support Services ....................................................................... 26 
+Sheltered Housing/Care Homes ................................................................................ 26 
+Transport ................................................................................................................... 27 
+Potential partner organisations: Summary and recommendations ......................... 28 
+9. Tourism and green space..................................................................................................  29 
+Tourism agencies and other tourism providers ........................................................ 29 
+Green Space .............................................................................................................. 30 
+Tourism and green space: Summary and recommendations ................................... 32 
+10. Workshops and interviews with stakeholders and participants ..................................  34 
+Workshops and interviews with stakeholders and participants ........................... 34 
+Workshops and interviews with stakeholders and participants: Summary and 
+recommendations ................................................................................................................ 35 
+11. Evaluation of the Fit Together Health Walks programme ............................................  35 
+12. Recommendations ........................................................................................................  37 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+13. Appendices .................................................................................................................... 38 
+ Appendix A: Primary Indicators ............................................................................. 38 
+ Appendix B: Secondary Indicators ......................................................................... 43 
+ Appendix C: Physical Activity, Sport and Leisure Provision ................................... 50 
+ Appendix D: Existing Community Support Services .............................................. 54 
+ Appendix E: Sheltered Housing/Care Home Schemes .......................................... 58 
+ Appendix F: Community Transport ....................................................................... 59 
+ Appendix G: Summary of Stakeholder and participant consultation .................... 60 
+ Appendix H: Meeting with partner organisations ................................................. 66 
+ Appendix I: North Norfolk Fit Together Memory Walks Report 2015-2018 ......... 69 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+1. Introduction 
+Coastal regions in the 2 Seas Area have to deal with specific challenges in relation to ageing 
+as they are confronted with a particular mix of ageing people. This not only includes local 
+elderly, but also the influx of ageing newcomers and visitors of an increasing average age. As 
+this population puts pressure on health and social care systems, it is essential to enable 
+them to stay active and independent for longer, and to improve their wellbeing and quality 
+of life to reduce costs and pressures on care systems.  
+ 
+This document brings together data and consultation to help to grow understanding of this 
+issue in Norfolk. It will help refine the approach to SAIL in the county and provide a platform 
+for the development of interventions.  
+ 
+2. Sail 
+Staying Active and Independent Longer (SAIL) is an EU funded INTERREG partnership project 
+that involves coastal areas in Europe. The project aims to stimulate active ageing and reduce 
+reliance on health and social care, with an emphasis on working with organisations involved 
+in tourism. Underpinning SAIL is the premise of ‘social innovation’ i.e. co-creation and the 
+forging of innovative new partnerships. Because of this, there is a long lead-in time to 
+delivery. The project takes place in four stages as follows: 
+• Explore: Consultation and needs assessment 
+• Design: Designing the project in consultation  
+• Test: Testing the project 
+• Deliver: Delivery and evaluation  
+In Norfolk there are two aspects to the delivery of SAIL; Dementia Friendly Walks, and 
+Mobile Me ‘Out and About’. Both are built on existing projects. The former on the Fit 
+Together Health Walks Programme, and the latter builds on Mobile Me, which delivers sport 
+in sheltered housing and care homes. 
+ 
+SAIL in Norfolk is led by Norfolk County Council’s Environment Team, whilst delivery is 
+through Active Norfolk (the county sports partnership). The University of East Anglia are 
+providing support around evidence, consultation and evaluation. 
+ 
+3. Objectives of Needs Assessment 
+The purpose of this needs assessment is to outline the importance of physical activity and 
+the natural environment for older people, establishing an aspiration to increase access to 
+both through the SAIL project in Norfolk. The current state of access to physical activity and 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+the natural environment for older people will then be established, allowing an analysis of 
+the gap between the current and desired state. This will form the basis of recommendations 
+for the project’s next phase. 
+ 
+This needs assessment will outline the strategy relevant to SAIL and how physical activity 
+can benefit older people. The process will help to grow the understanding of the target 
+demographic, and this will include data sets outlining who can benefit most from the 
+programme, where they live, who they are and the risk factors they face. Consultation with 
+the target group and with expert partner organisations, which help develop this 
+understanding further, will be described.  
+ 
+An audit of available leisure facilities, green space, partner organisations and appropriate 
+existing provision will help to outline what current access to physical activity and the natural 
+environment looks like for the target demographic. In-depth knowledge of the target group 
+paired with an audit of existing provision will ensure a detailed picture of the current state, 
+what gaps exist, and what interventions need to be in place in order to deliver SAIL 
+outcomes.  
+ 
+The needs assessment will conclude with a series of recommendations based on an analysis 
+of the findings. These recommendations will be co-developed and agreed by project 
+partners and will dictate the direction of the project and the interventions that are 
+ultimately delivered to help achieve the project outcomes.  
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+4. Policy Framework 
+Norfolk’s approach to SAIL contributes towards a number of national and local strategic 
+agendas across health, social care, physical activity and the environment, the following is a 
+description of the relevant strategic context.  
+ 
+ Health and Social Care 
+The UK has an ageing population and nationally there is a drive to ensure that this 
+population are able to remain independent for longer, improving the quality of their lives 
+and reducing the burden on the healthcare system. Norfolk has a population that is ageing 
+at a faster rate than the England average and this is reflected in strategic priorities across 
+local government, health and social care. 
+ 
+The NHS and local councils have formed partnerships to improve health and care in 44 areas 
+covering all of England. Each area has developed a Sustainability and Transformation Plan 
+(STP) built around the needs of the whole population. Norfolk’s Sustainability and 
+Transformation Plan priorities are:  
+ 
+• Supporting people to keep themselves healthy and well 
+• Enabling more people to live independently 
+• Reducing the pressure on our hospitals 
+ 
+With five guiding principles: 
+1. Preventing illness and promoting wellbeing 
+2. Care closer to home 
+3. Integrated working across physical, social and mental health 
+4. Sustainable acute sector 
+5. Cost-effective services 
+ 
+Norfolk County Council state one of their 4 strategic objectives as ‘’Safeguarding Vulnerable 
+People and ‘Infrastructure’. The stated vision for this objective includes: 
+ 
+• All vulnerable people who live, work, learn and are cared for in Norfolk will be safe 
+• Vulnerable people are more self-reliant and independent 
+ 
+The strategic approach to achieving this is through the Promoting Independence Strategy 
+which proposes to work with the NHS, other public bodies and voluntary groups on: 
+• Prevention and early help – empowering and enabling people to live independently 
+for as long as possible, by giving people good quality information and advice 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+• Staying independent for longer – intervening earlier in cases such as bereavement or 
+the early stages of dementia, by providing support such as re-ablement services and 
+smart technology to help people to regain their independence 
+• Living with complex needs – providing longer term support for people who need it, 
+which might include moving into residential care or supported housing, at the right 
+time 
+ 
+Norfolk’s Health and Wellbeing Board is a partnership including local government, clinical 
+commissioning groups and the voluntary sector. It is responsible for producing a set of 
+priorities for health improvement (the Health and Wellbeing Strategy) based on the 
+evidence of the assessment of needs (The Joint Strategic Needs Assessment). The strategy 
+outlines the vision of ‘Everyone in Norfolk living healthy, happier lives for longer’. It has 
+three priorities, one of which is ‘making Norfolk a better place for people with dementia and 
+their carers’. 
+ 
+Norfolk Public Health’s strategy commits to contributing to the strategic aims of the Health 
+and Wellbeing Board and the STP by “Helping the people of Norfolk live in healthy places, 
+promote healthy lifestyles, prevent ill-health and reduce health inequalities”. Public Health 
+set out a number of outcomes including many relevant to SAIL: 
+ 
+• Utilisation of outdoor space for exercise/health reasons 
+• Social Isolation: percentage of adult social care users who have as much social 
+contact as they would like 
+• Health related quality of life for older people 
+• Hip fractures in people age 65 and over 
+• Emergency hospital admissions due to falls in people aged 65 and over 
+ 
+ Physical Activity 
+There is a strong (and growing) evidence base for physical activity contributing to the above 
+health and social care priorities, and in England the Government have recently set out their 
+vision for sport and physical activity in the country and what it is funded to achieve. It is 
+recognised that physical activity is an effective, evidence-based tool to achieve social 
+outcomes and the Government’s Sporting Future strategy sets out 5 outcomes for 
+investment into sport and physical activity: 
+• Improved physical wellbeing 
+• Improved mental wellbeing 
+• Individual Development 
+• Community Development 
+• Economic Development 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+Sport England’s ‘Towards an Active Nation’ outlines how they intend to contribute towards 
+these 5 outcomes through their investment into sport and physical activity. They recognise 
+that those who can benefit most from physical activity are those who are currently entirely 
+inactive, they also recognise that there are target populations that are more likely to be 
+inactive and therefore are a strategic priority, and older people are one of these 
+demographic groups.  
+ 
+This is translated locally in Norfolk through the Active Norfolk strategy, which outlines 3 
+strategic objectives: 
+ 
+• To increase participation in sport and physical activity 
+• To improve health and well-being by reducing physical inactivity 
+• To improve lives by establishing and increasing sport and physical activity’s 
+contribution in creating stronger, more sustainable and prosperous communities 
+ 
+ Environment 
+Natural England is committed to making sure everyone has access to the countryside. A 
+report in 2005 called the ‘Diversity Review’ looked at what could be done to support a 
+diverse population to take part in outdoor recreation. Older people and those with a 
+disability are identified as a priority group who are less likely to access the natural 
+environment. In response to this they produced Outdoors for All which works to improve 
+opportunities for all people in England to enjoy and benefit from the natural environment.  
+Norfolk County Council have a corporate priority of improving infrastructure and have 
+committed to improving access to the natural environment through their Countryside 
+Access Improvement Plan which includes amongst its objectives: 
+ 
+• Develop an integrated network that provides opportunities for all users 
+• Improve understanding of and promote access to Norfolk’s landscape and natural 
+and built heritage through the countryside access network 
+• Improve public health and wellbeing through use of the countryside access network 
+ 
+Norfolk’s Local Access Forum who advise on the improvement of public access to land have 
+identified Health and Wellbeing and Access for All as key strategic themes. Through these 
+strategic themes there is a commitment in the county to contribute to previously described 
+Public Health outcomes and Health and Wellbeing Board priorities through access to the 
+countryside as well as improving access to the natural environment for all, including those 
+for whom it may be more challenging such as the elderly or those with a disability.  
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Policy: Summary and recommendations 
+The objectives of the SAIL project contribute to strategic agendas across health, social care, 
+sport, physical activity and the environment.  
+Nationally the ageing population is putting pressure on health and social care services and 
+there is a drive to reduce this burden. Norfolk has a population ageing at a greater rate than 
+England and maintaining independence in later life, especially amongst vulnerable older 
+people, has been identified as a countywide priority.  
+Physical activity and the outdoor environment have an evidence base to impact upon health 
+outcomes for older people and are identified as tools to help achieve increased 
+independence. 
+An analysis of the strategy and policy context around SAIL leads us to the following 
+recommendations: 
+- SAIL should target those vulnerable older people who are most likely to suffer from 
+poor health and therefore placing the greatest burden on health and social care 
+services. 
+- SAIL should target those who are currently inactive 
+- SAIL should focus on supporting those with dementia and their carers in line with the 
+STP priority 
+- SAIL should respond to the relevant public health priorities for Norfolk.  
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+5. Older populations and physical activity 
+ 
+ Physical activity recommendations 
+A  number of organisations have produced physical activity (physical activity) guidelines for 
+older adults aged 65 years and over, for example, the Department of Health1 and the World 
+Health Organisation (WHO)2 . The suggested guidelines from both WHO and the 
+Department of Health are 150 minutes of moderate exercise a week or 75 minutes of 
+vigorous exercise a week.  While the focus is aerobic exercise, this should be combined with 
+muscle strength exercises two times a week. For those prone to falling, there should also be 
+balancing exercises three times a week 1,2. This mix of different types of physical activity is 
+known as a multimodal approach. These guidelines are seen as the minimum required to 
+maintain health; for increased health benefits the time should be doubled. 
+ 
+ The benefits of being physically active 
+Non-communicable disease (including arthritis) 
+Being physically active has many health benefits. It has been well documented that older 
+adults who have higher levels of physical activity have lower rates of mortality from non-
+communicable diseases such as type 2 diabetes and cardiovascular disease (high blood 
+pressure, heart attacks and stroke). This extends to some cancers including breast and colon 
+cancer.  
+ 
+Arthritis is often considered a barrier to physical activity but those who are older and taking 
+part in higher levels of physical activity are known to have improved bone health and it can 
+be helpful to manage pain from arthritis 2 , 3. A recent article looking at reducing arthritis 
+pain through physical activity suggests prescriptions for better musculoskeletal health 
+including the provision of up to date lists of physical activities in GP practices,  GP’s 
+promoting physical activity within their consultation for those with arthritis related pain. 
+The research recommends developing local services such as health trainers, and engaging 
+with local authority and commissioners to adopt at public health approach4.  
+ 
+                                                      
+1 Physical Activity Guidelines for Older Adults 2015 [Available from: 
+http://www.nhs.uk/Livewell/fitness/Pages/physical-activity-guidelines-for-older-adults.aspx. 
+2 Global Strategy on Diet, Physical Activity and Health  [WHO factsheet]. [Available from: 
+http://www.who.int/dietphysicalactivity/factsheet_olderadults/en/ ]. 
+3 UK AR. Keep Moving Poster 2017 [Available from: 
+http://www.arthritisresearchuk.org/health-professionals-and-students/information-for-
+your-patients/exercise-sheets-and-videos.aspx. 
+4 Ellis BM, Conaghan PG. Reducing arthritis pain through physical activity: a new public 
+health, tiered approach. British Journal of General Practice. 2017 10//. 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+The Arthritis Foundation offer advice on their website on exercising with osteoarthritis and 
+claim it is the ‘best non-drug treatment for improving pain and function’5.  
+ 
+Physical functioning in adults with poor mobility and frailty 
+Other benefits for older adults may include increased socialisation and wellbeing, improved 
+mobility, reduced frailty and improved cognition. Two recent meta-analysis looked at the 
+benefits of physical activity in older adults with poor mobility and/or frailty. Physical Activity 
+interventions were found to have a positive effect on mobility. Research suggests aerobic 
+exercise is beneficial when considering physical function and aerobic capacity, whereas 
+muscle strength/ resistance training reduces muscle wasting and frailty. Both help maintain 
+function, activities of daily living and independence6.  
+ 
+In frail patients physical activity has been linked to reduced time-up-and- go which is related 
+to reduced fall rateError! Bookmark not defined., 7.  
+ 
+Physical Activity and falls 
+Falls can have serious implications for the health and wellbeing of an older people; not only 
+can a fall impact mobility, reduce self-confidence and increase isolation, but after a fall, an 
+older person has a 10 per cent probability of dying within a year.8  Age UK provide a 
+summary of the evidence for physical activity to reduce falls9 and state that programmes of 
+physical activity have been shown to be effective in reducing falls by 54%. However this is 
+only where the physical activity challenges balance and improves strength, as impaired 
+balance and reduced muscle strength are primary risk factors. Exercise that is solely chair-
+based is therefore not suitable. To be effective for fall-reduction, the physical activity 
+programme should be carried out 2-3 times a week (even if this includes exercises to do at 
+home) and continued for at least fifty hours in total. The programme should be at the right 
+level for the individual (for example taking falls history into account), be progressive (so 
+should lead on to other suitable forms of physical activity) and be delivered by specially 
+trained instructors.  Otago and FaME are two evidence-based fall prevention programmes. 
+However, other best practice examples are provided in the Age UK guide. Public Health 
+                                                      
+5 Arthritis Foundation Website, http://www.arthritis.org/living-with-arthritis/exercise/benefits/osteoarthritis-
+exercise.php)  
+6 lobal Strategy on Diet, Physical Activity and Health  [WHO factsheet]. Available from: 
+http://www.who.int/dietphysicalactivity/factsheet_olderadults/en/. 
+7 Chase JAD, Phillips LJ, Brown M. Physical activity intervention effects on physical function among community -
+dwelling older adults: A systematic review and meta-analysis. Journal of Aging and Physical Activity. 
+2017;25(1):149-70. 
+8 Royal College of Physicians. 2011. Falling Standards, broken promises: report of the national audit of falls and 
+bone health in older people 2010. [Available from 
+http://www.ssehsactive.org.uk/userfiles/Documents/FallsPreventionGuide2013.pdf ] 
+9 Age U.K. (2013) "Falls Prevention Exercise–following the evidence." Age UK. 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Wales provide another useful guide on physical activity for older people at risk of falls, this 
+includes guidance on the types of activities suitable for individuals at different level of risk of 
+falls10. 
+ 
+Cognitive decline 
+Cognitive decline can be a normal component of aging, or disease related. Mild cognitive 
+impairment and dementia are usually seen in older adults, but not always. Cognitive decline 
+is a risk factor for mild cognitive impairment which is also a risk factor for developing 
+dementia of which there are several types; Alzheimer’s disease, vascular, Lewy body and 
+mixed11.  
+ 
+There is currently no cure for dementia therefore the emphasis has been put on prevention; 
+this includes the prevention of progression (whether it is progression from mild cognitive 
+impairment to dementia, or prevention of the dementia itself) as well as improvement in 
+function and quality of life. Physical activity has been thought to be of benefit in this cohort 
+of patients, particularly when considering some of the modifiable risk factors which 
+contribute to dementia such as obesity, cardiovascular disease, diabetes and metabolic 
+syndrome11.  
+ 
+A systematic review focusing on physical activity interventions for patients with dementia 
+living in nursing homes found that a fifteen-week, higher intensity, multimodal exercise 
+programme was statistically significant in improving cognitive function. This supports the 
+WHO recommendations of multimodal physical activity of aerobic, resistance and balance 
+components (although these recommendations were not developed for people living with 
+dementia).  Chair-based programmes, however, appear not to improve cognitive 
+impairment in those living with dementia in Nursing homesError! Bookmark not defined.. 
+ 
+Another systematic review looked at primary research on physical activity and older adults 
+with mild cognitive impairment who are community dwelling. The review found some 
+improvement in cognition and executive function, although this was not statistically 
+significant12. Many interventions were considered too short (10 weeks to 6 months) and did 
+not follow up on patients in the long term. Moreover only one included health behavioural 
+theory in delivering physical activity which has been shown to improve outcomes12.  
+                                                      
+10 Wales PH. Best Practice Exercise Guidance for Older People at risk of a Fall 2013 [Available from: 
+http://www.ageingwellinwales.com/Libraries/Documents/Best-Practice-Exercise-Guidance-for-Older-People-
+at-risk-of-a-Fall-eng.pdf. 
+11 Blondell SJ, Veerman JL, Hammersley-Mather R. Does physical activity prevent cognitive decline and 
+dementia?: A systematic review and meta-analysis of longitudinal studies. BMC Public Health. 2014;14(1).  
+12 Yun C, Abrahamson K. Does Exercise Impact Cognitive Performance in Community- dwelling Older Adults 
+with Mild Cognitive Impairment? A Systematic Review. Quality in Primary Care. 2015;23(4):214.  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+Finally, a recent review found that physical activity reduced the risk of developing 
+Alzheimer’s disease, particularly in those undertaking physical activity for leisure as opposed 
+to work. While socioeconomic status may be responsible for this difference, benefits were 
+also seen in those over 65 years taking up physical activityError! Bookmark not defined.. 
+Corroborating additional evidence was that a multimodal delivery was found to be of most 
+benefit.  
+ 
+Dementia and walking 
+Patients with dementia often walk and wander for the same reasons as those without 
+dementia; for example, to stretch, exercise, alleviate discomfort, boredom, exploration, 
+stress relief or simply habit. Other reasons may be related to the disease process itself such 
+as disorientation or feeling lost, confusion about their surroundings, agitation or searching 
+for something, often the past13. Walking groups, and carer awareness of walking, may 
+therefore help provide physical activity in these patients and help safely manage some of 
+the potential hazards of wandering.  
+ 
+NICE guidance and the Department of Health in the UK are recognising some of the benefits 
+of psychosocial interventions in older people with dementia. This includes walking and 
+talking, and exercise groups, as well as other interventions such as reality orientation and 
+reminiscence. A review in 200614 compared some of these interventions and attempted to 
+evaluate the primary research. Walking and talking was found to improve mobility but not 
+communication. Exercise was found to improve muscle strength and balance, potentially 
+reducing falls, but not functional abilities.  
+ 
+NICE currently recommends that psychosocial interventions are offered to patients with 
+dementia, and therefore healthcare professionals should be aware of them15. The 
+Alzheimer’s Society ‘This is me’ tool is particularly useful when considering what type of 
+physical activity may be best and most appropriate to enable individualisation of care16. 
+ 
+                                                      
+13 Walking about: Alzheimer's Society; 2017 [Available from: 
+https://www.alzheimers.org.uk/info/20064/symptoms/262/walking_about/2 ]. 
+14 Boote J, Lewin V, Beverley C, Bates J. Review: Psychosocial interventions for people with moderate to severe 
+dementia: A systematic review. Clinical Effectiveness in Nursing. 2006;9(Supplement 1):e1 -e15. 
+15 Boote J, Lewin V, Beverley C, Bates J. Review: Psychosocial interventions for people with moderate to severe 
+dementia: A systematic review. Clinical Effectiveness in Nursing. 2006;9(Supplement 1):e1- e15. 
+16 Society As. This is me  [Available from: 
+https://www.alzheimers.org.uk/info/20033/publications_and_factsheets/680/this_is_me . 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Best practice for older people and physical activity 
+Many charities and organisations provide guidance on how best to deliver programmes for 
+older people. The British Heart foundation produce evidence-based guidance for physical 
+activity for older people living in the community17. It segments older people in the 
+community to those ‘active’ and those in ‘transition’. The latter are those who are 
+reasonably healthy but whose function is declining; this decline may be associated with a 
+sedentary lifestyle e.g. a loss of muscle, weight gain. This group has much to gain through 
+becoming more active and makes up the large proportion of older people.  For delivery, the 
+guide recommends ensuring that is adequate choice, and that participants are able to 
+progress with the aim of reaching the government recommended guidelines for physical 
+activity. The guide recommends the use of behaviour change strategies.    
+ 
+Another evidenced-based guide produced for ‘local decision makers’ 18 is based on both a 
+review of the literature and on primary evidence including data from focus groups. The 
+report provides key findings and key recommendations - crucially the importance of making 
+older adults aware of recommended activity levels, providing strategies enabling them to 
+progress to these, and incorporating behaviour change theory.  Of the three priorities 
+suggested, number 1 is providing opportunities for older people to get ‘out and about’ in 
+their local community, number 2 is promoting independence and offering suitable activities 
+for those in ‘transition’, and number 3, providing age-friendly adaptations to the local 
+environment.  
+ 
+Motivational communication and addressing behaviour change is an important part of 
+enabling older people to access physical activity. Sport England provide a useful summary of 
+behaviour change models in practice19, including the Trans-theoretical model, which views 
+change as a series of steps (from ‘not on my radar’, to ‘thinking about it’ etc). The guide 
+provides useful case-studies.  
+ 
+Also of interest is a behaviour change model developed by NESTA20 which identifies the 
+factors required for behaviour change (rather than the stages that individuals go through). 
+                                                      
+17 BHF National Centre Physical Activity and Health (2003) Older adults: Practical strategies for promoting 
+physical. Activity. [Available from 
+http://www.aahpcat.scot.nhs.uk/HPAC/ClickCounter?action=d&resourceId=5721&url=%27uploads/hpayrshire
+arran/pdf/N000671.pdf%27] 
+18 Stathi, A., Fox, K.R., Withall, J., Bentley, G. and Thompson, J.L., 2014. Promoting physical activity in older 
+adults: A guide for local decision makers. 
+19 Woodall J KK, South J, White J. Community Health Champions and Older People: A review o f the evidence 
+Leeds Metropolitan University 2012 February 2012. 
+20 Burd H, Hallsworth M, (2016)  Making the change: Behavioural factors in person- and community-centred 
+approaches for health and wellbeing, NESTA [Available at, http://www.nesta.org.uk/publications/making-
+change-behavioural-factors-person-and-community-centred-approaches-health-and-wellbeing] 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Examples include social connectedness, and the reduction of barriers to engaging in health 
+promoting activity.  
+ 
+NICE provide further guidance on behaviour change and on designing interventions. 
+Suggested strategies include working with relevant communities, stakeholders and 
+organisations to implement effective, acceptable, equitable, safe and feasible 
+programmes21. Health inequalities and barriers to behaviour change should be addressed 
+within design strategies as well as by the education of trainers and health care 
+professionals. 
+ 
+Age Concern Northern Ireland discusses how best to deliver physical activity to older 
+people. It recommends involving older people in the design, including a social aspect, 
+reducing the need for equipment and providing role models22. This theme of role models 
+has been addressed in work carried out at Loughborough University. They evaluated a 
+programme known as PALS (physical activity and leisure scheme) which used physical 
+activity motivators (PAMS), a ‘buddy scheme’. PALS was felt to address behaviour change, 
+and PAMS to support it in being more successful in terms of adherence, positive health 
+change and satisfaction23.  
+ 
+This is further echoed in the provision of community health champions in the Yorkshire 
+region. A review found that integrating older lay people into the provision of physical 
+activity delivery had benefits for that individual and the group, increasing physical activity, 
+lifestyle modification and socialisation as well as being cost effective24.  
+ 
+Barriers to physical activity were identified in ‘Promoting Physical Activity with Older 
+People‘25 and can be found in Table 1. 
+ 
+  
+                                                      
+21 Behaviour Change: General Approaches NICE; 2017 [Available from: 
+https://www.nice.org.uk/guidance/ph6/chapter/3-Recommendations#planning. 
+22 Cooke M GE, Murray K, McGeown P, McVicker D, Ruddy M. Promoting Physical Activity 
+with Older People. Age Concern Northern Ireland; 2017. 
+23 Older adults: Practical strategies for promoting physical activity. Loughborough University 
+2013. 
+24 Woodall J KK, South J, White J. Community Health Champions and Older People: A review 
+of the evidence Leeds Metropolitan University 2012 February 2012. 
+25 Ireland ACN. Promoting Physical Activity with Older People 2013 [Available from: 
+http://www.sportni.net/sportni/wp-
+content/uploads/2013/03/PromotingPhysicalActivityOlderPeople.pdf. 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Table 1: Barriers to older people accessing physical activity 
+Stakeholder Barrier 
+Individual (patient) Lack of interest/ confidence 
+Loneliness 
+Transport  
+Cost 
+Fear + Embarrassment  
+Previous experience 
+Cultural barriers  
+Myths/perceptions  
+Health Beliefs/ family advice 
+Community Safety 
+Transport 
+Cost 
+Expertise 
+Social support 
+Organisational Lack of training  
+Attitude 
+Priority  
+Apathy 
+Safety concerns 
+Location/ access  
+Statutory level Inconsistent funding 
+Attitude and perception of lack of benefit 
+Priority  
+ 
+ Health professionals and PA for older people 
+Further barriers include those relating to health care professionals, and often GPs; the 
+‘gatekeeper’ to social prescribing and physical activity. A recent publication has suggested 
+GP’s knowledge, use and confidence surrounding the current guidelines on physical activity 
+is poor,26  with 80% being unfamiliar with the current guidelines. GPs and healthcare 
+professionals are often trusted by older people, thus it is important that education of best 
+practice for healthcare professionals and those providing PA is addressed in order to deliver 
+a clear message. Furthermore, the NHS five year forward view discusses the challenges 
+regarding complex health needs of the ageing society, and recommends initiatives linking 
+health, social care and public health27. Hospitals are engaging with improved awareness of 
+physical activity in older people with their current ‘Get up, get dressed, keep moving’ 
+campaign which underpins much of the work carried out by Prof. Dolan28. 
+ 
+                                                      
+26 Chatterjee R, Chapman T, Brannan MG, Varney J. GPs' knowledge, use, and confidence in national physical 
+activity and health guidelines and tools: a questionnaire-based survey of general practice in England. The 
+British Journal Of General Practice: The Journal Of The Royal College Of General Practitioners. 2017.  
+27 England N. Five Year Forward View. 2014. 
+28 J C. We should all support #EndPJparalysis 2017 [Available from: https://www.england.nhs.uk/blog/jane-
+cummings-32/ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Older populations and physical activity: Summary and recommendations 
+• There is evidence that physical activity is important for both maintaining and 
+improving the health and mobility of older people, including those with specific 
+conditions. In some circumstances, physical activity should be tailored to the 
+condition, for example, where the aim is to reduce fall risk.  
+• The literature suggests that in order to maintain health older adults should meet 
+government guidelines, to improve health they should do even more than this; the 
+aim of this project should therefore to be to enable adults to achieve or exceed 
+government guidelines where possible, even if this is in small steps.   
+• There are a number of best practice manuals that are based on both evidence and 
+primary research and it would be sensible to make use of at least one of these along 
+with local knowledge when planning the Norfolk SAIL programme.  Many of these 
+have similar themes and recommendations. 
+• The role of health care professionals, and their awareness of physical activity 
+guidelines should also be considered. 
+• One method of segmenting audiences for SAIL may be by using the terms ‘active’, 
+and ‘in transition’ and creating sub-categories for those with particular conditions 
+such as dementia, risk fall, arthritis.  
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+6. Proposed target area for SAIL 
+ Older people in Norfolk - background 
+Norfolk has an increasingly ageing population, and faces the expected issues that will be 
+associated with an ageing population in regards to an older person’s health and wellbeing. 
+This be seen from the below points that were taken from the Norfolk Insight Joint Strategic 
+Needs Assessment http://www.norfolkinsight.org.uk/home: 
+• Norfolk’s population is estimated to be 885,000. 
+• Norfolk generally has an older population that is projected to increase at a greater 
+rate than the rest of England. Almost all of the population increase over the last 5 
+years has been in those aged 65 and over. Between 2014 and 2025 the population is 
+expected to increase by 66,000 with most of the increase in the 65 and over age 
+bands. 
+• Across Norfolk the average life expectancy is approximately 80 years for men and 84 
+years for women. The average number of years a man can expect to live in good 
+health is about 64 and for women it is about 66. 
+• Deprivation and poverty influence the health and wellbeing of the population. The 
+life expectancy gap between the most deprived areas of Norfolk and the least 
+deprived areas is 6.2 years for men and 3.2 years for women. 
+• Across Norfolk as a whole there are more than 10,000 emergency hospital admission 
+for people aged 65 and over each year. 
+• Emergency admissions for injuries related to falls were lower than England but there 
+were still 1,100 emergency admissions for broken hips in 2014/15 
+• Age is one of the risk factors for loneliness. At age 65 about 2 out of 3 people live in 
+couple, at age 85 this has reduced to about 1 in 4. Another risk factor is deprivation 
+with those living in the most deprived areas 50% more likely to be lonely. Across 
+Norfolk there are estimated to be about 38,000 people aged 65 and over who are 
+lonely and this will impact on their health and wellbeing. 
+ 
+6.2 Older tourists in Norfolk - background 
+The proposed SAIL area comprises of three distinct Destination Marketing Organisations 
+(DMOs) tasked with promoting tourism and working with businesses in their specific area. 
+Visit Norfolk is the strategic voice of the county’s visitor industry and works with all of the 
+County’s DMOs to promote the county as a whole. Each year the DMOs commission 
+economic impact reports to estimate the volume and value of tourism in their areas. Other 
+than that report, the DMOs are data poor with respect to actual customer demographics, 
+socio-economic data and evidence of their customers’ behaviour during their visit, with the 
+exception of Great Yarmouth who do hold some information. Due to this lack of critical 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+information, we have used case study examples from holiday parks in each region to give an 
+insight into anecdotal visitor age breakdowns and behaviours.   
+ 
+Visit West Norfolk (VWN) follows the Borough Council of King’s Lynn and West Norfolk 
+boundary. The total number of trips to the Visit West Norfolk area in 2016 was estimated at 
+8,872,00029. The areas’ busiest periods are July/August and its notable quiet periods are 
+November and February. It hosts the two coastal towns of King’s Lynn and Hunstanton. This 
+section of the SAIL area contains 5 holiday parks.  
+ 
+Case study example: Searles Holiday Park in Hunstanton report anecdotally that they 
+have a notable increase in their ‘grey market’ which they term for 55+, from 
+September through to November, and from May to June. They also note a 
+fluctuation during the summer holidays of grandparents accompanied by 
+grandchildren. They estimate that this age group make up roughly 30% of their 
+overall visitor profile. They advise that there are not so many of the older age groups 
+(65-75+) that come independently, although some may visit as part of larger family 
+groups. 
+ 
+Visit North Norfolk (VNN) – The actual area covered by this DMO is a soft boundary and 
+stretches approximately to Heacham in the west and to Winterton in the east, and inland as 
+far as Fakenham. This area counts for more than 80% of the SAIL area. There are currently 6 
+holiday parks within this DMO area. In 2016 an approximate 8,308,50030 trips were enjoyed 
+by tourists in the area. It shares the same seasonality trends as VWN.  
+ 
+Case study example: Kelling Heath Holiday Park in Weybourne report anecdotally 
+that 50% of their overall market are in the 55+ age range. It was felt that there were 
+not a large percentage of 65+ or 75+ tourists that visited the park independently. 
+The 55+ visitors, although present in small numbers throughout the year generally 
+visit March to June, and September to December. It is reported that the majority of 
+the 55+ age range make full use of all the parks sports facilities and events, guided 
+walks etc. They are often repeat visitors. 
+ 
+Greater Yarmouth Tourism/Business Improvement District – The area covered stretches 
+from just past Horsey to Hopton-on-Sea, below Great Yarmouth. The 2016 study for the 
+area estimates that some 6,782,70031 trips took place during that year which, due to its 
+                                                      
+29 Economic Impact of Tourism – West Norfolk District 2016, produced by Destination Research. 2017.  
+30 Economic Impact of Tourism – North Norfolk District 2016, produced by Destination Research. 2017 
+ 
+31 Economic Impact of Tourism – Great Yarmouth Borough 2016, produced by Destination Research. 2017.  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+significantly smaller geographical area, suggests a larger density of tourism then the other 
+two DMO’s within the SAIL area. There are currently 7 holiday parks in this SAIL area, 4 of 
+which are Haven.  
+ 
+Case study example: Cherry Tree Holiday Park in Great Yarmouth anecdotally note 
+that approximately 50% of all of their visitors throughout the year are in the 55+ age 
+bracket and an estimated 30% are 65+. They note that the 55+ often visit during 
+summer holidays with their grandchildren, but that the 65+ are strictly outside of 
+peak season, September to November and March to April, May and June. They also 
+advise that the 65+ like to take walks along the promenade or to Burgh Castle and 
+are not as a whole users of the swimming facilities. The vast majority of this age 
+range are repeat visitors and return year on year.  
+ 
+The Great Yarmouth DMO report that between the periods of Easter to May, May to June 
+(with the exception of Whit week) and September to October, one of the major markets 
+that keep Great Yarmouth tourism afloat are package holidays specifically for the elderly. 
+They visit coaching hotels and typically come from a 2-3 hr drive time, including North 
+London, Essex, Kent and the East Midlands. They are reported to be from socio-economic 
+groups C2, D and E.  Some coaching hotels have reacted to this market such as the New 
+Beach Hotel where they have installed a garage specifically for mobility scooters. Others 
+haven’t, particularly on the North Drive, Great Yarmouth, as they balance their out of 
+season business between two differing markets, racecourse visitors and the coaching 
+market. From their work with this particular market they are also aware that North Norfolk 
+receive some coaching holidays, particularly to Sheringham and Cromer and anecdotally at 
+higher prices.  
+    
+In support of the above information regarding seasonality, research funded by the Cool 
+Tourism project reported that the 55+ age bracket were those most likely to be extending 
+the season into September32. The report also included a tourist perceptions study which 
+ranked the North Norfolk coastline as the most appealing place to visit due to the 
+untouched countryside, its wildlife and not being too touristy, whereas its detractors 
+suggested that it is boring and too difficult to get to.  
+ 
+Following the city of Norwich as the second destination, Great Yarmouth was the third 
+preferred area in the county to visit due to its traditional seaside offer, with plentiful 
+entertainment, nostalgia and lots to do, whilst the negative aspects were that it is too old 
+fashioned, too touristy/tacky and commercial.  
+                                                      
+32 Norfolk Tourism SWOT research – findings for Visit Norfolk, Insight Track. Aug 2014. 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+The producer of the annual Larking Gowen Norfolk Tourism Survey report expressed 
+anecdotally that although there is currently no evidence to support or refute it, the general 
+perception in the tourism industry is that many elderly people visit Norfolk. However he 
+believes that the 65+ demographic may have the perception that it is too far to travel and 
+lacks accessible services, which may put them off visiting certain parts of Norfolk - there-by 
+offering the potential to increase visits from this demographic. 
+ 
+Where there is a lack of data from the tourism bodies on visitor demographics the Museum 
+Service and Norfolk Trails have both invested in this information, and have some valuable 
+information albeit about their particular user groups.  Norfolk Trails report from their recent 
+survey study33 of users of the Norfolk Coast Path National Trail, a route which runs through 
+the entirety of the SAIL area that 35% of its users report to be 60+. 10% of whom are classed 
+as long distance walkers (spending more than 1 day at a time on the trail), and 52% are 
+spending more than an hour plus at a time on their walk/ride. 
+ 
+A Norfolk Coast Partnership study34 on the Norfolk Coast Area of Outstanding Natural 
+Beauty (AONB) on second homes revealed that approximately 24% of all properties within 
+the Norfolk Coast AONB were second homes. By this measure the AONB has amongst the 
+highest concentration of second homes in the UK. Those parishes in the AONB with the 
+highest proportion of second homes are:  
+Weybourne   52% (227 out of 440 properties) 
+Burnham Overy  51% (126 out of 246 properties) 
+Morston   49% (29 out of 59 properties) 
+Brancaster   43% (336 out of 779 properties) 
+ 
+This could be of particular interest when looked at in conjunction with indicators of rural 
+isolation and/or loneliness. North Norfolk and the coastal areas of West Norfolk are 
+traditionally known for their being retirement destinations. It is believed anecdotally as 
+there is no statistical evidence that many of these second home owners migrate to these 
+areas upon retirement. 
+ 
+Although just outside of the SAIL area, there is also the Thursford Show phenomenon which 
+must be mentioned when considering elderly tourists in Norfolk. A Christmas extravaganza 
+that reportedly keeps the tourism economy ticking during November/December across part 
+of West Norfolk, North Norfolk, and Great Yarmouth to some extent, attracting over 
+180,000 visitors during the period. The radius of coaching accommodation appears to be 
+                                                      
+33 Norfolk Trails Research Findings. Insight Track. 2017 
+34 Raising awareness for second home owners in the Norfolk Coast AONB. 2013  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+within a 1.5 hrs drive from the show, therefore opening up most of the county. It is reported 
+that they bring in the most 65+ to the county, being an estimated 75% of their visitors. 
+Again, many arrive by coach and those that stay predominantly in coaching hotels. Coaches 
+come from atypical tourism markets for Norfolk such as Staffordshire, Liverpool, Yorkshire 
+and the West Midlands.  
+ 
+ Primary Indicators and secondary indicators 
+In order to help decide in which SAIL should be delivered it was decided to select three 
+indicators relevant to the project’s overarching aims, i.e. the prevalence of older people, 
+levels of health deprivation and, in order to focus on areas of highest disadvantage, income 
+deprivation for older people. These three indicators are referred to in this report as ‘primary 
+indicators’.  
+ 
+In addition to this, a number of secondary indicators were selected that may be useful for 
+directing specific projects (for example, projects focussed on dementia) and/or help with 
+the design and specification of the intervention.  These there are referred to in this report as 
+the ‘secondary indicators’.  
+ 
+ Mapping the primary indicators 
+The three primary indicators were combined in order to form a ‘composite indicator’. 
+The indicators used were as follows: 
+• % of an LSOA that are aged 75 or over (ONS, 2015 mid-year population estimates 
+downloaded from http://www.norfolkinsight.org.uk/) OR % of an LSOA that are aged 
+65 or over and single  (2011 Census, downloaded from 
+http://www.norfolkinsight.org.uk/)   
+• % of an LSOA that self-report bad or very bad health (2011 Census, downloaded from 
+http://www.norfolkinsight.org.uk/)   
+• % of older people in an LSOA are that income deprived (2015 Indices of Multiple 
+Deprivation, downloaded from https://www.gov.uk/government/statistics/english-
+indices-of-deprivation-2015) 
+ 
+The dark red shading on the map shows LSOA that are in the most disadvantaged decile 
+using, the pink shading shows the LSOAs that are in the second most disadvantaged decile. 
+As two different indicators for age were used, two maps are shown below.  
+ 
+Figure 1.  % aged 75 and over, % that self report bad or very bad health and % that are older 
+people income deprived. 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+Figure 2.  % aged 65 and over and single, % that self-report bad or very bad health and % 
+that are older people income deprived. 
+ 
+Maps showing some of these primary indicators in isolation are shown in Appendix A for 
+information purposes. 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ What the primary indicators tell us 
+While figures 1 and 2 show pockets of disadvantage inland, there is are also bands along the 
+coast, or just inland from it, that may form a contiguous region in which both aspect of the 
+SAIL project (Mobile Me ‘Out and About’ and Demential Friendly Walks) could be targetted. 
+The area is showin in Figure 3, and includes the following towns:  
+• North Norfolk 
+ Cromer 
+ North Walsham 
+ Sheringham 
+• West Norfolk 
+ Hunstanton 
+ Heacham 
+ Brancaster  
+ Snettisham 
+• East Norfolk 
+ Great Yarmouth 
+• Gorleston-on-Sea 
+ 
+Figure 3. Map illustrating a possible contiguous SAIL area using the primary indicators 
+identified 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+ 
+ Secondary Indicators 
+It is anticipated that the secondary indicators should guiding the type of activity needed 
+within an area and marketing approaches to be used etc. The secondary indicators have 
+focussed on factors such as age associated conditions and social welfare, such as the 
+estimated risk of Dementia and a modelled risk of loneliness, which for example have both 
+been shown to be of high risk for older people in the areas identified through the primary 
+indicators. As well as a number of other age associated conditions and social welfare issues, 
+with the full dataset available for view in Appendix B.   
+ 
+One secondary indicator of particular importance for the Dementia Friendly Walks 
+programme is prevalence of dementia. Within the SAIL area, dementia friendly walks could 
+be targeted at anyone who is using a dementia care unit, receiving care at home or a day 
+centre and their family, friends or carers. Recorded dementia diagnosis rates will help us 
+assess the wards in the SAIL area with greatest area of need. The following table outlines 
+the doctor’s surgeries with highest prevalence of dementia diagnoses by percentage of 
+population 
+Table 1:  Doctors Surgeries within the proposed SAIL area with the highest prevalence of 
+dementia 
+CCG area Surgery branch No. of 
+surgeries  
+Population Diagnosis of 
+Dementia 
+% with Dementia 
+(Norfolk average 
+4.01%, UK average 
+4.33%) 
+East Norfolk Gorleston 1 1622 98 6.04% 
+East Norfolk Nelson Yarmouth 1 770 43 5.58% 
+West Norfolk Kings Lynn 1 3460 188 5.43% 
+North Norfolk Paston 1 2013 111 5.51% 
+West Norfolk Heacham 2 3141 163 5.19% 
+North Norfolk Sheringham 1 3669 177 4.82% 
+North Norfolk Cromer 1 4310 198 4.59% 
+West Norfolk Hunstanton 6 8614 389 4.52% 
+North Norfolk Wells 1 993 44 4.43% 
+East Norfolk Falkland 1 1750 75 4.29% 
+East Norfolk Gorleston 1 3974 170 4.28% 
+North Norfolk Bacton 1 2006 85 4.24% 
+North Norfolk Mundesley 1 2006 85 4.24% 
+East Norfolk ENMP Yarmouth 3 4586 192 4.19% 
+West Norfolk Grimston 1 1377 57 4.14% 
+North Norfolk Stalham Green 2 1973 78 3.95% 
+North Norfolk North Walsham 1 3130 107 3.42% 
+North Norfolk Fakenham 2 4258 133 3.12% 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+West Norfolk Southgate 1 1930 59 3.06% 
+East Norfolk Gorleston 1 2791 79 2.83% 
+North Norfolk Holt 3 4911 141 2.87% 
+North Norfolk Stalham Staithe 1 2243 58 2.59% 
+West Norfolk Burnham 1 1589 34 2.14% 
+North Norfolk Aldborough 1 1019 14 1.37% 
+ 
+Although the secondary indicators have not influenced the selection of the proposed SAIL 
+area, they will support within the design phase of the project. Also it will aid us in identifying 
+which partners we need to engage, as well as how we can tailor the delivery of the project.  
+ 
+ Targeting SAIL:  Summary and recommendations 
+It is recommended that: 
+ 
+a. In order to target limited resources SAIL should be delivered within the shaded area 
+indicated within the map in section 6.4 (see section 7.7. with for a note respect to district 
+council boundaries). This is because many of the LSOAs identified as being ‘high need’ using 
+the composite indicator fall within this area and because it forms a contiguous area that has 
+a shared characteristic (coastal).  
+ 
+b. That data within this needs assessment is used to target activities for specific conditions 
+within the SAIL area, for example, activities targeted at those with dementia. 
+ 
+ 
+ 
+7. Potential partner organisations 
+ Sport, Physical Activity and Leisure Sites 
+A significant proportion of Norfolk’s local economy is focussed towards leisure and tourism, 
+and this is particularly the case within Norfolk’s coastal regions, which therefore means 
+there are a significant number of leisure assets within this region.  
+ 
+Sport, Physical Activity and Leisure sites are outlined in Appendix C. These may be regularly 
+accessed by both tourists and residents, however, local leisure facility operators feel that 
+they. The facilities provide opportunities for activities such as swimming, bowls, tennis, golf, 
+boccia and table tennis.  
+ 
+The explore phase of SAIL has consulted with various stakeholders and the target 
+demographic. This has begun to give an insight into why these facilities may not be being 
+utilised by older people, and of the barriers that may need addressing, such as access, 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+confidence and knowledge of physical activity benefits. The next phase of SAIL, the design 
+phase, will explore ideas of how to address these barriers, and engage the older population 
+in using these resources.  
+ 
+Through wider consultation with partners around SAIL, we have also been able to identify 
+possible opportunities to expand upon pre-existing projects, and utilise their experiences. 
+For example, Swim England are developing some training for leisure facilities to become 
+more accessible for older people. This focuses on conditional specific accessibility, and 
+builds on previous work to make centres accessible for people with Dementia.  
+ 
+There was also an opportunity to consult on SAIL and a number of other projects through a 
+Dementia Sports workshop, which was hosted by the Alzheimer’s Society and enabled us to 
+utilise their experiences and learnings to date.  
+ 
+ Existing Community Support Services 
+The support services that are available for older people within the target areas for SAIL are 
+outlined within Appendix D. Although there is some provision aimed at getting older people 
+to be more physically active, it is not a large resource in comparison to the demographic 
+population. It can also be highlighted that the leisure and tourism assets that were 
+identified earlier within the report are not being utilised by the older population, which 
+supports the notion that these resources could be used within SAIL to explore new methods 
+of getting older people to be more physically active.  
+ 
+The pre-existing community groups highlighted within Appendix D, are also a resource to 
+provide insight into the local community, and the target demographic within these 
+communities. A number of them have formed part of the stakeholder consultation process, 
+and will continue to be involved within the SAIL project, supporting with designing and 
+guiding the project as part of the steering group.  
+ 
+ Sheltered Housing/Care Homes 
+A number of organisations within Norfolk provide supported housing for older people. Some 
+full-time care, and others a light touch call-in service where the resident is still very 
+independent. Active Norfolk have previously worked with both ends of the spectrum on the 
+Mobile Me project, and have experience of the varying level of capability of residents at the 
+different types of site. 
+ 
+There is an increasing awareness within these organisations around the benefits of physical 
+activity, and how it can impact upon the welfare of residents. As supported housing and the 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+leisure and tourism sector have not historically worked together, there is likely to be a 
+desire to moving forward.  
+ 
+The variety of private and local authority supported housing organisations within Norfolk, 
+have different strategic objectives; this will affect the amount of resource they are able to 
+provide to SAIL. Mobile Me has demonstrated that this can impact upon the level of buy-in 
+from residents into a programme. Appendix E outlines the supported housing organisations 
+in Norfolk. 
+ 
+ Transport 
+Norfolk is predominantly a rural county, dispersed with pockets of urban areas, which can 
+often lead to geographical and social isolation, particularly for vulnerable groups such as 
+older people. Therefore transportation links are important in terms of access for any project 
+looking to increase participation in public facilities.  
+ 
+There are a number of community based transport services within the target area, which 
+are outlined in Appendix F, as well as public transport links. These are still limited, and may 
+be a barrier to participation, but by attempting to engage transport providers within the 
+project we can enable some older people to access transport that normally would not be 
+able too. 
+ 
+ Meetings with partner organisations 
+We audited and identified a number of potential key partner organisations that either have 
+expertise in an element of this project or a vested interest in its outcomes. We discussed the 
+SAIL project with these partners. Through these interactions we sought to grow our 
+understanding of issues relating to SAIL including: 
+• Partners’ commitment to the outcomes of SAIL and what they may be able to 
+contribute 
+• Considerations regarding the target audience, who they should be and their 
+barriers/motivations to participate 
+• Appropriate provision and assets already available 
+• Potential ideas to achieve the outcomes of the project 
+• Effective methods of communication and marketing 
+ 
+Meeting notes can be found in Appendix H. 
+ 
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Potential partner organisations: Summary and recommendations 
+Key potential partner organisations are  
+• Local Leisure Providers (often linked in with local authority) 
+• NGB’s (e.g. Swim England) 
+• Existing Community Support Services (e.g. Age Concern, Age UK, Alzheimer's Society, 
+Lily, OPF) 
+• Supported Housing Providers 
+• Third Sector Organisations (e.g National Trust) 
+• National Based Older Person Provision (e.g. Oomph Wellness) 
+• Private Companies (e.g. Golf clubs, Holiday parks, Swimming pools) 
+ 
+Recommendations 
+• There is resource available, but not much partnership work across sectors. We 
+should support with linking up relevant work streams 
+• There is not a great deal of physical activity provision for older people, but there is a 
+growing desire to access this demographic. We should support with developing new 
+interventions. 
+• This needs assessment has highlighted gaps in provision for accessing facilities 
+(Transport, information providers, specific conditions, socially or geographically 
+isolated etc). We should consider how we address these. 
+• Link in with Dementia Friendly Walks 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+8. Tourism and green space 
+ 
+ Tourism agencies and other tourism providers 
+There is an opportunity to further engage the Tourism Destination Marketing Organisations 
+(DMOs) within the SAIL area. These agencies would be a key conduit to access tourist 
+businesses within the area, to both encourage them to make their services more accessible 
+to elderly populations and to investigate further possible alliances. 
+ 
+Many of the twenty one holiday parks in the SAIL area have indoor gym and swimming 
+facilities, some already operate these on a monthly membership basis to local residents, 
+however some don’t due to a variety of reasons. Once the precise SAIL areas have been 
+agreed, there is a need to look closer at the services available in that area and expand 
+Appendix C to include all services, particularly in rural areas.  
+ 
+Some tourism providers e.g. a B&B in Wells-next-the-Sea and a Norwich restaurant, have 
+both classed themselves as ‘Dementia friendly’, the B&B offering a Dementia friendly 
+bathroom, the other a particular meal time on a day of the week for Dementia sufferers and 
+their carers. Is there an opportunity to establish an accreditation for tourism providers from 
+B&Bs to museums to obtain a ‘Dementia friendly’ standard, assessed to a required level in 
+order to give promotion to this service and provide reassurance to their users.                
+Torbay in Devon has taken this a step further and following the forming of their Dementia 
+Action Alliance group, they have worked with 120 tourism businesses to share 
+knowledge/information with the ambition of becoming the first dementia friendly resort in 
+the UK35. Both Holt and Great Yarmouth already have Dementia Action Alliance groups set 
+up, could there be a possibility of SAIL working with these groups to follow Torbay’s 
+example. 
+ 
+Many local museums offer guided walks in peak season which greatly appeal to the older 
+generations and they could be encouraged to offer more, outside of the peak season and 
+using dementia friendly/accessible routes. Special events, such as the 1940’s weekend 
+hosted by the Poppy Line railways in mid-September and located in Sheringham, 
+Weybourne and Holt, serve not only as excellent educational tools for the younger 
+generations but as nostalgic trips for those 65+ and could be expanded.  
+ 
+The number of Tourist Information Centres (TICs) in recent years have been cut, there are 
+now only a handful of funded TICs within the SAIL area. Some operate independently and 
+some exist as information points in libraries, some of which are periodically manned. Many 
+                                                      
+35 Dementia: Why is it important for tourism? National Coastal Tourism Academy.  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+of the independent centres/points and the library based ones operate and provide 
+information for both local residents and tourists. These would be one of many good 
+resources to advertise any events the project wishes to within the target areas. 
+ 
+The Grey Pound (55+) currently represent a powerful economic entity. Forces, including 
+increased security fears, terrorism, Brexit, the weaker pound, combine to put many off 
+overseas travel. There is an opportunity to encourage more people from this age group to 
+come to specific areas of Norfolk. The final outcomes of the SAIL project could be marketed 
+to benefit both residents and tourists in order to also benefit the local economy. 
+ 
+The 2016 Coastal Tourism report36 identifies that health and wellbeing are a significant 
+growth market globally. In particular it notes that 1 in 5 people take a dedicated wellness 
+break each year, however this sector only currently represents 8% of trips to the coast, thus 
+suggesting a potential growth market. Other factors to make this of particular interest to 
+the tourism industry is that Wellness travel is less seasonal, 66% of trips are taken between 
+November and April.  
+ 
+ 
+ Green Space 
+An audit of the green space available in the SAIL catchment area outlines that there is a 
+breadth of assets available. Figure 4 shows green spaces including parks, public gardens, and 
+areas of scientific interest, nature reserves and trails.  
+ 
+The SAIL area fits neatly, with the exception of Winterton to Great Yarmouth, with the 
+Norfolk Coast Area of Outstanding Natural Beauty (AONB).  A recent National Trust/Surrey 
+University report37, has reportedly evidenced that special places spark significant mental 
+and emotional changes in our brains which boost general wellbeing. The National Trust’s 
+Head of Research advised ‘This research confirms places we love not only shape who we 
+are, but offer deep physical and psychological benefits.’  The Norfolk Coast AONB offers 
+differing and quality landscapes, and many special places. The area is designated to 
+conserve and enhance these special places. The area is managed by The Norfolk Coast 
+Partnership (NCP). The NCP is formed of organisations with interests in the landscape of the 
+area (including the relevant local authorities, the National Trust, the National Farmers 
+Union, the RSPB, etc.). A small staff team co-ordinates the work of the Partnership, 
+undertakes fundraising from external sources and delivers projects. The NCP exists to 
+conserve and enhance the natural beauty of area and to facilitate and enhance the public 
+enjoyment, understanding and appreciation of the area and provide sustainable forms of 
+                                                      
+36 2016 Coastal Tourism –National Coastal Tourism Academy. 2016.   
+37 Places that make us. Research Report. National Trust/University of Surrey. 2017 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+social and economic development that in themselves conserve and enhance the area's 
+natural beauty – objectives which are a good match with SAIL project objectives. There is an 
+opportunity to work with the Norfolk Coast Partnership and, through it, to engage in an 
+efficient and co-ordinated way with its many partner organisations, to develop activities and 
+events across the AONB specifically tailored to the SAIL demographic. 
+ 
+Figure 4: Green space in Norfolk 
+ 
+ 
+There are also a number of circular walks within the SAIL catchment area that are indicated 
+within Figure 5, with the routes being marked in black. There are also the Health, Heritage 
+and biodiversity short walk booklets that were developed in 2010-11, in the towns of Great 
+Yarmouth, Wells and Fakenham, Cromer and Sheringham. These were extremely well 
+received and used by locals and tourists. Such walks in the Hunstanton and Heacham areas 
+were never produced. There is currently a lack of up to date information in Norfolk on 
+accessible walks. There is an opportunity to work further with tourism partners, landowners 
+and reserves to incorporate their often already existing, short and often accessible walks 
+into a possible directory of accessible walks within the SAIL area. There is potentially a 
+particular gap of either walks or information in the West Norfolk area and also according to 
+Figure 5 in the Greater Yarmouth area.  
+ 
+Figure 5: Circular walks in Norfolk 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+  
+In addition to the circular walks in Norfolk, the Norfolk Coast Path National Trail runs from 
+Hunstanton to Hopton-on Sea within the SAIL area. This remains one of the most popular 
+tourist attractions in the region, with 423094 visitors between April 2016-17. This route is 
+currently being captured using a Google Trekker to allow users to view the route online to 
+assess its difficulty and areas to visit. 
+ 
+The SAIL area also boasts the Norfolk Coast Cycleway route, from King’s Lynn to Great 
+Yarmouth, which uses the Sustrans National Cycle Network route 1, followed by the regional 
+route 30. It stays off of all major roads and uses the quite lanes network wherever possible.  
+There are some but limited options for off-road cycling in the area, including some on 
+tarmacked paths.  
+ 
+ Tourism and green space: Summary and recommendations 
+The SAIL area is diverse in its landscape, its residents and tourists. When trying to 
+understand the area it is useful to use to some extent the soft DMO boundaries which in 
+real terms differ slightly geographically from the districts as they incorporate similar 
+locations.  
+ 
+The entire area is rich in nature reserves, wildlife and green space. The prestigious Norfolk 
+Coast Path National Trail runs through the entire area from Hunstanton to Hopton. Amongst 
+National Trails is it known as a good starter route due to its general flatness and good 
+accessibility.  When combined with the Coasthopper bus service, which mirrors the route 
+from Hunstanton to Cromer, it makes this section of the linear route considerably more 
+attractive to the general public who traditionally prefer circular walks. The walking offer is 
+excellent but circular walks appear to be lacking in certain areas. Information about 
+accessible walks in the area is fragmented and limited.   
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+There are a few cycling routes in the area, notably the Norfolk Coast Cycleway from King’s 
+Lynn to Great Yarmouth, together with its short circular sections, and limited further areas 
+available for traffic free, off road, sometimes tarmacked cycling. These could be mapped 
+and investigated further if decide that they could be a valuable addition to the project.   
+ 
+There are real opportunities to work with the SAIL area’s DMOs to engage businesses and 
+generate further ideas of co-operation for the project. There are compelling arguments and 
+reports to back this up for tourism businesses to embrace more elderly visitors out of 
+season and to potentially make adjustments to their offer for this purpose.  
+There are two main types of holidays that reportedly the majority of elderly tourists prefer, 
+visiting holiday parks and coaching holidays. 
+Anecdotal information received so far from Holiday parks suggest that older tourists may 
+visit Great Yarmouth parks more than those in West and North Norfolk. Further 
+investigation could be carried out to ascertain this as necessary.  
+The information received so far on elderly tourists suggest that Great Yarmouth have en 
+masse of out of season low budget coaching holidays, with a lower socio economic clientele, 
+where North Norfolk, particularly Cromer and Sheringham also enjoy this out of season 
+offer, with potentially a slightly higher socio-economic clientele involving a higher spend per 
+capita.  
+The Thursford phenomenon is unique, should be included in this needs assessment with 
+respect to elderly tourists, however many that come, visit the show, and either are coached 
+immediately out of the county or spend a single night in coaching hotels within a 1.5 hr 
+radius of Thursford, often leaving the county the following day.  
+ 
+Once the pilot areas have been decided further work can be done with holiday parks and 
+other businesses in those areas to facilitate the use of their services specifically for local 
+elderly residents.  
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+9. Workshops and interviews with stakeholders and 
+participants 
+ 
+ Workshops and interviews with stakeholders and participants 
+In order to enhance our knowledge and understanding of the target group we undertook 
+focus groups, semi-structured interviews and attended older people’s events with members 
+of the demographic. We sought to understand their barriers and motivations, life 
+circumstances, attitudes and potential attractive activities. 
+ 
+We identified the following key theme (see Appendix G for fuller information) 
+ 
+• Barriers to physical activity: for example, cost, transport, timing, difficulty, fear of 
+failure, illness, health, confidence and identity 
+• Drivers: Need/purpose, enjoyment, social contact, attitude and motivation, life 
+changes and holidays 
+• Enablers and information points: Places and organisations such as churches and 
+libraries, individuals such as health professionals, carers, family and social group.  
+• Beneficiaries; recognising the diversity of older people, catering for ‘older, older 
+people’, targeting those in most need but who are also likely to be responsive 
+• Activities: Numerous ideas for the design of activities including two sub themes: 
+o Adapting it: helping people be active regardless of age, health and ability 
+o Rethinking it: consider location (including the home), the coaches, the image 
+and the message and social support 
+• Communication and marketing: ‘show not tell’ e.g case studies, raising awareness of 
+the importance of PA, using a famous older person as a role model, appeal to non-
+sporting types as well. 
+• Imagery: a series of images presented to older people during on-street interviews. 
+The findings indicate that photos should not depict activities that might be seen as 
+‘high risk’, institutionalised or too old. Relaxed, social photos in nice scenery were 
+favoured. The favoured photo is shown below,  
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+ 
+ 
+ Workshops and interviews with stakeholders and participants: Summary 
+and recommendations 
+• There’s something for me: Recognise diversity of interest and age in provision. 
+Increase support for people who are disabled or ill to overcome their barriers to 
+becoming active. Ensure there is provision for those with conditions e.g. adaptations, 
+training for instructors. 
+• I know where to go: Provide accessible, up to date information to older people and 
+those working with them on how to get active and how to join activities 
+• Being active is the norm and is fun: Using role models to normalise and promote 
+physical activity in older people in a way that is fun, relaxed, not too sports focussed 
+and doesn’t make people feel old. 
+• Physical activity can make a difference: Communicate the importance and benefit of 
+physical activity to older people and to those that work with them / support them 
+(health professionals, carers etc).  
+• Getting over the doorstep: provide support to people nervous about joining new 
+groups. Think about alternatives to big organised groups (activity at home, small 
+groups of friends). 
+ 
+ 
+10. Evaluation of the Fit Together Health Walks programme 
+Active Norfolk have also been running a Fit Together Health Walks programme in North 
+Norfolk for the past 3 years, and there have seen some key learnings that will support in the 
+development of the Dementia Friendly Walks programme, which have been identified 
+below. A full report for this project is attached in Appendix I. 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+• Walks are far more popular in better weather – we ended up doing the walks only 
+during the summer and expected them to be cancelled during the summer if the 
+weather was poor 
+• We felt that walks worked better without separating them between “early” and 
+“later” stages of dementia. People in the early stages would have the option to 
+attend non-targeted walks in the area. 
+• Walk particulars need to follow the guidelines listed on page 11 
+• Working with partners who can provide starting points and refreshments after the 
+walks is a definite advantage. Familiarity of sites was also a benefit, even if for 
+people acting as one-to-one carers as then they did not have to worry about finding 
+an unfamiliar start point – libraries are recommended as long as there is parking 
+• Getting care homes on board is crucial as these will be the main audience – 
+especially if the walks can be embedded into their social activity programmes. Care 
+home managers need to be met with and information needs to be disseminated for 
+newsletters for relatives as this group acting as carers was much more successful 
+than a reliance on care home staff which was often stretched 
+• A colourful programme with appropriate pictures is essential. It needs to include 
+large font and easy to read information. If registration forms and carer responsibility 
+forms can be included in the book so that people can complete these at home 
+before the walks then this is preferred 
+• Rather than try and recruit new volunteers specifically for the walks local Walking for 
+Health groups need to be involved as walk leaders are already on tap in each area – 
+West Norfolk, North Norfolk and Yarmouth 
+• Walks are much more social rather than physical and so stopping en-route is 
+common either for reminiscence or refreshments 
+ 
+It is recognised that there is a wealth of knowledge and understanding to be gained from 
+consulting with stakeholder organisations and directly with the target demographic. 
+Information and insight gained from these stakeholders will inform the project and ensure 
+that interventions reflect the best possible understanding of the factors that could affect the 
+success.  
+ 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+NOTE: The recommendations section below will be updated after the workshop on the 7th 
+December 2017 
+11. Recommendations 
+Intervention Design: 
+- Behaviour change strategies should be embedded into all interventions. 
+- Frequency, intensity, duration and type of activity need to be tailored to the 
+condition or issue that the intervention is aiming to address 
+- Utilise end user and stakeholder consultation to help shape interventions through 
+the design phase.  
+- Interventions should be co-designed with stakeholders and end users. 
+- Dementia friendly walks should be aimed at preventing the onset or deterioration of 
+dementia. 
+Raising Awareness: 
+- Consider the current research gaps on the effects of walking on dementia and 
+contribute to existing evidence where possible. 
+- Raising awareness of the chief medical officer’s physical activity guidelines to the 
+end user group should be incorporated into design and communication of 
+interventions. 
+- Raising awareness of the chief medical officer’s physical activity guidelines to 
+primary care professionals should be incorporated into design and communication of 
+interventions. 
+Target Demographics and Assets 
+- Interventions should be focussed in the priority neighbourhoods identified in the 
+‘Older People in Norfolk’ section of the Needs Assessment document.  
+- Develop a greater understanding of the appropriateness of specific assets in 
+identified priority areas. 
+- Utilise existing leisure, tourism and greenspace assets which are prevalent but 
+underutilised in priority areas.  
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+12. Appendices 
+ Appendix A: Primary Indicators 
+Population of Older people in Norfolk 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Note: this map indicates areas where there are the estimated highest populations of females 
+85+ for the United Kingdom. 
+ 
+ 
+The dark purple areas on the above maps show where the percentage rate is at its highest for 
+each category being examined, which in this case is the population of older people in Norfolk. 
+We can see from the above estimates that amongst some of the highest population rates for 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+both 65-84 year olds and 85+ , are the coastal areas of West, North and East Norfolk. Due to 
+the ageing  
+Level of Income and Health Deprivation in Target Areas 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+ 
+The above maps indicate the level of deprivation within the target delivery areas, in terms of 
+health and disability, as well as income deprivation affecting older people. Previous research 
+has shown that the level of deprivation within an area can lead to an increased risk of inactive 
+lifestyles and sedentary behaviour, as well as increased risk of ill health, and thus indicating a 
+higher need for physical activity interventions. 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix B: Secondary Indicators 
+Age Associated Condtions and Social Welfare Factors of Older People in Delivery Target 
+Areas. 
+Population of over 65’s in Target Districts of Norfolk estimated to have Dementia 
+North Norfolk 
+The dark green areas estimate where cases of 
+Dementia are most prevalent in the population of 
+over 65’s within Norfolk, with a rate of 7.8 – 9.4%. 
+We can see from the image that there are areas 
+within North Norfolk where Dementia rates are 
+estimated to be amongst the highest in Norfolk. 
+These are in the proximity of the towns of Sheringham, Holt and Cromer. 
+East Norfolk 
+ 
+The East Norfolk image indicates that there is a small pocket close to 
+Great Yarmouth Town, where Dementia rates for their older 
+population are estimated to be amongst the highest in Norfolk. 
+West Norfolk 
+ 
+ 
+ 
+The West Norfolk image estimates that the 
+town of Hunstanton has Dementia rates for their older population 
+that are amongst the highest in Norfolk. 
+ 
+ 
+Population of over 65’s in Target Districts of Norfolk estimated to 
+have previously fallen 
+North Norfolk 
+Falls account for a high proportion of 
+emergency hospital admission amongst the 
+elderly, and can often lead to serious injury, 
+such as fractured hips. The dark green 
+areas show where the highest rates of falls 
+are estimated to have happened amongst 
+people over the age of 65 in Norfolk, with a 
+rate of 27.3% - 28.6%, with the highest rates being in the towns of Holt, Cromer and 
+Sheringham. 
+East Norfolk 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+The East Norfolk image indicates that an area of Great Yarmouth Town and 
+Gorleston-on-Sea, is where fall rates for their older population is estimated 
+to be amongst the highest in Norfolk. 
+West Norfolk 
+ 
+ 
+The West Norfolk image indicates that the town of Hunstanton has fall 
+rates for their older population that are estimated to be amongst the 
+highest in Norfolk. 
+ 
+ 
+ 
+Population of over 65’s in Target Districts of Norfolk who have Diabetes 
+North Norfolk 
+The dark green areas show where Diabetes is most 
+prevalent amongst over 65’s in North Norfolk, with 
+a rate of 12.8% in the over 65 population of this 
+area. Although it should be noted that the lowest 
+rate is 12.2%, so the difference in percentages for 
+this condition are not vast. 
+East Norfolk 
+ 
+ 
+The East Norfolk image indicates that there are areas in and around Great 
+Yarmouth Town is where Diabetes rates for their older population is 
+estimated to be amongst the highest in Norfolk. 
+West Norfolk 
+ 
+ 
+ 
+The West Norfolk image indicates that the areas of south 
+west Norfolk is estimated to have some of the highest rates of Diabetes 
+within their older population. 
+ 
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Emergency admissions for Stroke 
+North Norfolk 
+The dark green areas show where the highest 
+rates of emergency admission for Stroke 
+across North Norfolk are, with the most 
+prevalent area being Cromer Town, with 
+Sheringham and Holt also having a relatively 
+high rate. 
+ 
+East Norfolk 
+ 
+The East Norfolk image indicates that there are areas in and around Great 
+Yarmouth Town that have the highest rate of emergency admissions for 
+stroke. 
+West Norfolk 
+ 
+ 
+ 
+The West Norfolk image has shown that there are no 
+areas in the region that are amongst the highest in Norfolk, but the 
+coastal area of Docking still has a relatively high rate of admissions. 
+ 
+Note: The rates for emergency admissions for chronic obstructive 
+pulmonary Disease and chronic heart disease are geographically very similar to the 
+emergency admission rates for stroke across Norfolk. 
+Percentage of Norfolk Households in Target Districts Living in Fuel Poverty 
+North Norfolk 
+The dark green areas show where the highest rates 
+of people living in fuel poverty across North Norfolk 
+are estimated to be, with the most prevalent areas 
+having a rate of 16.6% - 19.7%. Walsingham and 
+Priory fall into this category. 
+ 
+ 
+ 
+ 
+ 
+ 
+East Norfolk 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+The East Norfolk image indicates that there are areas in and around 
+Great Yarmouth Town, and the rural West Flegg area estimated to 
+have some of the highest rates in Norfolk of people living in fuel 
+poverty. 
+ 
+West Norfolk 
+ 
+The West Norfolk image indicates that the areas of 
+Docking, Denton and Fincham is estimated to have 
+some of the highest rates in Norfolk of people living in 
+fuel poverty. The area of Docking is close to 
+Hunstanton and located on the North coast of West 
+Norfolk. 
+ 
+ 
+ 
+Percentage of Norfolk Households in Target Districts Living in a one person household with a 
+long term health condition or disability, and with no dependent children. 
+North Norfolk 
+The green area’s show where some of the highest rates 
+in Norfolk are for single occupancy households, where 
+the residents are living with a long term health 
+condition or disability, indicating that between 25.6% - 
+30.4% of the older population in North Norfolk are 
+living in this scenario. A high proportion of this 
+population are over 65, and living alone with a health 
+condition means they are at a higher risk of loneliness. The attached image shows that the 
+areas in and around the towns of Holt and Sheringham are amongst the highest in Norfolk 
+for their older population living alone with a serious health condition. 
+East Norfolk 
+  
+The East Norfolk image indicates that an area of Great Yarmouth Town and 
+Gorleston-on-Sea, is where rates of the older population living alone with a 
+long term health condition are amongst the highest in Norfolk. 
+         
+ 
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+West Norfolk 
+ 
+The West Norfolk image shows that the areas of Hunstanton, 
+Heacham and Dersingham are amongst the highest in Norfolk for 
+their older population living alone with a long term health condition. 
+ 
+ 
+ 
+ 
+Modelled Risk of Loneliness 
+ 
+The modelled risk of loneliness shows where within Norfolk there is the highest risk of 
+loneliness amongst Norfolk’s over 65 population. As can be seen in the above image, there 
+is a significantly high risk of loneliness in the older populations of Hunstanton, Holt, North 
+Walsham and Great Yarmouth within our target areas of delivery, with a relatively high risk 
+also within Sheringham and Cromer. 
+There is further evidence from Norfolk County Council’s ‘In Good Company’ campaign, 
+about the prevalence of loneliness amongst Norfolk’s older adults, and why it is a key issue 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+to address in regards to health and wellbeing. The ‘In Good Company’ campaign is an 
+awareness project with an aim to address the issue of loneliness in Norfolk’s older 
+population, and as part of Norfolk County Council’s research for this project they found that: 
+• Public Health estimates there are 38,000 lonely people in Norfolk aged 65+, not to 
+mention more who are lonely through isolation caused by physical or mental health 
+problems at any age.  
+• Research by the Local Government Association shows being lonely can increase your 
+risk of premature death by 30%.  
+• And that being lonely is more harmful to your health than smoking 15 cigarettes a 
+day. Norfolk County Council research among those who receive adult social care in 
+the county also shows that loneliness in older people (65+) is the most important 
+factor in their need for these services – more important than their age, wealth or 
+health.  
+• Over half of those surveyed by Norfolk County Council, who receive a service in the 
+county also said they don’t get the amount of social contact they would like, with a 
+quarter saying they never leave their home.  
+Sports Market Segmentation – Retirement Home Singles – Elsie and Arnold 
+The dark green areas indicate where the percentage 
+of the population who are classified as being in the 
+market segmentation of Elsie and Arnold is at it’s 
+highest, with a rate of between 13.7% - 19.6%. The 
+areas where the rates are at their highest is 
+Hunstanton, Heacham, Dersingham, Cromer, 
+Sheringham, Holt and Great Yarmouth. Elsie & 
+Arnold are generalised profiles of a target 
+population in Sport England’s Market Segmentation 
+too, they are retired singles or widowers, 
+predominantly female, living in sheltered 
+accommodation.
+ 
+ 
+Estimated Percentage of All Households in Target Areas to Have No Cars or Vans 
+North Norfolk 
+The dark green areas estimate that between 24.6 – 39.7% of 
+the North Norfolk population are living with no cars or vans, 
+which will be amongst the highest in the county. The areas 
+indicated as green in this map are Cromer and Sheringham.  
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+East Norfolk  
+The East Norfolk image show the majority of Great Yarmouth town is 
+estimated to be in either the highest or second highest percentage range 
+for households living with no car or van.  
+West Norfolk 
+ 
+The West Norfolk image estimates that areas of North 
+Lynn are amongst the highest in West Norfolk for 
+households with no cars or vans, with Hunstanton and 
+Heacham also having relatively high rates.  
+ 
+ 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix C: Physical Activity, Sport and Leisure Provision 
+The below tables highlight the potential delivery venues for the Mobile Me Out and About 
+element of the SAIL project, at both tourism and sport/physical activity sites, with the 
+highlighted venues appearing to be the most practical in terms of provision and location for 
+the target delivery area. 
+West Norfolk 
+Name Location Type of venue 
+Alive Lynnsport Kings Lynn Gym, Classes 
+Alive Oasis Hunstanton Gym, Swimming, Classes 
+Alive Downham Leisure Downham Market Gym, Swimming, Classes 
+Alive St James Pool Kings Lynn Gym, Swimming, Classes 
+Oaks Pool and Gym Kings Lynn Gym, Swimming 
+Searles Leisure Resort Hunstanton Gym, Swimming, Golf, Bowls, 
+Tennis, Fishing, Petanque 
+Imagine Spa Kings Lynn Gym, Swimming, Spa 
+Heacham Beach Holiday 
+Park Heacham Swimming 
+Congham Hall Hotel Kings Lynn Swimming, Tennis, Croquet 
+The Birches Kings Lynn Swimming 
+Everlast Fitness Club Kings Lynn Gym, Swimming, Classes 
+National Trust - Brancaster Brancaster Outdoor Centre, Sailing Provision, 
+Walking Provision 
+Manor Park Hunstanton Swimming 
+Heacham Beach Resort Heacham Swimming, Games Room 
+Station Road Playing Fields Heacham Tennis 
+Heacham Manor Hotel Heacham Golf 
+Hunstanton Recreation 
+Ground Hunstanton Tennis 
+Hunstanton Golf Club Hunstanton Golf 
+Kings Lynn Golf Club Kings Lynn Golf 
+Overy Tennis & Sports Club 
+Burnham Overy 
+Staithe Tennis 
+Burnham Market Playing 
+Field Burnham Market Tennis 
+ 
+East Norfolk 
+Name Location Type of venue 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Marina Leisure & Fitness 
+Centre 
+Great 
+Yarmouth 
+Gym, Swimming, Bowls, Badminton, Short 
+Tennis 
+Phoenix Pool & Gym Great 
+Yarmouth 
+Gym, Swimming, Classes 
+Hemsby Beach Holiday 
+Park 
+Hemsby Swimming, Activities 
+Funky Fish Swim School Ludham Swimming, Aqua Yoga 
+Potters Resort Hopton Gym, Swimming, Bowls, Kurling, Tennis, 
+Archery, Pitch n Putt 
+Broadland Sports Club Fleggburgh Gym, Swimming, Classes, Tennis, Squash 
+Waterlane Leisure Centre Lowestoft Gym, Swimming, Classes, Badminton 
+Bungay Pool & Gym Bungay Gym, Swimming, Classes 
+Broadland Health & Fitness Oulton Broad Gym, Swimming 
+Filby Broad Fleggburgh Walking & Sailing Provision 
+California Cliffs Scratby Swimming, Games Room 
+Breydon Water - Parkdean 
+Resorts 
+Burgh Cstle Swimming, Tennis, Games Room 
+Summerfields Holiday Park Scratby Swimming, Games Room 
+Vauxhall Holiday Park Great 
+Yarmouth 
+Swimming, Games Room 
+Cherry Tree Holiday Park Great 
+Yarmouth 
+Swimming, Games Room 
+Haven Holiday Park Caister Swimming 
+Great Yarmouth & Caister 
+Golf Club 
+Caister Golf 
+Wellesley Recreation 
+Centre 
+Great 
+Yarmouth 
+Tennis 
+East Norfolk Sixth Form 
+College 
+Gorleston Tennis 
+Gorleston Clifftops Gorleston Tennis, Lawn Bowls 
+Cliff Park Academy Gorleston Tennis 
+Gorleston Golf Club Gorleston Golf 
+Palms Health & Fitness 
+Centre 
+Hopton Bowls 
+Browston Hall Country Club Browston 
+Green 
+Bowls, Golf 
+Caldecott Hall Golf & 
+Leisure 
+Caldecott Golf, Gym, Swimming 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+ 
+North Norfolk 
+Name Location Type of venue 
+Cromer Sports Centre Cromer Sports Hall 
+Stalham Sports Centre Stalham Sports Hall, Tennis 
+North Walsham Sports Centre North Walsham Sports Hall, Tennis 
+Victory Swim & Fitness Centre North Walsham Gym, Swimming, Classes 
+Splash Swim & Fitness Centre Sheringham Gym, Swimming, Classes, 
+Badminton 
+Fakenham Sports & Leisure Fakenham Gym, Swimming, Nordic Walking 
+Rossi's Leisure North Walsham Gym, Swimming, Classes, Bowls, 
+Squash 
+Woodlands Leisure Pool Sheringham Gym, Swimming, Bowls, Pilates 
+EMCY Garden & Leisure Holt Pensioners Playground 
+Fitness Express at Kelling Heath Holt Gym, Swimming 
+Woodland Holiday Park Trimmingham Gym, Swimming, Tennis 
+Sport A Peel Well-next-the-Sea Gym, Swimming, Tennis, 
+Badminton 
+Swim in a Barn Barton Turf Swimming 
+Blakeney Hotel Blakeney Swimming, Mini Gym, Spa 
+Booton Manor Swimming Pool Booton Private Swimming Pool 
+Massy's Gym Blakeney Gym, Classes 
+Cromer Country Club Cromer Gym, Swimming, Classes, Croquet, 
+Snooker 
+National Trust - Sheringham Park Sheringham Walking Provision 
+National Trust - Felbrigg Felbrigg Walking Provision 
+Holt Country Park Holt Walking Provision 
+Bacton Wood Bacton Walking Provision 
+Kelling Heath Holiday Park Weybourne Swimming Pool, Tennis Court 
+Kelling Heath Lodges Weybourne Swimming Pool 
+Woodlands Caravan Park Sheringham Gym, Games Room 
+Fakenham Driving Range & Golf 
+Centre 
+Fakenham Golf 
+Sheringham Golf Club Sheringham Golf 
+Sheringham Recreation Ground Sheringham Tennis 
+Links Country Park Hotel & 
+Country Club 
+West Runton Golf, Tennis, Gym, Swimming 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Cromer Lawn Tennis & Squash Cromer Tennis, Squash 
+Royal Cromer Golf Club Cromer Golf 
+Mundesley Golf Club Mundesley Golf 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix D: Existing Community Support Services 
+Organisation 
+Name 
+Sector Strategic Objectives Current Community 
+Delivery 
+Norfolk Older 
+People’s 
+Forum 
+Charity To be the local voice for Norfolk’s 
+older population, and to support in 
+ensuring their needs are met 
+Older people forum 
+locality groups. 
+Age UK 
+Norfolk 
+Charity To deliver high quality services for 
+older people, To actively champion 
+the rights of older people in 
+Norfolk, To be in a strong financial 
+position with a diversity of income 
+to support our charitable activities 
+ 
+Information & advice, 
+Dementia Cafes 
+ 
+Alzheimer’s 
+Society 
+ 
+Charity  
+ 
+Demonstrate the way in Dementia 
+care and support, Be the foremost 
+point of contact for anyone dealing 
+with Dementia, Lead partnerships 
+and investments in research to 
+improve care, advance prevention 
+and move closer to a cure, 
+Campaign for people affected by 
+Dementia to be able to live the 
+lives they want. 
+ 
+Dementia Cafes 
+Independence 
+Matters 
+ 
+Charity  
+ 
+We foresee a future where people 
+with learning or physical 
+disabilities, mental health 
+problems, older people and people 
+with dementia and their carers 
+have access to a mix of services to 
+create a support package that suits 
+their personal needs and 
+aspirations, enabling them to 
+remain as independent as they 
+wish to within their own homes 
+and communities. 
+ 
+Community Hubs 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Stroke 
+Association 
+ 
+Charity  
+ 
+Preventing avoidable strokes, 
+making sure there is the best 
+support and care, expanding the 
+network of services and long term 
+support across the UK, building 
+research and promoting knowledge 
+to improve stroke care, ensuring a 
+well-trained and resourced health 
+and social care workforce. 
+ 
+Support Groups 
+(include exercise 
+sessions) 
+ 
+Community 
+Hub’s 
+Voluntary 
+Organisation, 
+Local Council 
+N/A Carpet Bowls,  
+Mobile Gym, Holt & 
+District Dementia 
+Support Group, Thai 
+Chi, Dance, Walking 
+Football 
+ 
+North Norfolk 
+Organisation Name Sector Strategic Objectives Current 
+Community 
+Delivery 
+Age Concern North 
+Norfolk 
+Charity In partnership with Age UK 
+Norfolk 
+KIT/Voyager 
+Programme 
+(New Age 
+Kurling, exercise 
+classes and 
+more) 
+ 
+Victory Leisure 
+Centre 
+ 
+Activity 
+Centre & 
+Provider 
+ 
+Part of North Norfolk District 
+Council's sports delivery plan. 
+ 
+Seated exercise 
+classes in care 
+homes/sheltered 
+housing 
+ 
+North Norfolk 
+District Council 
+ 
+Local 
+Authority 
+ 
+Jobs and the local economy, 
+Housing and infrastructure, 
+Coast and countryside, Health 
+and wellbeing, Delivering 
+excellent services 
+ 
+Culture, Leisure 
+and Sport 
+departments 
+(Community 
+Development 
+Teams) 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+East Norfolk 
+Organisation 
+Name 
+Sector Strategic Objectives Current 
+Community 
+Delivery 
+Age Concern 
+Great Yarmouth 
+Charity In partnership with Age UK 
+Norfolk 
+KIT/Voyager 
+Programme (New 
+Age Kurling, 
+exercise classes 
+and more) 
+ 
+East Coast 
+Community 
+Healthcare 
+ 
+Local 
+Authority 
+ 
+Part of Great Yarmouth Borough 
+Council. 
+ 
+Physical activity 
+sessions in care 
+homes, Fall 
+prevention groups 
+(majority through 
+Fun & Fit) 
+ 
+Great Yarmouth 
+Borough Council 
+ 
+Local 
+Authority 
+ 
+Economic growth, Housing, 
+Neighbourhoods, communities 
+and the environment, Tourism, 
+culture & heritage, Great 
+Yarmouth's town centre, 
+Transport & infrastructure 
+ 
+Culture, Leisure 
+and Sport 
+departments 
+(Community 
+Development 
+Teams) 
+ 
+Great Yarmouth 
+Community Trust 
+Charity/Local 
+Authority 
+Provide local support services for 
+the population of Great 
+Yarmouth to support with their 
+welfare and health needs. 
+Ageless 
+Opportunities 
+Programme 
+West Norfolk 
+Organisation Name Sector Strategic Objectives Current 
+Community 
+Delivery 
+West Norfolk 
+Borough Council - 
+parks and open 
+spaces 
+ 
+Local 
+Authority 
+ 
+Provide important local services 
+within our available resources, 
+Drive local economic and 
+housing growth, Work with our 
+communities to ensure they 
+remain clean and safe, Celebrate 
+our local heritage and culture, 
+Culture, Leisure 
+and Sport 
+departments 
+(Community 
+Development 
+Teams) 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Stand up for local interests 
+within our region, Work with our 
+partners on important services 
+for the borough 
+ 
+LILY Charity N/A Directory for older 
+people services in 
+West Norfolk 
+West Norfolk 
+Befriending 
+Charity N/A Befriending 
+Service 
+Osteoporosis 
+Support Group 
+Community 
+Group 
+N/A Seated Exercise 
+Programme 
+ 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix E: Sheltered Housing/Care Home Schemes 
+Scheme Number of Units Total  
+  West Norfolk East Norfolk North Norfolk   
+Abbeyfield 0 9 0 9 
+First Port 61 71 187 319 
+Freebridge 124 0 0 124 
+Guiness South 0 24 0 24 
+GYBC 0 998 0 998 
+Hanover 24 30 41 95 
+Housing 21 26 46 41 113 
+Orbit East 0 36 54 90 
+McCarthy & Stone 31 0 34 65 
+Sutherland Homes 0 0 24 24 
+Norse Care Homes 6 2 6 14 
+Independent Care Homes 30 53 30 113 
+Victory Housing  0 0 167 167 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix F: Community Transport 
+ 
+Community Transport provider 
+name: Area covered: 
+5 Villages Community Car Scheme Belton, Broston, Burgh Castle, Fittion and St Olaves 
+Aldborough Village care 
+Aldborough and Thurgartonm, Sustead, Erpingham and 
+Calthorpe, Wickmere, Alby and Thwaite, Hanworth and 
+Roughton 
+BACT Community Transport Beccles, bungay and surrounding area 
+Burnham Market CCS Hunstanton to Wells and inland as far as Docking 
+Centre 81 Great Yarmouth and area 
+Community Rail Norfolk  Wherry & Bittern Lines 
+Heacham & District CCS 
+Heacham, Ringstead, Sandringham, Snettisham, 
+Dersingham, Fring, Sedgeford, Docking 
+Heritage house Day Care Centre North & West Norfolk  
+Holt Area caring society 
+Holt medical practise catchment, Blakeney, Salthouse, 
+Guist and Briston 
+Ludham Village Car Service Ludham 
+Nancy Oldfield Trust Broads 
+North Norfolk Community 
+Transport 
+Holt, North Walsham, Sheringham, Cromer from 
+surrounding villages 
+North Walsham Good Neighbour 
+Scheme North Walsham Town/Parish Boundary 
+West Norfolk Community Transport All west norfolk parishes , half of county! 
+Transport Plus - NCC  Norfolk Wide 
+Coasthopper Kings Lynn - Hunstanton - Cromer 
+ 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix G: Summary of Stakeholder and participant consultation 
+ 
+SAIL CONSULTATION PROCESS 
+The following consultation took place as part of the Explore phase of SAIL in Summer 2017: 
+• World café event with stakeholders, discussion group with nine older people at 
+Great Yarmouth Age Concern Centre, attendance at Age Concern’s Norwich older 
+people’s day, feedback session at Norfolk Physical Activity Forum 
+• On-street interviews (20) 
+• Meetings with partner organisations 
+ 
+The results from this consultation are summarised in the following report 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Feedback from Norfolk Physical Activity Forum, World café, On-street interviews and Focus 
+group combined and analysed thematically. 
+ 
+A. Barriers 
+Cost: Total cost of activity e.g. parking, transport, equipment. Individuals may do more than 
+one activity per week.  
+Transport: Public transport stops should be VERY close to venue as. Bus passes are not valid 
+until 9.30 in the morning. 
+Time of day: Afternoons are better as it is dark in the evenings, and mornings can be difficult 
+for someone who is ill or disabled.  
+Level of difficulty and fear of failure: Even beginner’s classes can be too difficult if other 
+people  are more able/experienced . Performance anxiety. Lack of confidence 
+Fear of getting hurt and lack of knowledge about what activities can be done with different 
+conditions. Lack of awareness of adaptations. Health/medical reasons for not taking part in 
+activity. 
+A period of illness, or changing health/mobility:  Health and mobility is not stable. It can be 
+hard to resume activity after a bout of ill-health. 
+Activities stopping/folding e.g. temporary funding / initiatives.   
+Funding models: Pay and play is not viable were numbers are small and fluctuating, and 
+where costs are high. Upfront, termly payments not viable for participants on low incomes.  
+Equipment or clothing: Embarrassment due to type of clothing  (e.g. swimming wear) or not 
+having the ‘correct’ clothing 
+Social: Feeling not welcomed, cliques.   
+Body confidence: I don’t look right, I feel overweight 
+Identity and learnt/acquired behaviour – ‘I am not an active person’, ‘I am not sporty’ 
+Lack of knowledge / awareness from health care professionals 
+ 
+A. Drivers  
+Need and purpose: For example, active transport when an individual does not have a car, or 
+gardening because an individual is hous proud.   
+Enjoyment and social contact: Fun activities, instructor with good people skills 
+Attitude / motivation: A number of older people described ‘pushing’ themselves to keep 
+active and leave the house, even when they did not want to.  
+Life changes e.g. Retirement, bereavement At the focus group, at least five of the 
+participants were widows and they described becoming active after the deaths of their 
+husbands.  
+Holidays: Being active on holiday while not at home. 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+B. Enablers and information points 
+Places and organisations:  
+• Churches 
+• Libraries 
+• Tourist Information points (these should be for locals too) 
+• Active Norfolk Pathway 
+• Schemes that go into people’s houses and support them  
+ 
+People 
+• GP and health professionals such as district nurses. ‘Trust’ where a health 
+professional was giving information or ‘endorsing’ an activity. 
+• Community leaders and people leading existing groups 
+• Carers 
+• Family members, including  children - intergenerational projects 
+• Older people as role models. Older person public figure e.g. ex Norwich City FC 
+footballer 
+• Buddies 
+• Social groups 
+ 
+C. Beneficiaries 
+What age? 
+• Distinguish between ‘younger’ older people, and ‘older’ older people e.g those over 
+85.    
+• Over 70 specific groups to engage older adults. 
+• Inter-generational e.g. grandparents and grandchildren groups 
+ 
+Which older people? 
+• Remember older people are diverse. 
+• Open to all, but target those in most ‘need’. 
+• Not spend too much effort on those that are completely inactive and resistant 
+• In some areas the winter and summer populations are different – some people living 
+in caravans or second-homes for part of the year. 
+• Engaging people in returning to activities they used to participate in, e.g. table tennis 
+• Mixed gender sessions 
+• Tailored activities to match long term conditions or similar attributes 
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+D. Developing activities 
+Adapting it 
+• Finding out what sports or activities a person can do (with health problems) and for 
+the phase of life 
+• Change and tailor activities for people of different ages, different conditions e.g. 
+‘slow yoga’ for people who are breathless 
+ 
+Rethinking what is activity 
+• Make it fun and/or social with exercise as a side product. Come up with hooks that 
+are not explicitly about being active 
+• Active travel and other purposeful activity e.g. gardening, shopping, housework 
+• Involve health professionals to establish trust 
+• Get away from the image of ‘lycra’ 
+• Some activities may involve 2-3 people, and not big groups (e.g. walking) 
+• Some people want to stay at home, so activities that can be done at home 
+Include relaxing, ‘headspace’ activities 
+• Conservation groups  
+• Older coaches, the right kind of coaches 
+• Consistency/routine/familiarity  
+• Competition, specifically for older males. Using league tables 
+• Sessions to better improve balance/co-ordination/muscle strength 
+• Variety, but maybe not too much high impact 
+• Do you let people find their own level? 
+• Support people when they are new (a buddy?) and make sure people are welcoming 
+• Should not need a partner  
+• Change / refresh activities to keep things fresh 
+• Outdoor gym with instructor or outdoor but under cover 
+• Use technology such as the fitbit 
+• Embed activity, for example, training group leaders to deliver PA before sedentary 
+activity sessions e.g. Exel 2000 
+ 
+E. Communication and marketing 
+• Directories – Ageless Opportunities and LILLY.  
+• Marketing (such as flyers) as well as advocacy, but you need to keep at it 
+• Use case studies and examples. Mirror the target demographic in the promotional 
+material 
+• Mobile Me as a brand 
+• Local radio – 5 minute slots 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+• Selling the social side (and not necessarily branding all activities as ‘sport) 
+• Find ways of combatting ‘it’s very nice, but not for me’ 
+• Educating older people – on the health benefits (and guidelines?) 
+• This Girl Can’ for older females/people generally – ‘This older person can’ 
+• Messages not patronising or imply that all older people are unfit or in need of help. 
+ 
+F. Visual imagery 
+ 
+Respondents in on-street interviews were 
+shown a series of photos and asked to 
+select their ‘best’ and ‘worse’. While a 
+small sample (21) this give some insight 
+that may be useful for marketing and 
+communication. 
+ 
+One photo was far the most popular (photo 
+1) because it was relaxed and because of 
+the scenery; some people liked it because it 
+showed a couple. A similar beach photo 
+showing the back of a solitary walker was 
+popular, but much less so. Where other 
+photos were selected, it was generally 
+because they appeared to show individuals 
+having fun, and being social. 
+ 
+Many respondents disliked photos or 
+activities that were perceived high impact 
+or risky, such as a photo of an older lady on 
+a trampoline (Photo 1). While a few people 
+felt this was fun, most respondents felt it 
+looked dangerous.   
+ 
+A photo of a group of woman undertaking 
+a seated activity class indoors (photo 3) 
+had mixed feedback because. While some 
+respondents liked it as it appeared that the 
+women were having fun, others disliked 
+the institutional setting.  
+ 
+Photo 1 
+Photo 2 
+Photo 3 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+A photo of a much older lady with dementia (not shown) received less positive feedback, 
+possibly as it was not aspirational and because respondents did not self-identify as ‘old’.  
+ 
+One respondent said that the photos were all ‘too old’. This was not because of the 
+biological age of those in them, or due the activities represented, but because of the way 
+that they were portrayed. 
+ 
+  
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix H: Meeting with partner organisations 
+1a. National Trust – 08/06/2017 
+• National Trust are looking to offer a wider remit of activities and engage the wider 
+community, this includes a growing focus on people with increased need e.g. high 
+sedentary levels or living in deprivation. 
+•  Some activities aimed at older people have been delivered e.g. seated exercise 
+• The sites offer opportunities for a range of outdoor activities including sailing 
+(Brancaster Outdoor Centre). 
+• A possible ‘grandparents day’ was discussed. 
+ 
+Norsecare – 23/06/2017 
+Working with care homes could be challenging due to the limited independence of residents 
+– housing with care sites may be better. There would be issues with transport, support for 
+residents off-site (staff could not go offsite), medications off site, accessibility etc.  However, 
+it was felt that offsite activities have the potential to engage more men, which is positive as 
+many onsite activities are focused towards females. There may also be the potential to 
+engage with friends and relatives and the project has great potential to help individuals 
+living in the community to remain more independent.  
+ 
+Great Yarmouth Local Authority Operators Meeting – 11/07/2017 
+Organisations Represented: Active Norfolk, Sentinal 
+• There are a number of community development teams in Great Yarmouth and 
+Gorleston, in addition to other projects and local agencies that may link in with SAIL. 
+• As local priorities and circumstances differ, it is important to involve each local 
+authority in the SAIL delivery area in the design of the project.  
+• A number of potential opportunities were identified e.g. outdoor spaces such as 
+Bure Park, Beach and Wellsley Park. Potential activities were identified as walking 
+sports, Pickelball, and tennis (SAIL could link in with a Lawn Tennis Association 
+project to develop tennis courts in Great Yarmouth and Gorleston). The project could 
+also focus on broadening participation in golf and bowling (Gorleston Bowls Club, 
+could be a good partner). 
+• It was proposed that initial take up of projects could be incentivised by offering a 
+free six month gym membership for example. 
+ 
+North Norfolk Local Authority Operators Meeting – 06/07/2017 
+Organisations Represented: Active Norfolk, Places for People, North Norfolk District Council, 
+Alive Leisure  
+• District Councils have older person engagement targets 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+• North Norfolk supports older people through their sports clubs/hubs community 
+programmes. Community volunteers facilitate programmes in the longer term and 
+this has proven to be successful. Could offer a referral route through SAIL. 
+• Swimming resources could be better used by older people. There is a current swim 
+for health project in North Norfolk, however, barriers to participation include: 
+ Peak season for tourism takes priority. 
+ Older community may not see the venues as accessible / staff training may 
+be needed 
+ Timetable to best suit older community needs to be established 
+• SAIL will fit within local authority  wider work around specific conditions: 
+ North Norfolk is working to become a Dementia Friendly Council; Sheringham 
+a Dementia Friendly Town. 
+ Safe Place Scheme (kitemark) – a number of facilities are working to this . 
+Locaal authorities may be open to an older person audit/kitemark for 
+facilities as part of the SAIL project. 
+• Engaging partners that are not commonly working together would be a key outcome 
+for leisure facilities, and could support with long term sustainability. 
+ Local charities (e.g. Age UK) 
+ Community transport (Alive leisure are currently working with a community 
+transport provider in West Norfolk). 
+ LILY, West Norfolk. Outreach organisation. 
+• Operators would want to attach small charges for sustainability costs (a number of 
+operators already host rehabilitation programmes that cost £3 per session) 
+• Key contacts identified to work with operators: 
+ Village Sports Co-ordinators 
+ Local Councillors 
+ Sporting champions (local volunteers) 
+ Local church and faith groups 
+ Penny Bevan Jones (Excel 2000 project) 
+ Sonia Shooter (health improvements officer 
+ 
+Swim England – 17/07/2017 
+• Initial Dementia Friendly swimming programme finishing this September. 
+• The sustainability model will deliver: 
+• Training 
+ ‘Step inside’ Dementia Awareness training (1/2 day or 3 one-hour modules) - 
+developed with the Alzheimer’s Society 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Cascade training: One person trained to deliver to rest of the staff at their 
+site. Between 8-16 can attend. £500 per training session, 50% funded by 
+Swim England. Provisional September date for Norfolk. 
+• Toolkit (part of training programme) 
+ Aimed at widening the approach from Dementia specific to multiple 
+conditions (part of cascade training). 
+ Includes a facilities check (which will highlight smaller issues to address, as 
+well as potential larger changes, which may require financial investment.) 
+• Aqua Relax (closed off sessions, possibly private pools) works best for more severe 
+Dementia 
+• With early onset Dementia and their carer’s, they are more likely to access sites 
+independently although promotion needed. 
+ 
+1f. SAIL/Mobile Me Steering Group – 13/07/2017 
+Organisations Represented: Active Norfolk, University of East Anglia, Broadland District 
+Council, Age UK Norfolk, Age UK Norwich, Norfolk Adult Social Services 
+ 
+• Age UK Norfolk 
+ Have a Dementia lead (Amelia Warley), who can support in the design phase 
+for conditional specific ideas. 
+ Age UK Norfolk have previously conducted Dementia Friendly audits and 
+training to Parkwood Leisure in Breckland. 
+• Age UK Norwich 
+ Have previously done some work with Dementia Adventure, who have been 
+able to provide training on outdoor activities for people with Dementia. 
+(Could be a good link for Dementia Friendly walks, Sailing, and work with 
+Brancaster Outdoor Centre. 
+• Points of Interest ordnance survey tool, could be a good tool to support with asset 
+mapping. 
+• Mystery Shopper audit idea 
+ As part of an audit of delivery venues, and subsequent acquisition of a SAIL 
+kite mark, there could be anonymous older people that try to access sites and 
+take part in some activity and identify any issues. 
+ Would have to be developed in partnership with delivery partners, and be 
+designed to not be seen as a criticism, but a guide. 
+ Amanda Burke (UEA) used a similar approach on a previous research project 
+with the library service. 
+ 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ Appendix I: North Norfolk Fit Together Memory Walks Report 2015-2018 
+A grant was received from Public Health to deliver walks targeting people living with 
+dementia for 6 months. Instead, funding was used to deliver the project for 3 years for the 
+Summer months. 
+What we offered:  
+For the 2015 programme, we came up with the idea of offering two types of walks – one 
+called A Breathe of Fresh Air for those in the later stages of Dementia and another called 
+The Leg Stretcher for those in the early stages. We did a taster walk in May for Cromer and 
+then began the walks every Wednesday at 10:30am alternating the two walks. Once these 
+were established we set up a walk in North Walsham every Friday at 10:30am alternating 
+between the two walks during August and September.  
+In 2016 we continued with the idea of offering two types of walks but as takers for the “leg 
+Stretcher” were limited we welcomed either type of participant to every walk so we 
+accommodated everyone at once. This worked well and a few walks we had good numbers. 
+Most people would be classed as in the later stages of dementia as most came through 
+Halsey House care home but we did have several members of the public who brought their 
+partners in the earlier stages. We also had several people coming from the day centre at 
+Halsey House care home who were either there just for the day or on a longer stay to give 
+their carer respite. We produced one colour and glossy programme with large font and 
+pictures. All registration forms were in the book for people to easily tear out by them or us. 
+We made the programmes as user friendly as possible. 
+In 2017, rather than offer two walks for different abilities we offered one walk as we knew 
+from previous years that no-one seemed to mind being all together. We cut the walks to 
+once a week alternating between 3 venues and offered them all at 10:30am. We decided to 
+run them from May to the end of August as no one came after the end of August last year. 
+Halsey House care home again attended regularly and a new care home at Mundesley, 
+Clarence House, came towards the end. We again produced a separate programme with 
+colour on the front and back pages and the forms included for ease. We later found out that 
+we had to pay VAT on the programmes, however, as they included the forms. We used large 
+font and included good representative photographs from last year on the back cover so that 
+they were in colour and easily seen.  
+Walk venues: 
+In 2015, Cromer prom provided us with a flat concrete surface, a meeting point suitable for 
+mini buses and disabled parking and a multitude of cafes and toilet facilities. North 
+Walsham Memorial Park provided us with a flat concrete path through the middle of the 
+park and firm grass around the edge. There was plenty of parking and toilets but we had to 
+hire the community centre and make our own refreshments after the walks. It was hard to 
+use the Trails network as so many variables were needed to be able to offer safe walks with 
+the needed facilities. 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+For 2016, we continued with Cromer prom and North Walsham Memorial Park and I 
+instigated a very welcomed partnership with North Walsham library who provided the 
+venue and allowed us to make refreshments in their kitchen with supplies we brought in. 
+This year we also added two more venues: Felbrigg Hall and Mundesley sea front. Both 
+these locations were good, especially Felbrigg Hall which was by far our most popular 
+destination. A gravel path stretched about a quarter of a mile alongside the house providing 
+stunning views. The hall also had a very nice tea room. Unfortunately notification to the 
+National Trust about what we were doing remains unrecognised and unanswered. I did ask 
+if we could possibly have some passes for parking as non-National Trust members had to 
+pay – but I didn’t hear back.  
+During 2017 we continued with all 2016 venues except Mundesley sea front as 
+unfortunately this proved unpopular. Unfortunately again notification to the National Trust 
+about the Felbrigg walks remains unrecognised and unanswered.  
+Challenges: 
+In 2015, working with care homes such as Halsey House in Cromer and Rose Meadow in 
+North Walsham provided us with our audience for the Breathe of Fresh Air walks but visits 
+to dementia cafes and events and day centres did not attract anyone to our walks for 
+people in the early stages and possibly still living at home. So that our volunteer walk 
+leaders did not have to take responsibility for each person we made sure one-to-one carers 
+were present. This worked well with Halsey House as rather than rely on staff the manager, 
+Laura Lodge, filtered the information to relatives and so we had a mix of staff and relatives 
+acting as carers. At Rose Meadow walkers could only come if there were enough staff and 
+because our walk coincided with their own regular activities the activity coordinator was 
+sometimes not able to come. This limited access to the walks and so next year we will be 
+doing them in the afternoon and I will be writing a piece for their newsletter which goes to 
+relatives. Separating the walks between the two levels of Dementia seemed like a good idea 
+but we ended up with no one on the Leg Stretcher walks. Talking to the people who run the 
+dementia cafes they did agree that this would be the hardest group to reach as people 
+would try to continue with their normal life as long as possible and to come on a walk 
+targeting people with dementia would mean admitting that there was a problem. For this 
+reason we may offer one type of walk next year and try and have more than two leaders so 
+we could essentially have two different groups at the same time. Managers from the two 
+care homes attended the walks and Halsey House paid staff to attend as they thought the 
+project was so worth-while. One lady found out about the walks as she was a member of Fit 
+Together and so collected her husband from Munhaven care home in Mundesley and came 
+on most of the North Walsham walks. 
+In 2016, Halsey House in Cromer again provided us with our audience for the Breathe of 
+Fresh Air walks but visits to dementia cafes and events and day centres did not attract 
+anyone to our walks for people in the early stages and possibly still living at home. Despite 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+writing and to every care home in the vicinity we did not get many attending. Talks to day-
+centres and dementia cafes only resulted in a few people coming. I was invited to talk to the 
+PPG at Cromer Doctor’s surgery and I had a meeting with the manager of Paston Surgery in 
+North Walsham. I met with the manager of a care home in North Walsham. Links for 
+publicity with Alzheimer’s UK and local branches proved unsuccessful in attracting people. 
+One-to-one carers were again requested and again worked well with relatives taking on the 
+role from Halsey House. Walks we put on in the afternoons to potentially avoid care home 
+activities did not work. 
+For 2017, programmes and letters were sent out to all local care homes and day centres and 
+local dementia groups and Alzheimer’s organisations. Yet again we had little response apart 
+from Halsey House and a new care home, Clarence House. Halsey House were by far the 
+most responsive and some residents came again from last year. So the reliance was not on 
+Laura Lodge, the manager, another staff member, Jackie, organised the outing. This is good 
+as Laura has now left the care home and we now have Jackie involved. Again, the 
+information was filtered to relatives and so we had a mix of staff and relatives acting as 
+carers. The new home did not have transport and so had to get taxis to the walks. To bring 2 
+residents and carers cost them £40. 
+Volunteers: Throughout the three years we used volunteer walk leaders from the existing 
+North Norfolk Fit Together CIO (Charitable Incorporated Organisation) Walking for Health 
+group. Calls and adverts requesting volunteers specifically for these walks resulted in no-one 
+extra or new coming forward from outside the charity. 
+Paperwork: Throughout the three years we had walkers and carers complete the Walking 
+for Health registration form and also had the carer complete a “Carer Responsibility form” – 
+see attachment. This made it clear that volunteers could not be responsible for people 
+coming and that one-to-one carers would be responsible for getting the person to the walk 
+and returning them home. They would also be responsible for being with the person during 
+the walk and indeed pushing them if they were in a wheelchair.  
+What we found: 
+During 2015 and 2016 some attendees were able to walk (if only a short distance) and so 
+received some physical benefits. The overwhelming success of the project, however, has 
+been the mental benefits for walkers, those being wheeled in chairs, relatives and staff. Just 
+being out of the normal surroundings proved beneficial. People only came in fair weather 
+and so to be out with the sun and wind in their faces, to see other people, interact with 
+others and those walking dogs gave everyone a sense that they were still a part of society. 
+The smell of the sea, chips or fresh cut grass also provided stimulus. Those who could no 
+longer speak were much more animated at the end of the walks and everyone really 
+enjoyed the cups of tea and cakes at the end. Those in care homes achieved a sense of 
+being able to go out and then come home and no doubt slept better. Relatives and even 
+staff were able to talk to other relatives and staff about issues and commonalities they 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+shared when caring for people living with dementia. Walkers were generally very excited 
+about attending and were all very happy at the end. Many conversations were sparked by 
+stimulus such as trees and the sea, children playing in the sand and swimming. People 
+talked about memories they had of Cromer and North Walsham and holidays or careers in 
+general. It was nice to offer relatives something to do with the person they brought as 
+limited conversation was needed as there was so much to see. Conversations were 
+encouraged about experiences during the Second World War. It was nice to offer relatives 
+something to do with the person they brought as limited conversation was needed as there 
+was so much to see. 
+As I was not directly involved with the delivery of walks in 2017 I acquired two Volunteer 
+Testimonials 
+Being the newbie I obviously cannot comment or compare with previous years, but from my 
+observations this year there was only benefit to be taken from these walks. The regular 
+Halsey House people liked to reminisce and just loved to be in the fresh air, those who didn't 
+talk were animated and enjoyed their refreshments.  Both Cromer and Felbrigg were 
+extremely popular but I don't think North Walsham even got started.  Sometimes the carers 
+to participants ratio was a bit light but I enjoyed being able to assist one person at a time and 
+engage with them. Clarence House in Mundesley came latterly to the walks with those that 
+came enthusing about the feeling of a little freedom from their normal day to day 
+routines.  Their major problem was lack of helpers and cost of transport as they don't have 
+their own, otherwise they would participate more. All concerned would have liked the walks 
+to continue into September .From a personal perspective I found them most rewarding and 
+enjoyable and will be happy to be involved again. Brenda Shields (volunteer). 
+Everybody says the walks are excellent, wonderful and are really enthusiastic about them.  
+Do all walkers need one to one carers and does this stop homes coming on the walks? Could 
+we run two walks simultaneously, one for Carers with more able walkers, and one for 
+wheelchairs, finishing for coffee at the same time?  Paul (another walk leader) said he could 
+adapt walks to enable this, at Felbrigg, Cromer Prom and Overstrand. The Sea Marge at 
+Overstrand have said we could use them for tea/coffee, and of course the facilities we need 
+are there.  Paul also said he would research a walk there. It's difficult to identify one person 
+who particularly benefitted, I would say they all did in their own individual way.  Those who 
+were able to articulate their feelings certainly really enjoyed them. Christine Joyce 
+(volunteer). 
+Who came in 2015: 
+People living with Dementia – 17 
+Staff – 8 
+Relatives – 9 
+Fit Together staff and Volunteers: Mel Brown, Christine Joyce, Brenda Stibbons, Pat Logan 
+Funding: 
+Management and set up costs to Mel Brown for half a day for 6 months: £1,250 
+Printing: £120.25 
+Float: £43 
+Hall Hire: £80 
+Total: £1,493.25 
+2016: What we offered and who came: 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+36 walks – 15 of which went ahead 
+People living with Dementia – 17 
+Carers - 16 
+Fit Together staff and Volunteers - 10 
+Funding: 2016 
+NNDC printing of 200 b/w copies Memory Walks 2016                     £40.76 
+NNDC printing of 200 A4 full colour booklets Memory Walks 2016     223.92 
+                                                                                                ----------- 
+                                                                                                 264.68 
+Memory Walks float taken from Tea Dance money by MB                  20.50 
+ 
+2017: What we offered and who came: 
+13 walks every Wednesday at 10:30am alternating between Cromer Prom, Felbrigg and 
+North Walsham. 7 walks went ahead with 4 at Felbrigg and 3 on Cromer Prom. 
+In total we had the following attend: 
+People living with Dementia – 28 (4 from last year) 
+Carers – 13 (2 from last year) 
+North Norfolk Fit Together Volunteers - 5 
+Funding: 2017 
+NNDC printing of 200 A4 colour covered booklets Memory Walks 2017     £167.94 
+                                                                                                                                                                      
+               Spent in 2016                                                                                            £285.18 
+Spent in 2015                                                                                            £1974.69 
+ Total spent to date                                                              £2427.81 
+Learning from 2015 for 2016: 
+One colour easy to read brochure will be produced for the two June to the end of 
+September periods (2015 saw a number of flyers produced as we learnt as we went along 
+and so planned one month at a time). 
+The brochure will be distributed Jan/Feb 2016 and 2017 so that targeted groups know about 
+the walks. As we started May many care homes and day centres had already come up with 
+their activities for the summer – our walk could then be on their programmes as a regular 
+event.  
+One walk will be offered each week alternating between Cromer and North Walsham with 
+more volunteers to cater for if two groups were needed. 
+Look for one more possible venue for a third walk. 
+We did get the flyers into the local doctors’ surgeries but we need to try and sit down with 
+the nurse or doctor at each local surgery in charge of dementia to tell them in person what 
+we are doing – as we did in the care homes. 
+ 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+Learning from 2016 for 2017: 
+I will be sending this to all involved in February 2017 to get any views or/and ideas and any 
+changes needed to the 2017 programme. I will suggest that we stick to once a week and 
+alternate between three venues: Cromer prom, North Walsham and Felbrigg. The 
+programme will be widely circulated and Age UK have requested programmes for the first 
+time to distribute. As we did not get anyone attending in the later part of the summer I 
+wondered whether to run the walks from May to the end of August? I also wonder whether 
+we could use the funding to not only continue the walks for a few more years to come in the 
+summer but to also try and get a volunteer to run some art classes. This has been funded 
+and proves successfully by the CCG in Portsmouth (see attached information). The walks are 
+very cost effective as the only expenditure is the programmes as all volunteers involved did 
+not claim any mileage costs. I will be meeting with Nick Clarke from Public Health on the 
+16th February to discuss the continued use of funds, a possible art class and to discuss using 
+this model across the county. 
+Learning from 2017 for 2018: 
+We are now using our regular funding for the project and so we will need to make saving, 
+however, we are committed to continue the walks. Pricing will be worked out to see if a 
+separate book is feasible or whether the walks will be included in the main North Norfolk Fit 
+Together programme. If the latter is the case then more regular members will see the walks 
+who may have family members or friends who would benefit. 
+Contacts of those involved with the project: 
+Mel Brown: Active Norfolk Development Officer for walking - mel.brown@activenorfolk.org 
+- 07766259999 
+Halsey House: Laura Lodge - lodge1979@gmail.com 
+Volunteer - Christine Joyce: (01263) 519405/Christine-joyce@sky.com 
+Volunteer - Brenda Stibbons: (01263) 510969/brenstib@yahoo.co.uk 
+Volunteer - Pat Logan: (01692) 403816 
+Volunteer – Brenda Shields (01263) 715705/brendashields759@btinternet.com 
+Volunteer – Paul Ebsworth (01263) 512259/paulebsworth@btinternet.com 
+Volunteer – Jenny Hull (01263) 761243/jenny4hull@gmail.com 
+Clarence House care home  - Nicole Tatum or Diana Gardener: (01263) 721490 
+Below are a selection of photographs: 
+ The first two are from the EDP who came out and did a story on the Cromer walks – this can 
+be found at 
+http://www.edp24.co.uk/news/health/a_walk_along_the_cromer_seaside_for_dementia
+_patients_1_4163822 
+DRAFT
+
+DRAFT - SAIL Needs Assessment 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DRAFT
