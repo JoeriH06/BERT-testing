@@ -104,6 +104,16 @@ The notebook has been structured based on project feedback:
 - keywords are expanded to 15–20 terms when enough evidence exists;
 - the output is suitable for human review before KMP upload.
 
+## Generic Title And Contributor Handling
+
+Title extraction is evidence-scored across early front-matter lines. The notebook supports multi-line titles, all-caps titles, subtitles, Dutch/English labels, and title pages where the title is followed by a date or part/section label. Structural headings, organizations, supervisor names, author names, dates, URLs, tables, appendices, references, and generic labels are rejected as titles.
+
+Contributor extraction is intentionally conservative. Contributors are optional: some documents simply do not name people. The pipeline accepts names mainly when they are near author labels such as `Author(s)`, `Auteur(s)`, `By`, `Door`, `Prepared by`, `Opgesteld door`, `Samenstelling`, `Samengesteld door`, `Compiled by`, or `Research by`, or when supported by student-number patterns. It removes student numbers and rejects organizations, supervisors, technologies, model names, contact details, address blocks, colophon labels, and numbered section headings. If no reliable person evidence exists, `authors` / `contributors` stay empty, confidence is `0.0`, and the field is marked for review with an explicit note instead of filling in a useless guess.
+
+## Output Language
+
+Generated prose fields follow the detected document language. Dutch documents should produce Dutch summaries, research topics, research questions/goals, results, and confidence notes. English documents should produce English. Proper names, acronyms, technologies, organization names, contact details, and official titles stay in their original form. If a local model returns prose in the wrong language, validation falls back to source-language evidence rather than accepting the mismatch.
+
 ---
 
 ## 📦 Technologies Used

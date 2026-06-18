@@ -131,7 +131,9 @@ def normalize_meta(result: dict) -> dict:
     if not meta and any(k in result for k in ["title", "authors", "short_summary", "keywords"]):
         meta = {
             "title": result.get("title"),
+            "subtitle": result.get("subtitle"),
             "contributors": result.get("authors", []),
+            "supervisors": result.get("supervisors", []),
             "publication_date": result.get("date"),
             "language": result.get("language"),
             "document_type": result.get("document_type"),
@@ -139,12 +141,49 @@ def normalize_meta(result: dict) -> dict:
             "research_question_or_goal": result.get("research_question_or_goal"),
             "description": result.get("short_summary"),
             "keywords": result.get("keywords", []),
+            "technologies_tools_models": result.get("tools_technologies_or_models", []),
+            "main_outputs_or_results": result.get("main_outputs_or_results", []),
             "keyword_suggestions": result.get("keyword_suggestions", []),
             "keyword_target_count": result.get("keyword_target_count"),
             "keyword_word_count": result.get("keyword_word_count"),
             "field_suggestions": result.get("field_suggestions", {}),
+            "field_confidence": result.get("field_confidence", {}),
+            "review_status": result.get("review_status"),
         }
     return meta
+
+
+def build_api_output(result: dict) -> dict:
+    meta = normalize_meta(result)
+    return {
+        "document_id": result.get("document_id") or meta.get("id"),
+        "summary": result.get("document_summary") or result.get("summary"),
+        "metadata": {
+            "title": meta.get("title"),
+            "subtitle": meta.get("subtitle"),
+            "contributors": meta.get("contributors", []),
+            "supervisors": meta.get("supervisors", []),
+            "publication_date": meta.get("publication_date"),
+            "language": meta.get("language"),
+            "document_type": meta.get("document_type"),
+            "description": meta.get("description"),
+            "keywords": meta.get("keywords", []),
+            "technologies_tools_models": meta.get("technologies_tools_models", []),
+            "research_or_project_topic": meta.get("research_or_project_topic"),
+            "research_question_or_goal": meta.get("research_question_or_goal"),
+            "review_status": meta.get("review_status"),
+            "field_confidence": meta.get("field_confidence", {}),
+        },
+        "search": {
+            "keywords": meta.get("keywords", []),
+            "keyword_suggestions": meta.get("keyword_suggestions", []),
+            "target_keyword_count": meta.get("keyword_target_count"),
+        },
+        "topics": result.get("main_topics", []),
+        "entities": result.get("suggested_entities", {}),
+        "quality": result.get("quality", {}),
+        "pipeline": result.get("@pipeline", {}),
+    }
 
 
 def metadata_status(value) -> str:
@@ -222,6 +261,28 @@ def render_field_suggestions(result: dict, meta: dict) -> None:
 
 def keyword_suggestion_rows(meta: dict) -> list[dict]:
     suggestions = meta.get("keyword_suggestions") or []
+    suggestion_by_term = {}
+    for item in suggestions:
+        if isinstance(item, dict):
+            term = item.get("term") or item.get("keyword") or item.get("text")
+            if term:
+                suggestion_by_term[str(term).lower()] = item
+
+    current_keywords = [str(term).strip() for term in meta.get("keywords", []) if str(term).strip()]
+    if current_keywords:
+        rows = []
+        for term in current_keywords:
+            suggestion = suggestion_by_term.get(term.lower(), {})
+            confidence = suggestion.get("confidence")
+            rows.append({
+                "Use": True,
+                "Keyword": term,
+                "Confidence": None if confidence is None else round(float(confidence), 2),
+                "Source": suggestion.get("source") or "reviewed",
+                "Why": suggestion.get("reason") or "Saved in the reviewed keyword list.",
+            })
+        return rows[:30]
+
     if not suggestions:
         suggestions = [{"term": term, "confidence": None, "source": "metadata"} for term in meta.get("keywords", [])]
     rows = []
@@ -368,7 +429,6 @@ def render_metadata_editor(result: dict):
             question = st.text_area("Research question / goal", value=meta.get("research_question_or_goal") or "", height=90)
 
         description = st.text_area("Description / summary", value=meta.get("description") or result.get("document_summary") or "", height=160)
-        keywords = st.text_area("Keywords, comma-separated", value=", ".join(meta.get("keywords") or []), height=90)
 
         saved = st.form_submit_button("Save reviewed metadata", type="primary", use_container_width=True)
 
@@ -381,7 +441,7 @@ def render_metadata_editor(result: dict):
         meta["research_or_project_topic"] = topic.strip()
         meta["research_question_or_goal"] = question.strip()
         meta["description"] = description.strip()
-        meta["keywords"] = [x.strip() for x in keywords.split(",") if x.strip()]
+        meta["keywords"] = meta.get("keywords", [])
         meta.setdefault("field_suggestions", result.get("field_suggestions", {}))
         meta["suitable_kmp_fields"] = {
             "title": meta["title"],
@@ -395,6 +455,7 @@ def render_metadata_editor(result: dict):
         result["metadata"] = meta
         result["document_summary"] = description.strip()
         result["summary"] = description.strip()
+        result["api_output"] = build_api_output(result)
         st.session_state.result = result
 
         doc_id = result.get("document_id", "reviewed")
@@ -408,13 +469,13 @@ def render_metadata_editor(result: dict):
 def render_keyword_selector(result: dict):
     meta = normalize_meta(result)
     rows = keyword_suggestion_rows(meta)
-    st.markdown("### Choose search keywords")
+    st.markdown("### Search keywords")
     target = meta.get("keyword_target_count")
     word_count = meta.get("keyword_word_count") or result.get("quality", {}).get("word_count") or result.get("statistics", {}).get("main_text_words")
     if target:
-        st.caption(f"The pipeline suggests about {target} search keywords for this document size. Keep useful terms, remove weak ones, or add missing terms below.")
+        st.caption(f"Review the suggested search terms, add missing terms, then save one final keyword list. Recommended for this document: about {target}.")
     else:
-        st.caption("Keep useful search terms, remove weak ones, or add missing terms below.")
+        st.caption("Review the suggested search terms, add missing terms, then save one final keyword list.")
     if not rows:
         st.info("No keyword suggestions were generated.")
         rows = [{"Use": True, "Keyword": term, "Confidence": None, "Source": "manual", "Why": ""} for term in meta.get("keywords", [])]
@@ -441,8 +502,8 @@ def render_keyword_selector(result: dict):
         )
 
     extra_keywords = st.text_input(
-        "Add keywords",
-        placeholder="Add one or more keywords, separated by commas",
+        "Add missing keywords",
+        placeholder="Example: policy evaluation, stakeholder interviews",
         key=f"extra_keywords_{result.get('document_id', 'result')}",
     )
 
@@ -461,9 +522,53 @@ def render_keyword_selector(result: dict):
     st.caption(f"{len(deduped)} keywords will be saved.")
     if st.button("Save selected keywords", use_container_width=True):
         meta["keywords"] = deduped
+        meta["keyword_suggestions"] = [
+            {
+                "term": keyword,
+                "confidence": None,
+                "source": "reviewed",
+                "reason": "Saved by reviewer.",
+            }
+            for keyword in deduped
+        ]
         result["metadata"] = meta
+        result["api_output"] = build_api_output(result)
         st.session_state.result = result
         st.success(f"Saved {len(deduped)} keywords.")
+        st.rerun()
+
+
+def render_api_output(result: dict):
+    api_output = result.get("api_output") or build_api_output(result)
+    result["api_output"] = api_output
+    st.markdown("### API-ready output")
+    st.caption("This compact JSON is meant for a future server/API. Other systems can request only the parts they need, such as metadata, search keywords, entities, or summary.")
+
+    sections = {
+        "Metadata": api_output.get("metadata", {}),
+        "Search": api_output.get("search", {}),
+        "Summary": {"summary": api_output.get("summary")},
+        "Entities": api_output.get("entities", {}),
+        "Quality": api_output.get("quality", {}),
+    }
+    selected_sections = st.multiselect(
+        "Preview output sections",
+        options=list(sections.keys()),
+        default=["Metadata", "Search", "Summary"],
+        key=f"api_sections_{result.get('document_id', 'result')}",
+    )
+    preview = {"document_id": api_output.get("document_id")}
+    for section in selected_sections:
+        preview[section.lower()] = sections[section]
+
+    st.json(preview)
+    st.download_button(
+        "Download API-ready JSON",
+        data=json.dumps(api_output, indent=2, ensure_ascii=False),
+        file_name=f"{api_output.get('document_id') or 'document'}_api_output.json",
+        mime="application/json",
+        use_container_width=True,
+    )
 
 
 def render_result(result: dict):
@@ -483,7 +588,7 @@ def render_result(result: dict):
     st.write(result.get("document_summary") or result.get("summary") or "No summary generated.")
     value = result.get("possible_value_for_knowledge_platform")
     if value:
-        with st.expander("Possible value for KMP", expanded=False):
+        with st.expander("Possible value for the document system", expanded=False):
             st.write(value)
 
     st.divider()
@@ -491,6 +596,10 @@ def render_result(result: dict):
 
     st.divider()
     render_keyword_selector(result)
+
+    st.divider()
+    with st.expander("API-ready output", expanded=False):
+        render_api_output(result)
 
     with st.expander("Optional details", expanded=False):
         col_entities, col_eval = st.columns(2)

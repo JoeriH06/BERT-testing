@@ -16,7 +16,8 @@ This package contains Streamlit-compatible Python layers converted from the note
 pip install -r requirements.txt
 ollama serve
 ollama pull qwen2.5:3b-instruct
-streamlit run app.py
+docker compose build
+docker compose up
 ```
 
 For a bigger school server model, change the sidebar model to:

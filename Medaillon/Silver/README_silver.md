@@ -65,6 +65,12 @@ The Silver layer is responsible for:
 4. Split text into logical document parts
 5. Store structured document representation
 
+## Generic Layout Handling
+
+The Silver notebook now treats front matter detection as an evidence problem rather than a document-template rule. It looks for generic signals such as title-page blocks, date lines, table-of-contents labels, numbered or roman-numeral body headings, sustained prose, references, appendices, and colophon/contact headings.
+
+This is intended to prevent body headings such as `I. Industry` or table rows from being preserved as title-page metadata. When the split is uncertain, the output keeps boundary statistics and quality metrics so Gold Metadata can mark fields for review instead of inventing values.
+
 ---
 
 ## 📦 Technologies Used

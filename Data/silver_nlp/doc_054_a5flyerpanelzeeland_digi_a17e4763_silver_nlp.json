@@ -1,0 +1,462 @@
+{
+    "document_id": "doc_054_a5flyerpanelzeeland_digi_a17e4763",
+    "detected_language": "nl",
+    "language_confidence": {
+        "language": "nl",
+        "confidence": 0.0
+    },
+    "sentences": [
+        "de inwoners van 18 jaar en ouder.",
+        "We willen graag dat alle groepen van de Zeeuwse bevolking terug te vinden zijn in Inwonerpanel Zeeland.",
+        "Hoeveel tijd kost het?",
+        "De lengte van de vragenlijst is elke keer anders, maar we proberen deze zo kort mogelijk te houden.",
+        "U bepaalt zelf of en wanneer u de vragenlijst invult.",
+        "Gaan jullie mij reclame sturen of mijn gegevens doorspelen aan bedrijven?",
+        "We gebruiken uw gegevens alleen voor onderzoek en nooit voor reclame, spam of andere commerciële doeleinden.",
+        "Wat voor antwoorden moet ik geven?",
+        "Er zijn geen goede of foute antwoorden.",
+        "Wij zijn geïnteresseerd in uw ervaringen en in uw mening, dus zelfs als u niets weet over het onderwerp van de vragen - lijst kunt u nog steeds deelnemen aan het onderzoek.",
+        "Mag ik stoppen wanneer ik wil?",
+        "Ja, deelname aan Inwonerpanel Zeeland is vrijwillig.",
+        "Natuurlijk hopen we dat u lid wordt én blijft.",
+        "Maar als het u niet bevalt, mag u altijd direct stoppen.",
+        "Afmelden voor het panel kan via de link onderaan de uitnodigingsmail voor een onderzoek.",
+        "Wie voert het onderzoek uit?",
+        "HZ | Kenniscentrum Zeeuwse Samenleving beheert het panel en stuurt de uitnodigingen voor onderzoek.",
+        "Heeft u vragen of wilt u meer informatie?",
+        "Stuur dan een e-mail naar panelzeeland@hz.nl Voelt u zich wel eens onveilig in uw buurt?  Vaak  Soms  Zelden  Nooit"
+    ],
+    "entities": {
+        "ORG": [
+            "Wilt u voor onderzoek uw mening geven over",
+            "HZ University of",
+            "HZ University"
+        ],
+        "PERSON": [
+            "Inwonerpanel Zeeland!",
+            "Inwonerpanel Zeeland",
+            "Applied Sciences",
+            "Zeeland. Via",
+            "Zeeland. Deze",
+            "Zeeland. Wat",
+            "Inwonerpanel Zeeland. Als",
+            "Inwonerpanel Zeeland. Uw",
+            "Inwonerpanel Zeeland. Hoeveel",
+            "Nee. We",
+            "Kenniscentrum Zeeuwse Samenleving"
+        ],
+        "LOCATION": [
+            "Zeeland",
+            "Natuurlijk",
+            "Nooit"
+        ],
+        "QUANTITY": [
+            "5,- waard!"
+        ],
+        "CARDINAL": [
+            "twaalf"
+        ],
+        "EVENT": [
+            "Zeeuwse"
+        ],
+        "WORK_OR_STANDARD": [
+            "Wie voert het"
+        ],
+        "EMAIL": [
+            "panelzeeland@hz.nl"
+        ]
+    },
+    "top_terms": [
+        {
+            "term": "HZ University",
+            "score": 2.5,
+            "confidence": 0.62,
+            "source": "filtered_named_entity",
+            "context": "HZ University",
+            "reason": "Named entity candidate kept after generic citation and noise filtering.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "Zeeuwse",
+            "score": 2.5,
+            "confidence": 0.62,
+            "source": "filtered_named_entity",
+            "context": "Zeeuwse",
+            "reason": "Named entity candidate kept after generic citation and noise filtering.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "zeeland",
+            "score": 11.736,
+            "confidence": 0.9,
+            "source": "frequency_spread",
+            "context": "ven over Zeeuwse onderwerpen en daar cadeaubonnen mee verdienen? Dat kan via Inwonerpanel Zeeland! In deze folder leest u hoe het werkt.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "Inwonerpanel zeeland",
+            "score": 8.15,
+            "confidence": 0.95,
+            "source": "frequency_spread",
+            "context": "uw mening geven over Zeeuwse onderwerpen en daar cadeaubonnen mee verdienen? Dat kan via Inwonerpanel Zeeland! In deze folder leest u hoe het werkt.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "inwonerpanel",
+            "score": 7.7,
+            "confidence": 0.85,
+            "source": "frequency_spread",
+            "context": "uw mening geven over Zeeuwse onderwerpen en daar cadeaubonnen mee verdienen? Dat kan via Inwonerpanel Zeeland! In deze folder leest u hoe het werkt.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "vragenlijst",
+            "score": 5.593,
+            "confidence": 0.793,
+            "source": "frequency_spread",
+            "context": "Bij iedere vragenlijst die u invult, spaart u punten. Deze punten kunt u online inwisselen voor cadeaubonnen. Uw",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "via",
+            "score": 4.593,
+            "confidence": 0.793,
+            "source": "frequency_spread",
+            "context": "zoek uw mening geven over Zeeuwse onderwerpen en daar cadeaubonnen mee verdienen? Dat kan via Inwonerpanel Zeeland! In deze folder leest u hoe het werkt.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "hoe",
+            "score": 4.593,
+            "confidence": 0.793,
+            "source": "frequency_spread",
+            "context": "daar cadeaubonnen mee verdienen? Dat kan via Inwonerpanel Zeeland! In deze folder leest u hoe het werkt.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "wat",
+            "score": 4.593,
+            "confidence": 0.793,
+            "source": "frequency_spread",
+            "context": "Wat is Inwonerpanel Zeeland?",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "panel",
+            "score": 4.593,
+            "confidence": 0.793,
+            "source": "frequency_spread",
+            "context": "Via het panel delen inwoners hun ervaringen en mening over het wonen, werken en leven in Zeeland. Deze",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "gegevens",
+            "score": 4.593,
+            "confidence": 0.793,
+            "source": "frequency_spread",
+            "context": "Wat gebeurt er met uw gegevens?",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "Vragenlijst invult",
+            "score": 3.971,
+            "confidence": 0.721,
+            "source": "frequency_spread",
+            "context": "Uw gegevens worden zorgvuldig behandeld. Als u een vragenlijst invult, blijft u anoniem.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "mening",
+            "score": 3.557,
+            "confidence": 0.707,
+            "source": "frequency_spread",
+            "context": "Wilt u voor onderzoek uw mening geven over Zeeuwse onderwerpen en daar cadeaubonnen mee verdienen? Dat kan via Inwonerpan",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "kan",
+            "score": 3.557,
+            "confidence": 0.707,
+            "source": "frequency_spread",
+            "context": "nderzoek uw mening geven over Zeeuwse onderwerpen en daar cadeaubonnen mee verdienen? Dat kan via Inwonerpanel Zeeland! In deze folder leest u hoe het werkt.",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        },
+        {
+            "term": "invult",
+            "score": 3.557,
+            "confidence": 0.707,
+            "source": "frequency_spread",
+            "context": "Bij iedere vragenlijst die u invult, spaart u punten. Deze punten kunt u online inwisselen voor cadeaubonnen. Uw aanmelding v",
+            "reason": "Repeated in cleaned main text, not citation-like, and useful enough for user review.",
+            "organization_relevance": null,
+            "role_relevance": null
+        }
+    ],
+    "keywords": [
+        "HZ University",
+        "Zeeuwse",
+        "zeeland",
+        "Inwonerpanel zeeland",
+        "inwonerpanel",
+        "vragenlijst",
+        "via",
+        "hoe",
+        "wat",
+        "panel",
+        "gegevens",
+        "Vragenlijst invult",
+        "mening",
+        "kan",
+        "invult"
+    ],
+    "ontology_topics": [
+        {
+            "topic": "zeeland",
+            "confidence": 0.847,
+            "evidence_terms": [
+                "zeeland"
+            ],
+            "source": "document_terms"
+        },
+        {
+            "topic": "Inwonerpanel zeeland",
+            "confidence": 0.766,
+            "evidence_terms": [
+                "Inwonerpanel zeeland"
+            ],
+            "source": "document_terms"
+        },
+        {
+            "topic": "inwonerpanel",
+            "confidence": 0.766,
+            "evidence_terms": [
+                "inwonerpanel"
+            ],
+            "source": "document_terms"
+        },
+        {
+            "topic": "vragenlijst",
+            "confidence": 0.708,
+            "evidence_terms": [
+                "vragenlijst"
+            ],
+            "source": "document_terms"
+        },
+        {
+            "topic": "via",
+            "confidence": 0.672,
+            "evidence_terms": [
+                "via"
+            ],
+            "source": "document_terms"
+        },
+        {
+            "topic": "hoe",
+            "confidence": 0.672,
+            "evidence_terms": [
+                "hoe"
+            ],
+            "source": "document_terms"
+        }
+    ],
+    "metadata_hints": {
+        "contributor_candidates": [
+            {
+                "name": "Inwonerpanel Zeeland!",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Inwonerpanel Zeeland",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Applied Sciences",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Zeeland. Via",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Zeeland. Deze",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Zeeland. Wat",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Inwonerpanel Zeeland. Als",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Inwonerpanel Zeeland. Uw",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Inwonerpanel Zeeland. Hoeveel",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Nee. We",
+                "source": "ner_person",
+                "confidence": 0.65
+            },
+            {
+                "name": "Kenniscentrum Zeeuwse Samenleving",
+                "source": "ner_person",
+                "confidence": 0.65
+            }
+        ],
+        "possible_supervisor_or_mentor_candidates": [],
+        "organization_candidates": [
+            "Wilt u voor onderzoek uw mening geven over",
+            "HZ University of",
+            "HZ University"
+        ],
+        "location_candidates": [
+            "Zeeland",
+            "Natuurlijk",
+            "Nooit"
+        ],
+        "date_candidates": [],
+        "email_candidates": [
+            "panelzeeland@hz.nl"
+        ],
+        "phone_candidates": [],
+        "technology_candidates": [],
+        "research_topic_candidates": [
+            "HZ University",
+            "Zeeuwse",
+            "zeeland",
+            "Inwonerpanel zeeland",
+            "inwonerpanel",
+            "vragenlijst",
+            "via",
+            "hoe",
+            "wat",
+            "panel",
+            "gegevens",
+            "Vragenlijst invult",
+            "mening",
+            "kan",
+            "invult"
+        ],
+        "keyword_candidates": [
+            "HZ University",
+            "Zeeuwse",
+            "zeeland",
+            "Inwonerpanel zeeland",
+            "inwonerpanel",
+            "vragenlijst",
+            "via",
+            "hoe",
+            "wat",
+            "panel",
+            "gegevens",
+            "Vragenlijst invult",
+            "mening",
+            "kan",
+            "invult"
+        ],
+        "keyword_target_count": 15,
+        "ontology_topics": [
+            {
+                "topic": "zeeland",
+                "confidence": 0.847,
+                "evidence_terms": [
+                    "zeeland"
+                ],
+                "source": "document_terms"
+            },
+            {
+                "topic": "Inwonerpanel zeeland",
+                "confidence": 0.766,
+                "evidence_terms": [
+                    "Inwonerpanel zeeland"
+                ],
+                "source": "document_terms"
+            },
+            {
+                "topic": "inwonerpanel",
+                "confidence": 0.766,
+                "evidence_terms": [
+                    "inwonerpanel"
+                ],
+                "source": "document_terms"
+            },
+            {
+                "topic": "vragenlijst",
+                "confidence": 0.708,
+                "evidence_terms": [
+                    "vragenlijst"
+                ],
+                "source": "document_terms"
+            },
+            {
+                "topic": "via",
+                "confidence": 0.672,
+                "evidence_terms": [
+                    "via"
+                ],
+                "source": "document_terms"
+            },
+            {
+                "topic": "hoe",
+                "confidence": 0.672,
+                "evidence_terms": [
+                    "hoe"
+                ],
+                "source": "document_terms"
+            }
+        ]
+    },
+    "nlp_quality": {
+        "sentence_count": 19,
+        "entity_count": 22,
+        "top_term_count": 15,
+        "ready_for_gold": true
+    },
+    "@pipeline": {
+        "processing_layer": "silver_nlp",
+        "processing_version": "silver_nlp_local_generic_v17_entities_terms_evidence",
+        "created_at": "2026-06-18T09:58:49.116550",
+        "input_silver_path": "Data/silver/doc_054_a5flyerpanelzeeland_digi_a17e4763_silver.json",
+        "notes": "NER, top terms, ontology topics, and metadata hints prepared for Gold and Gold Metadata layers."
+    }
+}

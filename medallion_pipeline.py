@@ -9,7 +9,10 @@ import re
 import shutil
 import time
 
-import requests
+try:
+    import requests
+except Exception:
+    requests = None
 
 DATA_DIRS = ["raw", "bronze", "silver", "silver_nlp", "gold", "gold_meta"]
 
@@ -58,6 +61,8 @@ def load_result(gold_json_path: str | Path) -> dict:
 
 
 def check_ollama(base_url: str = "http://localhost:11434") -> bool:
+    if requests is None:
+        return False
     try:
         response = requests.get(f"{base_url}/api/tags", timeout=5)
         response.raise_for_status()
@@ -138,6 +143,40 @@ def run_notebook_layer(layer: str, function_name: str, document_id: str, data_di
     return call_notebook_func(namespace, function_name, document_id, data_dir=data_dir, **kwargs)
 
 
+def build_api_output(result: dict) -> dict:
+    """Build a compact, stable output object intended for API consumers."""
+    meta = result.get("metadata", {}) if isinstance(result.get("metadata"), dict) else {}
+    return {
+        "document_id": result.get("document_id") or meta.get("id"),
+        "summary": result.get("document_summary") or result.get("summary"),
+        "metadata": {
+            "title": meta.get("title"),
+            "subtitle": meta.get("subtitle"),
+            "contributors": meta.get("contributors", []),
+            "supervisors": meta.get("supervisors", []),
+            "publication_date": meta.get("publication_date"),
+            "language": meta.get("language"),
+            "document_type": meta.get("document_type"),
+            "description": meta.get("description"),
+            "keywords": meta.get("keywords", []),
+            "technologies_tools_models": meta.get("technologies_tools_models", []),
+            "research_or_project_topic": meta.get("research_or_project_topic"),
+            "research_question_or_goal": meta.get("research_question_or_goal"),
+            "review_status": meta.get("review_status"),
+            "field_confidence": meta.get("field_confidence", {}),
+        },
+        "search": {
+            "keywords": meta.get("keywords", []),
+            "keyword_suggestions": meta.get("keyword_suggestions", []),
+            "target_keyword_count": meta.get("keyword_target_count"),
+        },
+        "topics": result.get("main_topics", []),
+        "entities": result.get("suggested_entities", {}),
+        "quality": result.get("quality", {}),
+        "pipeline": result.get("@pipeline", {}),
+    }
+
+
 def merge_result(document_id: str, data_dir: str | Path = "Data") -> dict:
     root = Path(data_dir)
     gold_data = load_json(root / "gold" / f"{document_id}_gold.json")
@@ -148,18 +187,24 @@ def merge_result(document_id: str, data_dir: str | Path = "Data") -> dict:
     metadata = {
         "id": document_id,
         "title": meta.get("title"),
+        "subtitle": meta.get("subtitle"),
         "contributors": meta.get("authors", []),
-        "publication_date": meta.get("date"),
+        "supervisors": meta.get("supervisors", []),
+        "publication_date": meta.get("publication_date") or meta.get("date"),
         "language": meta.get("language"),
         "document_type": meta.get("document_type"),
         "research_or_project_topic": meta.get("research_or_project_topic"),
         "research_question_or_goal": meta.get("research_question_or_goal"),
         "description": meta.get("short_summary"),
         "keywords": meta.get("keywords", []),
+        "technologies_tools_models": meta.get("tools_technologies_or_models", []),
+        "main_outputs_or_results": meta.get("main_outputs_or_results", []),
         "keyword_suggestions": meta.get("keyword_suggestions", []),
         "keyword_target_count": meta.get("keyword_target_count"),
         "keyword_word_count": meta.get("keyword_word_count"),
         "field_suggestions": meta.get("field_suggestions", {}),
+        "field_confidence": meta.get("field_confidence", {}),
+        "review_status": meta.get("review_status"),
         "kmp_context": meta.get("kmp_context", {}),
         "top_terms": [item.get("term") for item in gold_data.get("top_terms", []) if isinstance(item, dict) and item.get("term")],
         "contact": meta.get("contact", {}),
@@ -198,6 +243,7 @@ def merge_result(document_id: str, data_dir: str | Path = "Data") -> dict:
             "gold_meta": meta.get("@pipeline", {}).get("processing_version"),
         },
     }
+    result["api_output"] = build_api_output(result)
     out = root / "gold" / f"{document_id}_result.json"
     out.write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
     (root / "gold" / f"{document_id}_gold.json").write_text(json.dumps(result, indent=4, ensure_ascii=False), encoding="utf-8")
