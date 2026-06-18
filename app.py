@@ -6,6 +6,8 @@ import re
 import shutil
 from pathlib import Path
 import time
+import hashlib
+import unicodedata
 
 import streamlit as st
 
@@ -82,6 +84,8 @@ def init_state():
         "pipeline_info": None,
         "result": None,
         "uploaded_pdf_path": None,
+        "uploaded_pdf_key": None,
+        "uploaded_pdf_display_name": None,
         "last_error": None,
         "review_saved": False,
     }
@@ -89,11 +93,55 @@ def init_state():
         st.session_state.setdefault(k, v)
 
 
-def save_uploaded_file(uploaded_file) -> Path:
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    target = RAW_DIR / uploaded_file.name
-    target.write_bytes(uploaded_file.getbuffer())
+def safe_filename(filename: str) -> str:
+    """Return a filesystem-safe PDF filename derived from an uploaded filename."""
+    name = str(filename or "").replace("\\", "/").split("/")[-1]
+    stem = Path(name).stem
+    if name.lower() == ".pdf":
+        stem = ""
+    if not any(ch.isalnum() for ch in stem):
+        stem = ""
+    stem = unicodedata.normalize("NFKD", stem).encode("ascii", "ignore").decode("ascii")
+    stem = re.sub(r"\s+", "_", stem.strip())
+    stem = re.sub(r"[^A-Za-z0-9._-]+", "_", stem)
+    stem = re.sub(r"_+", "_", stem).strip("._- ")
+    if not stem:
+        stem = "uploaded_document"
+    return f"{stem}.pdf"
+
+
+def unique_upload_path(filename: str, content: bytes) -> Path:
+    """Build a unique safe path inside RAW_DIR for uploaded PDF bytes."""
+    raw_root = RAW_DIR.resolve()
+    safe_name = safe_filename(filename)
+    target = (raw_root / safe_name).resolve()
+    if target.parent != raw_root:
+        raise ValueError("Unsafe upload filename resolved outside the raw data folder.")
+    if target.exists():
+        digest = hashlib.sha1(content).hexdigest()[:8]
+        timestamp = time.strftime("%Y%m%d_%H%M%S")
+        target = (raw_root / f"{Path(safe_name).stem}_{timestamp}_{digest}.pdf").resolve()
+        if target.parent != raw_root:
+            raise ValueError("Unsafe upload filename resolved outside the raw data folder.")
     return target
+
+
+def save_uploaded_file(uploaded_file) -> Path:
+    """Save a Streamlit uploaded PDF under a sanitized unique filename."""
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    content = bytes(uploaded_file.getbuffer())
+    target = unique_upload_path(getattr(uploaded_file, "name", ""), content)
+    target.write_bytes(content)
+    return target
+
+
+def uploaded_file_key(uploaded_file) -> str:
+    """Build a stable session key for a Streamlit uploaded file."""
+    name = getattr(uploaded_file, "name", "") or ""
+    size = getattr(uploaded_file, "size", None)
+    if size is None:
+        size = len(uploaded_file.getbuffer())
+    return f"{name}:{size}"
 
 
 def render_pdf_preview(pdf_path: Path):
@@ -114,7 +162,7 @@ def render_pdf_preview(pdf_path: Path):
             pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=False)
             img = Image.open(io.BytesIO(pix.tobytes("png")))
             st.caption(f"Page {page_number + 1}")
-            st.image(img, use_container_width=True)
+            st.image(img, width="stretch")
         doc.close()
 
 
@@ -252,10 +300,10 @@ def render_field_suggestions(result: dict, meta: dict) -> None:
         cols[0].markdown(f"**{label}**")
         cols[1].write(value_text)
         cols[2].caption(f"{float(best.get('confidence') or 0):.2f} · {best.get('source') or 'suggestion'}")
-        if cols[3].button("Accept", key=f"accept_{field}_{value_text}", use_container_width=True):
+        if cols[3].button("Accept", key=f"accept_{field}_{value_text}", width="stretch"):
             apply_field_suggestion(result, field, best.get("value"))
             st.rerun()
-        if cols[4].button("Skip", key=f"skip_{field}_{value_text}", use_container_width=True):
+        if cols[4].button("Skip", key=f"skip_{field}_{value_text}", width="stretch"):
             st.toast(f"Skipped suggested {label.lower()}.")
 
 
@@ -430,7 +478,7 @@ def render_metadata_editor(result: dict):
 
         description = st.text_area("Description / summary", value=meta.get("description") or result.get("document_summary") or "", height=160)
 
-        saved = st.form_submit_button("Save reviewed metadata", type="primary", use_container_width=True)
+        saved = st.form_submit_button("Save reviewed metadata", type="primary", width="stretch")
 
     if saved:
         meta["title"] = title.strip()
@@ -490,7 +538,7 @@ def render_keyword_selector(result: dict):
         edited = st.data_editor(
             rows,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
             column_config={
                 "Use": st.column_config.CheckboxColumn("Keep"),
                 "Keyword": st.column_config.TextColumn("Keyword", width="medium"),
@@ -520,7 +568,7 @@ def render_keyword_selector(result: dict):
             seen.add(low)
 
     st.caption(f"{len(deduped)} keywords will be saved.")
-    if st.button("Save selected keywords", use_container_width=True):
+    if st.button("Save selected keywords", width="stretch"):
         meta["keywords"] = deduped
         meta["keyword_suggestions"] = [
             {
@@ -567,7 +615,7 @@ def render_api_output(result: dict):
         data=json.dumps(api_output, indent=2, ensure_ascii=False),
         file_name=f"{api_output.get('document_id') or 'document'}_api_output.json",
         mime="application/json",
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -634,7 +682,7 @@ def render_result(result: dict):
             data=json.dumps(result, indent=2, ensure_ascii=False),
             file_name=f"{result.get('document_id', 'result')}.json",
             mime="application/json",
-            use_container_width=True,
+            width="stretch",
         )
         st.json(result)
 
@@ -663,68 +711,89 @@ with st.sidebar:
     clear_previous = st.toggle("Clear previous Data outputs", value=True)
 
     st.divider()
-    if st.button("Check Ollama", use_container_width=True):
+    if st.button("Check Ollama", width="stretch"):
         if check_ollama():
             st.success("Ollama is reachable.")
         else:
             st.error("Ollama is not reachable. Run: ollama serve")
 
-    run_clicked = st.button("Run complete pipeline", type="primary", disabled=uploaded_file is None, use_container_width=True)
+    run_clicked = st.button("Run complete pipeline", type="primary", disabled=uploaded_file is None, width="stretch")
 
     st.caption("For laptop testing use qwen2.5:3b-instruct. On a school server you can switch to 7B/14B.")
 
 if uploaded_file is not None:
-    pdf_path = save_uploaded_file(uploaded_file)
-    st.session_state.uploaded_pdf_path = str(pdf_path)
+    pdf_path = None
+    upload_key = uploaded_file_key(uploaded_file)
+    existing_path = Path(st.session_state.uploaded_pdf_path) if st.session_state.uploaded_pdf_path else None
+    try:
+        if st.session_state.uploaded_pdf_key == upload_key and existing_path and existing_path.exists():
+            pdf_path = existing_path
+        else:
+            pdf_path = save_uploaded_file(uploaded_file)
+            st.session_state.uploaded_pdf_path = str(pdf_path)
+            st.session_state.uploaded_pdf_key = upload_key
+            st.session_state.uploaded_pdf_display_name = pdf_path.name
+            st.session_state.last_error = None
+    except Exception as e:
+        st.session_state.uploaded_pdf_path = None
+        st.session_state.uploaded_pdf_key = None
+        st.session_state.uploaded_pdf_display_name = None
+        st.session_state.last_error = f"Could not save uploaded PDF: {e}"
+        st.error("Could not save the uploaded PDF. Please rename the file or try another PDF.")
+        with st.expander("Upload error details", expanded=False):
+            st.code(st.session_state.last_error)
 
-    preview_tab, workspace_tab = st.tabs(["PDF preview", "Extraction workspace"])
+    if pdf_path is not None:
+        saved_name = st.session_state.uploaded_pdf_display_name or pdf_path.name
 
-    with preview_tab:
-        render_pdf_preview(pdf_path)
+        preview_tab, workspace_tab = st.tabs(["PDF preview", "Extraction workspace"])
 
-    with workspace_tab:
-        st.info(f"Ready to process: **{uploaded_file.name}**")
+        with preview_tab:
+            render_pdf_preview(pdf_path)
 
-        if run_clicked:
-            progress_bar = st.progress(0)
-            status = st.empty()
-            log_box = st.empty()
+        with workspace_tab:
+            st.info(f"Ready to process: **{saved_name}**")
 
-            logs = []
+            if run_clicked:
+                progress_bar = st.progress(0)
+                status = st.empty()
+                log_box = st.empty()
 
-            def progress_callback(step: str, value: float):
-                progress_bar.progress(min(max(value, 0.0), 1.0))
-                status.write(f"**{step}**")
-                logs.append(f"{time.strftime('%H:%M:%S')} — {step}")
-                log_box.code("\n".join(logs[-8:]))
+                logs = []
 
-            try:
-                if clear_previous:
-                    clear_data_layers(DATA_DIR, keep_raw_file=uploaded_file.name)
+                def progress_callback(step: str, value: float):
+                    progress_bar.progress(min(max(value, 0.0), 1.0))
+                    status.write(f"**{step}**")
+                    logs.append(f"{time.strftime('%H:%M:%S')} — {step}")
+                    log_box.code("\n".join(logs[-8:]))
 
-                with st.spinner("Running local pipeline..."):
-                    info = run_pipeline(
-                        pdf_path,
-                        model=model.strip() or "qwen2.5:3b-instruct",
-                        data_dir=DATA_DIR,
-                        require_ollama=require_ollama,
-                        clear_previous=False,
-                        progress_callback=progress_callback,
-                    )
+                try:
+                    if clear_previous:
+                        clear_data_layers(DATA_DIR, keep_raw_file=pdf_path.name)
 
-                result = load_best_pipeline_result(info, DATA_DIR)
+                    with st.spinner("Running local pipeline..."):
+                        info = run_pipeline(
+                            pdf_path,
+                            model=model.strip() or "qwen2.5:3b-instruct",
+                            data_dir=DATA_DIR,
+                            require_ollama=require_ollama,
+                            clear_previous=False,
+                            progress_callback=progress_callback,
+                        )
 
-                st.session_state.pipeline_info = info
-                st.session_state.result = result
-                st.session_state.last_error = None
+                    result = load_best_pipeline_result(info, DATA_DIR)
 
-                st.success("Pipeline completed successfully.")
-                st.rerun()
+                    st.session_state.pipeline_info = info
+                    st.session_state.result = result
+                    st.session_state.last_error = None
 
-            except Exception as e:
-                st.session_state.last_error = str(e)
-                st.error(f"Pipeline failed: {e}")
-                st.info("If it failed at Gold/Gold Meta, make sure Ollama is running and the model is pulled.")
+                    st.success("Pipeline completed successfully.")
+                    st.rerun()
+
+                except Exception as e:
+                    st.session_state.last_error = str(e)
+                    st.error(f"Pipeline failed: {e}")
+                    st.info("If it failed at Gold/Gold Meta, make sure Ollama is running and the model is pulled.")
 
 elif st.session_state.uploaded_pdf_path:
     render_pdf_preview(Path(st.session_state.uploaded_pdf_path))
@@ -738,3 +807,4 @@ if st.session_state.last_error:
 if st.session_state.result:
     st.divider()
     render_result(st.session_state.result)
+

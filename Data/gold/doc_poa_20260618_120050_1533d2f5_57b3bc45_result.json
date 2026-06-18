@@ -1,0 +1,1272 @@
+{
+    "document_id": "doc_poa_20260618_120050_1533d2f5_57b3bc45",
+    "document_summary": "This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process.",
+    "summary": "This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process.",
+    "top_terms": [
+        {
+            "rank": 1,
+            "term": "HZ University of Applied Sciences",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 2,
+            "term": "Kennis Management Platform (KMP)",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 3,
+            "term": "Data Scientist Internship",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 4,
+            "term": "Semantic Networks",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 5,
+            "term": "Natural Language Processing (NLP)",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 6,
+            "term": "Proof of Concept (PoC)",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 7,
+            "term": "Information Provision & Automation Service",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 8,
+            "term": "Education and Research",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 9,
+            "term": "Unstructured Project Documents",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 10,
+            "term": "Structured Information Extraction",
+            "context": null,
+            "evidence": []
+        },
+        {
+            "rank": 11,
+            "term": "KMP Kennis Management Platform Student",
+            "context": "KMP Kennis Management Platform Student",
+            "evidence": [
+                "KMP Kennis Management Platform Student"
+            ]
+        },
+        {
+            "rank": 12,
+            "term": "Core Activities",
+            "context": "Core Activities",
+            "evidence": [
+                "Core Activities"
+            ]
+        },
+        {
+            "rank": 13,
+            "term": "Education",
+            "context": "Education",
+            "evidence": [
+                "Education"
+            ]
+        },
+        {
+            "rank": 14,
+            "term": "Organizational Structure",
+            "context": "Organizational Structure",
+            "evidence": [
+                "Organizational Structure"
+            ]
+        },
+        {
+            "rank": 15,
+            "term": "Vlissingen",
+            "context": "Vlissingen",
+            "evidence": [
+                "Vlissingen"
+            ]
+        },
+        {
+            "rank": 16,
+            "term": "Kennis Management Platform",
+            "context": "Kennis Management Platform",
+            "evidence": [
+                "Kennis Management Platform"
+            ]
+        },
+        {
+            "rank": 17,
+            "term": "Courses",
+            "context": "Courses",
+            "evidence": [
+                "Courses"
+            ]
+        },
+        {
+            "rank": 18,
+            "term": "HBOlevel",
+            "context": "HBOlevel",
+            "evidence": [
+                "HBOlevel"
+            ]
+        },
+        {
+            "rank": 19,
+            "term": "Wikipedia",
+            "context": "Wikipedia",
+            "evidence": [
+                "Wikipedia"
+            ]
+        },
+        {
+            "rank": 20,
+            "term": "Organizational Structure HZ's",
+            "context": "Organizational Structure HZ's",
+            "evidence": [
+                "Organizational Structure HZ's"
+            ]
+        }
+    ],
+    "suggested_entities": {
+        "persons": [
+            "Joeri Harreman",
+            "Jolène Cijsouw",
+            "Stephan de Nijs",
+            "Joeri Harreman Student",
+            "Learning Outcome",
+            "Edisonweg",
+            "metadata",
+            "Jaarstukken HZ 2023",
+            "Kennis Management Platform",
+            "Data Science Date",
+            "Jolène Cijsouw Internship",
+            "Stephan de Nijs Version",
+            "Date Version Description",
+            "Core Activities",
+            "Applied Research",
+            "Organizational Structure",
+            "Problem Statement",
+            "My Task",
+            "Background The",
+            "Organization The",
+            "Vlissingen. The",
+            "Hogere Technische School"
+        ],
+        "organizations": [
+            "HZ University of Applied Sciences",
+            "KMP (Kennis Management Platform)",
+            "KMP Kennis Management Platform Student",
+            "HBO",
+            "Jolène Cijsouw Internship",
+            "Stephan de Nijs Version",
+            "Date Version Description Autor 03/02/2026",
+            "Mission & Vision",
+            "Core Activities",
+            "Education",
+            "Applied Research",
+            "Organizational Structure",
+            "Problem Statement & Objective",
+            "Vlissingen",
+            "KMP",
+            "Kennis Management Platform",
+            "the Maritiem Instituut de Ruyter",
+            "HZ University of Applied Sciences 2025 Rankings",
+            "Courses",
+            "Tuition & Admissions",
+            "University of Applied Sciences"
+        ],
+        "technologies": [
+            "Semantic Networks",
+            "Natural Language Processing (NLP)",
+            "Proof of Concept (PoC)"
+        ],
+        "dates": [
+            "February 12, 2026",
+            "the year 1987",
+            "today",
+            "the upcoming years",
+            "Mondays",
+            "Fridays",
+            "the week",
+            "Tuesday",
+            "Thursday",
+            "the final weeks",
+            "2024, January 22",
+            "August 20",
+            "2024, April 10",
+            "2026",
+            "12/02/2026",
+            "03/02/2026",
+            "05/02/2026",
+            "09/02/2026",
+            "26/02/2026",
+            "1987"
+        ]
+    },
+    "main_topics": [
+        "KMP Organization Background",
+        "Internship Context",
+        "Problem Statement & Objective"
+    ],
+    "results_or_conclusions": [
+        "The internship aims to design and implement a Proof of Concept that demonstrates how NLP techniques can support the KMP uploading process.",
+        "The main objective is to reduce manual effort in the document uploading process by automatically generating project information.",
+        "The data science pipeline will be developed to transform uploaded documents into JSON-based text representations, preprocess them using NLP models like BERT for summarization and key content extraction."
+    ],
+    "possible_value_for_knowledge_platform": null,
+    "metadata": {
+        "id": "doc_poa_20260618_120050_1533d2f5_57b3bc45",
+        "title": "KMP Kennis Management Platform",
+        "subtitle": null,
+        "contributors": [
+            "Joeri Harreman"
+        ],
+        "supervisors": [
+            "Jolène Cijsouw",
+            "Stephan de Nijs"
+        ],
+        "publication_date": "2026",
+        "language": "en",
+        "document_type": "article",
+        "research_or_project_topic": "KMP Kennis Management Platform Student",
+        "research_question_or_goal": null,
+        "description": "This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process.",
+        "keywords": [
+            "Kennis Management Platform (KMP)",
+            "Semantic Networks",
+            "Natural Language Processing (NLP)",
+            "KMP Kennis Management Platform Student",
+            "Core Activities",
+            "Education",
+            "Organizational Structure",
+            "Vlissingen",
+            "Kennis Management Platform",
+            "Courses",
+            "HBOlevel",
+            "Wikipedia",
+            "Organizational Structure HZ's",
+            "applied",
+            "university"
+        ],
+        "technologies_tools_models": [
+            "LLM",
+            "NLP",
+            "BERT",
+            "KMP",
+            "HBO-ICT",
+            "INTB",
+            "HTS",
+            "ICT",
+            "JSON"
+        ],
+        "main_outputs_or_results": [],
+        "keyword_suggestions": [
+            {
+                "term": "Kennis Management Platform (KMP)",
+                "confidence": 0.7,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Semantic Networks",
+                "confidence": 0.694,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Natural Language Processing (NLP)",
+                "confidence": 0.688,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "KMP Kennis Management Platform Student",
+                "confidence": 0.682,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Core Activities",
+                "confidence": 0.676,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Education",
+                "confidence": 0.55,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Organizational Structure",
+                "confidence": 0.664,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Vlissingen",
+                "confidence": 0.538,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Kennis Management Platform",
+                "confidence": 0.652,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Courses",
+                "confidence": 0.526,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "HBOlevel",
+                "confidence": 0.52,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Wikipedia",
+                "confidence": 0.514,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "Organizational Structure HZ's",
+                "confidence": 0.628,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "applied",
+                "confidence": 0.502,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            },
+            {
+                "term": "university",
+                "confidence": 0.496,
+                "source": "metadata",
+                "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                "organization_relevance": null,
+                "role_relevance": null
+            }
+        ],
+        "keyword_target_count": 15,
+        "keyword_word_count": 1681,
+        "field_suggestions": {
+            "title": [
+                {
+                    "field": "title",
+                    "value": "KMP Kennis Management Platform",
+                    "source": "front_matter",
+                    "confidence": 0.82,
+                    "accepted": true,
+                    "reason": "Found in the title/front-matter area of the document."
+                }
+            ],
+            "publication_date": [
+                {
+                    "field": "publication_date",
+                    "value": "2026",
+                    "source": "front_matter",
+                    "confidence": 0.74,
+                    "accepted": true,
+                    "reason": "Found in document date evidence; review if multiple dates exist."
+                },
+                {
+                    "field": "publication_date",
+                    "value": "['2026', '12/02/2026', '03/02/2026', '05/02/2026', '09/02/2026', '26/02/2026']",
+                    "source": "local_llm",
+                    "confidence": 0.42,
+                    "accepted": false,
+                    "reason": "Suggested by the local model; user review recommended."
+                }
+            ],
+            "document_type": [
+                {
+                    "field": "document_type",
+                    "value": "article",
+                    "source": "rules",
+                    "confidence": 0.66,
+                    "accepted": true,
+                    "reason": "Inferred from generic document-type terms in the text."
+                }
+            ]
+        },
+        "field_confidence": {
+            "title": {
+                "confidence": 0.82,
+                "evidence": [
+                    "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data Science Date: 12/02/2026 Class: HBO-ICT INTB Teacher: Jolène Cijs"
+                ],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "subtitle": {
+                "confidence": 0.0,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "No reliable evidence was found; value intentionally left empty.",
+                "review_status": "needs_manual_check"
+            },
+            "contributors": {
+                "confidence": 0.8,
+                "evidence": [
+                    "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data Science Date: 12/02/2026 Class: HBO-ICT INTB Teacher: Jolène Cijsouw Internship supervisor: St"
+                ],
+                "source": "local_evidence",
+                "reason": "Contributor names were found near explicit author/contributor evidence.",
+                "review_status": "pending_review"
+            },
+            "supervisors": {
+                "confidence": 0.76,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "Supervisor/mentor names were separated from contributors.",
+                "review_status": "pending_review"
+            },
+            "publication_date": {
+                "confidence": 0.74,
+                "evidence": [
+                    "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman St"
+                ],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "language": {
+                "confidence": 0.86,
+                "evidence": [
+                    "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data"
+                ],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "document_type": {
+                "confidence": 0.66,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "research_topic": {
+                "confidence": 0.58,
+                "evidence": [
+                    "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data Science Date: 12/02/2026 Class: HBO-ICT INTB Teacher: Jolène Cijsouw Inte"
+                ],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "research_question": {
+                "confidence": 0.0,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "No reliable evidence was found; value intentionally left empty.",
+                "review_status": "needs_manual_check"
+            },
+            "short_summary": {
+                "confidence": 0.72,
+                "evidence": [
+                    "g Outcome 3 ................................................................................................................... 9 This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process. 1. Background The organization where I am doing my internship is the HZ university of applied sciences in Vlissingen, under the s"
+                ],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "keywords": {
+                "confidence": 0.7,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "technologies_tools_models": {
+                "confidence": 0.68,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "main_results": {
+                "confidence": 0.0,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "No reliable evidence was found; value intentionally left empty.",
+                "review_status": "needs_manual_check"
+            },
+            "contact_information": {
+                "confidence": 0.78,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            },
+            "kmp_upload_fields": {
+                "confidence": 0.72,
+                "evidence": [],
+                "source": "local_evidence",
+                "reason": "Value is supported by local evidence.",
+                "review_status": "pending_review"
+            }
+        },
+        "review_status": "pending_review",
+        "kmp_context": {
+            "uploader_role": null,
+            "uploader_organization": null,
+            "organization_keyword_profile": []
+        },
+        "top_terms": [
+            "HZ University of Applied Sciences",
+            "Kennis Management Platform (KMP)",
+            "Data Scientist Internship",
+            "Semantic Networks",
+            "Natural Language Processing (NLP)",
+            "Proof of Concept (PoC)",
+            "Information Provision & Automation Service",
+            "Education and Research",
+            "Unstructured Project Documents",
+            "Structured Information Extraction",
+            "KMP Kennis Management Platform Student",
+            "Core Activities",
+            "Education",
+            "Organizational Structure",
+            "Vlissingen",
+            "Kennis Management Platform",
+            "Courses",
+            "HBOlevel",
+            "Wikipedia",
+            "Organizational Structure HZ's"
+        ],
+        "contact": {
+            "name": null,
+            "email": null,
+            "phone": "1 .................................................................................................................... 8 2.3"
+        },
+        "suitable_kmp_fields": {
+            "title": "KMP Kennis Management Platform",
+            "subtitle": null,
+            "description": "This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process.",
+            "keywords": [
+                "Kennis Management Platform (KMP)",
+                "Semantic Networks",
+                "Natural Language Processing (NLP)",
+                "KMP Kennis Management Platform Student",
+                "Core Activities",
+                "Education",
+                "Organizational Structure",
+                "Vlissingen",
+                "Kennis Management Platform",
+                "Courses",
+                "HBOlevel",
+                "Wikipedia",
+                "Organizational Structure HZ's",
+                "applied",
+                "university"
+            ],
+            "keyword_suggestions": [
+                {
+                    "term": "Kennis Management Platform (KMP)",
+                    "confidence": 0.7,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Semantic Networks",
+                    "confidence": 0.694,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Natural Language Processing (NLP)",
+                    "confidence": 0.688,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "KMP Kennis Management Platform Student",
+                    "confidence": 0.682,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Core Activities",
+                    "confidence": 0.676,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Education",
+                    "confidence": 0.55,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Organizational Structure",
+                    "confidence": 0.664,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Vlissingen",
+                    "confidence": 0.538,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Kennis Management Platform",
+                    "confidence": 0.652,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Courses",
+                    "confidence": 0.526,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "HBOlevel",
+                    "confidence": 0.52,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Wikipedia",
+                    "confidence": 0.514,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Organizational Structure HZ's",
+                    "confidence": 0.628,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "applied",
+                    "confidence": 0.502,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "university",
+                    "confidence": 0.496,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                }
+            ],
+            "keyword_target_count": 15,
+            "field_suggestions": {
+                "title": [
+                    {
+                        "field": "title",
+                        "value": "KMP Kennis Management Platform",
+                        "source": "front_matter",
+                        "confidence": 0.82,
+                        "accepted": true,
+                        "reason": "Found in the title/front-matter area of the document."
+                    }
+                ],
+                "publication_date": [
+                    {
+                        "field": "publication_date",
+                        "value": "2026",
+                        "source": "front_matter",
+                        "confidence": 0.74,
+                        "accepted": true,
+                        "reason": "Found in document date evidence; review if multiple dates exist."
+                    },
+                    {
+                        "field": "publication_date",
+                        "value": "['2026', '12/02/2026', '03/02/2026', '05/02/2026', '09/02/2026', '26/02/2026']",
+                        "source": "local_llm",
+                        "confidence": 0.42,
+                        "accepted": false,
+                        "reason": "Suggested by the local model; user review recommended."
+                    }
+                ],
+                "document_type": [
+                    {
+                        "field": "document_type",
+                        "value": "article",
+                        "source": "rules",
+                        "confidence": 0.66,
+                        "accepted": true,
+                        "reason": "Inferred from generic document-type terms in the text."
+                    }
+                ]
+            },
+            "contributors": [
+                "Joeri Harreman"
+            ],
+            "supervisors": [
+                "Jolène Cijsouw",
+                "Stephan de Nijs"
+            ],
+            "date": "2026",
+            "language": "en",
+            "document_type": "article",
+            "contact_email": null
+        }
+    },
+    "model": "qwen2.5:3b-instruct",
+    "evaluation": {
+        "runtime_seconds": 100.5,
+        "source_word_count": 2689,
+        "summary_word_count": 85,
+        "compression_ratio": 0.0316,
+        "entity_preservation_score": 0.103,
+        "sentence_coverage_score": 0.854
+    },
+    "quality": {
+        "is_empty": false,
+        "word_count": 2977,
+        "raw_word_count": 3292,
+        "character_count": 20065,
+        "chunk_count": 3,
+        "average_chunk_words": 1112.33,
+        "compression_ratio": 0.9043,
+        "ready_for_modeling": true,
+        "needs_manual_check": false
+    },
+    "statistics": {
+        "raw_characters": 25368,
+        "cleaned_characters": 23679,
+        "main_text_characters": 20065,
+        "main_text_words": 2977,
+        "titlepage_words": 186,
+        "toc_words": 0,
+        "references_words": 0,
+        "appendix_words": 0,
+        "colophon_words": 0,
+        "raw_line_count": 338,
+        "cleaned_line_count": 286,
+        "removed_line_estimate": 52,
+        "removed_line_ratio": 0.1538,
+        "part_line_counts": {
+            "titlepage": 40,
+            "frontmatter": 40,
+            "toc": 0,
+            "main": 244,
+            "references": 0,
+            "appendix": 0,
+            "colophon": 0
+        },
+        "boundaries": {
+            "titlepage_end_line": 40,
+            "toc_start_line": null,
+            "toc_end_line": null,
+            "main_start_line": 40,
+            "main_end_line": 286,
+            "references_start_line": null,
+            "appendix_start_line": null,
+            "colophon_start_line": null
+        },
+        "chunk_count": 3,
+        "target_chunk_words": 900,
+        "max_chunk_words": 1200,
+        "chunk_overlap_words": 180
+    },
+    "@pipeline": {
+        "created_at": "2026-06-18T12:03:59.169735",
+        "runtime_source": "Medaillon notebooks",
+        "bronze": "completed",
+        "silver": "silver_local_generic_v17_evidence_sections",
+        "silver_nlp": "silver_nlp_local_generic_v17_entities_terms_evidence",
+        "gold": "gold_local_llm_v12_silver_nlp_ready",
+        "gold_meta": "gold_meta_local_llm_generic_v13_confidence_kmp_ready"
+    },
+    "api_output": {
+        "document_id": "doc_poa_20260618_120050_1533d2f5_57b3bc45",
+        "summary": "This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process.",
+        "metadata": {
+            "title": "KMP Kennis Management Platform",
+            "subtitle": null,
+            "contributors": [
+                "Joeri Harreman"
+            ],
+            "supervisors": [
+                "Jolène Cijsouw",
+                "Stephan de Nijs"
+            ],
+            "publication_date": "2026",
+            "language": "en",
+            "document_type": "article",
+            "description": "This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process.",
+            "keywords": [
+                "Kennis Management Platform (KMP)",
+                "Semantic Networks",
+                "Natural Language Processing (NLP)",
+                "KMP Kennis Management Platform Student",
+                "Core Activities",
+                "Education",
+                "Organizational Structure",
+                "Vlissingen",
+                "Kennis Management Platform",
+                "Courses",
+                "HBOlevel",
+                "Wikipedia",
+                "Organizational Structure HZ's",
+                "applied",
+                "university"
+            ],
+            "technologies_tools_models": [
+                "LLM",
+                "NLP",
+                "BERT",
+                "KMP",
+                "HBO-ICT",
+                "INTB",
+                "HTS",
+                "ICT",
+                "JSON"
+            ],
+            "research_or_project_topic": "KMP Kennis Management Platform Student",
+            "research_question_or_goal": null,
+            "review_status": "pending_review",
+            "field_confidence": {
+                "title": {
+                    "confidence": 0.82,
+                    "evidence": [
+                        "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data Science Date: 12/02/2026 Class: HBO-ICT INTB Teacher: Jolène Cijs"
+                    ],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "subtitle": {
+                    "confidence": 0.0,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "No reliable evidence was found; value intentionally left empty.",
+                    "review_status": "needs_manual_check"
+                },
+                "contributors": {
+                    "confidence": 0.8,
+                    "evidence": [
+                        "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data Science Date: 12/02/2026 Class: HBO-ICT INTB Teacher: Jolène Cijsouw Internship supervisor: St"
+                    ],
+                    "source": "local_evidence",
+                    "reason": "Contributor names were found near explicit author/contributor evidence.",
+                    "review_status": "pending_review"
+                },
+                "supervisors": {
+                    "confidence": 0.76,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "Supervisor/mentor names were separated from contributors.",
+                    "review_status": "pending_review"
+                },
+                "publication_date": {
+                    "confidence": 0.74,
+                    "evidence": [
+                        "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman St"
+                    ],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "language": {
+                    "confidence": 0.86,
+                    "evidence": [
+                        "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data"
+                    ],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "document_type": {
+                    "confidence": 0.66,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "research_topic": {
+                    "confidence": 0.58,
+                    "evidence": [
+                        "doc_poa_20260618_120050_1533d2f5_57b3bc45 en Plan of approach February 12, 2026 KMP Kennis Management Platform Student name: Joeri Harreman Student number: 096328 Track: Data Science Date: 12/02/2026 Class: HBO-ICT INTB Teacher: Jolène Cijsouw Inte"
+                    ],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "research_question": {
+                    "confidence": 0.0,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "No reliable evidence was found; value intentionally left empty.",
+                    "review_status": "needs_manual_check"
+                },
+                "short_summary": {
+                    "confidence": 0.72,
+                    "evidence": [
+                        "g Outcome 3 ................................................................................................................... 9 This document is a plan of approach for an internship at the HZ University of Applied Sciences, focusing on the KMP (Kennis Management Platform) where the author will be working as a data scientist. The main topics include background information about the organization and its mission, structure, and educational activities; the problem statement regarding the manual input required to upload unstructured project documents into the platform; and the objective of designing and implementing a Proof of Concept (PoC) for NLP techniques to automate this process. 1. Background The organization where I am doing my internship is the HZ university of applied sciences in Vlissingen, under the s"
+                    ],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "keywords": {
+                    "confidence": 0.7,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "technologies_tools_models": {
+                    "confidence": 0.68,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "main_results": {
+                    "confidence": 0.0,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "No reliable evidence was found; value intentionally left empty.",
+                    "review_status": "needs_manual_check"
+                },
+                "contact_information": {
+                    "confidence": 0.78,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                },
+                "kmp_upload_fields": {
+                    "confidence": 0.72,
+                    "evidence": [],
+                    "source": "local_evidence",
+                    "reason": "Value is supported by local evidence.",
+                    "review_status": "pending_review"
+                }
+            }
+        },
+        "search": {
+            "keywords": [
+                "Kennis Management Platform (KMP)",
+                "Semantic Networks",
+                "Natural Language Processing (NLP)",
+                "KMP Kennis Management Platform Student",
+                "Core Activities",
+                "Education",
+                "Organizational Structure",
+                "Vlissingen",
+                "Kennis Management Platform",
+                "Courses",
+                "HBOlevel",
+                "Wikipedia",
+                "Organizational Structure HZ's",
+                "applied",
+                "university"
+            ],
+            "keyword_suggestions": [
+                {
+                    "term": "Kennis Management Platform (KMP)",
+                    "confidence": 0.7,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Semantic Networks",
+                    "confidence": 0.694,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Natural Language Processing (NLP)",
+                    "confidence": 0.688,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "KMP Kennis Management Platform Student",
+                    "confidence": 0.682,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Core Activities",
+                    "confidence": 0.676,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Education",
+                    "confidence": 0.55,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Organizational Structure",
+                    "confidence": 0.664,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Vlissingen",
+                    "confidence": 0.538,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Kennis Management Platform",
+                    "confidence": 0.652,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Courses",
+                    "confidence": 0.526,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "HBOlevel",
+                    "confidence": 0.52,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Wikipedia",
+                    "confidence": 0.514,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "Organizational Structure HZ's",
+                    "confidence": 0.628,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "applied",
+                    "confidence": 0.502,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                },
+                {
+                    "term": "university",
+                    "confidence": 0.496,
+                    "source": "metadata",
+                    "reason": "Candidate passed generic noise and citation filters; final selection should remain user-reviewable.",
+                    "organization_relevance": null,
+                    "role_relevance": null
+                }
+            ],
+            "target_keyword_count": 15
+        },
+        "topics": [
+            "KMP Organization Background",
+            "Internship Context",
+            "Problem Statement & Objective"
+        ],
+        "entities": {
+            "persons": [
+                "Joeri Harreman",
+                "Jolène Cijsouw",
+                "Stephan de Nijs",
+                "Joeri Harreman Student",
+                "Learning Outcome",
+                "Edisonweg",
+                "metadata",
+                "Jaarstukken HZ 2023",
+                "Kennis Management Platform",
+                "Data Science Date",
+                "Jolène Cijsouw Internship",
+                "Stephan de Nijs Version",
+                "Date Version Description",
+                "Core Activities",
+                "Applied Research",
+                "Organizational Structure",
+                "Problem Statement",
+                "My Task",
+                "Background The",
+                "Organization The",
+                "Vlissingen. The",
+                "Hogere Technische School"
+            ],
+            "organizations": [
+                "HZ University of Applied Sciences",
+                "KMP (Kennis Management Platform)",
+                "KMP Kennis Management Platform Student",
+                "HBO",
+                "Jolène Cijsouw Internship",
+                "Stephan de Nijs Version",
+                "Date Version Description Autor 03/02/2026",
+                "Mission & Vision",
+                "Core Activities",
+                "Education",
+                "Applied Research",
+                "Organizational Structure",
+                "Problem Statement & Objective",
+                "Vlissingen",
+                "KMP",
+                "Kennis Management Platform",
+                "the Maritiem Instituut de Ruyter",
+                "HZ University of Applied Sciences 2025 Rankings",
+                "Courses",
+                "Tuition & Admissions",
+                "University of Applied Sciences"
+            ],
+            "technologies": [
+                "Semantic Networks",
+                "Natural Language Processing (NLP)",
+                "Proof of Concept (PoC)"
+            ],
+            "dates": [
+                "February 12, 2026",
+                "the year 1987",
+                "today",
+                "the upcoming years",
+                "Mondays",
+                "Fridays",
+                "the week",
+                "Tuesday",
+                "Thursday",
+                "the final weeks",
+                "2024, January 22",
+                "August 20",
+                "2024, April 10",
+                "2026",
+                "12/02/2026",
+                "03/02/2026",
+                "05/02/2026",
+                "09/02/2026",
+                "26/02/2026",
+                "1987"
+            ]
+        },
+        "quality": {
+            "is_empty": false,
+            "word_count": 2977,
+            "raw_word_count": 3292,
+            "character_count": 20065,
+            "chunk_count": 3,
+            "average_chunk_words": 1112.33,
+            "compression_ratio": 0.9043,
+            "ready_for_modeling": true,
+            "needs_manual_check": false
+        },
+        "pipeline": {
+            "created_at": "2026-06-18T12:03:59.169735",
+            "runtime_source": "Medaillon notebooks",
+            "bronze": "completed",
+            "silver": "silver_local_generic_v17_evidence_sections",
+            "silver_nlp": "silver_nlp_local_generic_v17_entities_terms_evidence",
+            "gold": "gold_local_llm_v12_silver_nlp_ready",
+            "gold_meta": "gold_meta_local_llm_generic_v13_confidence_kmp_ready"
+        }
+    }
+}
